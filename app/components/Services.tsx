@@ -3,42 +3,55 @@
 import { motion } from "framer-motion";
 import { Shield, Cloud, Network, Monitor, Headphones, Lock } from "lucide-react";
 
+type Service = {
+  icon: React.ElementType;
+  title: string;
+  description: string;
+  tags: string[];
+};
+
 const services = [
   {
     icon: Shield,
-    title: "Cybersecurity",
+    title: "Cybersecurity & Threat Defense",
     description:
-      "Proactive threat detection, vulnerability assessments, and incident response to protect your business assets.",
+      "24/7 SOC monitoring, endpoint detection & response (EDR), vulnerability assessments, and incident response — aligned to NIST and CIS frameworks.",
+    tags: ["EDR/XDR", "SIEM", "Zero Trust"],
   },
   {
     icon: Cloud,
-    title: "Cloud Solutions",
+    title: "Cloud & Microsoft 365",
     description:
-      "Seamless migration, optimization, and management of cloud infrastructure across AWS, Azure, and Google Cloud.",
+      "Full lifecycle Microsoft 365 deployments, Azure migrations, and multi-cloud management. As a Microsoft Solutions Partner, we maximize your licensing and security posture.",
+    tags: ["Microsoft 365", "Azure", "Entra ID"],
   },
   {
     icon: Network,
-    title: "Network Infrastructure",
+    title: "VoIP & Unified Communications",
     description:
-      "Design, deploy, and maintain robust network architectures that scale with your business needs.",
+      "Replace aging phone systems with enterprise-grade VoIP and UCaaS. AI-powered call routing, voicemail transcription, mobile apps, and seamless CRM integration — all managed for you.",
+    tags: ["RingCentral", "3CX", "Microsoft Teams Voice"],
   },
   {
     icon: Monitor,
     title: "Managed IT Services",
     description:
-      "24/7 monitoring, maintenance, and support so you can focus on growing your business — not fixing tech.",
+      "Flat-rate, fully managed IT with RMM-powered monitoring, patch management, and unlimited helpdesk. We act as your dedicated IT department — without the overhead.",
+    tags: ["RMM", "NOC", "SLA-backed"],
   },
   {
     icon: Headphones,
-    title: "IT Helpdesk Support",
+    title: "Helpdesk & On-Site Support",
     description:
-      "Responsive, knowledgeable support for your team. Remote and on-site options available.",
+      "Remote and on-site support with an average response time under 15 minutes. Tier 1–3 technicians available around the clock so your team stays productive.",
+    tags: ["15-min Response", "Remote & On-Site", "24/7"],
   },
   {
     icon: Lock,
-    title: "Compliance & Risk",
+    title: "Compliance & Risk Management",
     description:
-      "Navigate HIPAA, SOC 2, PCI-DSS, and other compliance frameworks with expert guidance.",
+      "End-to-end compliance support for HIPAA, SOC 2, PCI-DSS, and CMMC. We handle gap assessments, policy documentation, staff training, and audit readiness.",
+    tags: ["HIPAA", "SOC 2", "PCI-DSS", "CMMC"],
   },
 ];
 
@@ -51,12 +64,42 @@ const cardVariants = {
   }),
 };
 
+function ServiceCard({ service, i }: { service: Service; i: number }) {
+  return (
+    <motion.div
+      custom={i}
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ once: true }}
+      variants={cardVariants}
+      whileHover={{ y: -6, transition: { duration: 0.2 } }}
+      className="group relative p-8 rounded-2xl bg-[#111811] border border-green-900/40 hover:border-green-500/50 transition-colors glow-green-sm hover:glow-green cursor-default flex flex-col gap-4"
+    >
+      <div className="w-12 h-12 rounded-xl bg-green-500/10 border border-green-500/20 flex items-center justify-center group-hover:bg-green-500/20 transition-colors">
+        <service.icon className="w-6 h-6 text-green-400" />
+      </div>
+      <h3 className="text-xl font-bold text-white">{service.title}</h3>
+      <p className="text-green-200/60 leading-relaxed text-sm flex-1">{service.description}</p>
+      <div className="flex flex-wrap gap-2 pt-2 border-t border-green-900/30">
+        {service.tags.map((tag) => (
+          <span
+            key={tag}
+            className="px-2 py-1 rounded-md bg-green-500/10 border border-green-500/20 text-green-400 text-xs font-medium"
+          >
+            {tag}
+          </span>
+        ))}
+      </div>
+      <div className="absolute top-4 right-4 w-2 h-2 rounded-full bg-green-500/40 group-hover:bg-green-400 transition-colors" />
+    </motion.div>
+  );
+}
+
 export default function Services() {
   return (
     <section id="services" className="relative py-24 px-6 bg-[#0a0f0a]">
       <div className="absolute inset-0 grid-overlay opacity-40" />
       <div className="relative max-w-7xl mx-auto">
-        {/* Header */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -71,33 +114,13 @@ export default function Services() {
             Our <span className="text-green-400">Services</span>
           </h2>
           <p className="mt-4 text-green-200/60 max-w-xl mx-auto text-lg">
-            End-to-end IT solutions built for businesses that can&apos;t afford downtime.
+            End-to-end managed IT, VoIP, and cybersecurity — built for businesses that can&apos;t afford downtime.
           </p>
         </motion.div>
 
-        {/* Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {services.map((service, i) => (
-            <motion.div
-              key={service.title}
-              custom={i}
-              initial="hidden"
-              whileInView="visible"
-              viewport={{ once: true }}
-              variants={cardVariants}
-              whileHover={{ y: -6, transition: { duration: 0.2 } }}
-              className="group relative p-8 rounded-2xl bg-[#111811] border border-green-900/40 hover:border-green-500/50 transition-colors glow-green-sm hover:glow-green cursor-default"
-            >
-              {/* Icon */}
-              <div className="w-12 h-12 rounded-xl bg-green-500/10 border border-green-500/20 flex items-center justify-center mb-5 group-hover:bg-green-500/20 transition-colors">
-                <service.icon className="w-6 h-6 text-green-400" />
-              </div>
-              <h3 className="text-xl font-bold text-white mb-3">{service.title}</h3>
-              <p className="text-green-200/60 leading-relaxed text-sm">{service.description}</p>
-
-              {/* Corner accent */}
-              <div className="absolute top-4 right-4 w-2 h-2 rounded-full bg-green-500/40 group-hover:bg-green-400 transition-colors" />
-            </motion.div>
+            <ServiceCard key={service.title} service={service} i={i} />
           ))}
         </div>
       </div>

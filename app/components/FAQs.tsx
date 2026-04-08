@@ -6,32 +6,36 @@ import { Plus, Minus } from "lucide-react";
 
 const faqs = [
   {
-    q: "What size businesses do you work with?",
-    a: "We primarily serve small to mid-size businesses (5–500 employees), but we've supported larger enterprises on specific projects. Our solutions scale to fit your needs.",
+    q: "What's included in your Managed IT Services?",
+    a: "Our managed IT plans include 24/7 RMM monitoring, automated patch management, endpoint protection, helpdesk support (Tier 1–3), monthly reporting, and a dedicated account manager. Everything is flat-rate — no surprise bills.",
   },
   {
-    q: "Do you offer month-to-month contracts?",
-    a: "Yes. While we offer discounts on annual agreements, we don't lock you into long-term contracts. We believe in earning your business every month.",
+    q: "Can you replace our existing phone system with VoIP?",
+    a: "Yes. We handle the full VoIP migration — number porting, hardware provisioning, softphone setup, and staff training. We partner with RingCentral, 3CX, and Microsoft Teams Voice to find the right fit for your team size and budget. Most businesses cut their phone bills by 40–60% after switching.",
   },
   {
     q: "How quickly can you respond to IT emergencies?",
-    a: "For managed service clients, our average response time is under 15 minutes. Critical issues receive immediate escalation and dedicated support.",
+    a: "Managed service clients receive a response within 15 minutes for critical issues. Our NOC operates around the clock, and P1 incidents are escalated immediately to senior engineers.",
+  },
+  {
+    q: "Are you a Microsoft Partner?",
+    a: "Yes — we are a Microsoft Solutions Partner. We can provision, migrate, and fully manage Microsoft 365, Azure, Entra ID (formerly Azure AD), Intune, and Defender environments. We also have direct access to Microsoft support escalation paths.",
+  },
+  {
+    q: "Do you support HIPAA or other compliance requirements?",
+    a: "Absolutely. We support HIPAA, SOC 2, PCI-DSS, and CMMC compliance programs. Our process covers gap assessments, policy documentation, technical controls, staff security awareness training, and audit readiness reviews.",
   },
   {
     q: "Can you support remote and hybrid teams?",
-    a: "Absolutely. We specialize in modern work environments and can configure, secure, and support fully remote, hybrid, or on-site teams.",
+    a: "Yes — it's a core part of what we do. We configure secure remote access (ZTNA/VPN), manage cloud-based phone and collaboration tools, and ensure your endpoints are protected regardless of where your team works.",
   },
   {
-    q: "Do you handle cloud migrations?",
-    a: "Yes — we manage end-to-end migrations to AWS, Azure, and Google Cloud. We handle planning, data transfer, testing, and post-migration support with zero-downtime strategies.",
-  },
-  {
-    q: "How do you handle cybersecurity incidents?",
-    a: "We follow a structured incident response process: contain, eradicate, recover, and review. Our monitoring systems detect threats in real time, and we have playbooks ready for common attack vectors.",
+    q: "Do you offer month-to-month contracts?",
+    a: "Yes. We don't lock you into long-term contracts. Annual agreements come with a discount, but we believe in earning your business every single month.",
   },
   {
     q: "What industries do you specialize in?",
-    a: "We work across industries but have deep expertise in healthcare, legal, finance, and professional services — sectors with strict compliance and data security requirements.",
+    a: "We have deep expertise in healthcare, legal, finance, real estate, and professional services — industries where data security, uptime, and compliance aren't optional.",
   },
 ];
 

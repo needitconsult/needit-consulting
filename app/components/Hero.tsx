@@ -54,7 +54,7 @@ export default function Hero() {
         >
           <Shield className="w-4 h-4 text-green-400" />
           <span className="text-green-400 text-sm font-medium tracking-wide">
-            Trusted IT Solutions Partner
+            Microsoft Solutions Partner &bull; Cisco Certified &bull; CompTIA MSP
           </span>
           <Zap className="w-4 h-4 text-green-400" />
         </motion.div>
@@ -66,9 +66,9 @@ export default function Hero() {
           transition={{ delay: 0.4, duration: 0.7 }}
           className="text-4xl md:text-6xl lg:text-7xl font-extrabold leading-tight max-w-4xl"
         >
-          <span className="text-white">Your Business Deserves</span>
+          <span className="text-white">Managed IT &amp; VoIP</span>
           <br />
-          <span className="text-green-400 text-glow">Smarter IT.</span>
+          <span className="text-green-400 text-glow">Built for Business.</span>
         </motion.h1>
 
         {/* Subheadline */}
@@ -78,8 +78,8 @@ export default function Hero() {
           transition={{ delay: 0.6, duration: 0.7 }}
           className="mt-6 text-lg md:text-xl text-green-200/70 max-w-2xl leading-relaxed"
         >
-          NeedIT Consulting delivers tailored technology strategies, managed services, and
-          cybersecurity solutions that keep your business running at full speed.
+          NeedIT Consulting delivers flat-rate managed IT, enterprise VoIP, and
+          cybersecurity solutions — so you can focus on your business, not your technology.
         </motion.p>
 
         {/* CTAs */}

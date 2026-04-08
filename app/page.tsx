@@ -1,5 +1,6 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
+import Partners from "./components/Partners";
 import Services from "./components/Services";
 import About from "./components/About";
 import Testimonials from "./components/Testimonials";
@@ -12,6 +13,7 @@ export default function Home() {
     <main className="flex flex-col">
       <Navbar />
       <Hero />
+      <Partners />
       <Services />
       <About />
       <Testimonials />
