@@ -1,9 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import Image from "next/image";
-
-const coords = { x: "48.2231° N", y: "16.3975° E" };
+import TunnelShowcase from "@/components/ui/tunnel-hero";
 
 export default function Hero() {
   const scrollToServices = () => {
@@ -13,84 +11,66 @@ export default function Hero() {
   return (
     <section id="hero" className="relative w-full h-screen min-h-[600px] overflow-hidden">
 
-      {/* Desktop: video — no overlays, full immersion */}
-      <div className="hidden md:block absolute inset-0 z-0">
-        <video
-          className="w-full h-full object-cover"
-          autoPlay
-          muted
-          loop
-          playsInline
-          poster="/hero-mobile.png"
-        >
-          <source src="/hero.mp4" type="video/mp4" />
-        </video>
-        {/* Only a very subtle bottom fade so the next section bleeds in cleanly */}
-        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-[#0a0f0a] to-transparent" />
+      {/* Three.js tunnel — renders its own fullscreen canvas */}
+      <div className="absolute inset-0 z-0">
+        <TunnelShowcase noContent />
       </div>
 
-      {/* Mobile: still image */}
-      <div className="md:hidden absolute inset-0 z-0">
-        <Image
-          src="/hero-mobile.png"
-          alt="NeedIT Consulting"
-          fill
-          className="object-cover"
-          priority
-        />
-        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-[#0a0f0a] to-transparent" />
-      </div>
-
-      {/* Scanline effect — subtle CRT / game feel */}
+      {/* Scanlines */}
       <div
         className="absolute inset-0 z-[1] pointer-events-none"
         style={{
-          backgroundImage: "repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,0,0,0.08) 2px, rgba(0,0,0,0.08) 4px)",
+          backgroundImage:
+            "repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,0,0,0.07) 2px, rgba(0,0,0,0.07) 4px)",
         }}
       />
 
-      {/* HUD — top-left: system tag */}
+      {/* HUD — top-left */}
       <motion.div
         initial={{ opacity: 0, x: -20 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ delay: 0.6, duration: 0.8 }}
-        className="absolute top-24 left-6 z-10 font-mono text-green-500/70 text-xs flex flex-col gap-1 select-none"
+        className="absolute top-24 left-6 z-10 font-mono text-green-400/80 text-xs flex flex-col gap-1 select-none"
       >
         <span className="tracking-widest">// NEEDIT_OS v2.4.1</span>
-        <span className="text-green-500/40">SYS.STATUS &gt; <span className="text-green-400">ONLINE</span></span>
-        <span className="text-green-500/40">SEC.LEVEL &gt; <span className="text-green-400">MAXIMUM</span></span>
+        <span className="text-green-400/50">
+          SYS.STATUS &gt; <span className="text-green-400">ONLINE</span>
+        </span>
+        <span className="text-green-400/50">
+          SEC.LEVEL &gt; <span className="text-green-400">MAXIMUM</span>
+        </span>
       </motion.div>
 
-      {/* HUD — top-right: coords */}
+      {/* HUD — top-right */}
       <motion.div
         initial={{ opacity: 0, x: 20 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ delay: 0.8, duration: 0.8 }}
-        className="absolute top-24 right-6 z-10 font-mono text-green-500/50 text-xs text-right flex flex-col gap-1 select-none"
+        className="absolute top-24 right-6 z-10 font-mono text-green-400/50 text-xs text-right flex flex-col gap-1 select-none"
       >
-        <span>{coords.x}</span>
-        <span>{coords.y}</span>
+        <span>48.2231° N</span>
+        <span>16.3975° E</span>
         <BlinkingCursor />
       </motion.div>
 
-      {/* HUD — bottom-left: uptime ticker */}
+      {/* HUD — bottom-left */}
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1.2, duration: 1 }}
-        className="absolute bottom-12 left-6 z-10 font-mono text-green-500/50 text-xs flex flex-col gap-1 select-none"
+        className="absolute bottom-12 left-6 z-10 font-mono text-green-400/50 text-xs flex flex-col gap-1 select-none"
       >
-        <span className="text-green-500/30">UPTIME</span>
+        <span className="text-green-400/30">UPTIME</span>
         <UptimeTicker />
       </motion.div>
 
-      {/* HUD — bottom-right: scroll prompt */}
+      {/* HUD — bottom-right: scroll */}
       <motion.button
         onClick={scrollToServices}
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1.4 }}
-        className="absolute bottom-12 right-6 z-10 font-mono text-green-500/50 hover:text-green-400 text-xs flex flex-col items-end gap-1 select-none transition-colors"
+        className="absolute bottom-12 right-6 z-10 font-mono text-green-400/50 hover:text-green-400 text-xs flex flex-col items-end gap-1 select-none transition-colors"
       >
         <span className="tracking-widest uppercase">[ scroll ]</span>
         <motion.span
@@ -102,8 +82,11 @@ export default function Hero() {
         </motion.span>
       </motion.button>
 
-      {/* Corner brackets — game HUD frame */}
+      {/* Corner brackets */}
       <CornerBrackets />
+
+      {/* Bottom fade into next section */}
+      <div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-[#0a0f0a] to-transparent z-[2] pointer-events-none" />
     </section>
   );
 }
@@ -133,18 +116,13 @@ function UptimeTicker() {
 }
 
 function CornerBrackets() {
-  const size = "w-8 h-8";
-  const color = "border-green-500/40";
+  const cls = "absolute z-10 w-8 h-8 pointer-events-none border-green-500/40";
   return (
     <>
-      {/* Top-left */}
-      <div className={`absolute top-20 left-4 z-10 ${size} border-t-2 border-l-2 ${color} pointer-events-none`} />
-      {/* Top-right */}
-      <div className={`absolute top-20 right-4 z-10 ${size} border-t-2 border-r-2 ${color} pointer-events-none`} />
-      {/* Bottom-left */}
-      <div className={`absolute bottom-10 left-4 z-10 ${size} border-b-2 border-l-2 ${color} pointer-events-none`} />
-      {/* Bottom-right */}
-      <div className={`absolute bottom-10 right-4 z-10 ${size} border-b-2 border-r-2 ${color} pointer-events-none`} />
+      <div className={`${cls} top-20 left-4 border-t-2 border-l-2`} />
+      <div className={`${cls} top-20 right-4 border-t-2 border-r-2`} />
+      <div className={`${cls} bottom-10 left-4 border-b-2 border-l-2`} />
+      <div className={`${cls} bottom-10 right-4 border-b-2 border-r-2`} />
     </>
   );
 }
