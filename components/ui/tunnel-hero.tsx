@@ -41,10 +41,10 @@ uniform vec3 iResolution;
 #define TAU 6.2831853071795865
 #define TUNNEL_LAYERS 96
 #define RING_POINTS 128
-#define POINT_SIZE 1.8
+#define POINT_SIZE 3.5
 #define POINT_COLOR_A vec3(1.0)
 #define POINT_COLOR_B vec3(0.7)
-#define SPEED 0.7
+#define SPEED 0.35
 
 float sq(float x){ return x*x; }
 
@@ -54,10 +54,8 @@ vec2 AngRep(vec2 uv, float angle){
   return polar.y * vec2(cos(polar.x), sin(polar.x));
 }
 
-float sdCircle(vec2 uv, float r){ return length(uv) - r; }
-
 vec3 MixShape(float sd, vec3 fill, vec3 target){
-  float blend = smoothstep(0.0, 1.0/iResolution.y, sd);
+  float blend = smoothstep(0.0, 1.5/iResolution.y, sd);
   return mix(fill, target, blend);
 }
 
@@ -70,12 +68,23 @@ vec2 TunnelPath(float x){
   return offs;
 }
 
+// "0" — oval ring outline
+float sdZero(vec2 p, float s){
+  vec2 q = p / vec2(s * 0.45, s * 0.65);
+  return (abs(length(q) - 1.0) - 0.28) * s * 0.5;
+}
+
+// "1" — thin vertical bar
+float sdOne(vec2 p, float s){
+  return max(abs(p.x) - s * 0.12, abs(p.y) - s * 0.65);
+}
+
 void main(){
   vec2 res = iResolution.xy / iResolution.y;
   vec2 uv = gl_FragCoord.xy / iResolution.y - res/2.0;
   vec3 color = vec3(0.0);
   float repAngle = TAU / float(RING_POINTS);
-  float pointSize = POINT_SIZE / (2.0 * iResolution.y);
+  float charSize = POINT_SIZE / (2.0 * iResolution.y);
   float camZ = iTime * SPEED;
   vec2 camOffs = TunnelPath(camZ);
 
@@ -84,9 +93,17 @@ void main(){
     pz -= mod(camZ, 4.0 / float(TUNNEL_LAYERS));
     vec2 offs = TunnelPath(camZ + pz) - camOffs;
     float ringRad = 0.15 * (1.0 / sq(pz * 0.8 + 0.4));
-    if(abs(length(uv + offs) - ringRad) < pointSize * 1.5){
+    if(abs(length(uv + offs) - ringRad) < charSize * 2.5){
       vec2 aruv = AngRep(uv + offs, repAngle);
-      float pdist = sdCircle(aruv - vec2(ringRad, 0.0), pointSize);
+      vec2 local = aruv - vec2(ringRad, 0.0);
+
+      float pdist;
+      if(mod(float(i), 2.0) == 0.0){
+        pdist = sdZero(local, charSize);
+      } else {
+        pdist = sdOne(local, charSize);
+      }
+
       vec3 ptColor = (mod(float(i/2), 2.0) == 0.0) ? POINT_COLOR_A : POINT_COLOR_B;
       float shade = (1.0 - pz);
       color = MixShape(pdist, ptColor * shade, color);
