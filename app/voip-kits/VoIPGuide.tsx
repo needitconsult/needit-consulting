@@ -148,7 +148,7 @@ export default function VoIPGuide() {
   return (
     <>
       {tileArrow && createPortal(
-        <ArrowSVG {...tileArrow} label={counterLabel} />,
+        <ArrowSVG {...tileArrow} />,
         document.body,
       )}
 
