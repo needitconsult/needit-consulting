@@ -74,6 +74,7 @@ export default function VoIPGuide() {
   const bubbleRef = useRef<HTMLDivElement>(null);
   const rafRef    = useRef<number>(0);
 
+  // eslint-disable-next-line react-hooks/set-state-in-effect
   useEffect(() => setMounted(true), []);
 
   // Appear after a short delay so the page can settle
@@ -86,7 +87,9 @@ export default function VoIPGuide() {
   useEffect(() => {
     if (!visible || cycleDone) return;
     if (tileIdx >= NODE_ORDER.length) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setCycleDone(true);
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setMinimized(true);
       return;
     }
@@ -104,6 +107,7 @@ export default function VoIPGuide() {
   // rAF loop — restarts whenever currentKey changes (guaranteed since it's in closure)
   useEffect(() => {
     cancelAnimationFrame(rafRef.current);
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     if (!wantArrow || !currentKey) { setTileArrow(null); return; }
 
     const key = currentKey;

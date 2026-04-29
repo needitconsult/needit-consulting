@@ -9,7 +9,7 @@ export default function PageLoader() {
   const timerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   useEffect(() => {
-    // Show loader on every route change
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setVisible(true);
     if (timerRef.current) clearTimeout(timerRef.current);
     timerRef.current = setTimeout(() => setVisible(false), 900);

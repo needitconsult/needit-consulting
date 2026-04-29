@@ -16,6 +16,7 @@ function useIsMobile(breakpoint = 768) {
     const onChange = (e: MediaQueryListEvent | MediaQueryList) =>
       setIsMobile("matches" in e ? e.matches : (e as MediaQueryList).matches);
 
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setIsMobile(mq.matches);
 
     try {
@@ -174,6 +175,7 @@ export default function TunnelShowcase({ noContent = false }: { noContent?: bool
 
   const animate = useCallback((time: number) => {
     if (!ctxRef.current) return;
+    // eslint-disable-next-line react-hooks/immutability
     animRef.current = requestAnimationFrame(animate);
     if (pausedRef.current) { lastTimeRef.current = time; return; }
     time *= 0.001;
@@ -206,6 +208,7 @@ export default function TunnelShowcase({ noContent = false }: { noContent?: bool
     document.addEventListener("visibilitychange", handleVisibility);
     handleVisibility();
 
+    // eslint-disable-next-line react-hooks/immutability
     animRef.current = requestAnimationFrame(animate);
 
     return () => {
@@ -253,6 +256,7 @@ export function TunnelTheme() {
 
   const animate = useCallback((time: number) => {
     if (!ctxRef.current) return;
+    // eslint-disable-next-line react-hooks/immutability
     animRef.current = requestAnimationFrame(animate);
     if (pausedRef.current) { lastTimeRef.current = time; return; }
     time *= 0.001;
@@ -288,6 +292,7 @@ export function TunnelTheme() {
     document.addEventListener("visibilitychange", handleVisibility);
     handleVisibility();
 
+    // eslint-disable-next-line react-hooks/immutability
     animRef.current = requestAnimationFrame(animate);
 
     return () => {

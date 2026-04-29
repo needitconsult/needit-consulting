@@ -42,7 +42,7 @@ export default function BlogPage() {
 
           <div>
             <p className="text-green-700 text-xs font-mono tracking-widest uppercase mb-1">
-              // Written by
+              {"// Written by"}
             </p>
             <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900">
               Intecha&apos;s <span className="text-green-700">Tech Take</span>
@@ -62,7 +62,7 @@ export default function BlogPage() {
 
         {/* Featured post */}
         <div className="mb-12">
-          <p className="text-green-700 text-xs font-mono tracking-widest uppercase mb-4">// Latest</p>
+          <p className="text-green-700 text-xs font-mono tracking-widest uppercase mb-4">{"// Latest"}</p>
           <Link href={`/blog/${featured.slug}`} className="group block">
             <div className="relative p-8 rounded-2xl bg-white border border-gray-200 hover:border-orange-500/40 transition-all duration-300 overflow-hidden">
               <div className="absolute top-0 right-0 w-64 h-64 bg-orange-500/5 rounded-full blur-3xl pointer-events-none" />
@@ -97,7 +97,7 @@ export default function BlogPage() {
         </div>
 
         {/* Rest of posts */}
-        <p className="text-green-700 text-xs font-mono tracking-widest uppercase mb-4">// More articles</p>
+        <p className="text-green-700 text-xs font-mono tracking-widest uppercase mb-4">{"// More articles"}</p>
         <div className="grid md:grid-cols-2 gap-6">
           {rest.map((post) => (
             <Link key={post.slug} href={`/blog/${post.slug}`} className="group block">

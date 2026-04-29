@@ -164,7 +164,7 @@ export default function HintBubble() {
                   />
                   <Lightbulb className="w-3.5 h-3.5 text-green-400" />
                   <span className="font-mono text-green-400 text-[10px] tracking-widest uppercase font-bold">
-                    // HINT
+                    {"// HINT"}
                   </span>
                 </div>
                 <div className="flex items-center gap-2">

@@ -155,7 +155,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
       {/* Related posts */}
       {related.length > 0 && (
         <div className="max-w-3xl mx-auto px-6 pb-20">
-          <p className="text-green-700 text-xs font-mono tracking-widest uppercase mb-4">// Related</p>
+          <p className="text-green-700 text-xs font-mono tracking-widest uppercase mb-4">{"// Related"}</p>
           <div className="grid sm:grid-cols-2 gap-4">
             {related.map((p) => (
               <Link key={p.slug} href={`/blog/${p.slug}`} className="group block">
