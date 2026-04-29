@@ -3,12 +3,23 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X, Cpu } from "lucide-react";
+import Link from "next/link";
+import { usePathname, useRouter } from "next/navigation";
 
-const links = ["Services", "About", "Testimonials", "FAQs", "Contact"];
+const links = [
+  { label: "Reach Out",    id: "contact",      href: undefined },
+  { label: "Services",     id: "services",     href: undefined },
+  { label: "About",        id: "about",        href: undefined },
+  { label: "FAQs",         id: "faqs",         href: undefined },
+  { label: "VoIP Kits",    id: "voip-kits",    href: "/voip-kits" },
+  { label: "Intecha's Tech Take", id: "blog", href: "/blog" },
+];
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
+  const pathname = usePathname();
+  const router = useRouter();
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 40);
@@ -18,6 +29,10 @@ export default function Navbar() {
 
   const scrollTo = (id: string) => {
     setOpen(false);
+    if (pathname !== "/") {
+      router.push(`/#${id}`);
+      return;
+    }
     document.getElementById(id.toLowerCase())?.scrollIntoView({ behavior: "smooth" });
   };
 
@@ -28,43 +43,49 @@ export default function Navbar() {
       transition={{ duration: 0.6, ease: "easeOut" }}
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         scrolled
-          ? "bg-[#0a0f0a]/95 backdrop-blur-md border-b border-green-900/40"
+          ? "bg-white/95 backdrop-blur-md border-b border-gray-200"
           : "bg-transparent"
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         {/* Logo */}
-        <button onClick={() => scrollTo("hero")} className="flex items-center gap-2 group">
-          <div className="w-8 h-8 rounded-lg bg-green-500/20 border border-green-500/40 flex items-center justify-center group-hover:bg-green-500/30 transition-colors">
-            <Cpu className="w-4 h-4 text-green-400" />
+        <Link href="/" className="flex items-center gap-2 group">
+          <div className="w-8 h-8 rounded-lg bg-green-100 border border-green-500/40 flex items-center justify-center group-hover:bg-green-100 transition-colors">
+            <Cpu className="w-4 h-4 text-green-700" />
           </div>
-          <span className="text-lg font-bold text-green-300 group-hover:text-green-200 transition-colors">
+          <span className="text-[1.375rem] font-bold text-gray-700 group-hover:text-green-200 transition-colors">
             Need<span className="text-white">IT</span>
           </span>
-        </button>
+        </Link>
 
         {/* Desktop links */}
         <div className="hidden md:flex items-center gap-8">
-          {links.map((link) => (
-            <button
-              key={link}
-              onClick={() => scrollTo(link)}
-              className="text-sm text-green-300/80 hover:text-green-300 transition-colors tracking-wide uppercase font-medium"
-            >
-              {link}
-            </button>
-          ))}
-          <button
-            onClick={() => scrollTo("contact")}
-            className="px-5 py-2 rounded-lg bg-green-600 hover:bg-green-500 text-white text-sm font-semibold transition-all glow-green-sm hover:glow-green"
-          >
-            Get Started
-          </button>
+          {links.map((link) =>
+            link.href ? (
+              <Link
+                key={link.id}
+                href={link.href}
+                className={`nav-link text-sm transition-all tracking-wide uppercase font-bold border border-green-800 rounded px-2 py-0.5 ${
+                  pathname === link.href ? "text-gray-700 bg-green-800" : "text-gray-900 hover:text-white hover:bg-green-800"
+                }`}
+              >
+                {link.label}
+              </Link>
+            ) : (
+              <button
+                key={link.id}
+                onClick={() => scrollTo(link.id)}
+                className="nav-link text-sm text-gray-900 hover:text-white hover:bg-green-800 transition-all tracking-wide uppercase font-bold border border-green-800 rounded px-2 py-0.5"
+              >
+                {link.label}
+              </button>
+            )
+          )}
         </div>
 
         {/* Mobile toggle */}
         <button
-          className="md:hidden text-green-400 hover:text-green-300"
+          className="md:hidden text-green-700 hover:text-gray-700"
           onClick={() => setOpen(!open)}
         >
           {open ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
@@ -78,23 +99,28 @@ export default function Navbar() {
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
-            className="md:hidden bg-[#0a0f0a]/98 border-b border-green-900/40 px-6 pb-6 flex flex-col gap-4"
+            className="md:hidden bg-white/98 border-b border-gray-200 px-6 pb-6 flex flex-col gap-4"
           >
-            {links.map((link) => (
-              <button
-                key={link}
-                onClick={() => scrollTo(link)}
-                className="text-left text-green-300/80 hover:text-green-300 py-2 border-b border-green-900/30 text-sm uppercase tracking-wide font-medium transition-colors"
-              >
-                {link}
-              </button>
-            ))}
-            <button
-              onClick={() => scrollTo("contact")}
-              className="mt-2 px-5 py-3 rounded-lg bg-green-600 hover:bg-green-500 text-white text-sm font-semibold transition-all"
-            >
-              Get Started
-            </button>
+            {links.map((link) =>
+              link.href ? (
+                <Link
+                  key={link.id}
+                  href={link.href}
+                  onClick={() => setOpen(false)}
+                  className="text-left text-gray-900 hover:text-gray-700 py-2 border-b border-gray-200 text-sm uppercase tracking-wide font-bold transition-colors"
+                >
+                  {link.label}
+                </Link>
+              ) : (
+                <button
+                  key={link.id}
+                  onClick={() => scrollTo(link.id)}
+                  className="text-left text-gray-900 hover:text-gray-700 py-2 border-b border-gray-200 text-sm uppercase tracking-wide font-bold transition-colors"
+                >
+                  {link.label}
+                </button>
+              )
+            )}
           </motion.div>
         )}
       </AnimatePresence>

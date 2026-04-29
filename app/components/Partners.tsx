@@ -15,13 +15,13 @@ const partners = [
 
 export default function Partners() {
   return (
-    <section className="relative py-14 px-6 bg-[#0d130d] border-y border-green-900/30 overflow-hidden">
+    <section className="relative py-14 px-6 bg-[#0d130d] border-y border-gray-200 overflow-hidden">
       <div className="max-w-7xl mx-auto">
         <motion.p
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
-          className="text-center text-green-500/60 text-xs uppercase tracking-widest font-semibold mb-8"
+          className="text-center text-green-700/60 text-xs uppercase tracking-widest font-semibold mb-8"
         >
           Certified Partners & Technology Alliances
         </motion.p>
@@ -36,10 +36,10 @@ export default function Partners() {
             {[...partners, ...partners].map((p, i) => (
               <div
                 key={i}
-                className="flex items-center gap-3 px-6 py-3 rounded-xl bg-[#111811] border border-green-900/40 flex-shrink-0"
+                className="flex items-center gap-3 px-6 py-3 rounded-xl bg-[#e8ebee] border border-gray-200 flex-shrink-0"
               >
                 <div className="w-8 h-8 rounded-lg bg-green-500/15 border border-green-500/25 flex items-center justify-center">
-                  <span className="text-green-400 text-[10px] font-bold leading-none text-center">
+                  <span className="text-green-700 text-[10px] font-bold leading-none text-center">
                     {p.abbr}
                   </span>
                 </div>

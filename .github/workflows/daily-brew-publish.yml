@@ -1,0 +1,39 @@
+name: Daily Brew — Publish (9 AM ET)
+
+on:
+  schedule:
+    # 9 AM Eastern Daylight Time = 13:00 UTC
+    # If on Eastern Standard Time (Nov–Mar), change to 14:00 UTC
+    - cron: "0 13 * * *"
+  workflow_dispatch: # manual trigger for testing
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Move draft to published posts
+        run: node scripts/publish-daily-brew.mjs
+
+      - name: Commit published post (triggers Vercel deploy)
+        run: |
+          git config user.name  "Intecha Bot"
+          git config user.email "intecha@needitconsulting.com"
+          git add app/data/daily-brew-posts.json app/data/daily-brew-drafts.json
+          if git diff --staged --quiet; then
+            echo "Nothing to publish today."
+          else
+            git commit -m "Daily Brew live: $(date '+%B %d, %Y')"
+            git push
+          fi

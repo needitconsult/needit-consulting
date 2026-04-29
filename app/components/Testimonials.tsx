@@ -44,7 +44,7 @@ const testimonials = [
 
 export default function Testimonials() {
   return (
-    <section id="testimonials" className="relative py-24 px-6 bg-[#0a0f0a]">
+    <section id="testimonials" className="relative py-24 px-6 bg-[#f0f2f5]">
       <div className="absolute inset-0 grid-overlay opacity-30" />
       <div className="relative max-w-7xl mx-auto">
         {/* Header */}
@@ -55,13 +55,13 @@ export default function Testimonials() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <span className="text-green-500 text-sm font-semibold tracking-widest uppercase">
+          <span className="text-green-700 text-sm font-semibold tracking-widest uppercase">
             Client Stories
           </span>
-          <h2 className="mt-3 text-4xl md:text-5xl font-extrabold text-white">
-            What Our <span className="text-green-400">Clients Say</span>
+          <h2 className="mt-3 text-4xl md:text-5xl font-extrabold text-gray-900">
+            What Our <span className="text-green-700">Clients Say</span>
           </h2>
-          <p className="mt-4 text-green-200/60 max-w-xl mx-auto">
+          <p className="mt-4 text-gray-600 max-w-xl mx-auto">
             Real results from real businesses that trusted NeedIT with their technology.
           </p>
         </motion.div>
@@ -75,14 +75,14 @@ export default function Testimonials() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: i * 0.1, duration: 0.5 }}
-              className="relative p-8 rounded-2xl bg-[#111811] border border-green-900/40 hover:border-green-500/40 transition-colors flex flex-col gap-4"
+              className="relative p-8 rounded-2xl bg-[#e8ebee] border border-gray-200 hover:border-green-500/40 transition-colors flex flex-col gap-4"
             >
-              <Quote className="w-8 h-8 text-green-500/30 absolute top-6 right-6" />
+              <Quote className="w-8 h-8 text-green-700/30 absolute top-6 right-6" />
 
               {/* Stars */}
               <div className="flex gap-1">
                 {Array.from({ length: t.stars }).map((_, j) => (
-                  <Star key={j} className="w-4 h-4 fill-green-400 text-green-400" />
+                  <Star key={j} className="w-4 h-4 fill-green-400 text-green-700" />
                 ))}
               </div>
 
@@ -90,13 +90,13 @@ export default function Testimonials() {
               <p className="text-green-200/70 leading-relaxed text-sm flex-1">&ldquo;{t.body}&rdquo;</p>
 
               {/* Author */}
-              <div className="flex items-center gap-3 pt-2 border-t border-green-900/30">
-                <div className="w-10 h-10 rounded-full bg-green-500/20 border border-green-500/30 flex items-center justify-center text-green-400 font-bold text-sm">
+              <div className="flex items-center gap-3 pt-2 border-t border-gray-200">
+                <div className="w-10 h-10 rounded-full bg-green-100 border border-green-500/30 flex items-center justify-center text-green-700 font-bold text-sm">
                   {t.name.charAt(0)}
                 </div>
                 <div>
-                  <div className="text-white font-semibold text-sm">{t.name}</div>
-                  <div className="text-green-500/60 text-xs">{t.role}</div>
+                  <div className="text-gray-900 font-semibold text-sm">{t.name}</div>
+                  <div className="text-green-700/60 text-xs">{t.role}</div>
                 </div>
               </div>
             </motion.div>

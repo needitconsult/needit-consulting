@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx tsc *)",
+      "Bash(curl -s -L \"https://www.amazon.com/Yealink-YHS36-E2-Compatible-Microphone/dp/B0FS7JSMXW\" -H \"User-Agent: Mozilla/5.0\" --compressed)",
+      "WebFetch(domain:www.amazon.com)",
+      "Bash(node -e ' *)"
+    ]
+  }
+}

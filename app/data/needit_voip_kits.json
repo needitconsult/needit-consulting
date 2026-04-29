@@ -1,0 +1,597 @@
+{
+  "meta": {
+    "brand": "NeedIT Consulting LLC",
+    "section": "VoIP Starter Kits — Recommended Products",
+    "description": "Curated VoIP hardware kits for small business use cases. Each kit includes affiliate product links (Amazon Associates), a recommended VoIP platform pairing, and a NeedIT setup service CTA.",
+    "affiliate_disclosure": "This page contains affiliate links. NeedIT Consulting may earn a commission if you purchase through these links — at no extra cost to you. We only recommend products we use and trust.",
+    "last_updated": "2025-04",
+    "cta_tagline": "Need help setting this up? NeedIT Consulting handles provisioning, number porting, and configuration — so you're live fast."
+  },
+  "kits": [
+    {
+      "id": "kit_solo",
+      "name": "Solo operator starter kit",
+      "tagline": "One person. One great phone. Zero hassle.",
+      "description": "Perfect for solo consultants, home-based businesses, realtors, or anyone replacing a personal cell with a professional business line. Wired, reliable, and dead simple to set up.",
+      "use_cases": [
+        "Home office",
+        "Solo consultant",
+        "Real estate agent",
+        "Freelancer"
+      ],
+      "difficulty": "Beginner",
+      "estimated_hardware_cost": "$75–$110",
+      "recommended_platform": {
+        "name": "Ooma Office",
+        "why": "Lowest monthly cost for 1–2 users, includes a local business number, and works perfectly with any Yealink phone.",
+        "affiliate_program": "Ooma partner.ooma.com",
+        "starting_price": "$19.95/mo"
+      },
+      "products": [
+        {
+          "id": "prod_t33g",
+          "name": "Yealink T33G IP Desk Phone",
+          "role": "Primary desk phone",
+          "why_recommended": "The best entry-level Yealink you can buy. Color screen, 4 line support, PoE powered, and works with every major hosted VoIP platform out of the box. Built-in Gigabit Ethernet means it won't bottleneck your network.",
+          "key_specs": [
+            "4 SIP accounts",
+            "2.4-inch color display",
+            "Dual Gigabit Ethernet ports (PoE)",
+            "HD voice + Smart Noise Filtering",
+            "5-way local conference",
+            "Wall mountable"
+          ],
+          "approx_price": "$65–$80",
+          "amazon_search_url": "https://amzn.to/484ECTd",
+          "amazon_asin": "B08DKQF84N",
+          "voipsupply_url": "https://www.voipsupply.com/yealink-sip-t33g",
+          "affiliate_note": ""
+        },
+        {
+          "id": "prod_wired_headset",
+          "name": "Yealink YHS36 Wired Headset",
+          "role": "Optional add-on — wired headset",
+          "why_recommended": "Hands-free calling on a budget. RJ9 connector plugs directly into the T33G with no adapter needed. Good pick for anyone on calls for more than 2 hours a day.",
+          "key_specs": [
+            "RJ9 connector — no adapter needed",
+            "Noise canceling microphone",
+            "Lightweight monaural design",
+            "Compatible with all Yealink T-series phones"
+          ],
+          "approx_price": "$30–$45",
+          "amazon_search_url": "https://amzn.to/48UxF7r",
+          "amazon_asin": "B01LZFC6CC",
+          "affiliate_note": "",
+          "product_image_url": "https://m.media-amazon.com/images/I/51Vpgu77WML._AC_SX679_.jpg"
+        }
+      ],
+      "needit_service_cta": {
+        "headline": "Want this configured and ready to go?",
+        "body": "NeedIT handles remote provisioning of your Yealink phone with your VoIP provider — including SIP credentials, ringtone setup, and call routing. Typical turnaround: same business day.",
+        "link_text": "Get setup help from NeedIT →"
+      }
+    },
+    {
+      "id": "kit_small_office",
+      "name": "Small office kit (3–5 users)",
+      "tagline": "A real phone system — without the PBX price tag.",
+      "description": "The most common setup NeedIT deploys for small businesses. Reliable desk phones for each employee, a conference room phone, and a wireless headset for whoever needs hands-free. Works with any hosted VoIP platform.",
+      "use_cases": [
+        "Small office 3–10 staff",
+        "Medical/dental office",
+        "Law firm",
+        "Accounting office",
+        "Retail back office"
+      ],
+      "difficulty": "Intermediate — recommend professional setup",
+      "estimated_hardware_cost": "$400–$650 for 5 users",
+      "recommended_platform": {
+        "name": "Nextiva or RingCentral",
+        "why": "Both support multi-user admin, auto-attendant, call routing, and voicemail-to-email — everything a small office needs. Nextiva has better SMB support; RingCentral has deeper integrations.",
+        "affiliate_program": "Nextiva PartnerStack / RingCentral affiliate portal",
+        "starting_price": "$25–$35/user/mo"
+      },
+      "products": [
+        {
+          "id": "prod_t33g_multipack",
+          "name": "Yealink T33G IP Desk Phone",
+          "role": "Standard employee desk phone",
+          "why_recommended": "Best value-per-dollar in the Yealink lineup for general staff. Buy one per employee. PoE means one cable per desk — no power adapters cluttering the workspace.",
+          "key_specs": [
+            "4 SIP accounts",
+            "2.4-inch color display",
+            "Gigabit PoE",
+            "HD voice + Smart Noise Filtering",
+            "Supports Yealink device management platform for bulk config"
+          ],
+          "approx_price": "$65–$80 per unit",
+          "amazon_search_url": "https://amzn.to/484ECTd",
+          "amazon_asin": "B08DKQF84N",
+          "voipsupply_url": "https://www.voipsupply.com/yealink-sip-t33g",
+          "affiliate_note": "Replace with your Associates tracking link"
+        },
+        {
+          "id": "prod_t46u",
+          "name": "Yealink T46U IP Desk Phone",
+          "role": "Power user / manager / receptionist phone",
+          "why_recommended": "Step up from the T33G for anyone who handles high call volume, transfers, or needs to monitor multiple lines. 16 line keys, USB port for wired headsets, and a larger color display. Perfect for receptionists or managers.",
+          "key_specs": [
+            "16 SIP accounts",
+            "4.3-inch color display",
+            "Dual USB ports (wired headset ready)",
+            "Gigabit PoE",
+            "Supports Bluetooth via BT41 dongle",
+            "Busy lamp field (BLF) for monitoring other extensions"
+          ],
+          "approx_price": "$100–$130",
+          "amazon_search_url": "https://amzn.to/4sHLugH",
+          "amazon_asin": "B08FF4XD5L",
+          "product_image_url": "https://images-na.ssl-images-amazon.com/images/P/B08FF4XD5L.01.LZZZZZZZ.jpg",
+          "voipsupply_url": "https://www.voipsupply.com/yealink-sip-t46u",
+          "affiliate_note": "Replace with your Associates tracking link"
+        },
+        {
+          "id": "prod_cp925",
+          "name": "Yealink CP925 Conference Phone",
+          "role": "Conference room / huddle room speakerphone",
+          "why_recommended": "The best conference phone in the $200–$300 range for small business. 7-mic array with 20-foot pickup range, touch screen, built-in Wi-Fi and Bluetooth, and stain-resistant fabric. Looks professional and sounds even better.",
+          "key_specs": [
+            "7-microphone array, 360° pickup, 20 ft range",
+            "4-inch color touchscreen",
+            "Built-in Wi-Fi + Bluetooth",
+            "Yealink Noise Proof Technology",
+            "5-way conference calling",
+            "Pairs with mobile devices via Bluetooth for hybrid calls"
+          ],
+          "approx_price": "$220–$280",
+          "amazon_search_url": "https://amzn.to/4tj8SST",
+          "amazon_asin": "B09KVJJ6S7",
+          "voipsupply_url": "https://www.voipsupply.com/yealink-cp925-conference-phone",
+          "affiliate_note": "Replace with your Associates tracking link"
+        },
+        {
+          "id": "prod_wh62_office",
+          "name": "Yealink WH62 DECT Wireless Headset",
+          "role": "Wireless headset — hands-free for staff",
+          "why_recommended": "Great add-on for any employee who spends significant time on calls. 525-foot DECT range, 13-hour talk time, and dual noise-canceling mics. Connects to both the desk phone and PC simultaneously — one headset for everything.",
+          "key_specs": [
+            "DECT wireless — 525 ft range",
+            "13-hour talk time",
+            "2x noise canceling microphones (Acoustic Shield)",
+            "Connects to desk phone AND PC simultaneously via USB",
+            "Microsoft Teams certified",
+            "Call control buttons on headset"
+          ],
+          "approx_price": "$130–$160",
+          "amazon_search_url": "https://amzn.to/4dVzMvm",
+          "amazon_asin": "B0BFF1Z9DN",
+          "product_image_url": "/headset.jpg"
+        }
+      ],
+      "needit_service_cta": {
+        "headline": "NeedIT sets up the whole office.",
+        "body": "We provision all phones, configure your auto-attendant, set up voicemail-to-email, and test every extension before handing it off. Remote setup available for most hosted platforms — no on-site visit required.",
+        "link_text": "Get a setup quote from NeedIT →"
+      }
+    },
+    {
+      "id": "kit_remote_worker",
+      "name": "Remote worker kit",
+      "tagline": "Work-from-anywhere calling that actually works.",
+      "description": "Built for employees working from home or out of a satellite office. Wireless headset for freedom of movement, paired with a solid Wi-Fi capable desk phone. No IT truck roll required — fully remote provisioning.",
+      "use_cases": [
+        "Work from home",
+        "Remote employee",
+        "Satellite office",
+        "Road warrior home base"
+      ],
+      "difficulty": "Beginner — fully remote setup",
+      "estimated_hardware_cost": "$200–$280",
+      "recommended_platform": {
+        "name": "RingCentral or Grasshopper",
+        "why": "RingCentral for teams that need full UC features. Grasshopper for solo remote workers who want a business number on their cell without the complexity.",
+        "affiliate_program": "RingCentral affiliate portal / Grasshopper Impact Radius",
+        "starting_price": "$15–$30/mo"
+      },
+      "products": [
+        {
+          "id": "prod_t34w",
+          "name": "Yealink T34W IP Phone (Wi-Fi)",
+          "role": "Primary desk phone — wireless capable",
+          "why_recommended": "The T34W is the T33G's Wi-Fi sibling. Dual-band 2.4G/5G Wi-Fi means no Ethernet cable needed — perfect for home offices without a network drop at the desk. Same great HD voice and Smart Noise Filtering, just wire-free.",
+          "key_specs": [
+            "Built-in dual-band Wi-Fi (2.4G/5G)",
+            "4 SIP accounts",
+            "2.4-inch color display",
+            "USB port for wired headset",
+            "TLS 1.3 + WPA3 security",
+            "Smart Noise Filtering"
+          ],
+          "approx_price": "$80–$100",
+          "amazon_search_url": "https://amzn.to/42fkEBK",
+          "amazon_asin": "B0CTJ4BWSP",
+          "product_image_url": "/t34w.jpg",
+          "voipsupply_url": "https://www.voipsupply.com/yealink-sip-t34w",
+          "affiliate_note": "Replace with your Associates tracking link"
+        },
+        {
+          "id": "prod_wh62",
+          "name": "Yealink WH62 DECT Wireless Headset",
+          "role": "Wireless headset — desk phone + PC",
+          "why_recommended": "The WH62 is the workhorse wireless headset of the Yealink lineup. 525-foot DECT range, 13-hour talk time, dual noise-canceling mics, and it connects to both your desk phone AND computer simultaneously — one headset for everything. No Bluetooth interference issues, no dongles, no pairing drama.",
+          "key_specs": [
+            "DECT wireless — 525 ft range",
+            "13-hour talk time",
+            "2x noise canceling microphones (Acoustic Shield)",
+            "Connects to desk phone AND PC simultaneously via USB",
+            "Microsoft Teams certified",
+            "Call control buttons on headset"
+          ],
+          "approx_price": "$130–$160",
+          "amazon_search_url": "https://amzn.to/4cS4kNi",
+          "amazon_asin": "B0BFF1Z9DN",
+          "voipsupply_url": "https://www.voipsupply.com/yealink-wh62-dual-uc",
+          "affiliate_note": "Replace with your Associates tracking link",
+          "product_image_url": "/headset.jpg"
+        }
+      ],
+      "needit_service_cta": {
+        "headline": "Remote setup — no IT visit required.",
+        "body": "NeedIT provisions remote worker phones 100% remotely. We coordinate with your VoIP provider, push the config to the phone, and test it with you on a call. Most remote setups are done in under an hour.",
+        "link_text": "Schedule a remote setup →"
+      }
+    },
+    {
+      "id": "kit_receptionist",
+      "name": "Front desk / receptionist kit",
+      "tagline": "Handle every call like a pro — even on your busiest day.",
+      "description": "Designed for the first voice clients hear. High line-count phone for juggling multiple calls, a wireless headset for mobility around the front desk, and a conference option for quick impromptu meetings.",
+      "use_cases": [
+        "Medical front desk",
+        "Law office receptionist",
+        "Salon / spa",
+        "Property management",
+        "Any business with a dedicated receptionist"
+      ],
+      "difficulty": "Intermediate — recommend professional setup for call routing",
+      "estimated_hardware_cost": "$280–$380",
+      "recommended_platform": {
+        "name": "Nextiva",
+        "why": "Nextiva's auto-attendant, call queuing, and hold music features are the best match for a busy front desk. Their SMB-focused support also means faster help when something goes wrong.",
+        "affiliate_program": "Nextiva PartnerStack",
+        "starting_price": "$25/user/mo"
+      },
+      "products": [
+        {
+          "id": "prod_t54w",
+          "name": "Yealink T54W IP Phone",
+          "role": "Primary receptionist desk phone",
+          "why_recommended": "The T54W is the receptionist's best friend. 16 programmable line keys mean you can monitor every extension in the office at a glance. Wi-Fi and Bluetooth built in. The 4.3-inch color screen is easy to read at a glance while multitasking. This is the phone your front desk actually wants.",
+          "key_specs": [
+            "16 SIP accounts / line keys",
+            "4.3-inch color display",
+            "Built-in Wi-Fi + Bluetooth",
+            "Dual USB ports",
+            "Busy lamp field (BLF) for monitoring extensions",
+            "Gigabit PoE",
+            "HD voice + Acoustic Shield noise filtering"
+          ],
+          "approx_price": "$145–$185",
+          "amazon_search_url": "https://amzn.to/4crT0rn",
+          "amazon_asin": "B07ND62JJM",
+          "voipsupply_url": "https://www.voipsupply.com/yealink-sip-t54w",
+          "affiliate_note": "Replace with your Associates tracking link"
+        },
+        {
+          "id": "prod_wh62_reception",
+          "name": "Yealink WH62 DECT Wireless Headset",
+          "role": "Wireless headset — hands-free at the front desk",
+          "why_recommended": "A receptionist who can move around while on a call is more productive and more professional. The WH62's 525-foot range means they can check on a patient, grab a document, or step to the back — without putting the caller on hold.",
+          "key_specs": [
+            "DECT wireless — 525 ft range",
+            "13-hour talk time",
+            "2x noise canceling mics",
+            "Connects to desk phone + PC simultaneously",
+            "Teams certified"
+          ],
+          "approx_price": "$130–$160",
+          "amazon_search_url": "https://amzn.to/4cS4kNi",
+          "amazon_asin": "B0BFF1Z9DN",
+          "affiliate_note": "Replace with your Associates tracking link",
+          "product_image_url": "/headset.jpg"
+        },
+        {
+          "id": "prod_yhs36_reception",
+          "name": "Yealink YHS36 Wired Headset",
+          "role": "Budget wired headset",
+          "why_recommended": "A no-fuss wired option for receptionists who prefer staying tethered. RJ9 connector plugs directly into the T54W with no adapter needed — reliable, lightweight, and easy to replace.",
+          "key_specs": [
+            "RJ9 connector — direct plug-in, no adapter",
+            "Noise canceling microphone",
+            "Lightweight monaural design",
+            "Compatible with all Yealink T-series phones"
+          ],
+          "approx_price": "$30–$45",
+          "amazon_search_url": "https://amzn.to/48UxF7r",
+          "amazon_asin": "B01LZFC6CC",
+          "product_image_url": "https://m.media-amazon.com/images/I/51Vpgu77WML._AC_SX679_.jpg"
+        }
+      ],
+      "needit_service_cta": {
+        "headline": "Get your call routing set up right the first time.",
+        "body": "NeedIT configures your auto-attendant, hold music, call queues, and extension directory — so every caller reaches the right person fast. We also train your receptionist on the phone features that save the most time.",
+        "link_text": "Book a receptionist setup with NeedIT →"
+      }
+    },
+    {
+      "id": "kit_conference_room",
+      "name": "Conference room upgrade kit",
+      "tagline": "No more huddling around a speakerphone that sounds like a tin can.",
+      "description": "A standalone conference room audio upgrade that works with any existing VoIP system. Pairs a dedicated SIP conference phone with optional wireless expansion mics for larger rooms.",
+      "use_cases": [
+        "Conference room",
+        "Huddle room",
+        "Board room",
+        "Training room"
+      ],
+      "difficulty": "Beginner",
+      "estimated_hardware_cost": "$220–$450 depending on room size",
+      "recommended_platform": {
+        "name": "Works with any existing VoIP platform",
+        "why": "The CP925 is SIP-based and compatible with RingCentral, Nextiva, Ooma, 8x8, Vonage, and most hosted PBX systems. Just register it as an extension.",
+        "affiliate_program": "N/A — hardware only kit",
+        "starting_price": "No additional service cost if already on a VoIP platform"
+      },
+      "products": [
+        {
+          "id": "prod_cp925_room",
+          "name": "Yealink CP925 Conference Phone",
+          "role": "Primary conference room speakerphone",
+          "why_recommended": "Genuinely the best value conference phone for small-to-mid size rooms under $300. The 7-mic array with 20-foot pickup means everyone at the table is heard, not just the person closest to the device. Bluetooth lets remote participants join from a cell phone as well as SIP.",
+          "key_specs": [
+            "7-microphone array, 360° pickup, 20 ft range",
+            "4-inch color touchscreen",
+            "Built-in Wi-Fi + Bluetooth",
+            "Yealink Noise Proof Technology + Smart Noise Filtering",
+            "5-way conference calling",
+            "Water and stain resistant fabric"
+          ],
+          "approx_price": "$220–$280",
+          "amazon_search_url": "https://amzn.to/4tj8SST",
+          "amazon_asin": "B09KVJJ6S7",
+          "voipsupply_url": "https://www.voipsupply.com/yealink-cp925-conference-phone",
+          "affiliate_note": "Replace with your Associates tracking link"
+        },
+        {
+          "id": "prod_yhs36_conf",
+          "name": "Yealink YHS36 Wired Headset",
+          "role": "Individual participant headset option",
+          "why_recommended": "For participants who need a private audio option during conference calls — useful in open offices or hybrid meetings. Plugs directly into any Yealink T-series desk phone via RJ9, no adapter needed.",
+          "key_specs": [
+            "RJ9 connector — no adapter needed",
+            "Noise canceling microphone",
+            "Lightweight monaural design",
+            "Compatible with all Yealink T-series phones"
+          ],
+          "approx_price": "$30–$45",
+          "amazon_search_url": "https://amzn.to/48UxF7r",
+          "amazon_asin": "B01LZFC6CC",
+          "product_image_url": "https://m.media-amazon.com/images/I/51Vpgu77WML._AC_SX679_.jpg"
+        }
+      ],
+      "needit_service_cta": {
+        "headline": "Conference room setup — done right.",
+        "body": "NeedIT handles SIP registration, codec configuration, and acoustic testing for your conference room. We also check that your conference room extension is visible in your company directory and dial plan.",
+        "link_text": "Get your conference room set up →"
+      }
+    },
+    {
+      "id": "kit_budget",
+      "name": "Budget-conscious starter kit",
+      "tagline": "Professional VoIP at the lowest possible entry cost.",
+      "description": "For businesses that want to get off cell phones and look professional — without spending a lot. A single quality desk phone, softphone app on existing devices, and a budget-friendly VoIP plan. Gets you a business number, voicemail, and hold music for under $100 in hardware.",
+      "use_cases": [
+        "Startup",
+        "Side business going full-time",
+        "Sole proprietor",
+        "New storefront"
+      ],
+      "difficulty": "Beginner",
+      "estimated_hardware_cost": "$65–$80",
+      "recommended_platform": {
+        "name": "Ooma Office or Grasshopper",
+        "why": "Ooma is the most affordable full-featured VoIP platform for 1–3 users. Grasshopper is even simpler if you just need a business number that rings your cell.",
+        "affiliate_program": "Ooma partner.ooma.com / Grasshopper Impact Radius",
+        "starting_price": "$19.95–$29/mo"
+      },
+      "products": [
+        {
+          "id": "prod_t33g_budget",
+          "name": "Yealink T33G IP Desk Phone",
+          "role": "Only hardware needed — everything else via app",
+          "why_recommended": "Buy one T33G for your main desk. Every other employee uses the VoIP provider's free softphone app on their smartphone or laptop. This keeps hardware cost at one phone while still giving everyone a professional business number.",
+          "key_specs": [
+            "4 SIP accounts",
+            "Color display",
+            "PoE or power adapter",
+            "Works with Ooma, Nextiva, RingCentral, Grasshopper, and more"
+          ],
+          "approx_price": "$65–$80",
+          "amazon_search_url": "https://amzn.to/484ECTd",
+          "amazon_asin": "B08DKQF84N",
+          "voipsupply_url": "https://www.voipsupply.com/yealink-sip-t33g",
+          "affiliate_note": "Replace with your Associates tracking link"
+        },
+        {
+          "id": "prod_yhs36_budget",
+          "name": "Yealink YHS36 Wired Headset",
+          "role": "Optional add-on — budget wired headset",
+          "why_recommended": "Hands-free calling without breaking the budget. Plugs directly into the T33G via RJ9 — no adapter, no extra cost. Great for anyone on calls more than a couple hours a day.",
+          "key_specs": [
+            "RJ9 connector — no adapter needed",
+            "Noise canceling microphone",
+            "Lightweight monaural design",
+            "Compatible with all Yealink T-series phones"
+          ],
+          "approx_price": "$30–$45",
+          "amazon_search_url": "https://amzn.to/48UxF7r",
+          "amazon_asin": "B01LZFC6CC",
+          "product_image_url": "https://m.media-amazon.com/images/I/51Vpgu77WML._AC_SX679_.jpg"
+        }
+      ],
+      "budget_tip": "Pro tip from NeedIT: Skip buying a phone for every employee. Most hosted VoIP platforms include free mobile and desktop apps. Start with one desk phone at reception and apps everywhere else — upgrade to desk phones as the business grows.",
+      "needit_service_cta": {
+        "headline": "Get started fast — NeedIT sets you up remotely.",
+        "body": "NeedIT can have your business line active and your phone provisioned in one session. We also help you pick the right VoIP platform for your budget and walk you through the app setup for your mobile team.",
+        "link_text": "Start with a free 15-min consultation →"
+      }
+    },
+    {
+      "id": "kit_cables_adapters",
+      "recommended_for_all": true,
+      "name": "Adapters and Cables",
+      "tagline": "The small stuff that makes it all work.",
+      "description": "Ethernet cables and adapters to complete any VoIP setup. Reliable wired connections are the foundation of clear calls — these are the accessories NeedIT recommends with every install.",
+      "use_cases": [
+        "Any wired desk phone setup",
+        "Home office",
+        "Small office",
+        "Conference room"
+      ],
+      "difficulty": "Beginner",
+      "estimated_hardware_cost": "$8–$25",
+      "recommended_platform": {
+        "name": "Works with any VoIP platform",
+        "why": "These accessories are platform-agnostic and pair with any IP phone or softphone setup.",
+        "starting_price": "N/A"
+      },
+      "products": [
+        {
+          "id": "prod_cat6_cable",
+          "name": "Cable Matters Cat6 Snagless Ethernet Cable — 9 ft",
+          "role": "Ethernet patch cable",
+          "why_recommended": "A clean, reliable patch cable to connect your desk phone to the wall or switch. Snagless boot protects the clip during installation and keeps it intact under the desk.",
+          "key_specs": [
+            "Cat6 — supports Gigabit speeds",
+            "Snagless boot — protects RJ45 clip",
+            "9 ft — enough reach for most desk setups",
+            "Compatible with all PoE switches and routers"
+          ],
+          "approx_price": "~$8",
+          "amazon_search_url": "https://amzn.to/48DB9v0",
+          "amazon_asin": "",
+          "product_image_url": "/cat6-cable-9ft.jpg"
+        },
+        {
+          "id": "prod_cat6_5pack",
+          "name": "Cable Matters Cat6 Snagless Ethernet Cable — 10 ft (5-pack)",
+          "role": "Ethernet patch cable — multi-pack",
+          "why_recommended": "One cable per desk, one pack covers a 5-user office. Snagless boots protect the clips during installation and keep them intact under the desk long-term.",
+          "key_specs": [
+            "Cat6 — Gigabit speeds",
+            "Snagless boot — protects RJ45 clip",
+            "10 ft — comfortable reach for most desk layouts",
+            "5-pack — one per workstation"
+          ],
+          "approx_price": "~$20",
+          "amazon_search_url": "https://amzn.to/4cR82a1",
+          "amazon_asin": "",
+          "product_image_url": "/cat6-cable.jpg"
+        }
+      ],
+      "needit_service_cta": {
+        "headline": "Not sure what you need?",
+        "body": "NeedIT can assess your office layout and recommend exactly which cables and adapters you'll need before you buy anything.",
+        "link_text": "Ask NeedIT →"
+      }
+    }
+  ],
+  "global_products_reference": {
+    "note": "Quick reference for all recommended products with ASINs for building affiliate links",
+    "items": [
+      {
+        "name": "Yealink T33G",
+        "asin": "B08DKQF84N",
+        "approx_price": "$65–$80",
+        "category": "Entry desk phone"
+      },
+      {
+        "name": "Yealink T34W",
+        "asin": "B0CPKBWGHR",
+        "approx_price": "$80–$100",
+        "category": "Entry desk phone Wi-Fi"
+      },
+      {
+        "name": "Yealink T46U",
+        "asin": "B08GCJTTWK",
+        "approx_price": "$100–$130",
+        "category": "Mid-range desk phone"
+      },
+      {
+        "name": "Yealink T54W",
+        "asin": "B07ND62JJM",
+        "approx_price": "$145–$185",
+        "category": "Advanced desk phone"
+      },
+      {
+        "name": "Yealink CP925",
+        "asin": "B09KVJJ6S7",
+        "approx_price": "$220–$280",
+        "category": "Conference phone"
+      },
+      {
+        "name": "Yealink WH62 Wireless Headset",
+        "asin": "B0BFF1Z9DN",
+        "approx_price": "$130–$160",
+        "category": "Wireless headset"
+      },
+      {
+        "name": "Yealink YHS36 Wired Headset",
+        "asin": "B01LZFC6CC",
+        "approx_price": "$30–$45",
+        "category": "Wired headset"
+      }
+    ]
+  },
+  "seo_page_suggestions": {
+    "note": "Suggested page titles and meta descriptions for each kit — optimized for local + product searches",
+    "pages": [
+      {
+        "kit_id": "kit_solo",
+        "suggested_slug": "/voip-kits/solo-home-office",
+        "title": "Best VoIP phone for home office 2025 | NeedIT Consulting",
+        "meta_description": "The solo home office VoIP kit recommended by NeedIT Consulting — Yealink T33G, Ooma setup, and optional hands-free headset. Professional business line from $65 in hardware."
+      },
+      {
+        "kit_id": "kit_small_office",
+        "suggested_slug": "/voip-kits/small-office-3-5-users",
+        "title": "Small office VoIP starter kit (3–5 users) | NeedIT Consulting",
+        "meta_description": "Complete VoIP phone system for small offices — Yealink desk phones, conference phone, and expert setup by NeedIT Consulting in Fredericksburg VA. Serving SMBs nationwide."
+      },
+      {
+        "kit_id": "kit_remote_worker",
+        "suggested_slug": "/voip-kits/remote-worker",
+        "title": "Remote worker VoIP kit — Wi-Fi phone + wireless headset | NeedIT Consulting",
+        "meta_description": "The work-from-home VoIP kit that actually works. Yealink T34W Wi-Fi phone + WH62 wireless headset, configured remotely by NeedIT Consulting."
+      },
+      {
+        "kit_id": "kit_receptionist",
+        "suggested_slug": "/voip-kits/receptionist-front-desk",
+        "title": "Best VoIP setup for receptionists and front desk staff | NeedIT Consulting",
+        "meta_description": "High-line Yealink T54W + wireless headset for medical offices, law firms, and small business front desks. Configured and tested by NeedIT Consulting."
+      },
+      {
+        "kit_id": "kit_conference_room",
+        "suggested_slug": "/voip-kits/conference-room",
+        "title": "Conference room VoIP phone setup | Yealink CP925 | NeedIT Consulting",
+        "meta_description": "Upgrade your conference room with the Yealink CP925 — 7-mic array, 20-ft pickup, built-in Wi-Fi. Setup and SIP registration by NeedIT Consulting."
+      },
+      {
+        "kit_id": "kit_budget",
+        "suggested_slug": "/voip-kits/budget-starter",
+        "title": "Cheapest way to get a business phone number in 2025 | NeedIT Consulting",
+        "meta_description": "Get a professional business line for under $100 in hardware. One Yealink T33G + Ooma Office or Grasshopper. Fast remote setup by NeedIT Consulting."
+      }
+    ]
+  }
+}

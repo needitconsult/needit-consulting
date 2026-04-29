@@ -1,0 +1,41 @@
+name: Daily Brew — Generate (10 PM ET)
+
+on:
+  schedule:
+    # 10 PM Eastern Daylight Time = 02:00 UTC (next day)
+    # If on Eastern Standard Time (Nov–Mar), change to 03:00 UTC
+    - cron: "0 2 * * *"
+  workflow_dispatch: # manual trigger for testing
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Fetch headlines and write draft
+        run: node scripts/generate-daily-brew.mjs
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+
+      - name: Commit draft (not yet live)
+        run: |
+          git config user.name  "Intecha Bot"
+          git config user.email "intecha@needitconsulting.com"
+          git add app/data/daily-brew-drafts.json
+          if git diff --staged --quiet; then
+            echo "No new draft — nothing to commit."
+          else
+            git commit -m "Daily Brew draft: $(date '+%B %d, %Y')"
+            git push
+          fi

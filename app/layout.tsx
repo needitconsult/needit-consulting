@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import PageLoader from "@/components/ui/page-loader";
 
 export const metadata: Metadata = {
   title: "NeedIT Consulting | Smarter IT for Your Business",
@@ -14,7 +15,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="h-full antialiased">
-      <body className="min-h-full flex flex-col bg-[#0a0f0a]">{children}</body>
+      <body className="min-h-full flex flex-col bg-[#f0f2f5]">
+        <PageLoader />
+        {children}
+      </body>
     </html>
   );
 }

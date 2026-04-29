@@ -1,0 +1,330 @@
+{
+  "meta": {
+    "brand": "NeedIT Consulting LLC",
+    "description": "FAQ content for website — VoIP and general IT virtual assistant services",
+    "sections": 9,
+    "total_questions": 46
+  },
+  "categories": [
+    {
+      "id": "voip_general",
+      "label": "VoIP — general basics",
+      "badge_style": "general",
+      "icon": "chat",
+      "subtitle": "What SMBs ask before committing",
+      "questions": [
+        {
+          "id": "vg1",
+          "question": "What exactly is VoIP and how is it different from my current phone system?",
+          "answer": "VoIP (Voice over Internet Protocol) sends voice calls as data packets over your internet connection instead of traditional copper phone lines. Unlike a legacy PBX, there's no expensive on-site hardware to maintain — the system lives in the cloud. You keep your existing numbers, add seats in minutes, and access features like auto-attendant, voicemail-to-email, and mobile apps at no extra cost."
+        },
+        {
+          "id": "vg2",
+          "question": "Is VoIP reliable enough for my business?",
+          "answer": "Modern hosted VoIP platforms target 99.999% uptime. Most providers include call failover — if your internet goes down, calls automatically reroute to mobile numbers or backup lines. Many businesses find cloud VoIP more reliable than aging copper-wire systems that can't self-heal."
+        },
+        {
+          "id": "vg3",
+          "question": "Do I need to buy new phones?",
+          "answer": "Not necessarily. Most systems work through softphone apps on laptops and smartphones. If you want to keep existing analog handsets, an Analog Telephone Adapter (ATA) can bridge them. IP desk phones are optional — not a requirement."
+        },
+        {
+          "id": "vg4",
+          "question": "How much bandwidth does VoIP actually use?",
+          "answer": "A single HD VoIP call typically requires 80–100 Kbps of upload and download. For a 10-person office with everyone on calls simultaneously, you need roughly 1 Mbps dedicated to voice — far less than a video call. QoS configuration on your router ensures voice traffic gets priority over other traffic like file downloads."
+        }
+      ]
+    },
+    {
+      "id": "voip_setup",
+      "label": "VoIP — setup & migration",
+      "badge_style": "info",
+      "icon": "settings",
+      "subtitle": "Pre-deployment and porting questions",
+      "questions": [
+        {
+          "id": "vs1",
+          "question": "Can I keep my existing business phone numbers?",
+          "answer": "Yes. Number porting (Local Number Portability / LNP) lets you transfer your existing numbers to a new VoIP provider. You'll need to provide: the account's service address, the BTN (Billing Telephone Number), a Letter of Authorization (LOA), and your current provider name. Porting typically takes 5–10 business days. Don't cancel your old service until the port is confirmed complete."
+        },
+        {
+          "id": "vs2",
+          "question": "How long does it take to set up VoIP for my business?",
+          "answer": "Cloud-based hosted VoIP can be provisioned in 1–3 business days. Number porting adds 5–10 days. On-premise PBX installs take longer due to hardware staging. Most small businesses are fully live within two weeks of signing — significantly faster than traditional PBX deployments that could take months."
+        },
+        {
+          "id": "vs3",
+          "question": "What network changes do I need to make before deploying VoIP?",
+          "answer": "Key pre-deployment steps: (1) Enable QoS on your router and prioritize voice traffic. (2) Disable SIP ALG — this router feature is designed to help but almost always breaks modern VoIP. (3) Place IP phones on a dedicated VLAN to separate voice from data. (4) Ensure UDP ports 5060/5061 (SIP) and the RTP range (10,000–30,000) are open on your firewall. (5) Run a VoIP readiness test to confirm jitter is under 30ms and latency is under 150ms."
+        },
+        {
+          "id": "vs4",
+          "question": "Hosted VoIP vs. on-premise PBX — which is right for my business?",
+          "answer": "Hosted (cloud) VoIP: low upfront cost, provider maintains hardware, scales in minutes, ideal for SMBs and remote teams. On-premise PBX: higher upfront ($3K–$10K+ in hardware), full control, better for organizations with strict data residency or compliance needs. For most businesses under 100 seats, hosted is the right call — faster deployment, lower TCO, and no hardware refresh cycles."
+        },
+        {
+          "id": "vs5",
+          "question": "What is SIP trunking and do I need it?",
+          "answer": "SIP trunking connects your existing on-premise PBX to the public phone network over the internet — replacing legacy PRIs or POTS lines. If you already have an on-premise system you want to keep, SIP trunks let you add VoIP functionality without a full rip-and-replace. If you're starting fresh, a fully hosted solution is usually simpler."
+        }
+      ]
+    },
+    {
+      "id": "voip_troubleshooting",
+      "label": "VoIP — troubleshooting",
+      "badge_style": "warning",
+      "icon": "wrench",
+      "subtitle": "The most-searched call quality problems",
+      "questions": [
+        {
+          "id": "vt1",
+          "question": "Why are my calls choppy, robotic, or cutting in and out?",
+          "answer": "The three main culprits are jitter, packet loss, and insufficient bandwidth. Jitter (variation in packet arrival time) above 30ms causes choppy audio. Packet loss above 1–2% causes missing syllables. Fix: enable QoS on your router, put phones on a voice VLAN, switch from Wi-Fi to wired Ethernet, and disable SIP ALG. Run a VoIP speed test to confirm metrics before and after changes."
+        },
+        {
+          "id": "vt2",
+          "question": "Why do I hear an echo on my calls?",
+          "answer": "Echo is caused by one of three things: (1) Audio loop — a speaker's output is picked up by a nearby microphone. Fix: use a headset instead of speakerphone. (2) Network latency — high latency amplifies echo. Fix: check and reduce latency via QoS. (3) Misconfigured gain/volume. Fix: reduce mic gain and enable echo cancellation in your VoIP phone settings."
+        },
+        {
+          "id": "vt3",
+          "question": "My calls keep dropping — what's causing it?",
+          "answer": "Common causes: (1) NAT/SIP ALG issues — the router is corrupting SIP session headers. Disable SIP ALG and increase UDP timeout to 300 seconds. (2) Firewall blocking RTP media ports (10,000–30,000 UDP). (3) ISP-side instability — use a ping/trace test to identify where in the path drops occur. (4) Overloaded network — other traffic is starving voice packets. Enable QoS."
+        },
+        {
+          "id": "vt4",
+          "question": "Calls connect but there's no audio on one or both ends — why?",
+          "answer": "One-way or no-way audio almost always points to an RTP media issue. The SIP signaling succeeded (the call connected) but media packets are blocked. Check: (1) Firewall rules for RTP UDP ports. (2) SIP ALG — disable it. (3) NAT configuration — the phone may be sending its private IP in SIP headers. A Session Border Controller (SBC) resolves this in complex environments."
+        },
+        {
+          "id": "vt5",
+          "question": "Phones won't register or keep losing registration — how do I fix it?",
+          "answer": "Registration failures are usually firewall or NAT-related. Check: (1) UDP port 5060 is open both ways. (2) NAT timeouts — some firewalls close UDP sessions too quickly. Increase UDP session timeout to 300+ seconds. (3) SIP ALG is corrupting REGISTER packets — disable it. (4) Confirm credentials (SIP username, password, registrar address) are correct in the phone's provisioning."
+        },
+        {
+          "id": "vt6",
+          "question": "How do I know if my internet connection is good enough for VoIP?",
+          "answer": "Run a VoIP readiness test (tools like Nextiva Speed Test, PingPlotter, or Wireshark). Targets: latency under 150ms (ideally under 20ms), jitter under 30ms, packet loss under 1%. Your connection needs roughly 100 Kbps per concurrent call. A business-grade router with QoS is essential — consumer-grade ISP routers often lack proper prioritization."
+        }
+      ]
+    },
+    {
+      "id": "voip_cost",
+      "label": "VoIP — costs & pricing",
+      "badge_style": "success",
+      "icon": "dollar",
+      "subtitle": "Budget questions every SMB asks",
+      "questions": [
+        {
+          "id": "vc1",
+          "question": "How much does VoIP cost for a small business?",
+          "answer": "Hosted VoIP runs $15–$50 per user per month, with most SMBs paying $20–$35. Setup for cloud-based systems is nearly free ($0–$50/user). Most businesses save 50–70% compared to legacy phone systems, with a payback period of 6–12 months. Annual contracts save 15–25% vs. month-to-month. A 25-person company typically spends $6,000–$12,000 in year one (vs. $20,000+ for traditional systems)."
+        },
+        {
+          "id": "vc2",
+          "question": "What hidden fees should I watch for?",
+          "answer": "Common surprises: number porting fees ($5–$15 per number), E911 compliance fees ($1.50–$3 per user/month), international calling surcharges, overage charges on metered plans, and hardware costs if IP phones are required. These can add 20–25% to your base estimate. Always ask for a full cost breakdown including regulatory fees before signing."
+        },
+        {
+          "id": "vc3",
+          "question": "How do I choose between per-user licensing and usage-based pricing?",
+          "answer": "Per-user flat rate (most common) gives predictable billing and includes unlimited domestic calls — ideal for businesses where most staff make regular calls. Usage-based ($0.01–$0.03/min) works for very low-volume callers but becomes expensive at moderate use. Tiered plans let you start at basic calling and add analytics or CRM integrations as you grow."
+        }
+      ]
+    },
+    {
+      "id": "voip_security",
+      "label": "VoIP — security & compliance",
+      "badge_style": "danger",
+      "icon": "lock",
+      "subtitle": "Questions that trip up SMBs most",
+      "questions": [
+        {
+          "id": "vsc1",
+          "question": "Is VoIP secure? Can calls be intercepted?",
+          "answer": "Unencrypted VoIP (plain SIP/RTP) can be intercepted on public or poorly secured networks. Secure deployments use TLS for SIP signaling (port 5061) and SRTP for media encryption. Reputable hosted providers include encryption by default. On your end: use a business-grade firewall, segment voice traffic on a VLAN, and avoid consumer-grade routers without SIP security features."
+        },
+        {
+          "id": "vsc2",
+          "question": "What is E911 and do I need it for VoIP?",
+          "answer": "E911 (Enhanced 911) routes emergency calls to the correct PSAP (dispatch center) with your location. VoIP systems require you to register a physical service address for each line — unlike a landline, your number doesn't automatically map to a location. Multi-line systems installed after February 2020 must also comply with Kari's Law (direct 911 dialing without a prefix) and RAY BAUM's Act (accurate dispatchable location). Dial 933 to verify your E911 registration."
+        },
+        {
+          "id": "vsc3",
+          "question": "What happens to my phones if the internet goes down?",
+          "answer": "Most hosted platforms include failover: calls automatically forward to mobile numbers or a backup destination when your primary internet is unavailable. To maximize resilience: configure failover in your provider portal, consider a secondary internet connection (LTE/5G failover), and test it before you need it. Some on-premise systems with local SIP servers can continue internal calls even during an outage."
+        },
+        {
+          "id": "vsc4",
+          "question": "How do I protect my VoIP system from toll fraud?",
+          "answer": "Toll fraud (attackers placing international calls on your account) is a real threat for exposed SIP systems. Protections: (1) Require strong SIP credentials and change defaults immediately. (2) Whitelist IP addresses that can register to your PBX. (3) Block international calling if you don't need it. (4) Set per-user call limits and get alerts for unusual usage. (5) Keep PBX firmware updated. Never expose a PBX admin portal directly to the internet."
+        },
+        {
+          "id": "vsc5",
+          "question": "Can VoIP work for remote and hybrid teams?",
+          "answer": "Absolutely — it's one of VoIP's biggest advantages. Employees use softphone apps on laptops or mobile devices from any location. Calls present with the business number regardless of where the employee is. For security, remote users should connect over the corporate VPN if using an on-premise system, or use TLS/SRTP-enabled hosted solutions that don't require VPN. 91% of businesses report improved collaboration after VoIP adoption."
+        }
+      ]
+    },
+    {
+      "id": "it_vendor",
+      "label": "Vendor management",
+      "badge_style": "danger",
+      "icon": "clipboard",
+      "subtitle": "Keeping software, subscriptions & contracts organized",
+      "questions": [
+        {
+          "id": "itv1",
+          "question": "How do I keep track of all the software subscriptions my business is paying for?",
+          "answer": "Most small businesses are unknowingly paying for duplicate or abandoned SaaS subscriptions — often 20–30% of their software spend is wasted. A vendor management audit maps every subscription to: the service name, monthly/annual cost, renewal date, who owns it, and whether it's actively used. NeedIT can build and maintain this register so you're never caught off-guard by an auto-renewal."
+        },
+        {
+          "id": "itv2",
+          "question": "What should I do when an employee leaves and they had accounts with outside vendors?",
+          "answer": "Offboarding is one of the most commonly skipped IT steps for SMBs — and one of the riskiest. A proper offboarding checklist covers: revoking vendor portal access, transferring account ownership, updating billing contacts, changing shared passwords, and auditing any API keys or OAuth tokens tied to that employee's accounts. Without this, former employees can retain access indefinitely."
+        },
+        {
+          "id": "itv3",
+          "question": "How do I know which vendor contracts are coming up for renewal?",
+          "answer": "Without a centralized register, renewals sneak up — especially annual contracts that auto-renew. NeedIT sets up a simple shared tracker with renewal dates, costs, and 60/30-day reminder flags. For critical services like internet, phone, or security, we flag these well in advance so you have time to negotiate or switch."
+        }
+      ]
+    },
+    {
+      "id": "it_files",
+      "label": "File management",
+      "badge_style": "info",
+      "icon": "folder",
+      "subtitle": "Structure, permissions, versioning & security",
+      "questions": [
+        {
+          "id": "itf1",
+          "question": "Our shared drive is a mess — how do we create a folder structure that actually sticks?",
+          "answer": "A consistent file structure needs to match how your team thinks, not how IT thinks. NeedIT designs a standardized folder hierarchy based on your workflows (by client, department, project, or year), documents the naming conventions in plain language, migrates existing files, and trains your team. The key is keeping it flat (3 levels max) so nobody has to dig to find anything."
+        },
+        {
+          "id": "itf2",
+          "question": "We have tons of duplicate files everywhere. Is there an easy way to clean them up?",
+          "answer": "Duplicate files accumulate fast — especially when multiple people download, rename, and re-upload the same document. NeedIT uses deduplication tools to scan your drive, identify exact and near-duplicate files, and present a prioritized cleanup report. We never delete automatically — everything goes through a review step so nothing important is lost."
+        },
+        {
+          "id": "itf3",
+          "question": "How do I know who has access to what on our shared drive?",
+          "answer": "Permission drift is one of the most common and most overlooked security risks for small businesses. Employees get granted access to a folder 'just this once,' and it never gets removed. A permission audit maps every shared folder against who has access (view vs. edit), flags permissions that don't match someone's current role, and documents the intended access policy going forward. We recommend auditing at minimum once a year — or any time someone changes roles or leaves."
+        },
+        {
+          "id": "itf4",
+          "question": "We keep overwriting each other's work — how do we manage file versions?",
+          "answer": "The 'Final_v3_ACTUAL_final2.docx' problem is universal. The fix depends on your platform: Google Workspace and Microsoft 365 both have built-in version history — we enable and configure it properly. For document-heavy teams, we implement a check-out/check-in workflow or move to a tool like SharePoint or Confluence where version control is native. For code or technical files, Git-based workflows are the right answer."
+        },
+        {
+          "id": "itf5",
+          "question": "Are the files we share with clients and vendors secure?",
+          "answer": "Most SMBs share files in ways that create real security gaps — 'anyone with the link can edit' links, emailed attachments of sensitive documents, or shared folders with no expiration. A file sharing security review audits your current sharing practices, identifies over-exposed files, converts public links to access-controlled shares, and sets a policy for how different file types should be shared going forward. HIPAA or financial data requires stricter handling — we assess compliance exposure as part of this review."
+        }
+      ]
+    },
+    {
+      "id": "it_cloud",
+      "label": "Cloud storage optimization",
+      "badge_style": "success",
+      "icon": "cloud",
+      "subtitle": "Getting more from Google Drive, OneDrive, Dropbox & more",
+      "questions": [
+        {
+          "id": "itc1",
+          "question": "We're running out of cloud storage — what are our options?",
+          "answer": "Before buying more storage, it's worth auditing what's actually consuming space. Large video files, old email attachments, redundant backups, and duplicate files are common culprits. NeedIT runs a storage analysis to identify the biggest space hogs, cleans up what's safe to remove, and then recommends the most cost-effective storage upgrade path — whether that's a higher Microsoft 365 or Google Workspace plan, a shared team drive structure, or tiered archiving for older files."
+        },
+        {
+          "id": "itc2",
+          "question": "What's the difference between OneDrive, SharePoint, and Teams files — and which should we use for what?",
+          "answer": "OneDrive is personal cloud storage — for files only you need. SharePoint is shared team storage — for files your department or whole company needs. Teams files are actually stored in SharePoint in the background. The best practice: personal working files go in OneDrive, finished or shared documents go in SharePoint team sites, and Teams channels link to those SharePoint libraries. NeedIT sets this up so your team stops saving things in the wrong place."
+        },
+        {
+          "id": "itc3",
+          "question": "Our employees are using personal Google Drive or Dropbox accounts for work files. Is that a problem?",
+          "answer": "Yes — this is called shadow IT, and it creates real risks. Business data stored in personal accounts isn't under your control: you can't revoke access when someone leaves, you can't audit who else they've shared it with, and it may violate your contracts or compliance requirements. NeedIT helps you migrate those files to a business-owned cloud environment and set a clear policy so employees know where work files live."
+        },
+        {
+          "id": "itc4",
+          "question": "How do I make sure our important files are actually being backed up?",
+          "answer": "Cloud storage (OneDrive, Google Drive, Dropbox) is not the same as a backup — it's sync. If a file gets deleted or ransomware encrypts it, that change syncs everywhere. A proper backup strategy follows the 3-2-1 rule: 3 copies, 2 different media types, 1 offsite. NeedIT audits your current backup state, identifies gaps, and implements automated backup solutions appropriate for your business size."
+        }
+      ]
+    },
+    {
+      "id": "it_software",
+      "label": "Software, desktop & performance",
+      "badge_style": "warning",
+      "icon": "monitor",
+      "subtitle": "Speed, clutter, and display optimization",
+      "questions": [
+        {
+          "id": "its1",
+          "question": "My computer has gotten really slow — what's the best way to speed it up?",
+          "answer": "Slowdowns usually come from one of three places: too many startup programs, background processes consuming RAM/CPU, or a storage drive that's nearly full. NeedIT performs a software audit — removing unused applications, disabling unnecessary startup items, clearing temp files and browser cache, and checking for malware that silently consumes resources. In many cases, a properly tuned 3-year-old machine outperforms a new one that's been left to accumulate bloat."
+        },
+        {
+          "id": "its2",
+          "question": "Why does it take forever for my computer to start up?",
+          "answer": "Slow startup is almost always caused by too many programs set to launch automatically at boot. Over time, every app you install tends to add itself to the startup list — Teams, Zoom, Slack, OneDrive, Adobe updaters, Spotify, and more all pile up. NeedIT audits your startup programs, disables everything that doesn't need to run at boot, and documents what was changed so you understand what's running on your machine."
+        },
+        {
+          "id": "its3",
+          "question": "My hard drive says it's almost full but I can't figure out what's taking up all the space.",
+          "answer": "Hidden storage consumers include Windows Update cache, browser downloads folders, old installer files, log files, temp directories, and large email attachments saved to disk. NeedIT uses disk analysis tools to map exactly what's consuming space by folder and file type, produces a prioritized cleanup report, and safely removes what's no longer needed — including bloated Windows.old folders that can quietly consume 20–30 GB after a system update."
+        },
+        {
+          "id": "its4",
+          "question": "Is having a cluttered desktop actually bad for my computer?",
+          "answer": "A desktop covered in files and folders does more than just look messy — Windows renders every desktop icon every time you open or minimize a window, which can noticeably slow performance on older machines. More practically, files saved to the desktop aren't usually included in backup routines. NeedIT establishes a desktop standards policy: what belongs on the desktop (shortcuts only, not actual files), where working files should live instead, and how to keep it that way with simple habits."
+        },
+        {
+          "id": "its5",
+          "question": "Would a second monitor actually make my team more productive — is it worth the cost?",
+          "answer": "Research consistently shows a second monitor improves productivity by 20–40% for knowledge workers — particularly for roles that reference one document while working in another (accounting, customer service, writing, project management). The cost is low: a quality 24\" FHD monitor runs $100–$180. NeedIT assesses your team's workflows, recommends the right display setup, and handles cabling, driver setup, and display arrangement configuration."
+        },
+        {
+          "id": "its6",
+          "question": "We have employees using different versions of the same software — does that matter?",
+          "answer": "Yes, significantly. Version inconsistency causes compatibility problems when sharing files, creates security gaps where older versions have unpatched vulnerabilities, and makes support harder when every machine is different. NeedIT performs a software inventory across all devices, standardizes versions, and can implement automatic update policies so the fleet stays consistent without manual effort."
+        }
+      ]
+    },
+    {
+      "id": "it_other",
+      "label": "Other IT support",
+      "badge_style": "neutral",
+      "icon": "tools",
+      "subtitle": "General questions SMBs ask their IT person",
+      "questions": [
+        {
+          "id": "ito1",
+          "question": "Do I need a full-time IT person or can a consultant handle everything?",
+          "answer": "For most businesses under 50 employees, a fractional IT consultant is more cost-effective than a full-time hire. A full-time IT generalist costs $55,000–$80,000/year in salary alone — and most SMBs don't have enough consistent IT work to keep them busy. NeedIT provides on-demand and retainer support, covering day-to-day issues, projects, and vendor management without the overhead of a full-time employee."
+        },
+        {
+          "id": "ito2",
+          "question": "What's the difference between IT support and managed IT services?",
+          "answer": "Break-fix IT support (traditional) means you call when something breaks and pay per incident. Managed IT services means a provider proactively monitors and maintains your systems for a flat monthly fee — catching issues before they become outages. NeedIT offers both models depending on your needs: reactive project-based work for businesses that just need occasional help, and ongoing support agreements for clients who want consistent coverage and budgeting."
+        },
+        {
+          "id": "ito3",
+          "question": "How do I set up a new employee with everything they need on day one?",
+          "answer": "A proper onboarding runbook covers: device provisioning, email and Microsoft 365/Google Workspace account creation, software installation, file access permissions, VPN access (if applicable), and hardware orientation. NeedIT builds and executes onboarding checklists so every hire gets consistent, complete setup — and nothing falls through the cracks."
+        },
+        {
+          "id": "ito4",
+          "question": "We got a suspicious email — how do we know if it's a phishing attempt?",
+          "answer": "Phishing is the #1 entry point for business cyberattacks. Red flags: urgent language ('act now or your account will be suspended'), mismatched sender domains (display name says Microsoft but the actual email is from a random domain), unexpected attachments or links, and requests for credentials or payment. When in doubt — don't click. Forward suspicious emails to your IT contact before acting. NeedIT provides phishing awareness training and can set up email filtering rules to reduce what reaches your team's inbox."
+        },
+        {
+          "id": "ito5",
+          "question": "What IT tasks should every small business be doing regularly but probably isn't?",
+          "answer": "The most commonly skipped IT maintenance items for SMBs: (1) Testing backups — most businesses back up but never verify the restore works. (2) Access permission audits — former employees and over-permissioned accounts pile up. (3) Software update enforcement — unpatched software is the most common vulnerability exploited in attacks. (4) Password policy review — default or reused passwords across services. (5) Subscription/vendor audit — money is routinely wasted on unused services. NeedIT offers a quarterly IT health check that covers all five."
+        }
+      ]
+    }
+  ]
+}
