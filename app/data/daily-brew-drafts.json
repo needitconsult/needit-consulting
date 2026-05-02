@@ -1,5 +1,70 @@
 [
   {
+    "slug": "daily-brew-your-customer-support-just-became-everybodys-battlefield-her-2026-05-02",
+    "title": "Your Customer Support Just Became Everybody's Battlefield — Here's Why That's Actually Good News",
+    "excerpt": "While you were sleeping, the line between \"phone support\" and \"every other way customers reach you\" just officially disappeared. And that changes everything about how you staff, think about, and win with your customers.",
+    "category": "Daily Brew",
+    "date": "May 2, 2026",
+    "readTime": "3 min read",
+    "content": [
+      {
+        "type": "p",
+        "text": "Picture this: It's Tuesday morning. A customer tries to reach you via email. They don't hear back in two hours, so they switch to SMS. Still nothing. They try your website chat. By the time someone picks up the phone, they've already left you a frustrated review on social media. Sound familiar? That's not a customer service problem. That's an architecture problem. And somewhere in the industry right now, someone just realized their entire support strategy is built on yesterday's assumptions."
+      },
+      {
+        "type": "p",
+        "text": "The conversation around customer support has shifted. It's no longer about whether you should support email *or* phone *or* chat. It's about supporting customers everywhere they naturally show up — seamlessly, with the same context, the same speed, the same level of care. That's omnichannel support, and it's stopped being a \"nice to have\" and started being table stakes."
+      },
+      {
+        "type": "h2",
+        "text": "Why This Matters to You Right Now"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Your customers are already omnichannel — they expect to start a conversation on one platform and continue it on another without repeating themselves",
+          "Fragmented support channels create fragmented data — you lose visibility into the full customer journey, which means you lose the ability to actually solve problems",
+          "Your competitors are already moving here — and if they're doing it right, they're capturing more customers and resolving issues faster",
+          "Automation becomes possible only when everything's connected — you can't meaningfully reduce response times or support costs until your systems talk to each other"
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "Here's the thing nobody wants to admit: most businesses still handle email, chat, and phone calls as completely separate workflows. Your customer has continuity. Your support team does not. That gap is costing you money and goodwill in equal measure."
+      },
+      {
+        "type": "h2",
+        "text": "The Real Difference (And Why It Matters)"
+      },
+      {
+        "type": "p",
+        "text": "Multichannel support means you're *available* on multiple platforms. Omnichannel support means you're *integrated* across them. One is a checklist. The other is a system. The difference shows up the moment a customer needs to escalate, or when your support team needs to handle 50 conversations at once instead of 5."
+      },
+      {
+        "type": "tip",
+        "label": "Intecha's Take",
+        "text": "Start here: Pick one channel you're *not* currently supporting well — probably email or SMS. Pick one channel you *are* supporting well — probably phone. Connect them. Not perfectly. Just actually. Make it so when someone calls after emailing, your agent sees that email thread. That single move will feel like magic to your customers and will teach your team what omnichannel actually feels like. Then build from there."
+      },
+      {
+        "type": "h2",
+        "text": "What to Actually Do Next Week"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Audit where your customers are actually reaching you — don't guess, check your logs for the past three months",
+          "Find the largest gap — if 30% of your contacts come via chat but you're only staffing for phone, that's your priority",
+          "Pick your integration strategy — this could be a unified platform or careful integration between existing tools (both work, different tradeoffs)",
+          "Start small and measure — integrate two channels, measure your resolution time and customer satisfaction for 30 days before expanding"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "The future of customer support isn't about having more channels. It's about your team having a complete picture so they can actually help. Everything else — automation, speed, efficiency — flows from that."
+      }
+    ]
+  },
+  {
     "slug": "daily-brew-stop-letting-nextiva-write-your-business-phone-strategy-2026-04-29",
     "title": "Stop Letting Nextiva Write Your Business Phone Strategy",
     "excerpt": "One vendor's blog dominating your search results doesn't mean their solutions are right for you—here's what small businesses actually need to know about VoIP in 2026.",
