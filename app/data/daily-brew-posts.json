@@ -1,5 +1,69 @@
 [
   {
+    "slug": "daily-brew-the-omnichannel-trap-why-your-beautiful-support-system-might-2026-05-04",
+    "title": "The Omnichannel Trap: Why Your Beautiful Support System Might Be Exhausting Your Team",
+    "excerpt": "Everyone's talking about meeting customers everywhere at once—but somewhere right now, a business owner is drowning in tickets across five platforms they can't actually manage together.",
+    "category": "Daily Brew",
+    "date": "May 4, 2026",
+    "readTime": "3 min read",
+    "content": [
+      {
+        "type": "p",
+        "text": "It's 9 a.m. on a Tuesday. Your customer sends an email. Then they text. Then they slide into your social DMs. Then they call. Same person. Same problem. Three different systems. Zero way for your team to see the full picture without playing digital archaeology. Welcome to the omnichannel support landscape—where the promise of 'meet customers everywhere' has quietly become 'drown your team in disconnected chaos.'"
+      },
+      {
+        "type": "p",
+        "text": "The industry is absolutely buzzing right now about omnichannel support—and for good reason. In theory, it's beautiful: customers reach out on their preferred channel, and your team has a unified view of the entire conversation history. One ticket. One truth. One team that actually knows what's happening."
+      },
+      {
+        "type": "p",
+        "text": "But here's what nobody warns you about: the gap between theory and Tuesday morning at 9 a.m. is *enormous*."
+      },
+      {
+        "type": "h2",
+        "text": "The Omnichannel Dream vs. The Reality Tax"
+      },
+      {
+        "type": "p",
+        "text": "When people talk about omnichannel support, they're usually talking about three powerful things: unified customer context (knowing who called yesterday when they email today), seamless handoffs (transferring a conversation from chat to phone without making the customer repeat themselves), and consistent service quality across every channel."
+      },
+      {
+        "type": "p",
+        "text": "The problem? Most businesses attempt omnichannel by bolting together multiple single-channel systems and hoping the data talks to each other. Spoiler: it doesn't, not really. You end up with email over here, chat over there, phone calls in another galaxy, social media in yet another dimension. Your team spends more time pulling information together than actually *helping* anyone."
+      },
+      {
+        "type": "callout",
+        "text": "The real cost of poor omnichannel isn't just frustrated customers—it's your team spending 30% of their time stitching together context that should have been automatic."
+      },
+      {
+        "type": "h2",
+        "text": "What Actually Matters (And What Doesn't)"
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Do** start with the channels your customers actually use. If 80% of your inquiries come through email and chat, that's where your integration effort goes first. Don't add voice, SMS, and social just because they exist.",
+          "**Don't** assume all-in-one platforms are automatically better than integrated best-of-breed tools. Sometimes a really solid unified system *is* the right call. Sometimes it's not. Know your team's actual workflow before you buy.",
+          "**Do** measure the right thing: not 'how many channels are we on,' but 'can my team resolve issues without leaving their workspace to hunt for information.' That's the actual metric that matters.",
+          "**Don't** implement omnichannel just because competitors are doing it. You're adding complexity. Make sure that complexity solves a real problem for your customers *and* your team."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "The Setup That Actually Works"
+      },
+      {
+        "type": "p",
+        "text": "If you're going to do omnichannel, here's what I'd actually do: Start with a single unified inbox—somewhere your team logs in and sees every incoming message from every channel, in one place, with full context. Then—and this is important—*gradually* add channels as your team gets comfortable. Not all at once. Not because you think you should. Because you actually need to."
+      },
+      {
+        "type": "tip",
+        "label": "Intecha's Take",
+        "text": "Omnichannel support is like adding team members to a project. One person doing one job really well beats five people doing five jobs badly and stepping on each other's toes. Start small, integrate deeply, then expand. And for the love of all that is holy, actually *test* the handoff experience before you launch. Have someone try to move a conversation from chat to phone without repeating themselves. If they can't? You're not ready yet. Fix it first."
+      }
+    ]
+  },
+  {
     "slug": "daily-brew-your-customer-support-is-about-to-get-realand-you-need-to-kn-2026-05-03",
     "title": "Your Customer Support Is About to Get Real—And You Need to Know the Difference",
     "excerpt": "Omnichannel isn't just a buzzword anymore. It's the difference between sounding professional and sounding like you're running support from a napkin.",
