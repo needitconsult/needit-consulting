@@ -1,5 +1,72 @@
 [
   {
+    "slug": "daily-brew-your-phone-bill-just-got-sneakierand-its-about-to-get-worse-2026-05-07",
+    "title": "Your Phone Bill Just Got Sneakier—And It's About to Get Worse",
+    "excerpt": "That $49/month VoIP quote? The real invoice arrives looking like a tax document from a alternate dimension.",
+    "category": "Daily Brew",
+    "date": "May 7, 2026",
+    "readTime": "3 min read",
+    "content": [
+      {
+        "type": "p",
+        "text": "Picture this: It's Tuesday morning. You're scrolling through your business expenses, comparing that shiny new VoIP quote to what you're paying now. The number looks great—almost too good to be true. Then the first bill lands in your inbox. Line items cascade down the page like a waterfall designed by someone who hates clarity. Regulatory fees. Recovery charges. Surcharges for the surcharges. Taxes that seem to tax the taxes. And suddenly that \"$49/month\" solution looks more like $89. Your stomach does a small flip. This is the moment a lot of business owners realize: the sticker price and the actual price are having very different conversations."
+      },
+      {
+        "type": "h2",
+        "text": "Here's What's Actually Happening"
+      },
+      {
+        "type": "p",
+        "text": "VoIP pricing has always been a little like ordering at a restaurant where the menu prices don't include tax, tip, delivery, or the waiter's existential concerns. But 2026 is turning up the heat. State and federal governments are getting more aggressive about collecting fees for emergency services (911 access), regulatory compliance, and universal service obligations. These aren't made up—they're real costs that have to go somewhere. The problem is, the somewhere is usually buried in line items so obscure that even accountants need a flowchart to decode them."
+      },
+      {
+        "type": "list",
+        "items": [
+          "911 access fees (required, not optional—these fund emergency services)",
+          "State and local telecom taxes (varies wildly by location, sometimes 10%+ of your bill)",
+          "Regulatory recovery charges (carriers passing along compliance costs)",
+          "Equipment fees, port fees, and monthly service taxes",
+          "Destiny fees (okay, I made that one up, but at this point who'd be surprised)"
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "The real kicker: These fees aren't standardized. Two businesses in the same city on the same platform can see completely different bottom-line costs depending on how their account was set up, which services were bundled, and what regulatory requirements apply to their specific setup."
+      },
+      {
+        "type": "h2",
+        "text": "Why This Matters Right Now"
+      },
+      {
+        "type": "p",
+        "text": "You're probably consolidating tools, cutting costs, and asking every vendor to justify their existence. A VoIP solution that looked like a 40% savings on your old phone system suddenly looks a lot thinner when you're looking at the actual invoice. And if you're running multiple locations? Each one might have different fees stacked on top. Plus, as regulatory pressure increases—especially around data privacy and security—expect these \"recovery charges\" to climb."
+      },
+      {
+        "type": "tip",
+        "label": "Intecha's Take",
+        "text": "Don't trust any quote that doesn't show you the itemized breakdown. Call the vendor directly and ask for a sample invoice from a customer in your state, with your exact configuration. Ask specifically about 911 fees, state taxes, and any \"recovery\" or \"regulatory\" charges. Then add 15% to whatever number they give you—carriers love finding new fees to introduce quietly after you've signed. And get it in writing. A handshake agreement that \"taxes will be minimal\" is the tech equivalent of \"the check is in the mail.\""
+      },
+      {
+        "type": "h2",
+        "text": "What You Should Actually Do"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Request itemized quotes from at least two providers, showing all fees explicitly",
+          "Ask your current telecom vendor for a full breakdown of your existing bill—you might be shocked at what's already there",
+          "Factor in a 20% buffer when budgeting; regulatory fees are only going up",
+          "If you're multi-location, get a quote for your exact configuration to catch location-specific fees",
+          "Read the fine print about fee changes—some contracts lock in transparency, others don't"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "VoIP is genuinely one of the smartest moves a growing business can make. The technology is solid, the flexibility is real, and you really will save money. But walk in with your eyes open. Get the actual numbers. Ask the uncomfortable questions. And remember: the vendor's job is to make the deal happen. Your job is to make sure that deal makes sense when the invoice arrives. That's not cynicism—that's just good business."
+      }
+    ]
+  },
+  {
     "slug": "daily-brew-stop-letting-nextiva-write-your-business-phone-strategy-2026-04-29",
     "title": "Stop Letting Nextiva Write Your Business Phone Strategy",
     "excerpt": "One vendor's blog dominating your search results doesn't mean their solutions are right for you—here's what small businesses actually need to know about VoIP in 2026.",
