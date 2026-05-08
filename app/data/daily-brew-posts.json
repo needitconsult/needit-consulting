@@ -1,5 +1,63 @@
 [
   {
+    "slug": "daily-brew-your-phone-bill-just-got-sneakier-and-nobody-warned-you-2026-05-08",
+    "title": "Your Phone Bill Just Got Sneakier (And Nobody Warned You)",
+    "excerpt": "Those \"hidden fees\" on your VoIP invoice? They're about to get a lot more complicated in 2026, and most small business owners have no idea what's coming.",
+    "category": "Daily Brew",
+    "date": "May 8, 2026",
+    "readTime": "3 min read",
+    "content": [
+      {
+        "type": "p",
+        "text": "Picture this: it's March 2026, your business is humming along, and you're reviewing your monthly telecom bill. The base subscription looks reasonable. Then you scroll down. And down. There's a regulatory recovery fee. A 911 surcharge. A bundled service tax. Something called an \"administrative charge.\" By the time you hit the bottom, you're wondering if you somehow also got charged for the electrons traveling through the wire. You didn't. But welcome to the beautiful, Byzantine world of VoIP taxation in 2026."
+      },
+      {
+        "type": "p",
+        "text": "Here's what's actually happening: VoIP taxation is fragmenting. Different states, counties, and even cities are implementing different rules about what's taxable, what's deductible, and what gets hit with emergency services fees. Your provider isn't trying to sneak things past you—they're just passing through a regulatory landscape that's becoming increasingly messy. The problem? Most small business owners look at the headline price and sign up, then get blindsided by the fine print three months later."
+      },
+      {
+        "type": "h2",
+        "text": "Why This Matters (And It Really Does)"
+      },
+      {
+        "type": "p",
+        "text": "VoIP taxes aren't a rounding error. Depending on your location and call volume, these fees can add 15–25% to your actual monthly cost. For a business paying $500/month for a phone system, that's potentially an extra $75–125 you didn't budget for. Multiply that by 12 months, and you're looking at nearly $2,000 in surprise charges. That money has to come from somewhere—usually the contingency fund that doesn't exist, or the marketing budget that does."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Regulatory recovery fees (covering state/federal compliance costs)",
+          "E911 surcharges (for emergency call routing)",
+          "State and local taxes on telecom services",
+          "Administrative and processing fees",
+          "Service activation and setup charges",
+          "Number porting and management fees"
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "One business owner we know discovered they were paying 28% more than their base rate after fees and taxes. They found out in month four. They're still not happy about it."
+      },
+      {
+        "type": "h2",
+        "text": "What You Actually Need to Do (Starting Now)"
+      },
+      {
+        "type": "tip",
+        "label": "Intecha's Take",
+        "text": "Don't just ask your provider \"what's the monthly cost?\" Ask for the total landed cost—the number you'll actually see on your credit card statement. Request a detailed fee breakdown by category: taxes, regulatory fees, service charges, everything. Make them give it to you in writing. Then add 10% as a buffer (because there's always something they missed). That's your real budget number. And don't accept \"it depends on where you're calling\" as an answer—you need specificity, not excuses."
+      },
+      {
+        "type": "p",
+        "text": "Before you sign a contract with any provider, get a sample invoice. Not an estimate—an actual recent invoice from a customer in your state or city (or as close as you can get). Look at the fee section. Ask questions about every line item. And if your provider can't or won't give you this level of transparency? That's a red flag. You deserve to know what you're paying for."
+      },
+      {
+        "type": "p",
+        "text": "The good news: once you understand the fee structure, it stays relatively stable. It's the not-knowing that kills your budget. So ask the questions now, get the answers in writing, and build your actual costs into your financial plan. Your CFO (or your accountant, or just the voice in your head that worries about money) will thank you."
+      }
+    ]
+  },
+  {
     "slug": "daily-brew-your-phone-bill-just-got-sneakierand-its-about-to-get-worse-2026-05-07",
     "title": "Your Phone Bill Just Got Sneakier—And It's About to Get Worse",
     "excerpt": "That $49/month VoIP quote? The real invoice arrives looking like a tax document from a alternate dimension.",
