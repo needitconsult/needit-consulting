@@ -2,6 +2,10 @@
 
 import { useEffect, useRef } from "react";
 import Link from "next/link";
+import dailyBrewPosts from "@/app/data/daily-brew-posts.json";
+
+type BrewPost = { slug: string; title: string; excerpt: string; date: string };
+const latestBrew = (dailyBrewPosts as BrewPost[])[0] ?? null;
 
 export default function Hero() {
   const canvasRef = useRef<HTMLCanvasElement>(null);
@@ -237,6 +241,58 @@ export default function Hero() {
         ref={canvasRef}
         style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%" }}
       />
+
+      {/* Daily Brew banner */}
+      {latestBrew && (
+        <Link
+          href={`/blog/${latestBrew.slug}`}
+          style={{
+            position: "absolute",
+            top: "72px",
+            left: "50%",
+            transform: "translateX(-50%)",
+            zIndex: 30,
+            display: "flex",
+            alignItems: "center",
+            gap: "10px",
+            background: "rgba(0,0,0,0.55)",
+            border: "1px solid rgba(74,222,128,0.35)",
+            borderRadius: "40px",
+            padding: "6px 16px 6px 8px",
+            textDecoration: "none",
+            backdropFilter: "blur(8px)",
+            whiteSpace: "nowrap",
+            maxWidth: "calc(100vw - 48px)",
+            overflow: "hidden",
+          }}
+        >
+          <span style={{
+            flexShrink: 0,
+            background: "#16a34a",
+            color: "#fff",
+            fontSize: "9px",
+            fontWeight: 700,
+            letterSpacing: "0.12em",
+            textTransform: "uppercase",
+            borderRadius: "40px",
+            padding: "3px 9px",
+            fontFamily: "'Courier New', monospace",
+          }}>
+            ☕ Daily Brew
+          </span>
+          <span style={{
+            fontSize: "12px",
+            color: "rgba(255,255,255,0.85)",
+            overflow: "hidden",
+            textOverflow: "ellipsis",
+            whiteSpace: "nowrap",
+            maxWidth: "340px",
+          }}>
+            {latestBrew.title}
+          </span>
+          <span style={{ flexShrink: 0, fontSize: "11px", color: "#4ade80", marginLeft: "2px" }}>→</span>
+        </Link>
+      )}
 
       {/* Centred content */}
       <div style={{ position: "relative", zIndex: 20, textAlign: "center", padding: "2rem 1.5rem", maxWidth: "480px" }}>
