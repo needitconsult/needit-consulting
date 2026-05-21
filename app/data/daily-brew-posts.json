@@ -1,5 +1,77 @@
 [
   {
+    "slug": "daily-brew-the-ai-phone-agent-gold-rush-is-here-and-your-pricing-model-2026-05-21",
+    "title": "The AI Phone Agent Gold Rush Is Here — And Your Pricing Model Matters More Than You Think",
+    "excerpt": "Somewhere right now, a small business owner is comparing three different AI agent pricing plans and realizing they have no idea which one won't bankrupt them by August.",
+    "category": "Daily Brew",
+    "date": "May 21, 2026",
+    "readTime": "3 min read",
+    "content": [
+      {
+        "type": "p",
+        "text": "It's May 2026, and the AI phone agent market has officially arrived. Not in some sci-fi, distant-future way — *right now*, on your desk, in your inbox, with pricing pages that look like a game theory puzzle. Per-minute billing. Per-call flat rates. Monthly subscriptions with mysterious \"overage\" clauses. Usage tiers that change depending on how many calls you make, what those calls are *about*, and apparently the phase of the moon."
+      },
+      {
+        "type": "p",
+        "text": "For small business owners, this moment is either an incredible opportunity or a very expensive mistake. And the difference between those two outcomes? Understanding exactly what you're paying for — and why the pricing model matters more than the feature list."
+      },
+      {
+        "type": "h2",
+        "text": "Why This Matters Right Now"
+      },
+      {
+        "type": "p",
+        "text": "AI phone agents do real work. They answer calls. They qualify leads. They book appointments. They handle customer service inquiries at 2 a.m. on a Sunday when your team is sleeping. For the first time in a long time, you can actually *outsource* this without hiring a human, and the cost structure is... well, it's all over the place."
+      },
+      {
+        "type": "p",
+        "text": "Here's the thing nobody tells you: the pricing model you choose can cost you $500 a month or $5,000 a month for essentially the same work. And the difference usually comes down to one decision made in the first week."
+      },
+      {
+        "type": "h2",
+        "text": "The Three Pricing Models You're Actually Going to See"
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Per-minute billing**: You pay for every second the AI is on the phone. Sounds fair until you realize a 10-minute lead qualification call costs you $2–5 depending on complexity. Scale to 100 calls a day and you're suddenly at $4,000–10,000 a month. This model rewards short, efficient calls and punishes longer conversations.",
+          "**Per-call flat rate**: Fixed price per inbound or outbound call, usually $0.50–$2.00 per call depending on complexity. Predictable. Easy math. But if your calls average 15 minutes and someone else's average 3 minutes, you're subsidizing their efficiency.",
+          "**Monthly subscription with minutes included**: Flat monthly fee ($300–$2,000+) with a bucket of included minutes, then per-minute overage charges. Feels safe until November when your busy season hits and you blow through your minutes by week two."
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "The real cost isn't in the rate — it's in your call patterns. A business that gets 50 short customer service calls per day will pay *wildly* different amounts depending on which pricing model they choose. We're talking 300% difference between the best and worst option for the same use case."
+      },
+      {
+        "type": "h2",
+        "text": "How to Actually Choose"
+      },
+      {
+        "type": "p",
+        "text": "Before you sign anything, do this homework — and I mean actually do it, not \"I'll think about it later\" do it:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Measure your actual call volume for one month. How many calls? What's the average length? (You probably have data on this already from your current system.)",
+          "Run the math on each pricing model using *your* numbers, not the example numbers on their marketing page. Per-minute × your average call length × your daily volume × 22 working days. Do it three times to make sure.",
+          "Add 30% to your volume projection. You're going to get busier, and you want to know what happens when you do.",
+          "Ask about hidden tiers or complexity surcharges. Some models charge extra if the AI needs to look up information in your database, transfer calls, or handle certain types of requests. Get specific about what \"extra\" means."
+        ]
+      },
+      {
+        "type": "tip",
+        "label": "Intecha's Take",
+        "text": "If your business gets more than 200 calls a month, a flat monthly subscription is almost always safer than per-minute billing — even if the per-minute rate looks cheaper on the surface. Per-minute pricing is built for companies with *very* predictable, *very* short interactions. If you're doing anything resembling real customer service, you need the ceiling on your costs. And when you're comparing flat subscriptions, go for the one with the highest included minute allowance, even if it costs more. The peace of mind is worth it, and you'll use those minutes."
+      },
+      {
+        "type": "p",
+        "text": "This technology is genuinely useful. But like every good thing in tech, it only stays good if you understand what you're paying for before the bill arrives. Do the math today, and by August you'll be the person who actually saved money while getting smarter."
+      }
+    ]
+  },
+  {
     "slug": "daily-brew-the-ai-phone-agent-gold-rush-is-here-and-your-pricing-model-2026-05-20",
     "title": "The AI Phone Agent Gold Rush Is Here — And Your Pricing Model Matters More Than You Think",
     "excerpt": "Somewhere right now, a small business owner is looking at an AI voice agent quote and wondering if they're about to spend a fortune on something they don't fully understand.",
