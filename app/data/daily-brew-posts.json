@@ -1,5 +1,61 @@
 [
   {
+    "slug": "daily-brew-the-ai-phone-agent-gold-rush-is-here-and-your-budget-needs-a-2026-05-23",
+    "title": "The AI Phone Agent Gold Rush Is Here — And Your Budget Needs a Reality Check",
+    "excerpt": "Everyone's selling AI voice agents like they're the future of customer service. But the pricing models? That's where things get legitimately wild.",
+    "category": "Daily Brew",
+    "date": "May 23, 2026",
+    "readTime": "3 min read",
+    "content": [
+      {
+        "type": "p",
+        "text": "Picture this: It's Tuesday morning. You're scrolling through vendor websites at 6 a.m. because sleep is for people without customer service departments. You find an AI voice agent solution that promises to handle your after-hours calls, reduce hold times, and basically solve every pain point you've had since 2019. The demo looks flawless. The testimonials glow. Then you get to pricing, and suddenly you're reading a whitepaper that requires an actual degree to decipher. Per-call charges? Monthly seats? Concurrent conversations? Overage fees that kick in at 3 a.m. on a Tuesday?"
+      },
+      {
+        "type": "p",
+        "text": "Welcome to the AI phone agent market in 2026. And yeah, it's a mess — but not the kind that's unsolvable. It's just the kind that requires you to actually do the work before you sign anything."
+      },
+      {
+        "type": "h2",
+        "text": "What's Actually Happening Out There"
+      },
+      {
+        "type": "p",
+        "text": "The market is exploding. Nine different ways to add AI voice to your customer experience are competing for your attention right now. Some handle inbound calls (like a receptionist). Some do outbound (prospecting, follow-ups, appointment reminders). Some do both. And here's the thing that keeps IT leaders up at night: they all price it differently."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Per-minute pricing: You pay for every second the AI is talking. This one hurts if you get chatty callers or high call volume.",
+          "Per-call pricing: Flat fee per conversation, regardless of length. Great for unpredictability; terrible if your average call lasts 45 seconds.",
+          "Seat-based licensing: Monthly cost per concurrent user or agent. Classic SaaS model, but does it actually map to how you use AI?",
+          "Hybrid models: Some combo of the above, because why make it simple when you can layer complexity on top of complexity?"
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "Here's the kicker: A business doing 500 calls a month might pay anywhere from $500 to $3,000 depending on which model they pick and which vendor they choose. Same use case. Eight times the price difference."
+      },
+      {
+        "type": "h2",
+        "text": "Why This Matters (And Why You Should Care Right Now)"
+      },
+      {
+        "type": "p",
+        "text": "This isn't just about finding the cheapest option. It's about not getting blindsided by a bill that doesn't match your actual usage. And it's about understanding what you're really buying. Some AI agents are genuinely sophisticated — they integrate with your CRM, they learn from interactions, they hand off to humans seamlessly. Others are closer to glorified auto-attendants with a machine learning sticker on them. The pricing should reflect that difference, but it often doesn't."
+      },
+      {
+        "type": "tip",
+        "label": "Intecha's Take",
+        "text": "Before you touch a contract: (1) Get actual numbers from your last 90 days of calls — volume, duration, peak times, all of it. (2) Ask every vendor to model three scenarios: your baseline month, your peak month, and a worst-case month where something goes viral and you get triple traffic. (3) Request pricing that's locked in writing, with a clear overage policy. And (4) — this matters — talk to customers of that vendor who are running similar volumes to you. Not the ones they cherry-picked. Real ones. The testimonials they don't put on the website are the most honest ones you'll find."
+      },
+      {
+        "type": "p",
+        "text": "The AI voice agent space is legitimately valuable and genuinely innovative. But it's also young enough that the market is still figuring out how to price itself fairly. That means the smartest move right now isn't to be the first one in your industry to deploy AI agents. It's to be the one who went in with open eyes, a spreadsheet, and a clear understanding of exactly what you're paying for. Because honestly? That's the move that wins every single time."
+      }
+    ]
+  },
+  {
     "slug": "daily-brew-the-ai-phone-agent-gold-rush-is-here-and-your-pricing-model-2026-05-21",
     "title": "The AI Phone Agent Gold Rush Is Here — And Your Pricing Model Matters More Than You Think",
     "excerpt": "Somewhere right now, a small business owner is comparing three different AI agent pricing plans and realizing they have no idea which one won't bankrupt them by August.",
