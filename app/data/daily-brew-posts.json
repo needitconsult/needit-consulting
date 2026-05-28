@@ -1,5 +1,76 @@
 [
   {
+    "slug": "daily-brew-the-ai-receptionist-gold-rush-is-here-and-small-businesses-n-2026-05-28",
+    "title": "The AI Receptionist Gold Rush Is Here — And Small Businesses Need to Know What They're Actually Buying",
+    "excerpt": "Fifty-one use cases, six competing platforms, and a promise that sounds too good to be true — because it usually is.",
+    "category": "Daily Brew",
+    "date": "May 28, 2026",
+    "readTime": "3 min read",
+    "content": [
+      {
+        "type": "p",
+        "text": "Somewhere right now, a small business owner is sitting in a parking lot outside a client meeting, phone in hand, scrolling through a comparison chart of AI voice agents. They're thinking: *This could solve everything.* No more missed calls. No more expensive hiring. Just... magic answering your phones 24/7. And then they see the price tag, read the fine print about token usage, and feel the familiar sting of tech promises that sound better in a blog post than they work in real life."
+      },
+      {
+        "type": "p",
+        "text": "This is the moment we're in right now. The industry has collectively decided that AI receptionists are the answer to every small business's prayers — and they're flooding the market with options. A single vendor just published a guide listing 51 different use cases. Six major platforms are now competing for your attention with direct comparisons. The message is clear: *You should absolutely have one of these.* The question nobody's asking loudly enough is: *Should you?*"
+      },
+      {
+        "type": "h2",
+        "text": "What's Actually Happening"
+      },
+      {
+        "type": "p",
+        "text": "The UCaaS (Unified Communications as a Service) market is accelerating AI adoption faster than almost any other technology sector. These AI voice agents promise to handle inbound calls, qualify leads, book appointments, and capture demand — all without a human operator sitting at a desk. It sounds revolutionary. And in some cases, it genuinely is."
+      },
+      {
+        "type": "p",
+        "text": "But here's the part everyone glosses over: These systems work brilliantly in specific, controlled scenarios. A dental practice taking appointment bookings? Gold. A service business qualifying leads after hours? That's real value. A startup handling customer support for a nuanced, complaint-heavy product? That's where things get messy fast."
+      },
+      {
+        "type": "list",
+        "items": [
+          "AI voice agents excel at repetitive, predictable conversations with clear outcomes",
+          "They struggle with context, frustration, accents, and anything requiring real judgment",
+          "The token billing model means your costs scale with call complexity — something nobody mentions until you get your first bill",
+          "Integration with your CRM and phone system is still often manual, clunky, and vendor-specific",
+          "Training these systems takes time, expertise, and usually costs extra"
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "The real story isn't whether AI receptionists work. It's that the industry is packaging them as a universal solution when they're actually a specialized tool for specific problems. And that gap? That's where small businesses get hurt."
+      },
+      {
+        "type": "h2",
+        "text": "The Token Trap Nobody Warns You About"
+      },
+      {
+        "type": "p",
+        "text": "A recent report suggested that AI agents could increase token demand by up to 24 times depending on how you use them. Translation: Your per-minute billing just became exponentially more complex. A call that costs pennies today might cost dollars if the agent has to think harder, process more context, or handle an unexpected turn in the conversation. This isn't malice — it's just how the math works with tokenized AI. But most marketing materials skip right past it."
+      },
+      {
+        "type": "tip",
+        "label": "Intecha's Take",
+        "text": "Before you sign up for an AI receptionist, ask yourself three hard questions: (1) What percentage of my incoming calls are truly routine? If it's less than 60%, you might be throwing money at a problem this doesn't solve. (2) Can I integrate this with my CRM without hiring a consultant? If the answer is 'maybe' or 'we'd need help,' budget for that. (3) What happens when this AI fails? Because it will fail. Do I have a backup? Is my team trained to step in? If you can't answer these clearly, you're not ready yet — and that's okay. There's no shame in waiting until the dust settles and the real use cases become obvious. This technology isn't going anywhere."
+      },
+      {
+        "type": "h2",
+        "text": "What You Should Actually Do"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Start with your actual call patterns. Log your calls for a month. Which ones are repetitive? Which ones need a human? Build a real case before you buy.",
+          "Demand a free trial with your actual phone system and CRM. Not a demo. Real integration. Real calls. Real data.",
+          "Ask about total cost of ownership — including training, integration, token overage, and human backup. Get it in writing.",
+          "If you're considering this, you might also want to evaluate traditional answering services. Sometimes the hybrid approach (AI for routine stuff, humans for everything else) beats pure automation.",
+          "Remember: You're not required to be on the bleeding edge. Being pragmatic beats being early."
+        ]
+      }
+    ]
+  },
+  {
     "slug": "daily-brew-the-great-call-center-gold-rush-why-your-small-business-shou-2026-05-27",
     "title": "The Great Call Center Gold Rush: Why Your Small Business Shouldn't Fall for It",
     "excerpt": "Everyone's suddenly selling you the dream of launching a call center. Here's what they're not telling you.",
