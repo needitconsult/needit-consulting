@@ -32,7 +32,7 @@ export default function Contact() {
   };
 
   return (
-    <section id="contact" className="relative py-24 px-6 bg-[#f0f2f5]">
+    <section id="contact" className="relative py-24 px-6">
       <div className="absolute inset-0 grid-overlay opacity-40" />
       <div className="relative max-w-7xl mx-auto">
         {/* Header */}

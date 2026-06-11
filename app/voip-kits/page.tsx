@@ -128,7 +128,7 @@ export default function VoIPKitsPage() {
   const handleKitSelect = (key: string | null) => setActiveKitKey(key);
 
   return (
-    <main className="min-h-screen bg-[#f0f2f5] flex flex-col">
+    <main className="min-h-screen flex flex-col">
       <Navbar />
 
       {/* Hero */}

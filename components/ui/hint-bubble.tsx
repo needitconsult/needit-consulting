@@ -6,61 +6,31 @@ import { X, Lightbulb, MessageCircle } from "lucide-react";
 import IntechaChat from "@/components/ui/intecha-chat";
 import { hints } from "@/app/data/intecha-hints";
 
-// 4 corners: [vertical, horizontal] positioning + tail config
-const corners = [
-  {
-    pos: "bottom-6 left-6",
-    initial: { opacity: 0, y: 20, scale: 0.92 },
-    exit:    { opacity: 0, y: 12, scale: 0.95 },
-    tail: "bottom",
-    tailSide: "left-6",
-  },
-  {
-    pos: "bottom-6 right-6",
-    initial: { opacity: 0, y: 20, scale: 0.92 },
-    exit:    { opacity: 0, y: 12, scale: 0.95 },
-    tail: "bottom",
-    tailSide: "right-6",
-  },
-  {
-    pos: "top-24 left-6",
-    initial: { opacity: 0, y: -20, scale: 0.92 },
-    exit:    { opacity: 0, y: -12, scale: 0.95 },
-    tail: "top",
-    tailSide: "left-6",
-  },
-  {
-    pos: "top-24 right-6",
-    initial: { opacity: 0, y: -20, scale: 0.92 },
-    exit:    { opacity: 0, y: -12, scale: 0.95 },
-    tail: "top",
-    tailSide: "right-6",
-  },
-] as const;
+// Always fixed at bottom-right
+const CORNER = {
+  pos: "bottom-6 right-6",
+  initial: { opacity: 0, y: 20, scale: 0.92 },
+  exit:    { opacity: 0, y: 12, scale: 0.95 },
+  tail: "bottom",
+  tailSide: "right-6",
+} as const;
 
 export default function HintBubble() {
-  const [visible, setVisible]       = useState(false);
-  const [index, setIndex]           = useState(0);
-  const [cornerIdx, setCornerIdx]   = useState(0);
-  const [dismissed, setDismissed]   = useState(false);
-  const [progress, setProgress]     = useState(0);
-  const [skipCount, setSkipCount]   = useState(0);
-  const [chatOpen, setChatOpen]     = useState(false);
+  const [visible, setVisible]     = useState(false);
+  const [index, setIndex]         = useState(0);
+  const [dismissed, setDismissed] = useState(false);
+  const [progress, setProgress]   = useState(0);
+  const [skipCount, setSkipCount] = useState(0);
+  const [chatOpen, setChatOpen]   = useState(false);
 
-  const DISPLAY_MS  = 8000;
-  const PAUSE_MS    = 3000;
-  const MAX_SKIPS   = 2;
+  const DISPLAY_MS = 8000;
+  const PAUSE_MS   = 3000;
+  const MAX_SKIPS  = 2;
 
-  const nextHint = useCallback((currentCorner: number) => {
+  const nextHint = useCallback(() => {
     setVisible(false);
     setTimeout(() => {
       setIndex((i) => (i + 1) % hints.length);
-      // pick a different corner than the current one
-      setCornerIdx((prev) => {
-        let next = prev;
-        while (next === currentCorner) next = Math.floor(Math.random() * corners.length);
-        return next;
-      });
       setProgress(0);
       setDismissed(false);
       setVisible(true);
@@ -76,43 +46,34 @@ export default function HintBubble() {
   // Progress + auto-advance
   useEffect(() => {
     if (!visible || dismissed) return;
-    const captured = cornerIdx;
     const interval = setInterval(() => {
       setProgress((p) => {
         const next = p + (100 / (DISPLAY_MS / 100));
         if (next >= 100) {
           clearInterval(interval);
-          nextHint(captured);
+          nextHint();
           return 100;
         }
         return next;
       });
     }, 100);
     return () => clearInterval(interval);
-  }, [visible, dismissed, nextHint, cornerIdx]);
+  }, [visible, dismissed, nextHint]);
 
   const handleDismiss = () => {
     const newSkipCount = skipCount + 1;
     setSkipCount(newSkipCount);
     setDismissed(true);
     setVisible(false);
-    if (newSkipCount >= MAX_SKIPS) return; // stop permanently
-    const captured = cornerIdx;
+    if (newSkipCount >= MAX_SKIPS) return;
     setTimeout(() => {
       setIndex((i) => (i + 1) % hints.length);
-      setCornerIdx((prev) => {
-        let next = prev;
-        while (next === captured) next = Math.floor(Math.random() * corners.length);
-        return next;
-      });
       setProgress(0);
       setDismissed(false);
       setVisible(true);
     }, PAUSE_MS);
   };
 
-  const corner = corners[cornerIdx];
-  const isTop  = corner.tail === "top";
   const secondsLeft = Math.ceil(((100 - progress) / 100) * (DISPLAY_MS / 1000));
 
   return (
@@ -120,29 +81,13 @@ export default function HintBubble() {
     <AnimatePresence>
       {visible && (
         <motion.div
-          key={`${index}-${cornerIdx}`}
-          initial={corner.initial}
+          key={index}
+          initial={CORNER.initial}
           animate={{ opacity: 1, y: 0, scale: 1 }}
-          exit={corner.exit}
+          exit={CORNER.exit}
           transition={{ type: "spring", stiffness: 320, damping: 24 }}
-          className={`fixed z-50 max-w-xs w-full pointer-events-auto select-none ${corner.pos}`}
+          className={`fixed z-50 max-w-xs w-full pointer-events-auto select-none ${CORNER.pos}`}
         >
-          {/* Top tail */}
-          {isTop && (
-            <>
-              <div
-                className={`absolute -top-[9px] ${corner.tailSide} w-4 h-4 rotate-45`}
-                style={{
-                  background: "#4ade80",
-                  clipPath: "polygon(0 0, 100% 0, 100% 100%)",
-                }}
-              />
-              <div
-                className={`absolute -top-[7px] ${corner.tailSide === "left-6" ? "left-[26px]" : "right-[26px]"} w-3 h-3 rotate-45 bg-[#c8dbd3]`}
-                style={{ clipPath: "polygon(0 0, 100% 0, 100% 100%)" }}
-              />
-            </>
-          )}
 
           {/* Card */}
           <div
@@ -221,22 +166,15 @@ export default function HintBubble() {
             </div>
           </div>
 
-          {/* Bottom tail */}
-          {!isTop && (
-            <>
-              <div
-                className={`absolute -bottom-[9px] ${corner.tailSide} w-4 h-4 rotate-45`}
-                style={{
-                  background: "#4ade80",
-                  clipPath: "polygon(0 0, 100% 100%, 0 100%)",
-                }}
-              />
-              <div
-                className={`absolute -bottom-[7px] ${corner.tailSide === "left-6" ? "left-[26px]" : "right-[26px]"} w-3 h-3 rotate-45 bg-[#d8eae2]`}
-                style={{ clipPath: "polygon(0 0, 100% 100%, 0 100%)" }}
-              />
-            </>
-          )}
+          {/* Bottom-right tail */}
+          <div
+            className="absolute -bottom-[9px] right-6 w-4 h-4 rotate-45"
+            style={{ background: "#4ade80", clipPath: "polygon(0 0, 100% 100%, 0 100%)" }}
+          />
+          <div
+            className="absolute -bottom-[7px] right-[26px] w-3 h-3 rotate-45 bg-[#d8eae2]"
+            style={{ clipPath: "polygon(0 0, 100% 100%, 0 100%)" }}
+          />
         </motion.div>
       )}
     </AnimatePresence>

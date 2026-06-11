@@ -18,7 +18,7 @@ export default function BlogPage() {
   const [featured, ...rest] = posts;
 
   return (
-    <main className="min-h-screen bg-[#f0f2f5] relative overflow-hidden">
+    <main className="min-h-screen relative overflow-hidden">
       <OrangeGlowBackground />
 
       {/* Header */}

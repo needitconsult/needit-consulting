@@ -298,7 +298,7 @@ export default function Hero() {
       <div style={{ position: "relative", zIndex: 20, textAlign: "center", padding: "2rem 1.5rem", maxWidth: "480px" }}>
 
         <h1 style={{ fontSize: "clamp(36px,7vw,80px)", fontWeight: 700, lineHeight: 1.1, marginBottom: "12px", textShadow: "0 2px 16px rgba(0,0,0,0.9), 0 1px 4px rgba(0,0,0,1)" }}>
-          <span style={{ color: "#ffffff", WebkitTextStroke: "1px #16a34a" }}>Need</span><span style={{ color: "#7fffb0", WebkitTextStroke: "1px #16a34a" }}>IT</span>
+          <span style={{ color: "#ffffff" }}>Need</span><span style={{ color: "#7fffb0" }}>IT</span>
           <span style={{ display: "block", fontSize: "clamp(14px,2.5vw,28px)", fontWeight: 400, color: "rgba(255,255,255,0.92)", letterSpacing: "0.12em", marginTop: "4px", WebkitTextStroke: "0px" }}>Consulting LLC</span>
         </h1>
 
@@ -308,18 +308,18 @@ export default function Hero() {
         </p>
 
         <div style={{ display: "flex", gap: "12px", justifyContent: "center", flexWrap: "wrap" }}>
-          <Link
-            href="/voip-kits"
-            style={{ fontSize: "13px", padding: "11px 28px", borderRadius: "40px", background: "#1D9E75", color: "#fff", border: "none", cursor: "pointer", boxShadow: "0 0 24px rgba(29,158,117,0.7)", textDecoration: "none" }}
-          >
-            Explore VoIP kits
-          </Link>
           <button
             onClick={() => document.getElementById("services")?.scrollIntoView({ behavior: "smooth" })}
             style={{ fontSize: "13px", padding: "11px 28px", borderRadius: "40px", background: "rgba(0,0,0,0.4)", color: "#9FE1CB", border: "1.5px solid rgba(29,158,117,0.65)", cursor: "pointer" }}
           >
             IT services →
           </button>
+          <Link
+            href="/guide"
+            style={{ fontSize: "13px", fontWeight: 700, padding: "13px 32px", borderRadius: "40px", background: "linear-gradient(135deg, rgba(74,222,128,0.18) 0%, rgba(29,158,117,0.28) 100%)", color: "#7fffb0", border: "1.5px solid rgba(74,222,128,0.55)", cursor: "pointer", textDecoration: "none", letterSpacing: "0.03em", boxShadow: "0 0 18px rgba(74,222,128,0.22)", whiteSpace: "nowrap" }}
+          >
+            Find my Custom Recommendations →
+          </Link>
         </div>
       </div>
 

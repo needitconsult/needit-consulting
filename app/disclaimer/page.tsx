@@ -3,7 +3,7 @@ import Footer from "@/app/components/Footer";
 
 export default function DisclaimerPage() {
   return (
-    <main className="min-h-screen bg-[#f0f2f5] flex flex-col">
+    <main className="min-h-screen flex flex-col">
       <Navbar />
 
       <div className="flex-1 max-w-3xl mx-auto px-6 pt-32 pb-20 w-full">

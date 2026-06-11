@@ -158,7 +158,7 @@ function ServiceCard({ service, i }: { service: Service; i: number }) {
 
 export default function Services() {
   return (
-    <section id="services" className="relative py-24 px-6 bg-[#f0f2f5] overflow-hidden">
+    <section id="services" className="relative py-24 px-6 overflow-hidden">
       {/* Background sparkles */}
       <div className="absolute inset-0 pointer-events-none">
         <SparklesCore

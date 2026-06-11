@@ -53,8 +53,8 @@ export default function Navbar() {
           <div className="w-8 h-8 rounded-lg bg-green-100 border border-green-500/40 flex items-center justify-center group-hover:bg-green-100 transition-colors">
             <Cpu className="w-4 h-4 text-green-700" />
           </div>
-          <span className="text-[1.375rem] font-bold text-gray-700 group-hover:text-green-200 transition-colors">
-            Need<span className="text-white">IT</span>
+          <span className={`text-[1.375rem] font-bold transition-colors group-hover:text-green-300 ${scrolled ? "text-gray-700" : "text-white"}`}>
+            Need<span className="text-green-400">IT</span>
           </span>
         </Link>
 
@@ -65,8 +65,10 @@ export default function Navbar() {
               <Link
                 key={link.id}
                 href={link.href}
-                className={`nav-link text-sm transition-all tracking-wide uppercase font-bold border border-green-800 rounded px-2 py-0.5 ${
-                  pathname === link.href ? "text-gray-700 bg-green-800" : "text-gray-900 hover:text-white hover:bg-green-800"
+                className={`nav-link text-sm transition-all tracking-wide uppercase font-bold rounded px-2 py-0.5 ${
+                  scrolled
+                    ? `border border-green-800 ${pathname === link.href ? "text-gray-700 bg-green-800" : "text-gray-900 hover:text-white hover:bg-green-800"}`
+                    : "border border-white/40 text-white hover:bg-white/15"
                 }`}
               >
                 {link.label}
@@ -75,7 +77,11 @@ export default function Navbar() {
               <button
                 key={link.id}
                 onClick={() => scrollTo(link.id)}
-                className="nav-link text-sm text-gray-900 hover:text-white hover:bg-green-800 transition-all tracking-wide uppercase font-bold border border-green-800 rounded px-2 py-0.5"
+                className={`nav-link text-sm transition-all tracking-wide uppercase font-bold rounded px-2 py-0.5 ${
+                  scrolled
+                    ? "border border-green-800 text-gray-900 hover:text-white hover:bg-green-800"
+                    : "border border-white/40 text-white hover:bg-white/15"
+                }`}
               >
                 {link.label}
               </button>
@@ -85,7 +91,7 @@ export default function Navbar() {
 
         {/* Mobile toggle */}
         <button
-          className="md:hidden text-green-700 hover:text-gray-700"
+          className={`md:hidden transition-colors ${scrolled ? "text-green-700 hover:text-gray-700" : "text-white hover:text-green-300"}`}
           onClick={() => setOpen(!open)}
         >
           {open ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}

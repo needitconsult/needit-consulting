@@ -42,7 +42,7 @@ const fadeUp = (delay = 0) => ({
 
 export default function About() {
   return (
-    <section id="about" className="relative py-24 px-6 bg-[#f0f2f5]">
+    <section id="about" className="relative py-24 px-6">
       <div className="absolute inset-0 grid-overlay opacity-20 pointer-events-none" />
       <div className="relative max-w-3xl mx-auto">
 

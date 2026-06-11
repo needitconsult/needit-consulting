@@ -77,7 +77,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
   const related = posts.filter((p) => p.slug !== post.slug && p.category === post.category).slice(0, 2);
 
   return (
-    <main className="min-h-screen bg-[#f0f2f5] relative overflow-hidden">
+    <main className="min-h-screen relative overflow-hidden">
       <OrangeGlowBackground />
       <div className="absolute inset-0 grid-overlay opacity-20 pointer-events-none" />
 
