@@ -1,1 +1,54 @@
-[]
+[
+  {
+    "slug": "daily-brew-your-ai-phone-system-needs-guardrails-or-itll-make-decisions-2026-06-12",
+    "title": "Your AI Phone System Needs Guardrails (Or It'll Make Decisions You'll Regret)",
+    "excerpt": "Turns out giving your AI agents full permission to do whatever they want is about as smart as handing your teenager the car keys without rules.",
+    "category": "Daily Brew",
+    "date": "June 12, 2026",
+    "readTime": "2 min read",
+    "content": [
+      {
+        "type": "p",
+        "text": "So here's something that caught my eye today, and honestly, it's a little spicy because it affects a lot of small businesses who are getting excited about AI phone systems. There's this whole thing happening right now where companies are deploying AI agents to handle customer service, answer phones, make decisions — all that good stuff. And the problem? A lot of them are basically giving these AI systems a blank check to do whatever they want."
+      },
+      {
+        "type": "p",
+        "text": "Think of it like this: you wouldn't give a new employee access to your bank account, your customer database, and your email on day one without any rules, right? But that's basically what's happening with some AI implementations. Companies are so eager to automate that they're forgetting the part where you actually set boundaries."
+      },
+      {
+        "type": "h2",
+        "text": "Why This Actually Matters to You"
+      },
+      {
+        "type": "p",
+        "text": "If you're running a contact center, handling customer support calls, or using AI to answer phones after hours, this is real. An AI agent with too much permission can do things like: offer discounts you didn't authorize, delete customer records, send emails pretending to be you, or make promises your team can't actually keep. And here's the kicker — by the time you realize what happened, the damage is already done and your customers are confused."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Your AI agent should NOT have access to payment processing without explicit approval for each transaction",
+          "It should NOT be able to modify customer records or delete data — read-only access for information gathering, that's it",
+          "It should NOT send emails or make commitments on your behalf without a human reviewing first",
+          "It SHOULD have clear escalation rules so it knows when to hand off to a real person instead of trying to solve everything"
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "The rule of thumb: If a human employee would need approval to do it, your AI agent definitely needs guardrails around it too."
+      },
+      {
+        "type": "h2",
+        "text": "What You Should Actually Do"
+      },
+      {
+        "type": "tip",
+        "label": "Intecha's Take",
+        "text": "Before you turn on any AI agent, sit down with your team and ask: \"What should this system be allowed to do, and what needs human approval?\" Write it down. Then make sure your system is set up to follow those rules. It takes like an hour and saves you from becoming a cautionary tale. Seriously — treat your AI like an eager but misguided intern. Smart and fast, but definitely needs supervision."
+      },
+      {
+        "type": "p",
+        "text": "The good news? This is totally fixable. Most AI systems let you set permission levels, approval workflows, and escalation rules. You're not locked in. But it does require you to be intentional about it from the start instead of just flipping the switch and hoping for the best."
+      }
+    ]
+  }
+]
