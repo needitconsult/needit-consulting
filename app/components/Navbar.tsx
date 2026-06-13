@@ -53,8 +53,8 @@ export default function Navbar() {
           <div className="w-8 h-8 rounded-lg bg-green-100 border border-green-500/40 flex items-center justify-center group-hover:bg-green-100 transition-colors">
             <Cpu className="w-4 h-4 text-green-700" />
           </div>
-          <span className={`text-[1.375rem] font-bold transition-colors group-hover:text-green-300 ${scrolled ? "text-gray-700" : "text-white"}`}>
-            Need<span className="text-green-400">IT</span>
+          <span className="text-[1.375rem] font-bold transition-colors group-hover:text-green-300">
+            <span className={scrolled ? "text-green-700" : "text-green-400"}>Need</span><span className="text-green-400">IT</span>
           </span>
         </Link>
 

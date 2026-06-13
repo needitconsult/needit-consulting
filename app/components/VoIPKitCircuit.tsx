@@ -713,6 +713,22 @@ function DetailPanel({ kit }: { kit: KitData }) {
           </>
         )}
 
+        {/* Setup instructions CTA */}
+        <div className="mt-5 rounded-xl border border-green-300 bg-green-50 p-4 flex flex-col gap-3">
+          <p className="text-green-900 text-sm font-bold leading-snug">
+            Want detailed setup instructions for this kit?
+          </p>
+          <p className="text-green-800 text-xs leading-relaxed">
+            Get the full step-by-step guide — or have NeedIT set everything up for you.
+          </p>
+          <Link
+            href={`/voip-kits/setup?kit=${kit.key}`}
+            className="inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-lg bg-green-600 hover:bg-green-500 text-white font-bold text-sm transition-all hover:scale-[1.02] active:scale-[0.98]"
+            style={{ boxShadow: "0 0 14px rgba(22,163,74,0.3)" }}
+          >
+            View Setup Instructions & Pricing →
+          </Link>
+        </div>
 
       </div>
     </div>
