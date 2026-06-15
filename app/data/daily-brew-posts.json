@@ -1,5 +1,67 @@
 [
   {
+    "slug": "daily-brew-your-customers-are-getting-scammed-by-fake-versions-of-your-2026-06-15",
+    "title": "Your Customers Are Getting Scammed by Fake Versions of Your Voice — Here's What to Do About It",
+    "excerpt": "Deepfake voice fraud is getting scary-realistic, and your contact center could be the target. We're talking about what's happening and how to actually protect yourself.",
+    "category": "Daily Brew",
+    "date": "June 15, 2026",
+    "readTime": "3 min read",
+    "content": [
+      {
+        "type": "p",
+        "text": "Okay, so this one actually kept me up a little bit. Deepfake voice technology has gotten to the point where someone can clone your business's voice — or your customers' voices — well enough to commit fraud. And it's not some sci-fi future thing anymore. It's happening right now, and if you run a contact center or take customer calls, you need to know about this."
+      },
+      {
+        "type": "h2",
+        "text": "What's Actually Going On"
+      },
+      {
+        "type": "p",
+        "text": "Deepfake voice fraud works like this: criminals record a small sample of someone's voice (yours, your agent's, or one of your customers'), run it through AI software, and suddenly they can generate new audio that sounds exactly like that person. They use it to trick people into money transfers, steal sensitive information, or impersonate legitimate business calls. The scary part? It's getting harder to tell the difference between real and fake."
+      },
+      {
+        "type": "p",
+        "text": "Your contact center is a target because you're handling customer calls all day long, which means there's plenty of voice data floating around. Customers trust you. Scammers know that. They can clone your agent's voice or use AI to make a call *look* like it's coming from your company to your customers."
+      },
+      {
+        "type": "h2",
+        "text": "Why This Matters to You Right Now"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Your customers could get scammed and blame you — even if the fraud didn't actually come from your business, the trust damage is real",
+          "Criminals could impersonate your agents to steal customer data or convince people to transfer money",
+          "Regulatory bodies are starting to ask hard questions about how companies are protecting against this, so being proactive puts you ahead",
+          "Your reputation is built on customers trusting your voice — literally"
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "AI-powered voice cloning can now be done with just 3-5 seconds of audio and costs less than $20. This isn't expensive or hard anymore."
+      },
+      {
+        "type": "h2",
+        "text": "What You Can Actually Do"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Use multi-factor authentication for any call that involves money or sensitive data — don't rely on voice alone to verify identity",
+          "Train your team to spot inconsistencies in caller behavior, pacing, or background noise — deepfakes still have tells if you know what to listen for",
+          "If you're using AI tools in your contact center (like chatbots or automated responses), make sure customers know when they're talking to an AI and when they're talking to a human",
+          "Look into voice authentication technology that checks for deepfake markers — some VoIP systems now have built-in detection",
+          "Keep call recordings secure and limit who can access them — the fewer samples of voice data you have lying around, the less material scammers have to work with"
+        ]
+      },
+      {
+        "type": "tip",
+        "label": "Intecha's Take",
+        "text": "This isn't about being paranoid. It's about being smart. Have a real conversation with your team about what deepfake voice fraud is, what it looks like, and what to do if they suspect a call isn't legitimate. Make it part of your security training the same way you'd train them on phishing emails. And if you take calls from customers, use your phone system's security features — most modern VoIP providers are already adding safeguards for this. Ask your provider what they're doing. If they don't have a clear answer, that's a red flag."
+      }
+    ]
+  },
+  {
     "slug": "daily-brew-your-business-phone-system-is-about-to-get-a-lot-smarter-and-2026-06-14",
     "title": "Your Business Phone System Is About to Get a Lot Smarter (And Scarier)",
     "excerpt": "AI is moving into your contact center, but there's a real security problem nobody's talking about yet — and you need to know about it before it affects your customers.",
