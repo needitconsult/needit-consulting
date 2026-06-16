@@ -6,7 +6,7 @@ const PRODUCTS = {
   guide: {
     name: "VoIP Setup Guide",
     description: "Step-by-step setup instructions, network checklist, SIP provisioning walkthrough, and testing guide for your NeedIT VoIP kit.",
-    amount: 2900, // $29.00
+    amount: 1900, // $19.00
   },
   service: {
     name: "NeedIT Professional Setup Service",

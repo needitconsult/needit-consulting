@@ -45,7 +45,7 @@ export default function VoIPGuide() {
           </button>
 
           <p className="text-gray-800 text-sm leading-relaxed pr-4">
-            Hey! I&apos;m Intecha 👋 — see those kit tiles above? Each one is a different VoIP setup. Click any tile to see exactly what&apos;s inside!
+            Hey! I&apos;m Intecha 👋 — see those kit tiles? Each one is a different VoIP setup. Click any tile to see exactly what&apos;s inside!
           </p>
         </motion.div>
       </AnimatePresence>

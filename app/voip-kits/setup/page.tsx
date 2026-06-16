@@ -60,7 +60,7 @@ function CheckoutButton({ product, kitKey, kitName }: { product: "guide" | "serv
           cursor: loading ? "not-allowed" : "pointer",
         }}
       >
-        {loading ? "Redirecting to checkout…" : isGuide ? "Buy Setup Guide — $29" : "Book NeedIT Setup — $149"}
+        {loading ? "Redirecting to checkout…" : isGuide ? "Buy Setup Guide — $19" : "Book NeedIT Setup — $149"}
         {!loading && <ChevronRight className="w-4 h-4" />}
       </button>
       {error && <p className="text-red-600 text-xs text-center">{error}</p>}
@@ -114,18 +114,18 @@ function SetupPageContent() {
               </div>
               <div>
                 <p className="font-extrabold text-gray-900 text-base">Setup Guide</p>
-                <p className="text-green-700 font-bold text-lg">$29 <span className="text-gray-400 text-sm font-normal">one-time</span></p>
+                <p className="text-green-700 font-bold text-lg">$19 <span className="text-gray-400 text-sm font-normal">one-time</span></p>
               </div>
             </div>
 
             <ul className="flex flex-col gap-2 mb-5 flex-1">
               {[
-                "Step-by-step hardware setup walkthrough",
+                "Illustrated, phone-specific hardware setup walkthrough",
                 "Network requirements & pre-flight checklist",
                 "SIP credentials & phone provisioning guide",
-                "VoIP platform account setup walkthrough",
+                "Step-by-step web interface configuration",
                 "Call quality testing checklist",
-                "Troubleshooting quick-reference",
+                "Quick troubleshooting reference by problem",
               ].map((item) => (
                 <li key={item} className="flex items-start gap-2 text-sm text-gray-700">
                   <CheckCircle2 className="w-4 h-4 text-green-500 flex-shrink-0 mt-0.5" />
@@ -219,7 +219,7 @@ function SetupPageContent() {
             <div className="p-6 bg-white blur-[3px] select-none pointer-events-none" aria-hidden>
               <h2 className="text-lg font-extrabold text-gray-900 mb-2">Step 1 — Physical Setup</h2>
               <p className="text-gray-700 text-sm leading-relaxed">
-                Connect your Yealink phone to the network using the included ethernet cable. Plug one end into the PC port on the back of the phone and the other into your router or PoE switch...
+                Connect your Yealink phone to the network using the included Cat6 ethernet cable. Plug one end into the LAN port on the back of the phone and the other into your PoE switch or router. If your switch doesn't have PoE, plug in the power adapter as well. Once connected, press OK on the phone to find its IP address...
               </p>
             </div>
             <div className="absolute inset-0 flex flex-col items-center justify-center bg-white/70 backdrop-blur-[1px]">
@@ -230,7 +230,7 @@ function SetupPageContent() {
                 onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: "smooth" }); }}
                 className="px-4 py-2 rounded-lg bg-green-600 text-white text-sm font-bold hover:bg-green-500 transition-colors"
               >
-                Get the Guide — $29
+                Get the Guide — $19
               </Link>
             </div>
           </div>
@@ -246,8 +246,7 @@ function SetupPageContent() {
           <div className="flex flex-col gap-4">
             {[
               { q: "Do I need to be on-site for the NeedIT setup service?", a: "No. NeedIT provisions everything 100% remotely. We coordinate directly with your VoIP provider and walk you through connecting the hardware." },
-              { q: "What if I already bought the guide but still need help?", a: "The $149 setup service fee is waived for guide purchasers who book within 30 days. Just email us with your receipt and we'll sort it." },
-              { q: "Which VoIP platforms does NeedIT support?", a: "We work with RingCentral, Nextiva, Ooma, 8x8, Grasshopper, Vonage, and most SIP-compatible hosted PBX platforms." },
+              { q: "What if I already bought the guide but still need help?", a: "The $149 setup service fee is waived for guide purchasers who book within 10 days. Just email us with your receipt and we'll sort it." },
             ].map(({ q, a }) => (
               <div key={q}>
                 <p className="text-gray-900 font-bold text-sm">{q}</p>

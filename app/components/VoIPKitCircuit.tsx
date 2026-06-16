@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 
 // ─── Types ────────────────────────────────────────────────────────────────────
@@ -659,14 +659,14 @@ function CableCard({ item }: { item: CableItem }) {
 
 function DetailPanel({ kit }: { kit: KitData }) {
   return (
-    <div data-kit-detail className="rounded-2xl border border-gray-200 bg-white overflow-hidden flex flex-col h-full">
+    <div data-kit-detail className="rounded-2xl border border-gray-200 bg-white overflow-hidden">
       {/* Header */}
       <div className="px-5 py-4 border-b border-gray-200 bg-green-50">
         <p className="text-gray-900 font-semibold text-lg leading-snug">{kit.title}</p>
         <p className="text-green-800 text-base italic mt-0.5">{kit.tagline}</p>
       </div>
 
-      <div className="p-5 flex flex-col overflow-y-auto flex-1" style={{ maxHeight: "600px" }}>
+      <div className="p-5 flex flex-col">
         {/* Cost badge + description */}
         <span className="self-start px-3 py-1 rounded-full bg-green-50 border border-gray-200 text-green-800 text-xs font-mono mb-3">
           Hardware: {kit.hw_cost}
@@ -739,6 +739,7 @@ function DetailPanel({ kit }: { kit: KitData }) {
 
 export default function VoIPKitCircuit({ onKitSelect }: { onKitSelect?: (key: string | null) => void }) {
   const [activeKey, setActiveKey] = useState<string | null>(null);
+  const detailRef = useRef<HTMLDivElement>(null);
 
   const activeKit = KITS.find((k) => k.key === activeKey) ?? null;
 
@@ -747,6 +748,14 @@ export default function VoIPKitCircuit({ onKitSelect }: { onKitSelect?: (key: st
     setActiveKey(next);
     onKitSelect?.(next);
   };
+
+  useEffect(() => {
+    if (activeKey && detailRef.current) {
+      setTimeout(() => {
+        detailRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+      }, 50);
+    }
+  }, [activeKey]);
 
   return (
     <div className="w-full">
@@ -788,7 +797,9 @@ export default function VoIPKitCircuit({ onKitSelect }: { onKitSelect?: (key: st
 
       {/* Detail panel */}
       {activeKit ? (
-        <DetailPanel kit={activeKit} />
+        <div ref={detailRef}>
+          <DetailPanel kit={activeKit} />
+        </div>
       ) : (
         <div className="flex items-center min-h-40 rounded-2xl border-2 border-dashed border-gray-200 flex-col gap-3 justify-center">
           <div className="w-10 h-10 rounded-full border border-gray-200 flex items-center justify-center">

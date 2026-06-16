@@ -153,6 +153,10 @@ export default function VoIPKitsPage() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
+            <p className="text-gray-600 max-w-2xl mx-auto text-sm leading-relaxed mb-4">
+              NeedIT Consulting participates in the Amazon Associates Program and other affiliate programs. We may earn a commission if you purchase through our links, at no extra cost to you. Prices and availability are subject to change.
+            </p>
+
             <span className="text-green-800 text-base font-semibold tracking-widest uppercase">
               NeedIT Recommended Gear
             </span>
@@ -179,10 +183,6 @@ export default function VoIPKitsPage() {
 
             <p className="text-gray-800 max-w-2xl mx-auto text-xl leading-relaxed">
               Curated hardware bundles for every business size!
-            </p>
-
-            <p className="text-gray-600 max-w-2xl mx-auto text-sm leading-relaxed mt-3">
-              NeedIT Consulting participates in the Amazon Associates Program and other affiliate programs. We may earn a commission if you purchase through our links, at no extra cost to you. Prices and availability are subject to change.
             </p>
 
           </motion.div>
@@ -229,9 +229,11 @@ export default function VoIPKitsPage() {
                 </h2>
                 <p className="mt-2 text-gray-700 text-base max-w-xl mx-auto">{accessoryKit.description}</p>
               </div>
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 max-w-4xl mx-auto">
+              <div className="flex flex-wrap justify-center gap-4 max-w-4xl mx-auto">
                 {accessoryKit.products.map((product) => (
-                  <ProductCard key={product.id} product={product} />
+                  <div key={product.id} className="w-full sm:w-[calc(50%-8px)] lg:w-72">
+                    <ProductCard product={product} />
+                  </div>
                 ))}
               </div>
             </motion.div>

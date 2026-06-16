@@ -84,14 +84,6 @@ export default function Contact() {
               </div>
             ))}
 
-            {/* CTA block */}
-            <div className="p-6 rounded-xl bg-green-50 border border-green-500/30">
-              <p className="text-green-700 font-semibold mb-1">Free IT Assessment</p>
-              <p className="text-gray-600 text-sm leading-relaxed">
-                Not sure where to start? We&apos;ll audit your current IT environment and
-                give you a no-cost roadmap within 48 hours.
-              </p>
-            </div>
           </motion.div>
 
           {/* Form */}
