@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 
 const credentials = [
+  "Founded 2025",
   "8+ years VoIP & telecom support",
   "CompTIA Security+",
   "B.S. Cyber Security — Colorado Technical University",

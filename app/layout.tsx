@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import PageLoader from "@/components/ui/page-loader";
+import EmailCapture from "@/app/components/EmailCapture";
 
 export const metadata: Metadata = {
   title: "NeedIT Consulting | Smarter IT for Your Business",
@@ -17,6 +18,7 @@ export default function RootLayout({
     <html lang="en" className="h-full antialiased">
       <body className="min-h-full flex flex-col">
         <PageLoader />
+        <EmailCapture />
         {children}
       </body>
     </html>
