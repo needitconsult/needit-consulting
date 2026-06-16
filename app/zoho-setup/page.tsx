@@ -12,15 +12,10 @@ export default function ZohoSetupPage() {
     setLoading(true);
     setResult(null);
     try {
-      const params = new URLSearchParams({
-        code: fields.code,
-        client_id: fields.clientId,
-        client_secret: fields.clientSecret,
-        redirect_uri: "https://www.zoho.com/crm",
-        grant_type: "authorization_code",
-      });
-      const res = await fetch(`https://accounts.zoho.com/oauth/v2/token?${params.toString()}`, {
+      const res = await fetch("/api/zoho-exchange", {
         method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(fields),
       });
       const data = await res.json();
       setResult(data);
