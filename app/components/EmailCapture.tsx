@@ -2,15 +2,11 @@
 
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { X, CheckCircle2, FileText } from "lucide-react";
+import { X, FileText } from "lucide-react";
 
 export default function EmailCapture() {
   const [visible, setVisible] = useState(false);
   const [dismissed, setDismissed] = useState(false);
-  const [form, setForm] = useState({ name: "", email: "" });
-  const [loading, setLoading] = useState(false);
-  const [submitted, setSubmitted] = useState(false);
-  const [error, setError] = useState("");
 
   useEffect(() => {
     if (sessionStorage.getItem("needit_popup_dismissed")) return;
@@ -21,26 +17,6 @@ export default function EmailCapture() {
   const dismiss = () => {
     setDismissed(true);
     sessionStorage.setItem("needit_popup_dismissed", "1");
-  };
-
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    setLoading(true);
-    setError("");
-    try {
-      const res = await fetch("/api/subscribe", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(form),
-      });
-      if (!res.ok) throw new Error("Failed");
-      setSubmitted(true);
-      sessionStorage.setItem("needit_popup_dismissed", "1");
-    } catch {
-      setError("Something went wrong. Please try again.");
-    } finally {
-      setLoading(false);
-    }
   };
 
   if (dismissed || !visible) return null;
@@ -64,7 +40,7 @@ export default function EmailCapture() {
           className="relative w-full max-w-md rounded-2xl bg-white overflow-hidden"
           style={{ boxShadow: "0 24px 64px rgba(0,0,0,0.22), 0 0 0 1px rgba(22,163,74,0.15)" }}
         >
-          {/* Green header bar */}
+          {/* Green header */}
           <div className="px-7 pt-7 pb-5" style={{ background: "linear-gradient(135deg, #15803d 0%, #16a34a 100%)" }}>
             <button
               onClick={dismiss}
@@ -87,76 +63,81 @@ export default function EmailCapture() {
             </p>
           </div>
 
-          {/* Body */}
+          {/* Zoho form — posts directly to Zoho, redirects to /thank-you */}
           <div className="px-7 py-6">
-            {submitted ? (
-              <div className="flex flex-col items-center text-center gap-3 py-4">
-                <CheckCircle2 className="w-10 h-10 text-green-600" />
-                <p className="text-gray-900 font-extrabold text-base">You&apos;re on the list!</p>
-                <p className="text-gray-500 text-sm leading-relaxed">
-                  Your checklists are ready — click below to view and save them as PDFs.
-                </p>
-                <div className="flex flex-col gap-2 w-full mt-1">
-                  <a
-                    href="/pdf/network-checklist"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="w-full py-2.5 rounded-xl bg-green-600 hover:bg-green-500 text-white font-bold text-sm text-center transition-colors"
-                  >
-                    VoIP Pre-Flight Checklist →
-                  </a>
-                  <a
-                    href="/pdf/call-quality"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="w-full py-2.5 rounded-xl border border-green-200 text-green-700 font-bold text-sm text-center hover:bg-green-50 transition-colors"
-                  >
-                    Call Quality Testing Checklist →
-                  </a>
-                </div>
-              </div>
-            ) : (
-              <form onSubmit={handleSubmit} className="flex flex-col gap-4">
+            <form
+              action="https://crm.zoho.com/crm/WebToLeadForm"
+              name="WebToLeads6948644000000846002"
+              method="POST"
+              acceptCharset="UTF-8"
+              className="flex flex-col gap-4"
+            >
+              {/* Zoho required hidden fields — do not remove */}
+              <input type="text" name="xnQsjsdp" value="0082a7814d15eadfc51f70753283cc905d889c37a3050700d0897f993cc36a8a" readOnly style={{ display: "none" }} />
+              <input type="hidden" name="zc_gad" id="zc_gad" value="" />
+              <input type="text" name="xmIwtLD" value="9cb0832cfd10747dc3c350e818614385a010841873c7ad7d86c59d513aa533dfca96c2ebb6f8f3da06abb4d667bb30df" readOnly style={{ display: "none" }} />
+              <input type="text" name="actionType" value="TGVhZHM=" readOnly style={{ display: "none" }} />
+              <input type="text" name="returnURL" value="https://needitconsulting.com/thank-you" readOnly style={{ display: "none" }} />
+              <input type="text" name="aG9uZXlwb3Q" value="" readOnly style={{ display: "none" }} />
+
+              <div className="grid grid-cols-2 gap-3">
                 <div>
                   <label className="block text-xs font-semibold text-gray-500 uppercase tracking-wider mb-1.5">
-                    First Name
+                    First Name <span className="text-red-500">*</span>
                   </label>
                   <input
                     type="text"
+                    id="First_Name"
+                    name="First Name"
                     required
-                    value={form.name}
-                    onChange={(e) => setForm({ ...form, name: e.target.value })}
+                    maxLength={40}
                     placeholder="Jane"
                     className="w-full px-4 py-2.5 rounded-lg border border-gray-200 bg-gray-50 text-gray-900 text-sm placeholder-gray-400 outline-none focus:border-green-500 transition-colors"
                   />
                 </div>
                 <div>
                   <label className="block text-xs font-semibold text-gray-500 uppercase tracking-wider mb-1.5">
-                    Email Address
+                    Last Name <span className="text-red-500">*</span>
                   </label>
                   <input
-                    type="email"
+                    type="text"
+                    id="Last_Name"
+                    name="Last Name"
                     required
-                    value={form.email}
-                    onChange={(e) => setForm({ ...form, email: e.target.value })}
-                    placeholder="jane@yourbusiness.com"
+                    maxLength={80}
+                    placeholder="Smith"
                     className="w-full px-4 py-2.5 rounded-lg border border-gray-200 bg-gray-50 text-gray-900 text-sm placeholder-gray-400 outline-none focus:border-green-500 transition-colors"
                   />
                 </div>
-                {error && <p className="text-red-600 text-xs">{error}</p>}
-                <button
-                  type="submit"
-                  disabled={loading}
-                  className="w-full py-3 rounded-xl bg-green-600 hover:bg-green-500 disabled:opacity-60 text-white font-extrabold text-sm transition-all hover:scale-[1.01] active:scale-[0.99]"
-                  style={{ boxShadow: "0 4px 16px rgba(22,163,74,0.25)" }}
-                >
-                  {loading ? "Sending…" : "Send Me the Checklists"}
-                </button>
-                <p className="text-gray-400 text-xs text-center leading-relaxed">
-                  No spam. Just useful IT resources from NeedIT Consulting.
-                </p>
-              </form>
-            )}
+              </div>
+
+              <div>
+                <label className="block text-xs font-semibold text-gray-500 uppercase tracking-wider mb-1.5">
+                  Email Address <span className="text-red-500">*</span>
+                </label>
+                <input
+                  type="email"
+                  id="Email"
+                  name="Email"
+                  required
+                  maxLength={100}
+                  placeholder="jane@yourbusiness.com"
+                  className="w-full px-4 py-2.5 rounded-lg border border-gray-200 bg-gray-50 text-gray-900 text-sm placeholder-gray-400 outline-none focus:border-green-500 transition-colors"
+                />
+              </div>
+
+              <button
+                type="submit"
+                className="w-full py-3 rounded-xl bg-green-600 hover:bg-green-500 text-white font-extrabold text-sm transition-all hover:scale-[1.01] active:scale-[0.99]"
+                style={{ boxShadow: "0 4px 16px rgba(22,163,74,0.25)" }}
+              >
+                Send Me the Checklists
+              </button>
+
+              <p className="text-gray-400 text-xs text-center leading-relaxed">
+                No spam. Just useful IT resources from NeedIT Consulting.
+              </p>
+            </form>
           </div>
         </motion.div>
       </motion.div>
