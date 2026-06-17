@@ -303,8 +303,8 @@ export default function Hero() {
         </h1>
 
         <p style={{ fontSize: "14px", color: "rgba(255,255,255,0.92)", lineHeight: 1.7, marginBottom: "26px", textShadow: "0 0 30px rgba(0,0,0,0.98), 0 0 20px rgba(0,0,0,1)" }}>
-          VoIP setup · IT support · virtual assistant services<br />
-          for small and mid-size businesses
+          VoIP Setup · IT Support · Virtual Assistant Services<br />
+          for Small and Mid-Sized Businesses
         </p>
 
         <div style={{ display: "flex", gap: "12px", justifyContent: "center", flexWrap: "wrap" }}>
@@ -312,13 +312,13 @@ export default function Hero() {
             onClick={() => document.getElementById("services")?.scrollIntoView({ behavior: "smooth" })}
             style={{ fontSize: "13px", padding: "11px 28px", borderRadius: "40px", background: "rgba(0,0,0,0.4)", color: "#9FE1CB", border: "1.5px solid rgba(29,158,117,0.65)", cursor: "pointer" }}
           >
-            IT services →
+            Services Menu →
           </button>
           <Link
             href="/guide"
             style={{ fontSize: "13px", fontWeight: 700, padding: "13px 32px", borderRadius: "40px", background: "linear-gradient(135deg, rgba(74,222,128,0.18) 0%, rgba(29,158,117,0.28) 100%)", color: "#7fffb0", border: "1.5px solid rgba(74,222,128,0.55)", cursor: "pointer", textDecoration: "none", letterSpacing: "0.03em", boxShadow: "0 0 18px rgba(74,222,128,0.22)", whiteSpace: "nowrap" }}
           >
-            Find my Custom Recommendations →
+            Customize my Service →
           </Link>
         </div>
       </div>
@@ -327,6 +327,9 @@ export default function Hero() {
       <div style={{ position: "absolute", bottom: "16px", left: "50%", transform: "translateX(-50%)", fontSize: "8px", color: "rgba(255,255,255,0.22)", letterSpacing: "0.18em", textTransform: "uppercase", fontFamily: "'Courier New', monospace", whiteSpace: "nowrap", zIndex: 20 }}>
         you are inside the infrastructure · CAT-6 · twisted pairs · signal live
       </div>
+
+      {/* Ombre fade into next section */}
+      <div style={{ position: "absolute", bottom: 0, left: 0, right: 0, height: "220px", background: "linear-gradient(to bottom, transparent 0%, #ffffff 100%)", zIndex: 25, pointerEvents: "none" }} />
     </div>
   );
 }

@@ -266,7 +266,7 @@ export default function IntechaChat({ onClose }: { onClose: () => void }) {
           onChange={(e) => setInput(e.target.value)}
           onKeyDown={handleKey}
           placeholder="Ask me anything..."
-          className="flex-1 bg-[#e8ebee] border border-gray-200 focus:border-green-500/60 rounded-lg px-3 py-2 text-xs text-white placeholder-gray-400 outline-none transition-colors font-mono"
+          className="flex-1 bg-[#e8ebee] border border-gray-200 focus:border-green-500/60 rounded-lg px-3 py-2 text-xs text-gray-900 placeholder-gray-400 outline-none transition-colors font-mono"
         />
         <button
           onClick={send}

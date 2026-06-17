@@ -7,12 +7,12 @@ import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 
 const links = [
-  { label: "Reach Out",    id: "contact",      href: undefined },
-  { label: "Services",     id: "services",     href: undefined },
-  { label: "About",        id: "about",        href: undefined },
-  { label: "FAQs",         id: "faqs",         href: undefined },
-  { label: "VoIP Kits",    id: "voip-kits",    href: "/voip-kits" },
-  { label: "Intecha's Tech Take", id: "blog", href: "/blog" },
+  { label: "Services",          id: "services",  href: undefined },
+  { label: "About",             id: "about",     href: undefined },
+  { label: "FAQs",              id: "faqs",      href: undefined },
+  { label: "VoIP Kits",         id: "voip-kits", href: undefined },
+  { label: "Reach Out",         id: "contact",   href: undefined },
+  { label: "Intecha's Tech Take", id: "blog",    href: "/blog" },
 ];
 
 export default function Navbar() {

@@ -209,7 +209,7 @@ export default function Services() {
           </div>
 
           <p className="mt-2 text-gray-600 max-w-xl mx-auto text-lg">
-            VoIP consulting, helpdesk, network optimization, and virtual IT support — built for small businesses that need real expertise without the overhead.
+            VoIP Consulting, Helpdesk Support, Network Optimization and Virtual IT Assistance — built for small businesses that deserve real expertise without the overhead.
           </p>
         </motion.div>
 
@@ -219,6 +219,24 @@ export default function Services() {
             <ServiceCard key={service.title} service={service} i={i} />
           ))}
         </div>
+
+        {/* Don't see what you need */}
+        <motion.p
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5, delay: 0.2 }}
+          className="mt-10 text-center text-gray-600 text-base"
+        >
+          Don&apos;t see what you need?{" "}
+          <a
+            href="#contact"
+            onClick={(e) => { e.preventDefault(); document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" }); }}
+            className="text-green-700 font-semibold hover:text-green-600 underline underline-offset-2 transition-colors"
+          >
+            Let&apos;s chat and find the perfect fit for your business →
+          </a>
+        </motion.p>
 
         {/* Free assessment banner */}
         <motion.div

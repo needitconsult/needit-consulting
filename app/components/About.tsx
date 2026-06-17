@@ -23,7 +23,7 @@ const stats = [
 
 const expertise = [
   { title: "SIP & VoIP infrastructure",    body: "Session Initiation Protocol, SIP trunking, SBCs, registration troubleshooting" },
-  { title: "Mitel / ShoreTel systems",     body: "Administration, configuration, and support across both platforms" },
+  { title: "Mitel / ShoreTel systems",     body: "Administration, configuration, and support" },
   { title: "Call quality diagnostics",     body: "Jitter, latency, packet loss — WireShark PCAP analysis to find the real cause" },
   { title: "Network configuration",        body: "QoS, VLANs, firewall rules, SIP ALG, NAT — the stuff that makes or breaks VoIP" },
   { title: "IPSec VPN",                    body: "Multi-platform VPN configuration and remote worker connectivity" },
@@ -57,8 +57,8 @@ export default function About() {
           <p className="text-[10px] tracking-[0.2em] text-green-400 uppercase font-mono mb-4">About NeedIT Consulting LLC</p>
           <h2 className="text-4xl md:text-5xl font-light text-white leading-tight mb-3">
             Your business runs on<br />
-            <strong className="font-medium text-green-400">connections.</strong><br />
-            <span className="text-2xl md:text-3xl text-white/70 font-light">We make them work.</span>
+            <strong className="font-medium text-green-400">connections</strong><br />
+            <span className="text-2xl md:text-3xl text-white/70 font-light">We make them work</span>
           </h2>
           <p className="text-white/50 text-sm mb-6">Founder · IT Consultant · VoIP Specialist · Fredericksburg, VA</p>
           <p className="text-white/85 text-base md:text-lg font-light leading-relaxed border-l-4 border-green-500 pl-5">
@@ -108,7 +108,7 @@ export default function About() {
         {/* ── Why NeedIT ── */}
         <motion.div {...fadeUp(0.24)} className="bg-white rounded-2xl border border-gray-200 p-8 mb-6">
           <p className="text-[10px] tracking-[0.18em] text-green-600 uppercase font-mono mb-2">Why NeedIT exists</p>
-          <h3 className="text-xl font-medium text-gray-900 mb-5 leading-snug">Small businesses deserve subject matter expertise.</h3>
+          <h3 className="text-xl font-medium text-gray-900 mb-5 leading-snug">Small businesses deserve subject matter expertise</h3>
           <div className="space-y-4 text-sm text-gray-500 leading-relaxed">
             <p>I started NeedIT Consulting because I kept seeing the same thing: small and mid-size businesses stuck with phone systems that half-worked, IT problems that nobody would take ownership of, and vendor relationships that only went one direction. The big providers didn&apos;t have time for a 10-person office. The local generalist didn&apos;t have the depth to solve the hard problems.</p>
             <p>NeedIT fills that gap. Based in <strong className="font-medium text-gray-800">Fredericksburg, VA</strong> and serving businesses across the country, I bring SME-level technical knowledge to businesses that don&apos;t have an enterprise IT budget. Whether you need a VoIP system completely setup and configured, an existing system that needs help to actually start working for you, or someone to help you figure out what phones you need — that&apos;s what I do.</p>
@@ -119,7 +119,7 @@ export default function About() {
         {/* ── Expertise grid ── */}
         <motion.div {...fadeUp(0.26)} className="bg-white rounded-2xl border border-gray-200 p-8 mb-6">
           <p className="text-[10px] tracking-[0.18em] text-green-600 uppercase font-mono mb-2">What I actually know</p>
-          <h3 className="text-xl font-medium text-gray-900 mb-5 leading-snug">The technical depth behind the service.</h3>
+          <h3 className="text-xl font-medium text-gray-900 mb-5 leading-snug">The technical depth behind the service</h3>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
             {expertise.map((e) => (
               <div key={e.title} className="flex items-start gap-2.5 p-3 rounded-xl bg-gray-50 border border-gray-100">

@@ -726,7 +726,7 @@ function DetailPanel({ kit }: { kit: KitData }) {
             className="inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-lg bg-green-600 hover:bg-green-500 text-white font-bold text-sm transition-all hover:scale-[1.02] active:scale-[0.98]"
             style={{ boxShadow: "0 0 14px rgba(22,163,74,0.3)" }}
           >
-            View Setup Instructions & Pricing →
+            Get Setup Guide →
           </Link>
         </div>
 
