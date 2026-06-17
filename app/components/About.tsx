@@ -62,7 +62,7 @@ export default function About() {
           </h2>
           <p className="text-white/50 text-sm mb-6">Founder · IT Consultant · VoIP Specialist · Fredericksburg, VA</p>
           <p className="text-white/85 text-base md:text-lg font-light leading-relaxed border-l-4 border-green-500 pl-5">
-            I didn&apos;t learn VoIP from a textbook. I spent over eight years on the front lines — troubleshooting live call quality issues, configuring Session Initiation Protocol (SIP) trunks, diagnosing packet loss at 2 a.m., and rebuilding phone systems that vendors said couldn&apos;t be fixed.
+            I didn&apos;t learn Voice over Internet Protocol (VoIP) from a textbook. I spent over eight years on the front lines — troubleshooting live call quality issues, configuring Session Initiation Protocol (SIP) trunks, diagnosing packet loss at 2 a.m., and rebuilding phone systems that vendors said couldn&apos;t be fixed.
           </p>
         </motion.div>
 
