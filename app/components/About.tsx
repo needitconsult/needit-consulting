@@ -62,7 +62,7 @@ export default function About() {
           </h2>
           <p className="text-white/50 text-sm mb-6">Founder · IT Consultant · VoIP Specialist · Fredericksburg, VA</p>
           <p className="text-white/85 text-base md:text-lg font-light leading-relaxed border-l-4 border-green-500 pl-5">
-            I didn&apos;t learn VoIP from a textbook. I spent over eight years on the front lines — troubleshooting live call quality issues, configuring SIP trunks, diagnosing packet loss at 2am, and rebuilding phone systems that vendors said couldn&apos;t be fixed.
+            I didn&apos;t learn VoIP from a textbook. I spent over eight years on the front lines — troubleshooting live call quality issues, configuring Session Initiation Protocol (SIP) trunks, diagnosing packet loss at 2 a.m., and rebuilding phone systems that vendors said couldn&apos;t be fixed.
           </p>
         </motion.div>
 
@@ -92,10 +92,17 @@ export default function About() {
           <h3 className="text-xl font-medium text-gray-900 mb-5 leading-snug">I learned this by doing it. Every single part of it.</h3>
           <div className="space-y-4 text-sm text-gray-500 leading-relaxed">
             <p>I started out as someone who solved problems with their hands — diagnosing cars, figuring out why things weren&apos;t working, fixing them. That instinct carried me into IT. While earning my <strong className="font-medium text-gray-800">Bachelor of Science in Cyber Security at Colorado Technical University</strong>, I worked in the college&apos;s own IT department for two years — handling everything from a projector that wouldn&apos;t cooperate mid-lecture to laptops that needed to be completely wiped, reimaged, and rebuilt from scratch. Real problems, real users, real pressure. That&apos;s when I learned IT is problem solving — approaching it from every angle, until the resolution is found.</p>
-            <p>When I graduated in 2017, I landed my first VoIP job at a local provider. I&apos;ll be straight with you: I Googled &ldquo;what is VoIP&rdquo; before the interview. In my interview I asked questions and ended up having to setup a diagram of a network right there. Once in the position, I spent the first six months not just learning the field, but <strong className="font-medium text-gray-800">building the training program from the ground up</strong>. I was creating the SOPs and video content that would teach every future employee, while simultaneously figuring it all out myself. That experience burned the fundamentals in deep.</p>
+            <p>When I graduated in 2017, I landed my first VoIP job at a local provider. I&apos;ll be straight with you: I Googled &ldquo;what is VoIP&rdquo; before the interview. In my interview I asked questions and ended up having to setup a diagram of a network right there. Once in the position, I spent the first six months not just learning the field, but <strong className="font-medium text-gray-800">building the training program from the ground up</strong>. I was creating the Standard Operating Procedures (SOPs) and video content that would teach every future employee, while simultaneously figuring it all out myself. That experience burned the fundamentals in deep.</p>
             <p>I stayed with that company until 2025 — eight years. I went from tier 1 help desk to overseeing all client accounts as a manager. Along the way I worked through every layer of VoIP infrastructure: SIP trunking, SBCs, call quality diagnostics, WireShark packet analysis, IPSec VPNs, Mitel and ShoreTel systems. Every escalation that came across my desk made me better.</p>
             <p>I also hold a <strong className="font-medium text-gray-800">CompTIA Security+</strong> — because in this field, knowing how systems work and knowing how they fail are the same conversation. NeedIT was built on everything those eight years taught me, built specifically for the small businesses I watched get underserved the entire time.</p>
           </div>
+        </motion.div>
+
+        {/* ── Signature ── */}
+        <motion.div {...fadeUp(0.21)} className="flex justify-end pr-2 -mt-2 mb-6">
+          <p style={{ fontFamily: "cursive", fontSize: "2rem", color: "#15803d", lineHeight: 1.2 }}>
+            Ashley Ann
+          </p>
         </motion.div>
 
         {/* ── Quote ── */}
