@@ -26,10 +26,10 @@ export default function Home() {
     <main className="flex flex-col">
       <Navbar />
       <Hero />
-      <Services />
       <About />
-      <FAQs />
+      <Services />
       <VoIPKitsTeaser />
+      <FAQs />
       <Contact />
       <Footer />
       <HintBubble />
