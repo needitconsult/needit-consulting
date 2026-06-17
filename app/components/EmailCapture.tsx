@@ -9,14 +9,18 @@ export default function EmailCapture() {
   const [dismissed, setDismissed] = useState(false);
 
   useEffect(() => {
-    if (sessionStorage.getItem("needit_popup_dismissed")) return;
+    if (localStorage.getItem("needit_popup_dismissed")) return;
     const t = setTimeout(() => setVisible(true), 10000);
     return () => clearTimeout(t);
   }, []);
 
   const dismiss = () => {
     setDismissed(true);
-    sessionStorage.setItem("needit_popup_dismissed", "1");
+    localStorage.setItem("needit_popup_dismissed", "1");
+  };
+
+  const handleSubmit = () => {
+    localStorage.setItem("needit_popup_dismissed", "1");
   };
 
   if (dismissed || !visible) return null;
@@ -71,6 +75,7 @@ export default function EmailCapture() {
               method="POST"
               acceptCharset="UTF-8"
               className="flex flex-col gap-4"
+              onSubmit={handleSubmit}
             >
               {/* Zoho required hidden fields — do not remove */}
               <input type="text" name="xnQsjsdp" value="0082a7814d15eadfc51f70753283cc905d889c37a3050700d0897f993cc36a8a" readOnly style={{ display: "none" }} />
