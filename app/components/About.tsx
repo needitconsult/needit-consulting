@@ -2,9 +2,6 @@
 
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { Baguet_Script } from "next/font/google";
-
-const baguetScript = Baguet_Script({ weight: "400", subsets: ["latin"] });
 
 const credentials = [
   "Founded 2025",
@@ -145,7 +142,7 @@ export default function About() {
             <p>That diagnostic mindset applies to everything NeedIT does. Before I recommend a product, I understand the use case. Before I configure a system, I audit the network. Before I close a ticket, I verify the fix held. This isn&apos;t a help desk — it&apos;s a consulting practice built on the idea that understanding the problem completely is 80% of solving it.</p>
             <p>If you&apos;ve been told &ldquo;it&apos;s your internet&rdquo; one too many times without anyone proving it, or you&apos;ve had a VoIP system installed that never quite worked right, or you just want someone who will pick up the phone and actually know what they&apos;re talking about — that&apos;s what NeedIT is here for.</p>
           </div>
-          <p className={`${baguetScript.className} text-right mt-5 text-green-700`} style={{ fontSize: "2rem", lineHeight: 1.2 }}>
+          <p className="text-right mt-5 text-green-700" style={{ fontFamily: "'Baguet Script', cursive", fontSize: "2rem", lineHeight: 1.2 }}>
             — Ashley Ann
           </p>
         </motion.div>
