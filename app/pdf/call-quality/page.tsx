@@ -67,6 +67,7 @@ const sections = [
       "Echo on calls → Reduce speaker volume, disable SIP ALG on router",
       "Calls drop after a few minutes → Set Register Expiry to 120 on Account → Basic",
       "Can't access web interface → Confirm phone IP on Status screen, must be on same network",
+      "Caller ID not displaying correctly → Contact carrier to confirm Caller ID was set up in their portal, then check your phone management platform to confirm nothing is blocking or overriding the Caller ID sent from your carrier",
     ],
   },
 ];
