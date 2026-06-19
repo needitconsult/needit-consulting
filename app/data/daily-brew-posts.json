@@ -1,5 +1,62 @@
 [
   {
+    "slug": "daily-brew-your-call-center-needs-to-actually-measure-what-matters-2026-06-19",
+    "title": "Your Call Center Needs to Actually Measure What Matters",
+    "excerpt": "Most businesses are tracking the wrong metrics — and losing money because of it. Here's what to watch instead.",
+    "category": "Daily Brew",
+    "date": "June 19, 2026",
+    "readTime": "2 min read",
+    "content": [
+      {
+        "type": "p",
+        "text": "So I've been looking at what's trending in contact center management right now, and there's something that keeps coming up that genuinely matters for small business owners: most teams have no idea if their call centers are actually working. They're measuring stuff like call duration and answer speed, but they're missing the metrics that actually move the needle on revenue and customer retention."
+      },
+      {
+        "type": "h2",
+        "text": "The Trap Everyone Falls Into"
+      },
+      {
+        "type": "p",
+        "text": "Here's the thing — it's easy to measure what's easy to count. Your phone system shows you how fast someone picked up the phone. It tells you how long they stayed on the line. Those numbers are right there, so naturally, that's what gets tracked. But here's the problem: those metrics don't actually tell you if you're making money or keeping customers happy."
+      },
+      {
+        "type": "p",
+        "text": "A call that lasts 10 minutes and ends with an angry customer who never comes back is worse than a 5-minute call that solves their problem and turns them into a promoter. But the first metric would make your team look bad, and the second would make them look amazing — even though the outcomes are completely opposite."
+      },
+      {
+        "type": "h2",
+        "text": "What You Actually Need to Track"
+      },
+      {
+        "type": "list",
+        "items": [
+          "First-contact resolution — did the customer's problem get solved the first time they called, or are they calling back? This one directly impacts your bottom line.",
+          "Customer satisfaction scores tied to actual outcomes — not just 'did we answer fast,' but 'did we actually help you?' Real feedback from real customers.",
+          "Average handle time paired with quality — yes, speed matters, but not if it means rushing customers or missing something important.",
+          "Conversion rates for sales calls — if your team takes incoming calls from potential customers, are they actually closing deals or just answering questions?",
+          "Agent retention — if your good people keep leaving, you're constantly training newbies who won't perform as well. This costs way more than paying attention to it upfront."
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "The stat that hit me: teams that focus on first-contact resolution and customer satisfaction see 30-40% better retention rates and higher lifetime customer value. Not because customers love the company more, but because they actually solve their problems the first time."
+      },
+      {
+        "type": "h2",
+        "text": "Why This Matters to You Right Now"
+      },
+      {
+        "type": "p",
+        "text": "If you're running a small business, every call matters more than it does at a huge corporation. You don't have the budget to lose customers to frustration, and you definitely can't afford to keep training new agents because good ones are burning out. When your call center is tuned to the right metrics, it becomes a profit center instead of a cost center."
+      },
+      {
+        "type": "tip",
+        "label": "Intecha's Take",
+        "text": "Don't wait for a perfect analytics system — start with the basics. Pick three metrics that actually matter to your business (mine would be first-contact resolution, customer satisfaction, and agent retention) and start measuring them this month. Your phone system probably already has the data, you just need to look at it differently. Once you see the patterns, you'll know exactly where to invest time and money."
+      }
+    ]
+  },
+  {
     "slug": "daily-brew-your-contact-center-just-got-a-unified-brainand-you-actually-2026-06-17",
     "title": "Your Contact Center Just Got a Unified Brain—And You Actually Need to Know Why",
     "excerpt": "The whole VoIP world is converging, and small businesses are about to get superpowers they didn't know they were missing.",
