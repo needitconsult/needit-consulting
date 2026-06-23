@@ -1,8 +1,10 @@
 "use client";
 
+import { useState } from "react";
 import { motion } from "framer-motion";
 import { Phone, Headphones, Wifi, Shield, Bot, FileText, Gift } from "lucide-react";
 import { SparklesCore } from "@/components/ui/sparkles";
+import ServiceModal from "@/app/components/ServiceModal";
 
 type Service = {
   icon: React.ElementType;
@@ -100,7 +102,7 @@ const cardVariants = {
   }),
 };
 
-function ServiceCard({ service, i }: { service: Service; i: number }) {
+function ServiceCard({ service, i, onSelect }: { service: Service; i: number; onSelect: (title: string) => void }) {
   return (
     <motion.div
       custom={i}
@@ -109,7 +111,8 @@ function ServiceCard({ service, i }: { service: Service; i: number }) {
       viewport={{ once: true }}
       variants={cardVariants}
       whileHover={{ y: -6, transition: { duration: 0.2 } }}
-      className="group relative p-8 rounded-2xl bg-white border border-gray-200 hover:border-green-500/50 transition-all duration-300 flex flex-col gap-4 overflow-hidden"
+      className="group relative p-8 rounded-2xl bg-white border border-gray-200 hover:border-green-500/50 transition-all duration-300 flex flex-col gap-4 overflow-hidden cursor-pointer"
+      onClick={() => onSelect(service.title)}
     >
       {/* Per-card sparkles on hover */}
       <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none">
@@ -151,12 +154,20 @@ function ServiceCard({ service, i }: { service: Service; i: number }) {
         ))}
       </ul>
 
+      <div className="relative z-10 mt-auto pt-2">
+        <span className="inline-flex items-center gap-1.5 text-green-700 font-bold text-xs group-hover:text-green-600 transition-colors">
+          Get Started →
+        </span>
+      </div>
+
       <div className="absolute top-4 right-4 w-2 h-2 rounded-full bg-green-500/40 group-hover:bg-green-400 transition-colors z-10" />
     </motion.div>
   );
 }
 
 export default function Services() {
+  const [selectedService, setSelectedService] = useState<string | null>(null);
+
   return (
     <section id="services" className="relative py-24 px-6 overflow-hidden">
       {/* Background sparkles */}
@@ -216,7 +227,7 @@ export default function Services() {
         {/* Service cards */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {services.map((service, i) => (
-            <ServiceCard key={service.title} service={service} i={i} />
+            <ServiceCard key={service.title} service={service} i={i} onSelect={setSelectedService} />
           ))}
         </div>
 
@@ -278,6 +289,10 @@ export default function Services() {
           </a>
         </motion.div>
       </div>
+
+      {selectedService && (
+        <ServiceModal service={selectedService} onClose={() => setSelectedService(null)} />
+      )}
     </section>
   );
 }
