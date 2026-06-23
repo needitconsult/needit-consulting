@@ -1,8 +1,8 @@
 "use client";
 
 import { useState } from "react";
-import { motion } from "framer-motion";
-import { Phone, Headphones, Wifi, Shield, Bot, FileText, Gift } from "lucide-react";
+import { motion, AnimatePresence } from "framer-motion";
+import { Phone, Headphones, Wifi, Shield, Bot, FileText, Gift, CheckCircle2 } from "lucide-react";
 import { SparklesCore } from "@/components/ui/sparkles";
 import ServiceModal from "@/app/components/ServiceModal";
 
@@ -102,7 +102,7 @@ const cardVariants = {
   }),
 };
 
-function ServiceCard({ service, i, onSelect }: { service: Service; i: number; onSelect: (title: string) => void }) {
+function ServiceCard({ service, i, selected, onToggle }: { service: Service; i: number; selected: boolean; onToggle: (title: string) => void }) {
   return (
     <motion.div
       custom={i}
@@ -111,8 +111,10 @@ function ServiceCard({ service, i, onSelect }: { service: Service; i: number; on
       viewport={{ once: true }}
       variants={cardVariants}
       whileHover={{ y: -6, transition: { duration: 0.2 } }}
-      className="group relative p-8 rounded-2xl bg-white border border-gray-200 hover:border-green-500/50 transition-all duration-300 flex flex-col gap-4 overflow-hidden cursor-pointer"
-      onClick={() => onSelect(service.title)}
+      className={`group relative p-8 rounded-2xl bg-white border-2 transition-all duration-300 flex flex-col gap-4 overflow-hidden cursor-pointer ${
+        selected ? "border-green-500 shadow-lg shadow-green-100" : "border-gray-200 hover:border-green-500/50"
+      }`}
+      onClick={() => onToggle(service.title)}
     >
       {/* Per-card sparkles on hover */}
       <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none">
@@ -130,10 +132,15 @@ function ServiceCard({ service, i, onSelect }: { service: Service; i: number; on
       <div className="absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"
         style={{ boxShadow: "inset 0 0 30px rgba(74,222,128,0.05)" }} />
 
-      {/* Icon + price row */}
+      {/* Icon + price + check row */}
       <div className="relative z-10 flex items-start justify-between gap-2">
-        <div className="w-12 h-12 rounded-xl bg-green-50 border border-green-500/20 flex items-center justify-center group-hover:bg-green-100 transition-colors flex-shrink-0">
-          <service.icon className="w-6 h-6 text-green-700" />
+        <div className={`w-12 h-12 rounded-xl border flex items-center justify-center transition-colors flex-shrink-0 ${
+          selected ? "bg-green-600 border-green-600" : "bg-green-50 border-green-500/20 group-hover:bg-green-100"
+        }`}>
+          {selected
+            ? <CheckCircle2 className="w-6 h-6 text-white" />
+            : <service.icon className="w-6 h-6 text-green-700" />
+          }
         </div>
         <span className="px-3 py-1 rounded-full bg-green-50 border border-green-500/20 text-green-700 text-xs font-mono font-semibold whitespace-nowrap">
           {service.price}
@@ -155,8 +162,10 @@ function ServiceCard({ service, i, onSelect }: { service: Service; i: number; on
       </ul>
 
       <div className="relative z-10 mt-auto pt-2">
-        <span className="inline-flex items-center gap-1.5 text-green-700 font-bold text-xs group-hover:text-green-600 transition-colors">
-          Get Started →
+        <span className={`inline-flex items-center gap-1.5 font-bold text-xs transition-colors ${
+          selected ? "text-green-600" : "text-gray-400 group-hover:text-green-600"
+        }`}>
+          {selected ? "✓ Selected" : "Click to select"}
         </span>
       </div>
 
@@ -166,7 +175,13 @@ function ServiceCard({ service, i, onSelect }: { service: Service; i: number; on
 }
 
 export default function Services() {
-  const [selectedService, setSelectedService] = useState<string | null>(null);
+  const [selectedServices, setSelectedServices] = useState<string[]>([]);
+  const [modalOpen, setModalOpen] = useState(false);
+
+  const toggleService = (title: string) =>
+    setSelectedServices((prev) =>
+      prev.includes(title) ? prev.filter((s) => s !== title) : [...prev, title]
+    );
 
   return (
     <section id="services" className="relative py-24 px-6 overflow-hidden">
@@ -227,7 +242,13 @@ export default function Services() {
         {/* Service cards */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {services.map((service, i) => (
-            <ServiceCard key={service.title} service={service} i={i} onSelect={setSelectedService} />
+            <ServiceCard
+              key={service.title}
+              service={service}
+              i={i}
+              selected={selectedServices.includes(service.title)}
+              onToggle={toggleService}
+            />
           ))}
         </div>
 
@@ -290,8 +311,44 @@ export default function Services() {
         </motion.div>
       </div>
 
-      {selectedService && (
-        <ServiceModal service={selectedService} onClose={() => setSelectedService(null)} />
+      {/* Floating get started bar */}
+      <AnimatePresence>
+        {selectedServices.length > 0 && (
+          <motion.div
+            initial={{ opacity: 0, y: 40 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: 40 }}
+            transition={{ type: "spring", stiffness: 300, damping: 28 }}
+            className="fixed bottom-6 left-1/2 z-40 -translate-x-1/2"
+          >
+            <div className="flex items-center gap-4 bg-gray-900 text-white rounded-2xl px-5 py-3.5 shadow-2xl border border-white/10">
+              <span className="text-sm font-medium text-white/80">
+                <span className="text-green-400 font-extrabold">{selectedServices.length}</span>{" "}
+                service{selectedServices.length > 1 ? "s" : ""} selected
+              </span>
+              <button
+                onClick={() => setModalOpen(true)}
+                className="px-5 py-2 rounded-xl bg-green-600 hover:bg-green-500 text-white font-extrabold text-sm transition-colors"
+              >
+                Get Started →
+              </button>
+              <button
+                onClick={() => setSelectedServices([])}
+                className="text-white/40 hover:text-white/70 transition-colors text-xs"
+                aria-label="Clear selection"
+              >
+                ✕
+              </button>
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
+
+      {modalOpen && (
+        <ServiceModal
+          services={selectedServices}
+          onClose={() => { setModalOpen(false); setSelectedServices([]); }}
+        />
       )}
     </section>
   );

@@ -5,13 +5,13 @@ import { motion, AnimatePresence } from "framer-motion";
 import { X, CheckCircle2, Info } from "lucide-react";
 
 interface Props {
-  service: string;
+  services: string[];
   onClose: () => void;
 }
 
 const employeeOptions = ["1–5", "6–15", "16–30", "31–50", "51+"];
 
-export default function ServiceModal({ service, onClose }: Props) {
+export default function ServiceModal({ services, onClose }: Props) {
   const [form, setForm] = useState({
     firstName: "",
     lastName: "",
@@ -35,7 +35,7 @@ export default function ServiceModal({ service, onClose }: Props) {
       const res = await fetch("/api/service-request", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ service, ...form }),
+        body: JSON.stringify({ services, ...form }),
       });
       if (!res.ok) throw new Error();
       setSubmitted(true);
@@ -80,7 +80,20 @@ export default function ServiceModal({ service, onClose }: Props) {
               <X className="w-4 h-4" />
             </button>
             <p className="text-white/75 text-xs font-semibold uppercase tracking-widest mb-1">Get Started</p>
-            <h2 className="text-white text-xl font-extrabold leading-snug">{service}</h2>
+            {services.length === 1 ? (
+              <h2 className="text-white text-xl font-extrabold leading-snug">{services[0]}</h2>
+            ) : (
+              <div>
+                <h2 className="text-white text-xl font-extrabold leading-snug mb-2">{services.length} Services Selected</h2>
+                <ul className="flex flex-col gap-1">
+                  {services.map((s) => (
+                    <li key={s} className="text-white/80 text-sm flex items-center gap-2">
+                      <span className="w-1.5 h-1.5 rounded-full bg-green-300 flex-shrink-0" />{s}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
           </div>
 
           {submitted ? (
