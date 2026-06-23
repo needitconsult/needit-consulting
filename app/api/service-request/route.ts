@@ -2,9 +2,9 @@ import { NextRequest, NextResponse } from "next/server";
 import nodemailer from "nodemailer";
 
 export async function POST(req: NextRequest) {
-  const { services, firstName, lastName, businessName, employees, phone, preferredDate } = await req.json();
+  const { services, firstName, lastName, businessName, employees, phone, email, preferredDate } = await req.json();
 
-  if (!firstName || !lastName || !businessName || !phone || !services?.length) {
+  if (!firstName || !lastName || !businessName || !phone || !email || !services?.length) {
     return NextResponse.json({ error: "Missing required fields" }, { status: 400 });
   }
 
@@ -33,6 +33,7 @@ export async function POST(req: NextRequest) {
             <tr><td style="padding: 8px 0; color: #6b7280; font-size: 13px;"><strong>Business Name</strong></td><td style="padding: 8px 0; font-size: 14px;">${businessName}</td></tr>
             <tr><td style="padding: 8px 0; color: #6b7280; font-size: 13px;"><strong>Employees</strong></td><td style="padding: 8px 0; font-size: 14px;">${employees || "Not provided"}</td></tr>
             <tr><td style="padding: 8px 0; color: #6b7280; font-size: 13px;"><strong>Phone</strong></td><td style="padding: 8px 0; font-size: 14px;">${phone}</td></tr>
+            <tr><td style="padding: 8px 0; color: #6b7280; font-size: 13px;"><strong>Email</strong></td><td style="padding: 8px 0; font-size: 14px;"><a href="mailto:${email}">${email}</a></td></tr>
             <tr><td style="padding: 8px 0; color: #6b7280; font-size: 13px;"><strong>Preferred Call Date</strong></td><td style="padding: 8px 0; font-size: 14px;">${preferredDate || "Not specified"}</td></tr>
           </table>
           <hr style="margin: 16px 0; border: none; border-top: 1px solid #e5e7eb;" />

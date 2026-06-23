@@ -18,6 +18,7 @@ export default function ServiceModal({ services, onClose }: Props) {
     businessName: "",
     employees: "",
     phone: "",
+    email: "",
     preferredDate: "",
   });
   const [submitting, setSubmitting] = useState(false);
@@ -144,20 +145,27 @@ export default function ServiceModal({ services, onClose }: Props) {
                     onChange={(e) => set("businessName", e.target.value)} className={inputClass} />
                 </div>
 
-                {/* Employees + Phone row */}
+                {/* Employees */}
+                <div>
+                  <label className={labelClass}>Number of Employees</label>
+                  <select value={form.employees} onChange={(e) => set("employees", e.target.value)}
+                    className={inputClass}>
+                    <option value="">Select...</option>
+                    {employeeOptions.map((o) => <option key={o} value={o}>{o}</option>)}
+                  </select>
+                </div>
+
+                {/* Phone + Email row */}
                 <div className="grid grid-cols-2 gap-3">
-                  <div>
-                    <label className={labelClass}>Number of Employees</label>
-                    <select value={form.employees} onChange={(e) => set("employees", e.target.value)}
-                      className={inputClass}>
-                      <option value="">Select...</option>
-                      {employeeOptions.map((o) => <option key={o} value={o}>{o}</option>)}
-                    </select>
-                  </div>
                   <div>
                     <label className={labelClass}>Phone <span className="text-red-500">*</span></label>
                     <input type="tel" required placeholder="(555) 000-0000" value={form.phone}
                       onChange={(e) => set("phone", e.target.value)} className={inputClass} />
+                  </div>
+                  <div>
+                    <label className={labelClass}>Email <span className="text-red-500">*</span></label>
+                    <input type="email" required placeholder="jane@business.com" value={form.email}
+                      onChange={(e) => set("email", e.target.value)} className={inputClass} />
                   </div>
                 </div>
 
