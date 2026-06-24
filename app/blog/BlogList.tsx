@@ -70,7 +70,8 @@ export default function BlogList() {
           <img
             src="/intecha-no%20results.png"
             alt="Intecha shrugging"
-            className="mx-auto mb-5 w-40 h-40 object-contain"
+            className="mx-auto mb-5 w-64 h-64 object-contain"
+            style={{ mixBlendMode: "multiply" }}
           />
           <p className="font-medium text-gray-600">No results for &ldquo;{trimmed}&rdquo;</p>
           <p className="text-sm mt-1">Try searching for VoIP, SIP, network, firewall, or a specific topic.</p>
