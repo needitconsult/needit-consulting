@@ -65,9 +65,14 @@ export default function BlogList() {
       </div>
 
       {filtered.length === 0 && (
-        <div className="text-center py-20 text-gray-400">
-          <Search className="w-10 h-10 mx-auto mb-3 opacity-30" />
-          <p className="font-medium">No results for &ldquo;{trimmed}&rdquo;</p>
+        <div className="text-center py-16 text-gray-400">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/intecha-no%20results.png"
+            alt="Intecha shrugging"
+            className="mx-auto mb-5 w-40 h-40 object-contain"
+          />
+          <p className="font-medium text-gray-600">No results for &ldquo;{trimmed}&rdquo;</p>
           <p className="text-sm mt-1">Try searching for VoIP, SIP, network, firewall, or a specific topic.</p>
         </div>
       )}
