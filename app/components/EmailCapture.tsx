@@ -5,11 +5,16 @@ import { motion, AnimatePresence } from "framer-motion";
 import { X, FileText } from "lucide-react";
 
 // Safe localStorage wrapper — throws in private/restricted browsers on Android
-function storageGet(key: string): boolean {
-  try { return !!localStorage.getItem(key); } catch { return false; }
+const STORAGE_KEY = "needit_popup_v2";
+
+function storageGet(): boolean {
+  try { return !!localStorage.getItem(STORAGE_KEY); } catch {}
+  try { return !!sessionStorage.getItem(STORAGE_KEY); } catch {}
+  return false;
 }
-function storageSet(key: string): void {
-  try { localStorage.setItem(key, "1"); } catch { /* silently ignore */ }
+function storageSet(): void {
+  try { localStorage.setItem(STORAGE_KEY, "1"); return; } catch {}
+  try { sessionStorage.setItem(STORAGE_KEY, "1"); } catch {}
 }
 
 export default function EmailCapture() {
@@ -17,18 +22,18 @@ export default function EmailCapture() {
   const [dismissed, setDismissed] = useState(false);
 
   useEffect(() => {
-    if (storageGet("needit_popup_dismissed")) return;
-    const t = setTimeout(() => setVisible(true), 10000);
+    if (storageGet()) return;
+    const t = setTimeout(() => setVisible(true), 6000);
     return () => clearTimeout(t);
   }, []);
 
   const dismiss = () => {
     setDismissed(true);
-    storageSet("needit_popup_dismissed");
+    storageSet();
   };
 
   const handleSubmit = () => {
-    storageSet("needit_popup_dismissed");
+    storageSet();
   };
 
   if (dismissed || !visible) return null;
