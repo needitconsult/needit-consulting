@@ -4,23 +4,31 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { X, FileText } from "lucide-react";
 
+// Safe localStorage wrapper — throws in private/restricted browsers on Android
+function storageGet(key: string): boolean {
+  try { return !!localStorage.getItem(key); } catch { return false; }
+}
+function storageSet(key: string): void {
+  try { localStorage.setItem(key, "1"); } catch { /* silently ignore */ }
+}
+
 export default function EmailCapture() {
   const [visible, setVisible] = useState(false);
   const [dismissed, setDismissed] = useState(false);
 
   useEffect(() => {
-    if (localStorage.getItem("needit_popup_dismissed")) return;
+    if (storageGet("needit_popup_dismissed")) return;
     const t = setTimeout(() => setVisible(true), 10000);
     return () => clearTimeout(t);
   }, []);
 
   const dismiss = () => {
     setDismissed(true);
-    localStorage.setItem("needit_popup_dismissed", "1");
+    storageSet("needit_popup_dismissed");
   };
 
   const handleSubmit = () => {
-    localStorage.setItem("needit_popup_dismissed", "1");
+    storageSet("needit_popup_dismissed");
   };
 
   if (dismissed || !visible) return null;
@@ -33,7 +41,7 @@ export default function EmailCapture() {
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
         className="fixed inset-0 z-50 flex items-center justify-center px-4"
-        style={{ background: "rgba(0,0,0,0.45)", backdropFilter: "blur(2px)" }}
+        style={{ background: "rgba(0,0,0,0.45)", backdropFilter: "blur(2px)", cursor: "pointer" }}
         onClick={(e) => { if (e.target === e.currentTarget) dismiss(); }}
       >
         <motion.div
@@ -42,16 +50,18 @@ export default function EmailCapture() {
           exit={{ opacity: 0, scale: 0.93, y: 24 }}
           transition={{ type: "spring", stiffness: 320, damping: 28 }}
           className="relative w-full max-w-md rounded-2xl bg-white overflow-hidden"
-          style={{ boxShadow: "0 24px 64px rgba(0,0,0,0.22), 0 0 0 1px rgba(22,163,74,0.15)" }}
+          style={{ boxShadow: "0 24px 64px rgba(0,0,0,0.22), 0 0 0 1px rgba(22,163,74,0.15)", cursor: "auto" }}
+          onClick={(e) => e.stopPropagation()}
         >
           {/* Green header */}
           <div className="px-7 pt-7 pb-5" style={{ background: "linear-gradient(135deg, #15803d 0%, #16a34a 100%)" }}>
             <button
               onClick={dismiss}
-              className="absolute top-4 right-4 w-7 h-7 rounded-full flex items-center justify-center text-white/70 hover:text-white hover:bg-white/10 transition-colors"
+              className="absolute top-4 right-4 w-10 h-10 rounded-full flex items-center justify-center text-white/70 hover:text-white hover:bg-white/10 transition-colors"
               aria-label="Close"
+              type="button"
             >
-              <X className="w-4 h-4" />
+              <X className="w-5 h-5" />
             </button>
             <div className="flex items-center gap-3 mb-3">
               <div className="w-10 h-10 rounded-xl bg-white/15 flex items-center justify-center flex-shrink-0">
