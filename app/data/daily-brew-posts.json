@@ -1,5 +1,61 @@
 [
   {
+    "slug": "daily-brew-your-phone-system-is-about-to-get-way-more-complicated-and-h-2026-06-28",
+    "title": "Your Phone System Is About to Get Way More Complicated (And Here's Why That Matters)",
+    "excerpt": "The VoIP world is shifting under everyone's feet, and if you're still thinking about phone systems the old way, you're about to get blindsided.",
+    "category": "Daily Brew",
+    "date": "June 28, 2026",
+    "readTime": "2 min read",
+    "content": [
+      {
+        "type": "p",
+        "text": "So I've been reading through all the noise about VoIP trends right now, and there's this thing that keeps popping up that honestly nobody's talking about enough: the whole fixed versus non-fixed phone number situation. And I know that sounds boring, but stick with me because this actually affects how your customers reach you and whether you can operate the way you want to."
+      },
+      {
+        "type": "h2",
+        "text": "What's Actually Happening Here"
+      },
+      {
+        "type": "p",
+        "text": "Here's the deal: phone numbers used to be tied to physical locations. You had a business address in Denver, you got a Denver area code. Simple. That made sense for how the phone system was built."
+      },
+      {
+        "type": "p",
+        "text": "But VoIP changed everything. Suddenly you could take your business phone number anywhere—different states, different countries, wherever you had internet. That flexibility is amazing, right? Except regulatory bodies are getting nervous about it. They're cracking down on what they call \"non-fixed\" VoIP numbers (ones not tied to a specific location) because it apparently makes it easier for bad actors to spoof numbers and commit fraud. So now there's pressure to go back to fixed numbers, or at least to be more strict about verification."
+      },
+      {
+        "type": "callout",
+        "text": "What this means in plain English: You might lose some of the flexibility you've been taking for granted with your phone system. Or you might have to jump through extra hoops to keep things the way they are now."
+      },
+      {
+        "type": "h2",
+        "text": "Why This Actually Matters to Your Business"
+      },
+      {
+        "type": "list",
+        "items": [
+          "If you run multiple locations or have remote teams, a phone system that wasn't location-dependent was a huge win. That might get harder or more expensive.",
+          "If you're thinking about scaling your business or going hybrid/remote, assuming you can just port your number anywhere might not work anymore.",
+          "Your customers expect consistency—if regulatory changes force you to change your number, that's a headache nobody needs.",
+          "Switching phone systems is already annoying. If you're forced to do it because of regulatory pressure, that's just adding insult to injury."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "What You Should Actually Do Right Now"
+      },
+      {
+        "type": "tip",
+        "label": "Intecha's Take",
+        "text": "Don't panic, but do pay attention. If you're currently shopping for a VoIP provider or thinking about upgrading, ask them directly: What's your position on fixed versus non-fixed numbers? How are they planning to handle regulatory changes? Do they have a roadmap for what happens if the rules shift? A good provider will have thought this through and won't just hand-wave it away. And if you already have a system in place, this is worth a quick conversation with whoever manages it—just to make sure you're not caught off guard if things change."
+      },
+      {
+        "type": "p",
+        "text": "The phone system game is getting more regulated, not less. That's not necessarily bad—fraud prevention is actually good for all of us—but it does mean you need to be intentional about your choices instead of just picking whatever seems cheapest or easiest. Your phone number is part of your brand now. Make sure whatever system you choose can actually support how you want to work, not just how you're working today."
+      }
+    ]
+  },
+  {
     "slug": "daily-brew-your-phone-system-choices-just-got-messier-and-maybe-thats-g-2026-06-27",
     "title": "Your Phone System Choices Just Got Messier (And Maybe That's Good)",
     "excerpt": "Everyone's scrambling to find alternatives to the platforms they've been using — here's what that actually means for your business.",
