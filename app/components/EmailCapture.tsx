@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { X, FileText } from "lucide-react";
 
-const STORAGE_KEY = "needit_popup_v2";
+const STORAGE_KEY = "needit_popup_v3";
 
 function storageGet(): boolean {
   try { return !!localStorage.getItem(STORAGE_KEY); } catch {}
@@ -22,7 +22,7 @@ export default function EmailCapture() {
 
   useEffect(() => {
     if (storageGet()) return;
-    const t = setTimeout(() => setVisible(true), 6000);
+    const t = setTimeout(() => setVisible(true), 3000);
     return () => clearTimeout(t);
   }, []);
 
