@@ -1,1 +1,62 @@
-[]
+[
+  {
+    "slug": "daily-brew-your-ai-coding-assistant-might-be-installing-malware-and-it-2026-06-29",
+    "title": "Your AI Coding Assistant Might Be Installing Malware (And It Won't Even Know)",
+    "excerpt": "A new security flaw just showed how AI can be tricked into running dangerous code on your business machines — here's what you need to know before it becomes your problem.",
+    "category": "Daily Brew",
+    "date": "June 29, 2026",
+    "readTime": "3 min read",
+    "content": [
+      {
+        "type": "p",
+        "text": "So Mozilla's security team just dropped something genuinely concerning, and I need to walk you through it because it affects how you should be thinking about AI tools in your business right now. Turns out, AI coding assistants can be socially engineered into installing malware without even realizing they're doing it. Yeah, the same AI that's supposed to *help* you write cleaner code can be tricked into downloading and running malicious stuff."
+      },
+      {
+        "type": "h2",
+        "text": "What Actually Happened"
+      },
+      {
+        "type": "p",
+        "text": "Researchers found that popular AI coding tools (we're talking about assistants that developers use daily to write code faster) can be manipulated through something called a \"poisoned repository.\" Basically, someone creates what looks like a legitimate code library on GitHub or a similar platform — complete with professional documentation, clean setup instructions, the whole thing. But buried in there? Malicious code that installs without triggering any warnings."
+      },
+      {
+        "type": "p",
+        "text": "Here's the kicker: the AI's *helpfulness* is what gets exploited. When the AI sees something labeled as \"helpful\" or \"standard practice,\" it runs with it. It's not being malicious — it's just doing what it's trained to do. But that means your business machines could end up with unauthorized software, data-stealing tools, or ransomware baked right into your development environment."
+      },
+      {
+        "type": "h2",
+        "text": "Why This Matters to Your Business"
+      },
+      {
+        "type": "list",
+        "items": [
+          "If you have developers using AI assistants (and honestly, most do now), your code pipeline could be a backdoor without anyone knowing it happened",
+          "Malware installed this way doesn't throw red flags — it's hidden in code that looks legitimate, so it gets past traditional security checks",
+          "Once it's in your system, it could steal customer data, your intellectual property, or give someone remote access to your network",
+          "The scary part? It happens automatically. No click required. Just a developer asking AI for help with something."
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "This isn't theoretical. Security researchers proved it works, and bad actors are absolutely paying attention."
+      },
+      {
+        "type": "h2",
+        "text": "What You Should Actually Do About It"
+      },
+      {
+        "type": "tip",
+        "label": "Intecha's Take",
+        "text": "Don't panic and ban AI tools — that's not realistic and it'll just make your team use them secretly. Instead: (1) If you have developers, make sure they're only pulling code from *verified* sources — internal repos or well-established, actively-maintained libraries with real community oversight. (2) Get your IT person (or your IT consultant, ahem) to implement code scanning that actually checks what's getting installed, not just what's written. (3) Have a real conversation with your team about what they're using AI for and where. You don't need to micromanage, but you need visibility. (4) Make sure your access controls are tight — developers should only have permission to install things they actually need. This limits damage if something does get through."
+      },
+      {
+        "type": "p",
+        "text": "The actual good news? This is fixable with the right processes. You're not at the mercy of AI going rogue — you're dealing with a very human problem (social engineering) that happens to involve AI. And human problems have human solutions."
+      },
+      {
+        "type": "p",
+        "text": "Bottom line: your tools are still valuable, but you need to be intentional about *how* they're being used. Chat with your IT team today about where AI fits into your current security setup. Not because the sky is falling, but because staying ahead of this stuff is just smart business."
+      }
+    ]
+  }
+]
