@@ -32,7 +32,7 @@ export default function Home() {
       <FAQs />
       <Contact />
       <Footer />
-      <HintBubble />
+      <div className="hidden md:block"><HintBubble /></div>
     </main>
   );
 }

@@ -16,6 +16,7 @@ export default function Hero() {
     const ctx = cv.getContext("2d");
     if (!ctx) return;
 
+    const isMobile = window.innerWidth < 768;
     let W: number, H: number, cx: number, cy: number, t = 0;
     let rafId: number;
 
@@ -223,8 +224,10 @@ export default function Hero() {
       ctx!.fillStyle = tm;
       ctx!.fillRect(0, 0, W, H);
 
-      t += 0.013;
-      rafId = requestAnimationFrame(draw);
+      if (!isMobile) {
+        t += 0.013;
+        rafId = requestAnimationFrame(draw);
+      }
     }
 
     draw();
