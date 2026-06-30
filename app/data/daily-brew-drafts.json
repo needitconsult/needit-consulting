@@ -1,1 +1,54 @@
-[]
+[
+  {
+    "slug": "daily-brew-your-voip-setup-is-about-to-become-obsolete-and-thats-actual-2026-06-30",
+    "title": "Your VoIP Setup Is About to Become Obsolete (And That's Actually Good News)",
+    "excerpt": "Salesforce is pulling the plug on legacy phone integrations, and if you're still using them, you need to know what's coming—and why moving now is way better than scrambling later.",
+    "category": "Daily Brew",
+    "date": "June 30, 2026",
+    "readTime": "2 min read",
+    "content": [
+      {
+        "type": "p",
+        "text": "So here's something that caught my eye today, and I'm bringing it to you early because this one actually matters if you use Salesforce to run your sales team. Salesforce is officially ending support for their old phone adapter system—you know, the thing that's been gluing your VoIP phone system to your Salesforce CRM since forever. And yeah, this sounds like a boring backend thing, but stick with me because this affects how your sales team works every single day."
+      },
+      {
+        "type": "h2",
+        "text": "What's Actually Happening"
+      },
+      {
+        "type": "p",
+        "text": "Salesforce built something called CTI—Computer Telephony Integration—back when dinosaurs roamed the earth (okay, the early 2000s). It connected your phone system directly to your customer data so your salespeople could see who was calling before they picked up. Handy, right? Problem is, it's built on old technology, and Salesforce has decided it's time to move everyone to their newer approach. Legacy adapters are getting retired, and if you haven't started thinking about this yet, the clock is ticking."
+      },
+      {
+        "type": "h2",
+        "text": "Why This Matters to You (And It's Not What You Think)"
+      },
+      {
+        "type": "p",
+        "text": "Here's the thing: this isn't just IT theater. Your sales team relies on this connection working smoothly. When it breaks or gets deprecated, you lose that context switching—your reps have to manually look up customer info while they're on calls, or worse, they miss details because they're scrambling. That kills productivity and, more importantly, it kills your customer experience. New customer calls your sales rep, and they've got no idea who they are or what they've bought before. That's rough."
+      },
+      {
+        "type": "callout",
+        "text": "The migration window is closing faster than you'd think. Waiting until the last minute means rushed implementation, frustrated staff, and the potential for calls to just... drop into the void."
+      },
+      {
+        "type": "h2",
+        "text": "What You Actually Need to Do Right Now"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Check if you're using Salesforce CTI right now. Ask your IT person or the person who set up your phone system. If they look confused, you might be using it without realizing it.",
+          "Understand your current VoIP provider and whether they have a modern integration with Salesforce. Not all phone systems play nice with Salesforce's newer tools, so this matters.",
+          "Start planning your migration before you have to. This isn't a 'do it next month' situation—you want breathing room to test things, train your team, and make sure nothing breaks mid-sales-cycle.",
+          "Talk to your VoIP provider about the transition path. Good providers will have a clear roadmap for getting you from old to new without downtime."
+        ]
+      },
+      {
+        "type": "tip",
+        "label": "Intecha's Take",
+        "text": "This is actually a gift in disguise. Yeah, migrations are annoying, but the newer integrations are genuinely better. You'll get better call data, smarter call routing, and tools that actually work the way modern sales teams need them to. Don't drag your feet on this one—the companies moving early are getting better setups and smoother transitions. Being last is where it gets messy."
+      }
+    ]
+  }
+]
