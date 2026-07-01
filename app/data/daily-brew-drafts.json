@@ -1,1 +1,58 @@
-[]
+[
+  {
+    "slug": "daily-brew-your-phone-system-is-about-to-break-and-your-voip-provider-m-2026-07-01",
+    "title": "Your Phone System is About to Break (And Your VoIP Provider Might Not Tell You)",
+    "excerpt": "Salesforce CTI is dying, and if you're still using it, you've got a real problem on your hands.",
+    "category": "Daily Brew",
+    "date": "July 1, 2026",
+    "readTime": "2 min read",
+    "content": [
+      {
+        "type": "p",
+        "text": "So here's something that caught my eye today, and if you're using Salesforce to manage your sales calls, you really need to hear this. Salesforce is officially ending support for CTI — that's Computer Telephony Integration, which basically means the thing that lets your phone system talk to your CRM. And it's happening whether you're ready or not."
+      },
+      {
+        "type": "p",
+        "text": "I know that sounds like tech jargon, so let me break it down: right now, when a customer calls in, your phone system probably automatically pulls up their info in Salesforce. Your sales team can see their history, their account details, everything they need in one place. That's CTI doing its job. When that connection breaks, you're back to manually searching for customer info while the phone's ringing. Your team gets slower. Customers get frustrated. Revenue takes a hit."
+      },
+      {
+        "type": "callout",
+        "text": "Legacy adapters are retiring, and there's no \"keep things as they are\" option here. This is happening."
+      },
+      {
+        "type": "h2",
+        "text": "Why This Matters Right Now"
+      },
+      {
+        "type": "p",
+        "text": "Here's the thing: a lot of small businesses set up their phone system years ago and just... never touch it. It works, so why mess with it, right? Except Salesforce decided that maintaining these old connectors isn't worth their time anymore. The support is ending. The integrations are going away. And if you haven't started thinking about a replacement, you're about to have a really bad month when the switch happens."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Your team loses instant access to customer info during calls",
+          "Longer call times because everyone's digging through screens",
+          "More mistakes because people are working from memory instead of data",
+          "You're stuck with a phone system that doesn't talk to your CRM anymore"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "What You Actually Need to Do"
+      },
+      {
+        "type": "p",
+        "text": "First: find out if you're even using this. Call your phone system provider or your IT person and ask straight up: \"Are we using Salesforce CTI?\" If the answer is yes, congratulations, you now have a project."
+      },
+      {
+        "type": "p",
+        "text": "Second: start looking at alternatives NOW. There are phone systems built specifically to work with Salesforce without those legacy adapters. They integrate cleanly, they're faster, and your team gets better tools. This isn't about finding the cheapest option — it's about finding something that actually works with how your business runs."
+      },
+      {
+        "type": "tip",
+        "label": "Intecha's Take",
+        "text": "Don't wait until the deadline. Migration projects are way less painful when you're not panicking. Give yourself at least 2–3 months to evaluate, plan, and test. Your sales team will thank you when they can actually see customer info instead of staring at a blank screen while someone's calling."
+      }
+    ]
+  }
+]
