@@ -1,1 +1,54 @@
-[]
+[
+  {
+    "slug": "daily-brew-your-old-phone-system-vendor-is-probably-ghosting-you-heres-2026-07-02",
+    "title": "Your Old Phone System Vendor Is Probably Ghosting You (Here's Why It Matters)",
+    "excerpt": "Legacy communication platforms are hitting their end-of-life dates, and if you're still using one, you need to know what's coming down the pipeline.",
+    "category": "Daily Brew",
+    "date": "July 2, 2026",
+    "readTime": "2 min read",
+    "content": [
+      {
+        "type": "p",
+        "text": "So here's something that caught my eye today: a bunch of older communication platforms are officially getting retired. And I don't mean in a gentle, slow way — I mean vendors are literally shutting down the adapters and tools that make these systems work with your other business software. If you're still running one of these older setups, this is not a drill."
+      },
+      {
+        "type": "p",
+        "text": "The biggest one? Legacy adapters that connect your phone system to your CRM (that's customer relationship management software — basically the database where you keep all your customer info). When these go away, your phone calls stop talking to your CRM. No automatic call logging. No pop-up with the customer's history when they call in. No integration between your sales team's notes and who's calling. You're suddenly back in 2008."
+      },
+      {
+        "type": "h2",
+        "text": "Why This Is Actually Happening Right Now"
+      },
+      {
+        "type": "p",
+        "text": "Vendors retire old technology for a few reasons, and it's not just because they're mean. Older systems are genuinely harder to maintain, they don't play well with modern security standards, and honestly, they're expensive to keep running. Plus, everyone's moving to cloud-based phone systems that are way more flexible. The old stuff just can't keep up."
+      },
+      {
+        "type": "callout",
+        "text": "If you're using an older VoIP system, your vendor support is already on borrowed time. The longer you wait to switch, the riskier your setup becomes — and the more painful the migration will be when you finally have to do it."
+      },
+      {
+        "type": "h2",
+        "text": "What This Means for Your Business Right Now"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Your tech stack is about to lose a critical connection. When your phone system can't talk to your CRM, your team loses visibility into customer history mid-call.",
+          "Migration becomes urgent (and expensive). Waiting until your vendor kills support completely means you're scrambling, not planning. Emergency migrations cost more and go worse.",
+          "Security gets riskier. Older systems stop getting security updates. Your phone lines become a weaker link in your security chain.",
+          "Your team's efficiency takes a hit. No automatic logging, no call recording integrations, no real-time customer context — you're asking people to work harder for less information."
+        ]
+      },
+      {
+        "type": "tip",
+        "label": "Intecha's Take",
+        "text": "Don't wait for your vendor to send the final warning email. If you're on an older system, start looking at modern alternatives now — when you're thinking clearly, not when you're panicking. Look for a platform that actually plays nice with the other tools you use (your CRM, your helpdesk, whatever). A cloud-based VoIP system with solid integrations will cost you way less in the long run than staying on life support. And honestly? Your team will actually like working with it more. Modern systems are built for how people actually work now."
+      },
+      {
+        "type": "p",
+        "text": "The good news: modern VoIP is actually pretty good now. It's more reliable, way more flexible, and way easier to set up than it used to be. This isn't a tragedy — it's an excuse to upgrade to something that'll actually make your team's job easier. You just gotta do it on your own timeline, not the vendor's."
+      }
+    ]
+  }
+]
