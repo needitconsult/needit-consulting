@@ -1,1 +1,62 @@
-[]
+[
+  {
+    "slug": "daily-brew-your-phone-system-might-be-held-hostageheres-why-migration-s-2026-07-03",
+    "title": "Your Phone System Might Be Held Hostage—Here's Why Migration Season Is Messy",
+    "excerpt": "A bunch of old phone systems are getting shut down, and if you're still using one, you've got a decision to make sooner than you think.",
+    "category": "Daily Brew",
+    "date": "July 3, 2026",
+    "readTime": "3 min read",
+    "content": [
+      {
+        "type": "p",
+        "text": "So here's the thing that's been piling up in my inbox: a lot of small business owners are about to get a very awkward letter from their phone system provider. Not because they did anything wrong—just because the old systems they've been using are officially reaching end of life. And that means you either move to something new, or you're stuck with a phone system that nobody's supporting anymore."
+      },
+      {
+        "type": "p",
+        "text": "The big one right now is Salesforce CTI—that's the call-handling software that integrates your phone system with Salesforce. It's being retired, which sounds boring until you realize that sales teams have built entire workflows around it. If that's you, you're in a time crunch."
+      },
+      {
+        "type": "h2",
+        "text": "Why This Actually Matters to You"
+      },
+      {
+        "type": "p",
+        "text": "Legacy systems are like that old car that still runs but costs money every month to keep running. Except with phone systems, you don't just lose reliability—you lose security, you lose features that your team has gotten used to, and you lose any guarantee that calls will actually go through. Plus, providers stop investing in them, which means your support gets slower and buggier."
+      },
+      {
+        "type": "list",
+        "items": [
+          "If your phone system breaks down, there's no one actively fixing it—you're on your own or waiting months for patches",
+          "Newer systems have AI features that actually help (like call transcription, automatic note-taking, better call routing) that your old system will never get",
+          "You'll probably need to migrate anyway in the next 18 months, so doing it on your timeline is way better than being forced to panic-migrate when something breaks"
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "Real talk: migration is messy because it touches everything—your phone numbers, your customer routing, your team's muscle memory, your integrations with CRM or ticketing systems. But waiting until you absolutely have to is messier."
+      },
+      {
+        "type": "h2",
+        "text": "What You Should Actually Do Right Now"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Check your current system—ask your IT person or phone provider point-blank: 'Are we on end-of-life software?' If they dodge the question, that's your answer",
+          "Make a list of what your system does for you TODAY—not what it theoretically could do, but what you actually use. Call routing, hold music, call recording, Salesforce integration, whatever. You need this list to evaluate new options",
+          "Look at new systems while you have breathing room—don't wait until your system goes down and you need a replacement Friday morning. Research for a month or two",
+          "Plan the migration in phases if possible—move one department, learn what breaks, then roll out to everyone else. Doing it all at once is how you lose calls from customers"
+        ]
+      },
+      {
+        "type": "tip",
+        "label": "Intecha's Take",
+        "text": "The companies offering migration guides and comparisons right now? They're genuinely helpful—not because they're being nice, but because the whole industry knows migration season is here. Take advantage of that. Ask lots of questions about their migration support, whether they'll help with your integrations, and what happens if something breaks during the switch. The right partner will have done this a hundred times and can talk you through exactly what to expect."
+      },
+      {
+        "type": "p",
+        "text": "This isn't an emergency today, but it is a thing you need to know about. Check your system, make your list, and start looking around. Future you—the one who gets to migrate on your own terms instead of at 3 a.m. on a Tuesday—will be really grateful."
+      }
+    ]
+  }
+]
