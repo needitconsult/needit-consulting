@@ -1,1 +1,66 @@
-[]
+[
+  {
+    "slug": "daily-brew-your-old-phone-system-is-about-to-break-your-sales-team-2026-07-04",
+    "title": "Your Old Phone System Is About to Break Your Sales Team",
+    "excerpt": "Salesforce just ended support for a tool your sales team probably relies on — and if you haven't planned for it, you're about to have a real problem.",
+    "category": "Daily Brew",
+    "date": "July 4, 2026",
+    "readTime": "3 min read",
+    "content": [
+      {
+        "type": "p",
+        "text": "So here's something that caught my eye today, and honestly, it's the kind of thing that sneaks up on small business owners because nobody sends you a big flashing red warning. Salesforce is sunsetting their legacy CTI (Computer Telephony Integration) adapters — basically, the thing that makes your phone system talk to Salesforce and logs your calls automatically. And yeah, that's a bigger deal than it sounds."
+      },
+      {
+        "type": "p",
+        "text": "If your sales team uses Salesforce and you've got a phone system hooked up to it, this matters to you. Like, right now matters. Not 'someday' matters."
+      },
+      {
+        "type": "h2",
+        "text": "What's Actually Happening Here"
+      },
+      {
+        "type": "p",
+        "text": "For years, companies have been using CTI adapters to automatically pop up customer info when a call comes in, log calls without anyone having to remember to click a button, and generally make phone systems and Salesforce play nice together. It's been pretty convenient — your reps pick up the phone, and boom, there's the customer's history right there."
+      },
+      {
+        "type": "p",
+        "text": "Salesforce decided those adapters are old technology and they're not supporting them anymore. Which means if you're still using one, you're about to lose that automation. No more automatic call logging. No more pop-ups. Your team goes back to doing it manually, which — let's be real — means some calls won't get logged at all."
+      },
+      {
+        "type": "callout",
+        "text": "This isn't just an inconvenience. It directly impacts how much your sales team can actually accomplish in a day, plus your visibility into what's happening with customers."
+      },
+      {
+        "type": "h2",
+        "text": "Why You Should Care (Beyond the Obvious)"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Your reps lose productivity. Manual call logging takes time that could be spent actually selling.",
+          "Your data gets messier. Calls that don't get logged = lost customer intel. You're flying blind on deals.",
+          "Compliance stuff gets riskier. If you're in an industry that requires call documentation, you're suddenly more exposed.",
+          "Customer experience takes a hit. If your team isn't following up the same way because they're juggling more manual work, customers feel it."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "What You Actually Need to Do"
+      },
+      {
+        "type": "p",
+        "text": "First, figure out if you're even using one of these adapters. Ask your IT person or your Salesforce admin — they'll know. If you are, you need to start looking at alternatives now. There are other VoIP and phone systems out there that have native Salesforce integration (meaning they're built to work with it, not held together with duct tape). Some are better than others, and some fit different budgets and company sizes."
+      },
+      {
+        "type": "p",
+        "text": "The real move is to treat this like a project, not an emergency. Get your IT person and your sales manager in a room, look at what your team actually needs from the integration (not just 'everything'), and then evaluate options. Migration doesn't have to be painful if you plan it right, but it will be messy if you wait until the deadline."
+      },
+      {
+        "type": "tip",
+        "label": "Intecha's Take",
+        "text": "Don't wait for Salesforce to force your hand on this. Proactive migrations are about 100 times less stressful than reactive ones. Get ahead of it, do a proper evaluation of what you need, and swap it out on your timeline — not Salesforce's. Your sales team will thank you, and honestly, you might end up with something better than what you had anyway."
+      }
+    ]
+  }
+]
