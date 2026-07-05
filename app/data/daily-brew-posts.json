@@ -1,5 +1,61 @@
 [
   {
+    "slug": "daily-brew-your-phone-system-vendor-is-probably-going-away-and-thats-ac-2026-07-05",
+    "title": "Your Phone System Vendor Is Probably Going Away (And That's Actually OK)",
+    "excerpt": "A bunch of older business phone systems are reaching end-of-life, and instead of panicking, here's what smart business owners are actually doing about it.",
+    "category": "Daily Brew",
+    "date": "July 5, 2026",
+    "readTime": "3 min read",
+    "content": [
+      {
+        "type": "p",
+        "text": "So here's what's been showing up everywhere in the tech news cycle: a whole bunch of business phone systems from the past decade are getting sunset. We're talking platforms that worked fine for years, but now the vendors are either shutting them down, stopping support, or migrating everyone to something new. And look—I'm not here to make anyone feel bad about using whatever system got them through the last five years. But if you're running one of these systems, we need to talk about what's actually happening and why it matters to you specifically."
+      },
+      {
+        "type": "h2",
+        "text": "Why This Is Happening (And It's Not Your Fault)"
+      },
+      {
+        "type": "p",
+        "text": "The VoIP and contact center world has been consolidating and evolving like crazy. What worked in 2018 doesn't cut it anymore. Customers expect AI-powered call routing, integration with their CRM, mobile-first experiences, analytics that actually tell you something useful. The old platforms? They're expensive to maintain, they don't play nice with modern tools, and they weren't built for the stuff businesses need now. So vendors are retiring them—sometimes giving customers a graceful path to migration, sometimes less graceful. Either way, it's happening."
+      },
+      {
+        "type": "h2",
+        "text": "What You Actually Need to Know"
+      },
+      {
+        "type": "list",
+        "items": [
+          "End-of-life announcements usually give you 12–24 months to move. That sounds like forever, but it goes fast when you're juggling everything else.",
+          "Your current system probably has customizations or workarounds you've built over time. You'll need to figure out which of those actually matter and which you can let go of.",
+          "Moving to something new doesn't have to mean starting from scratch. Most modern platforms can import your call flows, voicemail greetings, extension setups—the stuff that matters.",
+          "The good news? The options right now are actually better than what you're leaving. Better integrations, better reporting, better support. This is a rare chance to upgrade without the upgrade feeling like a punishment."
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "Migration delays are real. Companies that wait until month 18 of a 24-month window end up rushed, making bad choices, and overpaying for expedited moves. Don't be that business."
+      },
+      {
+        "type": "h2",
+        "text": "What Actually Matters When You're Picking Something New"
+      },
+      {
+        "type": "p",
+        "text": "Here's the thing—there are a LOT of options out there now, and that's genuinely good for you. But too many choices can be paralyzing. When you're evaluating what to move to, stop worrying about having the fanciest feature set. Instead, focus on three things: Does it work with the tools you already use? Will the vendor still be around in five years (hint: ask about their growth and financials, not just their marketing)? And can their support team actually help you when something breaks at 3 p.m. on a Friday?"
+      },
+      {
+        "type": "tip",
+        "label": "Intecha's Take",
+        "text": "If you haven't heard from your VoIP vendor about an end-of-life date yet, don't wait for the official announcement. Call them and ask. Seriously. A quick conversation now—before you're in panic mode—can change everything about how smoothly this goes. And when you do start looking at new options, talk to at least three vendors before deciding. You're not just buying a phone system; you're picking a partner for the next chunk of your business. Make sure they actually get what you're trying to do."
+      },
+      {
+        "type": "p",
+        "text": "The silver lining here? This transition is actually an opportunity. You're not being forced to move because your system is terrible; you're moving because the world moved, and there's genuinely better stuff available now. Use that to your advantage. Ask questions, take your time (but not too much time), and pick something that actually fits how your business works. You've got this."
+      }
+    ]
+  },
+  {
     "slug": "daily-brew-your-old-phone-system-is-about-to-break-your-sales-team-2026-07-04",
     "title": "Your Old Phone System Is About to Break Your Sales Team",
     "excerpt": "Salesforce just ended support for a tool your sales team probably relies on — and if you haven't planned for it, you're about to have a real problem.",
