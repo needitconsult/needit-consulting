@@ -1,5 +1,70 @@
 [
   {
+    "slug": "daily-brew-your-phone-system-might-be-holding-you-hostage-and-you-dont-2026-07-06",
+    "title": "Your Phone System Might Be Holding You Hostage (And You Don't Even Know It)",
+    "excerpt": "Salesforce just killed off a whole connection tool, and it's forcing thousands of businesses to make a decision they weren't planning on.",
+    "category": "Daily Brew",
+    "date": "July 6, 2026",
+    "readTime": "2 min read",
+    "content": [
+      {
+        "type": "p",
+        "text": "So here's something that caught my eye today—Salesforce is sunsetting their CTI (that's Computer Telephony Integration, basically the thing that connects your phone system to your Salesforce CRM) and it's creating this weird moment where a bunch of small business owners are realizing they've been locked into a legacy setup without knowing it."
+      },
+      {
+        "type": "p",
+        "text": "If you're using Salesforce to manage your customer relationships and your phone calls feed directly into it, this matters to you. And if you're not sure whether you are—that's exactly the problem we're talking about."
+      },
+      {
+        "type": "h2",
+        "text": "What's Actually Happening"
+      },
+      {
+        "type": "p",
+        "text": "Salesforce is phasing out the adapters that make older phone systems talk to Salesforce. The old connectors—the ones a lot of companies have been running on for years—are getting retired. Which means your sales team's phone calls might stop automatically logging into Salesforce. Your call history might not sync. Follow-up tasks might disappear. Basically, the glue holding everything together is coming unstuck."
+      },
+      {
+        "type": "p",
+        "text": "Here's the thing though: this isn't some wild surprise announcement. Salesforce announced this was coming. But a lot of people either didn't see it, didn't understand it applied to them, or figured they'd deal with it later. And now \"later\" is kind of here."
+      },
+      {
+        "type": "h2",
+        "text": "Why This Matters to Your Business Right Now"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Your team might lose automatic call logging—meaning someone has to manually record calls in Salesforce instead of it happening automatically",
+          "You might discover your phone system and CRM don't actually play nice together the way you thought they did",
+          "You've got a deadline now to make a decision, which is never fun when you're already stretched thin",
+          "This forces you to look at your whole setup, which honestly might be a good thing, but it's also a distraction"
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "The real problem: Most small business owners don't even know what CTI is or whether they're using it. You might discover this the hard way when your team says \"wait, where did my call notes go?\""
+      },
+      {
+        "type": "h2",
+        "text": "What You Actually Need to Do"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Check with your CRM person (or whoever manages Salesforce) and ask straight up: are we using Salesforce CTI right now? If they look confused, you need to find out.",
+          "Get a list of when your specific adapters are being retired—timelines vary depending on what you're running",
+          "Start looking at what modern phone systems offer for Salesforce integration now, not on the deadline—because waiting until the last minute is how you end up with a bad decision",
+          "Test any new integration in a non-critical way before you flip the switch"
+        ]
+      },
+      {
+        "type": "tip",
+        "label": "Intecha's Take",
+        "text": "This is actually an opportunity in disguise. A lot of companies are running phone systems they set up five years ago and never looked at again. This deadline forces you to ask: is this system still working for us? Do we need something better? Sometimes the answer is yes. And sometimes you realize you could be way more efficient with a modern setup. Either way, you're making an active choice instead of just coasting. That's worth something."
+      }
+    ]
+  },
+  {
     "slug": "daily-brew-your-phone-system-vendor-is-probably-going-away-and-thats-ac-2026-07-05",
     "title": "Your Phone System Vendor Is Probably Going Away (And That's Actually OK)",
     "excerpt": "A bunch of older business phone systems are reaching end-of-life, and instead of panicking, here's what smart business owners are actually doing about it.",
