@@ -1,1 +1,55 @@
-[]
+[
+  {
+    "slug": "daily-brew-your-ai-receptionist-just-got-a-lot-smarter-and-way-less-cre-2026-07-09",
+    "title": "Your AI Receptionist Just Got a Lot Smarter (And Way Less Creepy)",
+    "excerpt": "AI phone agents are becoming the real deal for small businesses—but only if you know what actually matters and what's just hype.",
+    "category": "Daily Brew",
+    "date": "July 9, 2026",
+    "readTime": "2 min read",
+    "content": [
+      {
+        "type": "p",
+        "text": "Okay, so AI receptionists and phone agents are having a moment right now, and honestly? I'm watching this play out and thinking a lot of business owners are about to make some really expensive mistakes. Not because AI phone agents are bad—they're actually becoming legitimately useful—but because everyone's selling them like they're magic wands, and that's not how this works."
+      },
+      {
+        "type": "p",
+        "text": "Here's what's actually happening: AI phone systems are getting better at sounding human, handling basic calls without transferring to a person, and doing it at a fraction of what you'd pay someone to sit at a desk all day. That part is real and it matters. But there's a ton of noise right now about features that sound impressive and don't actually move the needle for your business."
+      },
+      {
+        "type": "h2",
+        "text": "What Actually Works (And What Doesn't)"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Call answering and basic routing—this is solid. AI can answer phones 24/7, ask basic questions, and send calls to the right person.",
+          "Appointment scheduling—legitimately saves time if your customers are booking things.",
+          "Lead capture after hours—huge for sales teams. Calls come in at 11 PM, AI takes info, you follow up fresh on Monday.",
+          "The fancy stuff (sentiment analysis, emotional intelligence, real-time translation)—sounds cool, not worth the money yet. Don't pay extra for it.",
+          "Integration with your existing phone system—absolutely critical. If it doesn't plug into what you already use, it's a nightmare."
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "The real ROI metric? Call handling cost per call, first-call resolution rate, and whether leads actually convert. If a vendor can't show you those numbers for businesses like yours, they're selling you a dream."
+      },
+      {
+        "type": "h2",
+        "text": "The Thing Nobody's Talking About"
+      },
+      {
+        "type": "p",
+        "text": "Here's what I'm seeing: people are obsessed with whether the AI sounds human enough. Genuinely, that's not your main problem. Your main problem is whether it actually solves something that's costing you time or money. A slightly robotic voice that handles 60% of your inbound calls is worth way more than a perfectly human voice that can't actually do anything useful."
+      },
+      {
+        "type": "tip",
+        "label": "Intecha's Take",
+        "text": "Before you sign up for anything, ask yourself: What calls are wasting my time right now? Is it appointment scheduling? Lead qualification? Simple questions I answer 50 times a day? Pick ONE problem to solve, not five. And honestly, ask the vendor for a reference from a business your size in your industry. If they won't give you one, that's a red flag the size of Rhode Island."
+      },
+      {
+        "type": "p",
+        "text": "The AI phone agent space is actually getting real value right now—but only if you're clear-eyed about what you're buying. It's not magic. It's a tool. A good one, if you use it right."
+      }
+    ]
+  }
+]
