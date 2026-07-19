@@ -1,1 +1,58 @@
-[]
+[
+  {
+    "slug": "daily-brew-your-business-phone-system-just-got-cheaper-and-heres-what-t-2026-07-19",
+    "title": "Your Business Phone System Just Got Cheaper (And Here's What That Means)",
+    "excerpt": "VoIP pricing is dropping, but there's a catch — and it's worth understanding before you pick your next system.",
+    "category": "Daily Brew",
+    "date": "July 19, 2026",
+    "readTime": "3 min read",
+    "content": [
+      {
+        "type": "p",
+        "text": "So here's something that caught my eye today: business phone systems are getting cheaper. Like, noticeably cheaper. We're talking $15–$50 per user per month now, and honestly? That's a pretty big shift from where things were even a couple years ago. And before you get too excited about just saving money, we need to talk about what's actually happening under the hood here, because pricing never changes in a vacuum."
+      },
+      {
+        "type": "h2",
+        "text": "Why Everything's Getting More Affordable"
+      },
+      {
+        "type": "p",
+        "text": "The whole business phone space is getting more competitive. More companies are offering cloud-based phone systems (which is what most people should be using anyway), and that competition naturally pushes prices down. Plus, the technology itself is just... better and cheaper to run than it used to be. That's actually good news for small businesses like yours."
+      },
+      {
+        "type": "callout",
+        "text": "The catch? Lower prices often mean you need to watch for hidden fees. Setup costs, per-minute charges for long distance, extra features that should be standard — that's where the real cost can hide."
+      },
+      {
+        "type": "h2",
+        "text": "What You Actually Need to Know"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Don't just compare the per-user monthly price — that's like only looking at the sticker price on a car. Ask about setup fees, whether long distance is included, if voicemail-to-email costs extra, and what happens if you need to add features later.",
+          "Make sure the system can actually grow with you. You might not need 20 phone lines today, but if business picks up (which we're hoping it does), you don't want to hit a wall or deal with a system that's a pain to scale.",
+          "Check whether you can bring your own hardware or if you're locked into their equipment. Some providers have gotten really flexible here, which is great. Others... less so.",
+          "Ask about what happens during an internet outage. A cheap system that goes dark the moment your internet hiccups isn't actually cheaper — it's more expensive when you lose calls."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "The Real Question: Hosted PBX, VoIP, SIP Trunking — What's the Difference?"
+      },
+      {
+        "type": "p",
+        "text": "Real talk: a lot of marketing out there uses these terms pretty interchangeably, and it gets confusing. A hosted PBX is basically your old phone system (you know, the box in the back room that was a nightmare to manage) but living in the cloud instead. VoIP is just the technology that makes voice calls work over the internet. SIP trunking is a way to connect your existing phone system to the internet without replacing it entirely. For most small businesses? A hosted PBX is what you actually want — it's all-in-one, you don't have to manage hardware, and it just works."
+      },
+      {
+        "type": "tip",
+        "label": "Intecha's Take",
+        "text": "Before you jump on the cheapest option, spend 20 minutes on a call with their sales team asking the tough questions. Ask them to walk you through pricing in writing, ask about what's NOT included, and ask for a reference from a business similar to yours. The company that's transparent about the real costs upfront? That's the one you want to work with. The ones that are vague? That's a flag."
+      },
+      {
+        "type": "p",
+        "text": "The bottom line: cheaper phone systems are genuinely great right now, and there's no reason to overpay. But don't let price be the only thing driving your decision. Get the details, compare apples to apples, and pick something that's not just affordable today but reliable and flexible enough for where you're heading. Your phone system matters more than you think — it's literally how your customers reach you."
+      }
+    ]
+  }
+]
