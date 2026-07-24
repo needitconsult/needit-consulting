@@ -1,1 +1,51 @@
-[]
+[
+  {
+    "slug": "daily-brew-your-phone-system-is-bleeding-money-and-you-probably-dont-kn-2026-07-24",
+    "title": "Your Phone System Is Bleeding Money (And You Probably Don't Know It)",
+    "excerpt": "Those old phone setups aren't just outdated—they're actively costing you way more than you think, and it's time to do the math.",
+    "category": "Daily Brew",
+    "date": "July 24, 2026",
+    "readTime": "2 min read",
+    "content": [
+      {
+        "type": "p",
+        "text": "So I've been looking at what's happening with businesses still clinging to old phone systems, and honestly? It's wild how much money is just sitting there getting wasted. Like, not in a dramatic way—just the slow, steady drain of costs that nobody's really paying attention to because 'that's how phones have always worked.'"
+      },
+      {
+        "type": "h2",
+        "text": "Here's What's Actually Happening"
+      },
+      {
+        "type": "p",
+        "text": "Traditional phone systems—the kind with actual boxes and wires running through your office—come with maintenance contracts, regular service calls, hardware that breaks and needs replacing, and infrastructure that ties you to a physical location. They're also incredibly inefficient for how businesses actually work now. You can't easily add a remote employee, you can't scale down if business is slow, and if something goes wrong, you're calling a technician and waiting."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Monthly maintenance fees that keep creeping up because vendors know you're locked in",
+          "Hardware replacement costs (those systems don't last forever, and newer parts get harder to find)",
+          "Installation and configuration fees whenever you need to change anything",
+          "Long-term contracts that penalize you for leaving",
+          "Zero flexibility for remote work or temporary staffing changes"
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "A typical small business pays $50–150 per employee per month for old phone systems, sometimes more. A cloud-based alternative? Often half that, with way more features included."
+      },
+      {
+        "type": "h2",
+        "text": "Why This Matters to You Right Now"
+      },
+      {
+        "type": "p",
+        "text": "You're probably running a tighter operation than you were a few years ago. Every dollar matters. And the thing about those old phone bills is they don't feel expensive individually—it's just part of your monthly spend. But add them up over a year, multiply by the fact that you're not getting modern features like call routing, voicemail-to-email, or easy integration with your other tools, and suddenly you're paying premium prices for something that's actively holding you back."
+      },
+      {
+        "type": "tip",
+        "label": "Intecha's Take",
+        "text": "This week, pull your last three months of phone bills and actually add them up. Include any service calls, maintenance fees, or 'emergency' charges. Then ask yourself: are you getting modern features like mobile integration, video conferencing, call analytics, or AI-powered call screening? If the answer is 'no' and you're still paying like you are—that's your sign to start looking at alternatives. A lot of modern systems pay for themselves in cost savings alone, before you even factor in the productivity gains."
+      }
+    ]
+  }
+]
