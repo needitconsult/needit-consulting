@@ -1,1 +1,58 @@
-[]
+[
+  {
+    "slug": "daily-brew-your-customer-service-automation-probably-isnt-working-heres-2026-07-26",
+    "title": "Your Customer Service Automation Probably Isn't Working (Here's Why)",
+    "excerpt": "AI and chatbots sound great in theory, but most small businesses are using them wrong — and it's costing them customers.",
+    "category": "Daily Brew",
+    "date": "July 26, 2026",
+    "readTime": "2 min read",
+    "content": [
+      {
+        "type": "p",
+        "text": "So I've been watching a lot of conversation lately about customer service automation — you know, AI chatbots, self-service tools, all that stuff — and here's what I'm noticing: businesses are jumping in without actually thinking through what they're automating or why. They're building these fancy systems that sound impressive on paper, but then customers hate using them, abandon support requests halfway through, and end up even more frustrated than if you'd just answered the phone."
+      },
+      {
+        "type": "p",
+        "text": "The thing is, automation itself isn't the problem. It's actually really powerful when it's done right. But most small business owners are automating the wrong things — or automating before they've figured out what their customers actually need."
+      },
+      {
+        "type": "h2",
+        "text": "What's Actually Happening"
+      },
+      {
+        "type": "p",
+        "text": "Right now, there's this wave of tools designed to automate customer service — chatbots that handle initial inquiries, AI that routes tickets, self-service portals where customers can find answers on their own. Sounds logical, right? Less work for you, faster answers for them. Except in practice, businesses are often automating things that actually *need* human judgment. A customer who's upset about a billing error doesn't want to chat with a bot. They want to talk to someone who can actually fix it."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Automating complex problems that need real troubleshooting (you're wasting customer time)",
+          "Forcing customers through too many automated steps before they can reach a human (they just leave)",
+          "Setting up self-service portals without actually making them useful or keeping them updated (nobody uses them)",
+          "Using chatbots for things that are too nuanced for AI to handle well yet (spoiler: most service issues)"
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "Here's the real kicker: customers would rather wait longer to talk to a real person than get stuck in an automated loop they can't escape. Speed doesn't matter if they're frustrated."
+      },
+      {
+        "type": "h2",
+        "text": "Where Automation Actually Works"
+      },
+      {
+        "type": "p",
+        "text": "The wins happen when you automate things that are genuinely repetitive, low-stakes, and easy to standardize. Think: appointment reminders, password resets, basic FAQ stuff, order status checks. Things where there's one right answer and the customer knows exactly what they need. That's where you free up your team to handle the weird, complicated, actually-needs-a-person stuff."
+      },
+      {
+        "type": "tip",
+        "label": "Intecha's Take",
+        "text": "Before you implement any automation tool, ask yourself: \"Would *I* be frustrated if a bot tried to handle this?\" If the answer is yes, don't automate it. Automate the stuff that's making your team's day worse, not the stuff that's making your customers' experience better. Start small — maybe one repetitive task — measure what actually happens (do customers get better answers? Does your team have more time for real problems?), and then expand from there. The tools are good, but they're not a fix for bad customer service. They're a *multiplier* of good customer service."
+      },
+      {
+        "type": "p",
+        "text": "The businesses winning at this right now? They're using automation to handle the boring stuff so their team can actually focus on making customers happy. That's the move."
+      }
+    ]
+  }
+]
