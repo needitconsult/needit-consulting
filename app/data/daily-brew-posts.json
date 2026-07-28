@@ -1,5 +1,61 @@
 [
   {
+    "slug": "daily-brew-your-voip-bill-is-about-to-get-weird-heres-what-changed-2026-07-28",
+    "title": "Your VoIP Bill Is About to Get Weird (Here's What Changed)",
+    "excerpt": "Pricing across the entire VoIP industry just shifted, and if you haven't looked at your contract lately, you might be paying way more than you think.",
+    "category": "Daily Brew",
+    "date": "July 28, 2026",
+    "readTime": "2 min read",
+    "content": [
+      {
+        "type": "p",
+        "text": "So here's what's been happening quietly across the VoIP world: basically every major phone system provider just restructured their pricing. And I mean *every* one. We're talking RingCentral, Nextiva, CloudTalk, Aircall, Quo—the whole crew. They didn't all do it the same way, which is actually the problem."
+      },
+      {
+        "type": "p",
+        "text": "Here's why I'm flagging this for you right now: if you signed a multi-year contract two or three years ago, you might still think you're getting a decent deal. Spoiler alert—you might not be anymore. And the kicker? A lot of these changes are happening in add-ons and per-user fees that aren't always obvious until you actually look at the details."
+      },
+      {
+        "type": "h2",
+        "text": "What Actually Changed"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Base plans are getting more expensive across the board—some platforms are seeing 15–25% increases year over year",
+          "Add-ons (like AI receptionists, call recording, advanced analytics) used to be nice-to-haves. Now they're almost essential if you want to stay competitive, and they're *not* included in base pricing",
+          "Per-user costs are climbing, especially for businesses that scale. CloudTalk's starting at $25 per user now—that adds up fast when you've got 10, 20, or 50 people",
+          "Hidden fees are real. We're seeing setup fees, port-in fees, and overage charges that aren't always spelled out until you dig into the fine print"
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "The real issue: a $30/month plan for one user might actually cost you $60+ per month once you add the features you actually need to run your business."
+      },
+      {
+        "type": "h2",
+        "text": "Why This Matters to You Right Now"
+      },
+      {
+        "type": "p",
+        "text": "If you've been with the same VoIP provider for more than a year or two, your contract probably doesn't reflect current pricing anymore. That means when renewal time rolls around—or if you're thinking about switching—you need to actually compare apples to apples. Not just the advertised base price, but the *real* cost including everything you actually use."
+      },
+      {
+        "type": "p",
+        "text": "The other thing? AI features and customer service automation tools are now table stakes, not luxury add-ons. Most of your competitors probably already have some version of this running. If you don't, you're spending more human time on calls and support tickets than you should be."
+      },
+      {
+        "type": "tip",
+        "label": "Intecha's Take",
+        "text": "Pull up your last few VoIP invoices and actually look at the line items. Add it all up. Then go grab a quote from two or three other providers—make sure you ask specifically about AI features, call recording, and what happens when you scale from 5 users to 10. You might be shocked at what you're actually paying versus what you could be paying. And don't get hung up on switching costs—a move that saves you even $200–300 a month is worth the hassle."
+      },
+      {
+        "type": "p",
+        "text": "Bottom line: the VoIP market is competitive right now, which is actually good news for you. But that means you have to shop around. Don't just renew out of habit."
+      }
+    ]
+  },
+  {
     "slug": "daily-brew-your-phone-system-is-costing-you-more-than-you-think-2026-07-27",
     "title": "Your Phone System is Costing You More Than You Think",
     "excerpt": "Most small businesses are bleeding money on outdated phone setups without even realizing it — and it's probably happening right now.",
