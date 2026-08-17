@@ -1,5 +1,57 @@
 [
   {
+    "slug": "daily-brew-your-phone-system-just-got-way-more-complicated-heres-what-a-2026-08-17",
+    "title": "Your Phone System Just Got Way More Complicated (Here's What Actually Changed)",
+    "excerpt": "If you're still running older phone hardware, there's a clock ticking on your system — and it's way sooner than you think.",
+    "category": "Daily Brew",
+    "date": "August 17, 2026",
+    "readTime": "2 min read",
+    "content": [
+      {
+        "type": "p",
+        "text": "So here's something that caught my eye today, and I'm bringing it up because I have a feeling a lot of small business owners have NO idea this is happening: your phone system might be on borrowed time, and the clock is ticking way faster than you'd expect."
+      },
+      {
+        "type": "p",
+        "text": "There's a whole category of business phone systems — really solid hardware that's been doing its job reliably for years — that are basically getting their support pulled. We're talking about older on-premise phone systems where the manufacturer has stopped supporting certain models. When I say 'stopped supporting,' I mean: no more updates, no more fixes, and if something breaks, you're stuck."
+      },
+      {
+        "type": "h2",
+        "text": "Why This Matters (And It's Not Just 'Technology Marches On')"
+      },
+      {
+        "type": "p",
+        "text": "Here's the thing: when your phone system loses manufacturer support, you're not just losing nice-to-have features. You're losing security updates. You're losing the ability to fix bugs if they pop up. And in a world where every device that touches the internet is a potential security target, that's a real problem."
+      },
+      {
+        "type": "p",
+        "text": "Plus — and this is the part that keeps me up at night on behalf of small business owners — when support ends, parts get harder to find. Your old system breaks, and suddenly you're paying premium prices for replacement hardware that's no longer being manufactured. Or you're facing a forced upgrade right when your cash flow is tight."
+      },
+      {
+        "type": "callout",
+        "text": "Most businesses don't find out their system is unsupported until something breaks. By then, it's emergency mode, emergency pricing, and emergency decisions — none of which are your friends."
+      },
+      {
+        "type": "h2",
+        "text": "What You Actually Need to Do"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Check what phone system you're actually running right now. Seriously. Look it up. Know the brand and model.",
+          "Find out when the manufacturer stops (or has already stopped) supporting it. This is a simple Google search or a call to your IT person.",
+          "If you're already past the cutoff date, don't panic — but do start planning your next move instead of waiting for a crisis.",
+          "Talk to someone who can help you evaluate whether you move to a cloud-based system (which is where most businesses are heading anyway) or if there's a hybrid option that makes sense for your specific setup."
+        ]
+      },
+      {
+        "type": "tip",
+        "label": "Intecha's Take",
+        "text": "The beautiful part about this situation is that cloud-based phone systems have gotten genuinely good. They're flexible, they're secure when done right, and they don't leave you scrambling when hardware dies. But I won't sugarcoat it: you want to make this move on your timeline, not on a Sunday night when your phone system melts down. Check your system status this week. Just do it."
+      }
+    ]
+  },
+  {
     "slug": "daily-brew-your-virtual-receptionist-just-got-a-lot-smarter-and-cheaper-2026-08-16",
     "title": "Your Virtual Receptionist Just Got a Lot Smarter (And Cheaper)",
     "excerpt": "AI receptionists are actually good now, and small businesses are finally asking the right question: do I even need a human answering my phones anymore?",
