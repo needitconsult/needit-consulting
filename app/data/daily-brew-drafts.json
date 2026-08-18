@@ -1,1 +1,64 @@
-[]
+[
+  {
+    "slug": "daily-brew-your-ai-assistant-just-got-way-too-nosy-and-how-to-stop-it-2026-08-18",
+    "title": "Your AI Assistant Just Got Way Too Nosy (And How to Stop It)",
+    "excerpt": "If you're using Google Workspace, your company data is already flowing to AI tools by default — here's what that actually means and what to do about it.",
+    "category": "Daily Brew",
+    "date": "August 18, 2026",
+    "readTime": "2 min read",
+    "content": [
+      {
+        "type": "p",
+        "text": "So I found out something that made me do a double-take this morning. You know how you've probably got Google Workspace set up for your team — Gmail, Docs, Calendar, all that stuff? Well, if you haven't actively gone in and changed the settings, your company's data is already being fed into AI tools automatically. And I mean *all of it*. Your emails, your documents, your calendars, your chats. Just... feeding into the machine."
+      },
+      {
+        "type": "p",
+        "text": "This isn't some shadowy conspiracy thing. It's the default setting. Which is honestly wild, because defaults matter — most people don't change them. And I get why big tech companies do this (AI needs data to work), but it's your data, and you should know about it."
+      },
+      {
+        "type": "h2",
+        "text": "Why This Actually Matters to You"
+      },
+      {
+        "type": "p",
+        "text": "Here's the thing: if you're running a business that handles anything sensitive — client info, financial details, strategy that isn't public yet, medical stuff, legal matters — that data is now part of training AI models. Even if you trust Google, that's a compliance issue waiting to bite you. Depending on your industry and your clients, you might have legal obligations about where data goes and who can access it."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Healthcare practices could be in trouble with patient privacy laws",
+          "Law firms handling confidential cases have obvious issues",
+          "Any business with client contracts that restrict data sharing needs to pay attention",
+          "Even if you're not in a regulated industry, your clients might care that their info is in an AI training pipeline"
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "By default, Gemini in Google Workspace has access to your Gmail, Docs, Calendar, Chat, and more — unless you specifically disable it."
+      },
+      {
+        "type": "h2",
+        "text": "What You Actually Need to Do"
+      },
+      {
+        "type": "p",
+        "text": "The good news: you can turn this off. It's not hidden behind seven menus. You go into your Google Workspace admin console, find the AI and machine learning settings, and disable access for Gemini. Takes like five minutes."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Head to your Google Workspace admin console (admin.google.com)",
+          "Go to Apps → Google Workspace → Gemini for Workspace",
+          "Review the access settings and disable what doesn't make sense for your business",
+          "Check your privacy and data handling policies while you're in there — good time for a refresh anyway",
+          "Tell your team what you changed so they understand the new limits"
+        ]
+      },
+      {
+        "type": "tip",
+        "label": "Intecha's Take",
+        "text": "Don't panic, but do act. This is one of those things where five minutes of setup now saves you from a messy conversation with a client or a compliance headache later. And honestly? It's worth having a conversation with your team about what you're comfortable with. Some businesses might want AI-powered help with email drafts or document summaries — that's cool. But you should be the one deciding, not a default setting deciding for you."
+      }
+    ]
+  }
+]
