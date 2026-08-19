@@ -1,1 +1,62 @@
-[]
+[
+  {
+    "slug": "daily-brew-your-ai-is-reading-your-business-emails-and-nobody-told-you-2026-08-19",
+    "title": "Your AI is Reading Your Business Emails (And Nobody Told You)",
+    "excerpt": "Google just made a choice that affects every small business using Workspace — and you might not even know it's happening.",
+    "category": "Daily Brew",
+    "date": "August 19, 2026",
+    "readTime": "2 min read",
+    "content": [
+      {
+        "type": "p",
+        "text": "So here's something that caught my eye today, and I need to tell you about it because it directly affects your business if you're using Google Workspace (which, let's be honest, a ton of small teams are). Google's AI tool — Gemini — has access to your Gmail, Docs, Calendar, Chat, and basically everything else in your workspace by default. Not by asking. Not by you flipping a switch. Just... by default."
+      },
+      {
+        "type": "p",
+        "text": "Now before you panic, let me be clear: this isn't Google being sneaky in some evil way. It's just how the system was set up. But it *is* the kind of thing that matters a lot if you care about what happens to your business data — and you should."
+      },
+      {
+        "type": "h2",
+        "text": "What's Actually Happening Here"
+      },
+      {
+        "type": "p",
+        "text": "When you enable Gemini in Google Workspace (or if your admin turned it on for everyone), the AI can see and analyze your emails, documents, meeting notes, and messages to give you better suggestions and answers. It's supposed to make you more productive — and honestly, that part works pretty well."
+      },
+      {
+        "type": "p",
+        "text": "The thing is, most people don't realize this is the default behavior. You're not getting a big warning saying \"Hey, your AI now has access to all your sensitive client conversations.\" It just... happens. And if you run a business where confidentiality matters — client data, financial info, proprietary strategies — that's worth knowing about."
+      },
+      {
+        "type": "h2",
+        "text": "Why This Matters to You Specifically"
+      },
+      {
+        "type": "list",
+        "items": [
+          "If you handle client data, financial records, or anything legally sensitive, you need to know what AI systems are touching it",
+          "Your team members might be using Gemini without realizing it's reading their entire email history",
+          "Compliance matters for certain industries — healthcare, finance, legal — and this could be a problem depending on where you operate",
+          "It's not that Google is doing anything wrong, but you deserve to control your own data access rules"
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "Google Gemini in Workspace has access to Gmail, Docs, Calendar, and Chat by default — no opt-in required from you."
+      },
+      {
+        "type": "h2",
+        "text": "What You Should Actually Do About It"
+      },
+      {
+        "type": "tip",
+        "label": "Intecha's Take",
+        "text": "Here's the real talk: Go into your Google Workspace admin console and check your Gemini settings. You don't have to turn it off entirely (it's genuinely useful), but you *should* know it's on and decide if that works for your business. If you handle sensitive data, have a conversation with your team about what should and shouldn't go into Workspace documents. And if you're in an industry with strict data rules, loop in whoever handles your compliance — they'll want to know about this. You're the boss of your data. Act like it."
+      },
+      {
+        "type": "p",
+        "text": "The broader thing here is that AI is becoming part of every tool you already use, and most of us are just letting it happen without really thinking about it. That's fine if it works for your business, but it's worth being intentional about. Check your settings. Know what you're allowing. And if something doesn't feel right, change it."
+      }
+    ]
+  }
+]
