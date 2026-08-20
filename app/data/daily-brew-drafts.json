@@ -1,1 +1,62 @@
-[]
+[
+  {
+    "slug": "daily-brew-your-ai-receptionist-isnt-just-answering-calls-anymoreits-ac-2026-08-20",
+    "title": "Your AI Receptionist Isn't Just Answering Calls Anymore—It's Actually Solving Problems",
+    "excerpt": "The line between a chatbot that deflects and an AI that actually handles your customer's issue just got a lot clearer—and it matters for your bottom line.",
+    "category": "Daily Brew",
+    "date": "August 20, 2026",
+    "readTime": "3 min read",
+    "content": [
+      {
+        "type": "p",
+        "text": "Okay so there's been this quiet shift happening in how AI handles customer calls, and I think a lot of small business owners are about to realize they've been leaving money on the table. Here's what's going on: there's a big difference between an AI system that *talks to* your customers and one that actually *does something* for them—and most people don't realize which one they're using."
+      },
+      {
+        "type": "h2",
+        "text": "The Problem With Your Current Chatbot (And Yeah, We're Talking About It)"
+      },
+      {
+        "type": "p",
+        "text": "You know that frustrating experience where you call a company and the AI asks you a bunch of questions, then tells you to hold for a human? That's conversational AI. It's good at collecting information and sounding friendly, but it basically stops there. It's like hiring someone to take notes and then leaving them on your desk while you go home."
+      },
+      {
+        "type": "p",
+        "text": "Conversational AI can answer FAQs, route calls, and make your customers feel heard. But here's the thing—it doesn't actually *close the loop* on most issues. A customer calls about a billing problem, the AI takes their info, and then... they wait for someone to call them back. That's not solving anything. That's just adding a middleman."
+      },
+      {
+        "type": "h2",
+        "text": "Enter Agentic AI (And Why It Actually Matters to You)"
+      },
+      {
+        "type": "p",
+        "text": "Agentic AI is different. It doesn't just listen and report back—it has the ability to actually *take action*. It can look up account information, process refunds, reschedule appointments, update records, and resolve issues without handing off to a human. It's the difference between a receptionist who takes a message and a receptionist who actually *runs the office*."
+      },
+      {
+        "type": "list",
+        "items": [
+          "It handles simple issues 24/7 without you needing staff on the clock",
+          "Your customers get answers and resolutions *right now*, not in 1-2 business days",
+          "You reduce the volume of tickets your team has to deal with—they focus on genuinely complex problems",
+          "You stop losing money because a customer gave up waiting for a callback"
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "Here's the real kicker: agentic AI can reverse decisions (undo a charge, cancel an order, change a setting) so long as you set the guardrails. That reversibility is key—it's what makes it safe to let AI actually handle money and account changes instead of just collecting information about them."
+      },
+      {
+        "type": "tip",
+        "label": "Intecha's Take",
+        "text": "If you're shopping for an AI receptionist or considering upgrading what you've got, ask this one question: 'Can it actually change something in my system, or does it just collect information?' If it's the latter, you're essentially paying for a fancy voicemail system. The real value is in the stuff that actually gets done while you're sleeping or running the business. Start there."
+      },
+      {
+        "type": "h2",
+        "text": "What This Means for Your Bottom Line"
+      },
+      {
+        "type": "p",
+        "text": "Think about your most common customer calls. Are they things that could be resolved with account access and a few clicks? Refunds, password resets, appointment changes, order status updates? Those are *exactly* the calls agentic AI was built to handle. Every one of those you can automate is a call your team isn't spending 10 minutes on. Multiply that by a few hundred calls a month and you're looking at real time savings—and happier customers because they didn't have to wait."
+      }
+    ]
+  }
+]
