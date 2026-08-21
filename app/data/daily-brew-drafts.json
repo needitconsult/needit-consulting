@@ -1,1 +1,58 @@
-[]
+[
+  {
+    "slug": "daily-brew-your-ai-receptionist-isnt-just-answering-phones-anymoreheres-2026-08-21",
+    "title": "Your AI Receptionist Isn't Just Answering Phones Anymore—Here's What That Actually Means",
+    "excerpt": "AI agents are moving way beyond 'press 1 for sales.' They're actually solving problems. And if you're not thinking about this yet, your competitors might be getting ahead.",
+    "category": "Daily Brew",
+    "date": "August 21, 2026",
+    "readTime": "3 min read",
+    "content": [
+      {
+        "type": "p",
+        "text": "So there's this thing happening in the AI world right now that's actually worth paying attention to, and I promise it's less sci-fi and more 'oh, this could actually help my business run better.' The difference between regular chatbots and what people are calling 'agentic AI' just crossed from tech-nerd territory into real-world useful. And honestly? It matters to you."
+      },
+      {
+        "type": "h2",
+        "text": "What's Actually Changing Here"
+      },
+      {
+        "type": "p",
+        "text": "You know that feeling when a chatbot can answer a question but can't actually *do* anything about it? Like it tells you your order status but then you still have to call someone to change it? That's conversational AI. It talks back. It's helpful, but it has limits."
+      },
+      {
+        "type": "p",
+        "text": "Agentic AI is different. It doesn't just chat—it *acts*. It can answer your call, figure out what's wrong, and then actually fix it without transferring you anywhere. It can update your account, process a refund, reschedule an appointment, or log a ticket. It does the work, not just describe the work."
+      },
+      {
+        "type": "callout",
+        "text": "Here's the kicker: Studies show that 75% of organizations tried replacing staff with AI and actually ended up spending *more* money when it went wrong. But organizations that used AI to *help* their existing team work smarter? Those ones are seeing real ROI."
+      },
+      {
+        "type": "h2",
+        "text": "Why This Actually Matters to Your Small Business"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Your customers don't want to wait on hold or repeat themselves to five different people. An AI agent that can actually solve problems? They'll love that.",
+          "Your team doesn't want to spend 40% of their day on routine stuff. Let an AI handle password resets, appointment changes, and status checks so your humans can focus on things that actually need judgment.",
+          "You can offer 24/7 support without hiring a night shift. That customer calling at 10 PM? They get help now, not 'we'll call you back Monday.'",
+          "You get better data about what customers actually need, because the AI is logging every interaction and outcome—not just answering questions."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "The Real Talk: This Isn't Plug-and-Play Yet"
+      },
+      {
+        "type": "p",
+        "text": "Before you think 'okay, I'm replacing my receptionist with a robot,' pump the brakes. The organizations that crashed and burned with AI replacements? They ripped out their human team and hoped the bot would magically know everything. That doesn't work. What *does* work is using an AI agent to handle the stuff that's eating up your team's time, so they can focus on the calls and customers that actually need a human brain."
+      },
+      {
+        "type": "tip",
+        "label": "Intecha's Take",
+        "text": "If you're thinking about this, here's what to actually do: Start small. Pick one thing your team wastes time on—maybe it's fielding calls about order status, or appointment confirmations, or 'what's my balance' questions. Get an AI agent to handle that one thing well. Let your team use it for a month. See if it actually saves time or just moves the problem around. *Then* decide if you want to expand. The businesses winning with AI right now? They're treating it like a tool that makes their team better, not a replacement for their team. That's the move."
+      }
+    ]
+  }
+]
