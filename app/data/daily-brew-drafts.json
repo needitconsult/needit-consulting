@@ -1,1 +1,58 @@
-[]
+[
+  {
+    "slug": "daily-brew-your-crm-and-phone-system-arent-talking-and-its-costing-you-2026-08-30",
+    "title": "Your CRM and Phone System Aren't Talking (And It's Costing You)",
+    "excerpt": "Most businesses think the problem is the software. It's actually how they're set up — and it's fixable.",
+    "category": "Daily Brew",
+    "date": "August 30, 2026",
+    "readTime": "2 min read",
+    "content": [
+      {
+        "type": "p",
+        "text": "So I came across something this morning that made me sit up in my chair, because it explains something I hear about constantly from small business owners: 'Our phone system and CRM are connected but like... nothing's actually working right.' Dropped call logs, missing customer history, calls that should be routing somewhere but aren't. Sound familiar?"
+      },
+      {
+        "type": "p",
+        "text": "Here's the thing everyone gets wrong: most people assume it's a connector problem. Like, the software just isn't compatible, so they need a better integration tool. But that's usually not it at all. The real issue is almost always how the data is actually designed on the backend."
+      },
+      {
+        "type": "h2",
+        "text": "Why Your Integration Looks Good But Doesn't Actually Work"
+      },
+      {
+        "type": "p",
+        "text": "When you set up a VoIP system tied to your CRM, there's something called 'loggable call rules' — basically, the instructions for what information gets recorded, where it goes, and how it gets matched to the right customer record. Mess that up, and you've got a system that looks integrated but doesn't actually capture the data you need."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Call logs disappear or show up in the wrong customer record because the phone number matching isn't set up right",
+          "Your team can see who's calling, but there's no customer history attached to the call",
+          "Data syncs one way but not the other — you update the CRM but it doesn't talk back to the phone system",
+          "Calls drop from the log entirely because the system doesn't know how to categorize them"
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "The kicker: most IT teams blame the connectors. The connectors are usually fine. It's the data architecture underneath that's broken."
+      },
+      {
+        "type": "h2",
+        "text": "What This Actually Means for Your Business"
+      },
+      {
+        "type": "p",
+        "text": "Let's say you run a service business. A customer calls. Your team can see their name pop up, but there's no history of the last three calls, the open ticket, or the quote you sent them last week. So they're explaining everything from scratch again. That's wasted time and it feels sloppy to the customer. Now multiply that by every single call your team takes."
+      },
+      {
+        "type": "p",
+        "text": "Or worse — your sales team can't see when customers called, so follow-ups are random and inconsistent. You're leaving money on the table because nobody has a clear picture of the actual conversation."
+      },
+      {
+        "type": "tip",
+        "label": "Intecha's Take",
+        "text": "If your CRM and phone system feel like they're not talking, don't just upgrade the integration — get someone to actually review how the data is set up. Ask your IT person or vendor to walk through the call logging rules with you. Are phone numbers being matched correctly? Is every call actually being logged? Is the data going to the right place? Those three things. If they're not happening, that's your problem, and it's way simpler to fix than ripping out software."
+      }
+    ]
+  }
+]
