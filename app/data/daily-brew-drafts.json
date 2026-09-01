@@ -1,1 +1,59 @@
-[]
+[
+  {
+    "slug": "daily-brew-your-old-phone-lines-are-quietly-costing-you-a-fortune-2026-09-01",
+    "title": "Your Old Phone Lines Are Quietly Costing You a Fortune",
+    "excerpt": "POTS lines are dying, and if you're still using them, you're bleeding money and reliability without even knowing it.",
+    "category": "Daily Brew",
+    "date": "September 1, 2026",
+    "readTime": "2 min read",
+    "content": [
+      {
+        "type": "p",
+        "text": "So I've been digging into why some small businesses are still clinging to POTS lines — that's Plain Old Telephone Service, the copper wire phone systems that have been around since basically forever — and honestly, it's wild how many people don't realize what they're paying for and what they're giving up."
+      },
+      {
+        "type": "p",
+        "text": "Here's the thing: POTS lines work. They're reliable. They pick up the phone when you call. But \"works\" is such a low bar in 2026, and the cost of sticking with them is becoming genuinely hard to ignore."
+      },
+      {
+        "type": "h2",
+        "text": "What's Actually Happening"
+      },
+      {
+        "type": "p",
+        "text": "Telephone companies are actively phasing out POTS infrastructure. Like, this isn't a maybe-someday thing — it's happening now. They're shutting down copper networks because maintaining them is expensive, and honestly, barely anyone needs them anymore. That means carriers are raising prices on the people who still use them, service is getting flakier, and you're essentially paying a premium for a technology that's being abandoned."
+      },
+      {
+        "type": "callout",
+        "text": "Most small businesses running on POTS spend $50–100+ per line per month. Cloud phone systems? Often $15–25. Do the math on a few lines for a year."
+      },
+      {
+        "type": "h2",
+        "text": "Why This Matters to You Specifically"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Your phone bill is probably higher than it needs to be, and it keeps going up because carriers know they're winding down the service",
+          "You can't take your number with you easily if you need to switch providers or move your business",
+          "You're missing out on features that actually help you run a business — like call forwarding to your cell, voicemail-to-email, call recording, or integration with your customer management tools",
+          "If the copper lines in your area start having issues (which happens), your backup is basically nonexistent",
+          "You can't scale easily — adding a new line? You're waiting for a technician and another monthly fee"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "What You Should Actually Do"
+      },
+      {
+        "type": "p",
+        "text": "You don't need to make a move tomorrow, but you should start looking at cloud-based phone systems — sometimes called VoIP or UCaaS (unified communications as a service, which is just fancy for \"phone stuff in the cloud\"). Test drive a couple options with a small team first. See what the setup actually feels like, what features you'd actually use, and get real pricing."
+      },
+      {
+        "type": "tip",
+        "label": "Intecha's Take",
+        "text": "The transition from POTS to cloud phone systems is one of those rare tech moves where you actually save money while getting way better service. It's not flashy, but it's one of the smartest upgrades you can make right now. Start asking questions this week — your future self (and your accountant) will thank you."
+      }
+    ]
+  }
+]
