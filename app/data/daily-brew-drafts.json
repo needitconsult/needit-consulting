@@ -1,1 +1,55 @@
-[]
+[
+  {
+    "slug": "daily-brew-your-phone-system-is-probably-costing-you-way-more-than-you-2026-09-02",
+    "title": "Your Phone System Is Probably Costing You Way More Than You Think",
+    "excerpt": "Those old-school business phone lines you're still paying for? Yeah, we need to talk about that.",
+    "category": "Daily Brew",
+    "date": "September 2, 2026",
+    "readTime": "2 min read",
+    "content": [
+      {
+        "type": "p",
+        "text": "So real talk — I've been watching small business owners get quietly squeezed by their phone systems for years, and nobody's really talking about it. You're sitting there paying for lines that were modern when your kids were born, dealing with maintenance headaches that eat up your IT person's time, and honestly? You probably don't even know what you're actually spending because it's spread across three different invoices."
+      },
+      {
+        "type": "p",
+        "text": "Here's what I'm seeing happen: businesses are still running on traditional phone infrastructure — think landlines, old PBX systems, the whole thing — because they signed up for it years ago and just... never questioned it. It became invisible. But invisible costs add up fast."
+      },
+      {
+        "type": "h2",
+        "text": "What's Actually Costing You Money (And You Don't Even See It)"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Monthly line charges that were reasonable in 2015 but are bloated now",
+          "Hardware maintenance and support contracts for equipment that's aging out",
+          "The time your staff spends wrestling with systems that don't talk to your other tools",
+          "Scalability problems — adding lines is expensive, and flexibility? Forget about it",
+          "Zero integration with your CRM, your text messaging, your customer support platform — everything's separate"
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "The average small business doesn't realize they're spending 30–50% more than they need to on communications, often because they're paying for capabilities they're not even using."
+      },
+      {
+        "type": "h2",
+        "text": "Why This Matters Right Now"
+      },
+      {
+        "type": "p",
+        "text": "Your competition probably switched to cloud-based phone systems already. They're paying less, they can add users in minutes instead of weeks, and their whole team can work from anywhere without weird workarounds. Meanwhile, you're managing physical equipment and dealing with installation contractors. That's not you being loyal to what works — that's you being stuck."
+      },
+      {
+        "type": "p",
+        "text": "The bigger thing? Your customers are texting you, calling you, emailing you, and using chat. But your phone system only handles calls. Your team's bouncing between apps, you're not getting a complete picture of customer interactions, and you're losing context. It's exhausting and it costs money in ways you don't always see — missed calls, slower response times, frustrated employees."
+      },
+      {
+        "type": "tip",
+        "label": "Intecha's Take",
+        "text": "Do an audit. Seriously. Pull your last three months of phone bills and add up what you're actually spending. Include the IT time spent managing the system, the time your team wastes with clunky processes, and the pain of adding or removing users. Then compare that number to what a modern cloud system would cost. You might be shocked. And if you've got remote team members or you're thinking about hiring them, legacy systems become a real problem fast. Get a real quote from a modern provider — no strings, just a number. See what you're actually leaving on the table."
+      }
+    ]
+  }
+]
