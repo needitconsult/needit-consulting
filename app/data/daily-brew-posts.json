@@ -1,5 +1,57 @@
 [
   {
+    "slug": "daily-brew-your-ai-receptionist-might-be-doing-more-than-you-think-and-2026-09-11",
+    "title": "Your AI Receptionist Might Be Doing More Than You Think (And That's Complicated)",
+    "excerpt": "AI is answering phones now, and it's getting smart enough to actually qualify leads while you sleep — but there's a corporate control thing happening that small businesses need to know about.",
+    "category": "Daily Brew",
+    "date": "September 11, 2026",
+    "readTime": "2 min read",
+    "content": [
+      {
+        "type": "p",
+        "text": "Okay, so there's been a lot of buzz lately about AI handling your phone calls and answering customer questions in real time. And look, I get why that sounds appealing — you're not paying someone $30k a year to say 'thanks for calling, someone will get back to you.' But here's what's actually interesting right now: AI isn't just screening calls anymore. It's actively qualifying leads, capturing information, and doing it 24/7 while your actual team sleeps."
+      },
+      {
+        "type": "p",
+        "text": "The reason this matters is timing. Studies show that leads go cold in *minutes*, not hours. Most businesses are still replying to inquiries hours later, which means you've already lost half your shot. An AI system working around the clock? That changes the math significantly."
+      },
+      {
+        "type": "h2",
+        "text": "So What's Actually Happening Here?"
+      },
+      {
+        "type": "p",
+        "text": "These AI employees (and yes, that's what they're calling them now) are doing something that feels like magic but is actually just smart automation. Someone calls your business. Instead of going to voicemail, they're talking to an AI that can understand their question, figure out if they're genuinely interested, and capture their information automatically. No human typing it in later. No gaps. No 'I'll call you back Monday.'"
+      },
+      {
+        "type": "list",
+        "items": [
+          "The AI asks qualifying questions — 'What brings you in today?' 'When are you looking to get started?' — and actually listens to the answers",
+          "It logs everything into your system so your sales team has a hot lead ready to go the next morning",
+          "For franchises specifically, there's a layer of corporate control baked in — headquarters can set rules about what each location can customize versus what's locked down",
+          "Pricing is usually based on usage (calls handled, leads captured) rather than per-seat licenses, which makes it cheaper to scale"
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "Leads decay in minutes, not hours. An AI system working while you're not could be the difference between capturing a customer and losing them to someone else."
+      },
+      {
+        "type": "h2",
+        "text": "The Thing Nobody Talks About (But Should)"
+      },
+      {
+        "type": "p",
+        "text": "Here's where it gets real: if you're part of a franchise or a chain, corporate might lock down a lot of what your location can do with this tool. They set the greeting, the questions, maybe even what promotions the AI can mention. That makes sense from a brand perspective — you want consistency — but it also means you have less flexibility to run your own thing. It's worth asking upfront what you actually control versus what's centralized."
+      },
+      {
+        "type": "tip",
+        "label": "Intecha's Take",
+        "text": "If you're considering an AI receptionist or lead-capture system, run the numbers on *your* business specifically. How many leads are you losing right now because you can't answer the phone fast enough? What's one lead worth to you? If it's more than a few hundred bucks, this probably pays for itself in the first month. Just make sure you actually understand what gets locked down and what you control — don't let someone else's system replace your judgment."
+      }
+    ]
+  },
+  {
     "slug": "daily-brew-your-phone-system-is-probably-costing-you-way-more-than-you-2026-09-10",
     "title": "Your Phone System Is Probably Costing You Way More Than You Think",
     "excerpt": "Old-school phone lines are bleeding money in ways most small business owners never see coming — and there's a better option that's actually cheaper.",
