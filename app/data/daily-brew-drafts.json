@@ -1,1 +1,54 @@
-[]
+[
+  {
+    "slug": "daily-brew-your-customer-service-just-got-weird-in-a-good-way-2026-09-20",
+    "title": "Your Customer Service Just Got Weird (In a Good Way)",
+    "excerpt": "AI receptionists are moving past the hype phase and actually solving real problems for small businesses — here's what you need to know.",
+    "category": "Daily Brew",
+    "date": "September 20, 2026",
+    "readTime": "2 min read",
+    "content": [
+      {
+        "type": "p",
+        "text": "So the thing that's actually interesting right now isn't that AI can answer phones — it's that businesses are finally figuring out *when* it should. There's a real conversation happening about AI receptionists, especially for specific industries like law firms, and it's way more nuanced than \"replace your people with a robot.\""
+      },
+      {
+        "type": "h2",
+        "text": "Why This Matters Right Now"
+      },
+      {
+        "type": "p",
+        "text": "If you run a small business, you know the problem: calls come in at weird times, people hang up when they hit voicemail, and you're drowning trying to handle intake or initial screening yourself. An AI receptionist doesn't have to replace anyone — it just means calls don't go to the void anymore, and your actual team gets better information."
+      },
+      {
+        "type": "p",
+        "text": "The real shift happening is that people aren't just asking \"can AI do this?\" anymore. They're asking \"should AI do this, and what are the risks?\" That's actually the smart question."
+      },
+      {
+        "type": "list",
+        "items": [
+          "After-hours call handling — your customers can leave actual details instead of a confused voicemail",
+          "Initial intake — collecting info before your team even touches the call, so you're not wasting time on details",
+          "Appointment scheduling — calls routed to the right person or pre-booked without human back-and-forth",
+          "Compliance tracking — especially important in regulated industries where you need clear records of who called and why"
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "The industries getting smart about this right now: law firms (because compliance matters), healthcare practices (same reason), and service businesses where initial screening saves your team hours every week."
+      },
+      {
+        "type": "h2",
+        "text": "But Here's Where People Get It Wrong"
+      },
+      {
+        "type": "p",
+        "text": "A lot of businesses throw AI at the problem and hope it magics away their call handling mess. It doesn't work that way. An AI receptionist is only as good as the instructions you give it and the systems it connects to. If your scheduling software is a disaster or your intake process is unclear, an AI just automates the chaos faster."
+      },
+      {
+        "type": "tip",
+        "label": "Intecha's Take",
+        "text": "Before you even look at AI receptionist solutions, get clear on: What information do you actually need from every call? Where does that information go? Who needs to see it? Once those answers are solid, *then* you look at automation. You're not replacing your people — you're giving them better information and your customers a better experience. That's the real win."
+      }
+    ]
+  }
+]
