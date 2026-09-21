@@ -1,1 +1,63 @@
-[]
+[
+  {
+    "slug": "daily-brew-your-phone-system-just-became-your-customer-service-departme-2026-09-21",
+    "title": "Your Phone System Just Became Your Customer Service Department",
+    "excerpt": "Turns out the platforms handling your calls are now expected to be your entire customer experience engine — and it's changing what you actually need to buy.",
+    "category": "Daily Brew",
+    "date": "September 21, 2026",
+    "readTime": "3 min read",
+    "content": [
+      {
+        "type": "p",
+        "text": "So here's what's been quietly happening in the VoIP and business phone world: your phone system stopped being just a phone system about two years ago, and nobody really made a big announcement about it. The lines between 'business calling' and 'customer experience platform' have basically dissolved. And this matters to you because it means the decision you make about your phone system today is actually way bigger than just picking up the phone."
+      },
+      {
+        "type": "p",
+        "text": "Every major player right now — whether they started as a phone company, a contact center, or a customer service tool — is basically saying the same thing: \"We're the platform that handles everything your customer touches.\" Voice calls, text messages, chat, email, AI-powered responses, after-hours handling, intake automation, the whole thing. It's all supposed to live in one place now."
+      },
+      {
+        "type": "h2",
+        "text": "Why This Matters to Your Business"
+      },
+      {
+        "type": "list",
+        "items": [
+          "You're probably paying for multiple tools right now (phone system + separate customer service software + maybe something for after-hours) when you could consolidate",
+          "Your team is jumping between systems instead of having one place to see what customers actually need",
+          "You're missing opportunities to use AI to handle routine stuff (like appointment reminders, order status updates, or after-hours voicemail responses) because your tools don't talk to each other",
+          "When you hire new people or fire old tools, integration becomes this whole nightmare instead of just... working"
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "The unified communications platform market is exploding right now because small and mid-size businesses finally have affordable options. This used to be enterprise-only territory with enterprise-only pricing."
+      },
+      {
+        "type": "h2",
+        "text": "What You Actually Need to Do"
+      },
+      {
+        "type": "p",
+        "text": "Here's the thing: you don't need to rush out and rip and replace everything tomorrow. But you DO need to ask yourself some real questions about what you're actually using right now."
+      },
+      {
+        "type": "list",
+        "items": [
+          "What does a customer interaction actually look like at your business? (Do they call? Text? Email? Do you need to call them back after hours?)",
+          "How many different platforms do your team members have to log into to help one customer?",
+          "What's costing you actual money right now? (Missed calls, customers waiting forever, team members spending time on manual stuff that could be automated)",
+          "Do you have visibility into what's actually happening? (Like, can you see how many customers hung up without reaching anyone, or how long voicemails sit unanswered?)"
+        ]
+      },
+      {
+        "type": "tip",
+        "label": "Intecha's Take",
+        "text": "Don't get sold on the flashiest AI features or the biggest feature list. Start with: what's actually broken right now? Is it that customers can't reach you? That your team is inefficient? That you have no idea if people are trying to call after hours? Fix THAT, and pick a platform that does that thing really well. The unified approach only works if it actually consolidates your actual pain points. If you're duct-taping five separate tools together right now, consolidating is your move. If you already have something working and it's not causing headaches, don't fix what isn't broken just because everyone else is."
+      },
+      {
+        "type": "p",
+        "text": "The real shift here is that your phone system is no longer separate from your customer experience strategy. They're the same thing now. Which honestly? Could save you money and headaches if you approach it the right way."
+      }
+    ]
+  }
+]
