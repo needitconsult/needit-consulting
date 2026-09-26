@@ -321,7 +321,7 @@ export default function Hero() {
             href="/guide"
             style={{ fontSize: "13px", fontWeight: 700, padding: "13px 32px", borderRadius: "40px", background: "linear-gradient(135deg, rgba(74,222,128,0.18) 0%, rgba(29,158,117,0.28) 100%)", color: "#7fffb0", border: "1.5px solid rgba(74,222,128,0.55)", cursor: "pointer", textDecoration: "none", letterSpacing: "0.03em", boxShadow: "0 0 18px rgba(74,222,128,0.22)", whiteSpace: "nowrap" }}
           >
-            Customize my Service →
+            Find Your VoIP Setup →
           </Link>
         </div>
       </div>

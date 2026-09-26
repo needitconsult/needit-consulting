@@ -14,6 +14,16 @@ type ServiceCategory = {
 
 const serviceCategories: ServiceCategory[] = [
   {
+    icon: Megaphone,
+    category: "Ad Creative & Campaign Setup",
+    services: [
+      "Static Ad Creative Package",
+      "Short Video Ad",
+      "Advertising Account & Campaign Setup",
+      "Advertising Campaign Audit",
+    ],
+  },
+  {
     icon: Phone,
     category: "Business Phones & VoIP",
     services: [
@@ -50,18 +60,9 @@ const serviceCategories: ServiceCategory[] = [
       "CRM Starter Setup",
       "CRM Data Cleanup",
       "Workflow Automation",
+      "Website Creation",
       "AI Website FAQ Assistant",
       "AI-Assisted Administrative Workflow",
-    ],
-  },
-  {
-    icon: Megaphone,
-    category: "Ad Creative & Campaign Setup",
-    services: [
-      "Static Ad Creative Package",
-      "Short Video Ad",
-      "Advertising Account & Campaign Setup",
-      "Advertising Campaign Audit",
     ],
   },
 ];

@@ -112,7 +112,6 @@ export default function About() {
           <div className="space-y-4 text-sm text-gray-500 leading-relaxed">
             <p>I started NeedIT Consulting because I kept seeing the same thing: small and mid-size businesses stuck with phone systems that half-worked, IT problems that nobody would take ownership of, and vendor relationships that only went one direction. The big providers didn&apos;t have time for a 10-person office. The local generalist didn&apos;t have the depth to solve the hard problems.</p>
             <p>NeedIT fills that gap. Based in <strong className="font-medium text-gray-800">Fredericksburg, VA</strong> and serving businesses across the country, I bring SME-level technical knowledge to businesses that don&apos;t have an enterprise IT budget. Whether you need a VoIP system completely setup and configured, an existing system that needs help to actually start working for you, or someone to help you figure out what phones you need — that&apos;s what I do.</p>
-            <p>You work with me directly. Not a helpdesk. Not a rotating cast of technicians who have to re-learn your setup every time. One consultant who knows your environment, tracks your vendors, and gives you a straight answer.</p>
           </div>
         </motion.div>
 
