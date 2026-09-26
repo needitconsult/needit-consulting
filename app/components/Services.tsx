@@ -2,94 +2,67 @@
 
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Phone, Headphones, Wifi, Shield, Bot, FileText, Gift, CheckCircle2 } from "lucide-react";
+import { Phone, Laptop, Cloud, Bot, Megaphone, Gift, CheckCircle2, Info } from "lucide-react";
 import { SparklesCore } from "@/components/ui/sparkles";
 import ServiceModal from "@/app/components/ServiceModal";
 
-type Service = {
+type ServiceCategory = {
   icon: React.ElementType;
-  title: string;
-  subtitle: string;
-  bullets: string[];
-  price: string;
+  category: string;
+  services: string[];
 };
 
-const services: Service[] = [
+const serviceCategories: ServiceCategory[] = [
   {
     icon: Phone,
-    title: "VoIP System Consultation",
-    subtitle: "Strategic planning and vendor management for optimal VoIP solutions",
-    bullets: [
-      "Diagnostic and inspection of current or prospective systems",
-      "Detailed evaluation on the most cost-effective option for your business",
-      "Vendor management assistance",
-      "Strategic planning of systems design",
+    category: "Business Phones & VoIP",
+    services: [
+      "Phone System Consultation",
+      "Small Phone System Setup",
+      "VoIP Troubleshooting",
+      "VoIP Network Assessment",
+      "Firewall or VPN Configuration",
     ],
-    price: "$95/hr",
   },
   {
-    icon: Headphones,
-    title: "VoIP Help Desk Support",
-    subtitle: "Professional technical support for your VoIP systems",
-    bullets: [
-      "Help desk support via phone/email (ZohoDesk)",
-      "Remote troubleshooting via screen share (Microsoft Teams)",
-      "Call quality optimization",
-      "User account management & system configuration",
-      "Documentation and issue tracking",
+    icon: Laptop,
+    category: "Everyday IT Support",
+    services: [
+      "Computer Tune-Up",
+      "Workstation Setup",
+      "Email, Printer, or Connectivity Troubleshooting",
     ],
-    price: "$95/hr",
   },
   {
-    icon: Wifi,
-    title: "VoIP Network Assessment & Optimization",
-    subtitle: "Ensure your network is VoIP-ready for optimal call quality",
-    bullets: [
-      "Bandwidth analysis and recommendations",
-      "Quality of Service (QoS) configuration",
-      "Network security assessment",
-      "Router and firewall optimization",
-      "Performance testing and validation",
+    icon: Cloud,
+    category: "Cloud Workspace & Virtual IT Assistance",
+    services: [
+      "File & Cloud Storage Organization",
+      "Business Account Setup",
+      "Employee Access Setup or Removal",
+      "Email or File Migration",
     ],
-    price: "$95/hr",
-  },
-  {
-    icon: Shield,
-    title: "VoIP Firewall Configuration",
-    subtitle: "Secure firewall setup optimized for VoIP traffic",
-    bullets: [
-      "SonicWall, Fortinet, and Cisco firewall configuration",
-      "VoIP port configuration and security",
-      "Security policy implementation",
-    ],
-    price: "$95/hr",
   },
   {
     icon: Bot,
-    title: "Virtual Assistant",
-    subtitle: "Reliable technical support and system optimization",
-    bullets: [
-      "Help desk support via phone/email (ZohoDesk)",
-      "Remote troubleshooting via screen share (Microsoft Teams)",
-      "Vendor management",
-      "File structure standardization",
-      "Cloud storage optimization",
-      "Desktop organization & software cleanup",
+    category: "CRM, Automation & AI Integrations",
+    services: [
+      "CRM Starter Setup",
+      "CRM Data Cleanup",
+      "Workflow Automation",
+      "AI Website FAQ Assistant",
+      "AI-Assisted Administrative Workflow",
     ],
-    price: "$75–$120/hr",
   },
   {
-    icon: FileText,
-    title: "VoIP System Documentation",
-    subtitle: "Professional documentation for your VoIP implementation",
-    bullets: [
-      "System configuration documentation",
-      "User guides and quick reference cards",
-      "Troubleshooting procedures",
-      "Emergency contact procedures",
-      "System diagrams and network maps",
+    icon: Megaphone,
+    category: "Ad Creative & Campaign Setup",
+    services: [
+      "Static Ad Creative Package",
+      "Short Video Ad",
+      "Advertising Account & Campaign Setup",
+      "Advertising Campaign Audit",
     ],
-    price: "$120/hr",
   },
 ];
 
@@ -102,75 +75,28 @@ const cardVariants = {
   }),
 };
 
-function ServiceCard({ service, i, selected, onToggle }: { service: Service; i: number; selected: boolean; onToggle: (title: string) => void }) {
+function ServiceChip({ title, i, selected, onToggle }: { title: string; i: number; selected: boolean; onToggle: (title: string) => void }) {
   return (
-    <motion.div
+    <motion.button
+      type="button"
       custom={i}
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true }}
       variants={cardVariants}
-      whileHover={{ y: -6, transition: { duration: 0.2 } }}
-      className={`group relative p-8 rounded-2xl bg-white border-2 transition-all duration-300 flex flex-col gap-4 overflow-hidden cursor-pointer ${
-        selected ? "border-green-500 shadow-lg shadow-green-100" : "border-gray-200 hover:border-green-500/50"
+      whileHover={{ y: -3, transition: { duration: 0.2 } }}
+      className={`group relative flex items-center gap-3 text-left px-5 py-4 rounded-xl bg-white border-2 transition-all duration-300 ${
+        selected ? "border-green-500 shadow-md shadow-green-100" : "border-gray-200 hover:border-green-500/50"
       }`}
-      onClick={() => onToggle(service.title)}
+      onClick={() => onToggle(title)}
     >
-      {/* Per-card sparkles on hover */}
-      <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none">
-        <SparklesCore
-          background="transparent"
-          minSize={0.3}
-          maxSize={0.9}
-          particleDensity={60}
-          className="w-full h-full"
-          particleColor="#15803d"
-          speed={1.5}
-        />
+      <div className={`w-6 h-6 rounded-full border flex items-center justify-center flex-shrink-0 transition-colors ${
+        selected ? "bg-green-600 border-green-600" : "border-gray-300 group-hover:border-green-500/60"
+      }`}>
+        {selected && <CheckCircle2 className="w-4 h-4 text-white" />}
       </div>
-
-      <div className="absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"
-        style={{ boxShadow: "inset 0 0 30px rgba(74,222,128,0.05)" }} />
-
-      {/* Icon + price + check row */}
-      <div className="relative z-10 flex items-start justify-between gap-2">
-        <div className={`w-12 h-12 rounded-xl border flex items-center justify-center transition-colors flex-shrink-0 ${
-          selected ? "bg-green-600 border-green-600" : "bg-green-50 border-green-500/20 group-hover:bg-green-100"
-        }`}>
-          {selected
-            ? <CheckCircle2 className="w-6 h-6 text-white" />
-            : <service.icon className="w-6 h-6 text-green-700" />
-          }
-        </div>
-        <span className="px-3 py-1 rounded-full bg-green-50 border border-green-500/20 text-green-700 text-xs font-mono font-semibold whitespace-nowrap">
-          {service.price}
-        </span>
-      </div>
-
-      <div className="relative z-10">
-        <h3 className="text-lg font-bold text-gray-900 leading-snug">{service.title}</h3>
-        <p className="mt-1 text-gray-500 text-xs leading-relaxed">{service.subtitle}</p>
-      </div>
-
-      <ul className="relative z-10 flex flex-col gap-1.5 flex-1">
-        {service.bullets.map((b) => (
-          <li key={b} className="flex items-start gap-2 text-gray-600 text-sm leading-relaxed">
-            <span className="text-green-700 mt-0.5 flex-shrink-0">▸</span>
-            {b}
-          </li>
-        ))}
-      </ul>
-
-      <div className="relative z-10 mt-auto pt-2">
-        <span className={`inline-flex items-center gap-1.5 font-bold text-xs transition-colors ${
-          selected ? "text-green-600" : "text-gray-400 group-hover:text-green-600"
-        }`}>
-          {selected ? "✓ Selected" : "Click to select"}
-        </span>
-      </div>
-
-      <div className="absolute top-4 right-4 w-2 h-2 rounded-full bg-green-500/40 group-hover:bg-green-400 transition-colors z-10" />
-    </motion.div>
+      <span className="text-sm font-medium text-gray-800">{title}</span>
+    </motion.button>
   );
 }
 
@@ -235,20 +161,57 @@ export default function Services() {
           </div>
 
           <p className="mt-2 text-gray-600 max-w-xl mx-auto text-lg">
-            VoIP Consulting, Helpdesk Support, Network Optimization and Virtual IT Assistance — built for small businesses that deserve real expertise without the overhead.
+            Business phones, everyday IT support, cloud workspace, CRM &amp; AI integrations, and ad creative — built for small businesses that deserve real expertise without the overhead.
           </p>
         </motion.div>
 
-        {/* Service cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {services.map((service, i) => (
-            <ServiceCard
-              key={service.title}
-              service={service}
-              i={i}
-              selected={selectedServices.includes(service.title)}
-              onToggle={toggleService}
-            />
+        {/* Scope of work notice */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+          className="mb-16 rounded-2xl bg-[#e8ebee] border border-gray-200 p-8"
+        >
+          <h3 className="text-2xl font-extrabold text-gray-900">
+            One-Time Projects. <span className="text-green-700">Clear Deliverables.</span>
+          </h3>
+          <p className="mt-3 text-gray-700 leading-relaxed">
+            Get help with a specific technology or advertising need through a clearly defined project.
+          </p>
+          <p className="mt-3 text-gray-700 leading-relaxed">
+            Before work begins, we confirm what&apos;s included, what we need from you, the price, and the expected completion date. Your project ends with the agreed deliverables and handoff instructions.
+          </p>
+          <div className="mt-5 flex gap-3 bg-white border border-gray-200 rounded-xl px-4 py-3">
+            <Info className="w-4 h-4 text-green-700 flex-shrink-0 mt-0.5" />
+            <p className="text-gray-600 text-sm leading-relaxed">
+              Ongoing support, monitoring, subscriptions, and advertising spend are not included. Additional work can be quoted separately.
+            </p>
+          </div>
+        </motion.div>
+
+        {/* Service categories */}
+        <div className="flex flex-col gap-12">
+          {serviceCategories.map((cat) => (
+            <div key={cat.category}>
+              <div className="flex items-center gap-3 mb-5">
+                <div className="w-10 h-10 rounded-xl bg-green-50 border border-green-500/20 flex items-center justify-center flex-shrink-0">
+                  <cat.icon className="w-5 h-5 text-green-700" />
+                </div>
+                <h3 className="text-xl font-bold text-gray-900">{cat.category}</h3>
+              </div>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                {cat.services.map((title, i) => (
+                  <ServiceChip
+                    key={title}
+                    title={title}
+                    i={i}
+                    selected={selectedServices.includes(title)}
+                    onToggle={toggleService}
+                  />
+                ))}
+              </div>
+            </div>
           ))}
         </div>
 
