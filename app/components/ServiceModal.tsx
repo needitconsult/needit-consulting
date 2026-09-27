@@ -104,7 +104,7 @@ export default function ServiceModal({ services, onClose }: Props) {
               </div>
               <h3 className="text-gray-900 font-extrabold text-lg mb-2">Request Received!</h3>
               <p className="text-gray-500 text-sm leading-relaxed mb-6">
-                You&apos;ll be contacted within 48 hours to confirm your setup call details. Keep an eye on your phone.
+                You&apos;ll be contacted within 48 hours to confirm your service details. Keep an eye on your phone.
               </p>
               <button
                 onClick={onClose}
@@ -119,7 +119,7 @@ export default function ServiceModal({ services, onClose }: Props) {
               <div className="flex gap-3 bg-green-50 border border-green-200 rounded-xl px-4 py-3 mb-5">
                 <Info className="w-4 h-4 text-green-700 flex-shrink-0 mt-0.5" />
                 <p className="text-green-800 text-xs leading-relaxed">
-                  We collect this information to assist in contacting you and best servicing your needs. You will be contacted within <strong>48 hours</strong> to confirm setup call details prior to services.
+                  We collect this information to assist in contacting you and best servicing your needs. You will be contacted within <strong>48 hours</strong> to confirm service details before we begin.
                 </p>
               </div>
 
@@ -171,7 +171,7 @@ export default function ServiceModal({ services, onClose }: Props) {
 
                 {/* Preferred date */}
                 <div>
-                  <label className={labelClass}>Preferred Date for Setup Call</label>
+                  <label className={labelClass}>Preferred Date for Service</label>
                   <input type="date" value={form.preferredDate}
                     onChange={(e) => set("preferredDate", e.target.value)} className={inputClass} />
                 </div>
