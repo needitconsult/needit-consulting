@@ -1,5 +1,65 @@
 [
   {
+    "slug": "daily-brew-your-call-center-is-bleeding-people-and-ai-might-actually-he-2026-09-30",
+    "title": "Your Call Center Is Bleeding People (And AI Might Actually Help)",
+    "excerpt": "Nearly half of companies are finally making money with AI, but here's what small business owners need to know about the staffing crisis that's making customer service impossibly hard.",
+    "category": "Daily Brew",
+    "date": "September 30, 2026",
+    "readTime": "2 min read",
+    "content": [
+      {
+        "type": "p",
+        "text": "So here's what I've been seeing across the industry right now: companies are absolutely hemorrhaging customer service staff. We're talking resignation rates jumping to anywhere between 30–50% annually since 2020, depending on who you talk to. That's not normal turnover — that's a crisis. And it's hitting small businesses especially hard because you don't have the bench to absorb that kind of churn."
+      },
+      {
+        "type": "p",
+        "text": "But here's the interesting part: AI is actually starting to be useful here, and it's not in the way everyone was hyping it five years ago. A new report from BCG just came out saying nearly 50% of companies are now generating actual, meaningful value from AI. And guess what one of the biggest wins is? Helping customer service teams do their jobs better so they don't want to quit."
+      },
+      {
+        "type": "h2",
+        "text": "Why Your Best Customer Service People Are Leaving"
+      },
+      {
+        "type": "p",
+        "text": "The real problem isn't usually pay (though that matters). It's burnout. Your team is juggling calls, emails, texts, social messages — all on different platforms. They're context-switching constantly. They're handling difficult customers back-to-back without a real break. And they're doing it on systems that feel stuck in 2005."
+      },
+      {
+        "type": "list",
+        "items": [
+          "They're drowning in context-switching between communication channels",
+          "They don't have real-time info about the customer or their history",
+          "Repetitive work that could be automated is taking up 40% of their day",
+          "They're burned out but your old systems don't even tell you that until they've already quit"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Where AI Actually Enters the Chat"
+      },
+      {
+        "type": "p",
+        "text": "Here's what's actually working: AI that handles the repetitive stuff so your humans can do the stuff that matters. That means AI agents taking basic questions, pulling customer history automatically, and routing complex issues to the right person instantly. It means your team isn't spending an hour a day on administrative nonsense."
+      },
+      {
+        "type": "callout",
+        "text": "Companies using AI to augment their support teams — not replace them — report both higher customer satisfaction AND lower staff turnover. That's the data point that matters."
+      },
+      {
+        "type": "h2",
+        "text": "What This Actually Means for You"
+      },
+      {
+        "type": "p",
+        "text": "If you're running a small business and losing staff, this is worth paying attention to. You don't need to become an AI company. You need a communication platform that can handle multiple channels (phone, email, text, social) in one place, and has AI doing the grunt work — answering FAQ questions, updating customer records, flagging urgent issues for your actual humans. That's what keeps people from burning out and running for the door."
+      },
+      {
+        "type": "tip",
+        "label": "Intecha's Take",
+        "text": "Before you hire more people to replace the ones who left, take a hard look at your systems. Most customer service turnover isn't about work — it's about working *inefficiently* with terrible tools. A modern platform with AI handling the repetitive stuff costs way less than constant hiring and training, and your team actually stays. Start by asking: how many different systems does my customer service person have to log into every day? If the answer is more than one, you've found your problem."
+      }
+    ]
+  },
+  {
     "slug": "daily-brew-your-phone-system-just-got-way-smarter-and-you-might-want-to-2026-09-29",
     "title": "Your Phone System Just Got Way Smarter (And You Might Want to Pay Attention)",
     "excerpt": "AI phone answering is actually getting good now, and small businesses are quietly building competitive advantages that used to be reserved for big companies.",
