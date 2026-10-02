@@ -1,1 +1,54 @@
-[]
+[
+  {
+    "slug": "daily-brew-your-ai-receptionist-needs-to-know-when-to-call-a-human-and-2026-10-02",
+    "title": "Your AI Receptionist Needs to Know When to Call a Human (And Most Don't)",
+    "excerpt": "AI answering your phones is cool, but if it can't hand off to a real person smoothly, you're actually losing customers.",
+    "category": "Daily Brew",
+    "date": "October 2, 2026",
+    "readTime": "2 min read",
+    "content": [
+      {
+        "type": "p",
+        "text": "So there's been a lot of buzz lately about AI receptionists handling your incoming calls — which, honestly, is smart for a small business. But here's the thing nobody's talking about enough: the handoff is everything. And most AI systems are absolutely botching it."
+      },
+      {
+        "type": "p",
+        "text": "I'm talking about those moments when your AI needs to say \"okay, human time.\" A customer gets frustrated. A question is too weird. Something requires actual judgment. When that happens, does your AI gracefully pass them to someone real, or does it just... fail? Because if it's the latter, you've just turned a fixable problem into a lost customer."
+      },
+      {
+        "type": "h2",
+        "text": "Why This Matters Right Now"
+      },
+      {
+        "type": "p",
+        "text": "Customer expectations have shifted. People are actually getting comfortable with AI answering phones now — but only if it works. The second they hit a wall and get bounced around or hung up on? That goodwill evaporates instantly. And here's what gets me: the technology to do this well already exists. The problem is implementation."
+      },
+      {
+        "type": "callout",
+        "text": "When an AI can't handle something, it has about 5 seconds to recognize that and transfer to a human without making the caller repeat themselves. Miss that window, and you've lost them."
+      },
+      {
+        "type": "h2",
+        "text": "What a Good Handoff Actually Looks Like"
+      },
+      {
+        "type": "list",
+        "items": [
+          "The AI knows its limits — it doesn't pretend to understand something it doesn't",
+          "It passes along context to the human agent (so they don't ask the same questions again)",
+          "The transfer happens fast — no \"please hold while I connect you\" limbo",
+          "There's a real person on the other end, not another robot"
+        ]
+      },
+      {
+        "type": "tip",
+        "label": "Intecha's Take",
+        "text": "If you're looking at AI receptionists, ask the vendor straight up: \"What's your escalation process?\" Don't let them dance around it. Ask for a demo where something goes wrong. See how they handle it. That moment of failure is where you'll know if this tool actually helps your business or just makes you look sloppy."
+      },
+      {
+        "type": "p",
+        "text": "The bottom line? AI for phones is legitimately useful for small businesses — it can handle scheduling, basic questions, and screening. But only if it knows when to get out of the way. Pick a system that's built to hand off smoothly, and you've got something that actually saves your team time. Pick one that doesn't? You're just adding friction to your customer experience."
+      }
+    ]
+  }
+]
