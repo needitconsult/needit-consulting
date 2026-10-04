@@ -1,5 +1,65 @@
 [
   {
+    "slug": "daily-brew-your-ai-receptionist-needs-to-know-when-to-actually-hand-off-2026-10-04",
+    "title": "Your AI Receptionist Needs to Know When to Actually Hand Off to a Human",
+    "excerpt": "AI is great at answering basic questions, but the real magic happens when it knows exactly when to stop pretending and get a real person on the line.",
+    "category": "Daily Brew",
+    "date": "October 4, 2026",
+    "readTime": "2 min read",
+    "content": [
+      {
+        "type": "p",
+        "text": "So here's what's been bouncing around the industry lately, and it's actually super relevant if you're thinking about adding AI to your phone system: everyone's obsessed with AI receptionists now, but nobody's really talking about the part that actually matters — knowing when to hand the call off to a human before your customer loses their mind."
+      },
+      {
+        "type": "p",
+        "text": "Let me break this down because it's not as obvious as it sounds. An AI receptionist is basically a smart voicemail system that can actually have a conversation. It can answer basic questions, take messages, route calls — all that stuff. But here's the thing: AI is genuinely terrible at knowing its own limits. It'll keep trying to help even when it's making things worse."
+      },
+      {
+        "type": "h2",
+        "text": "Why This Matters to You (The Real Problem)"
+      },
+      {
+        "type": "p",
+        "text": "Your customer calls in with a weird problem. The AI asks clarifying questions, tries to help, maybe even transfers them to the wrong department. By the time they finally reach a human, they're frustrated and have already explained their situation three times. That's not efficient — that's infuriating."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Frustrated customers leave and tell their friends about it",
+          "Your actual staff spends time doing damage control instead of solving the original problem",
+          "You end up looking like you don't care about customer service, when really you just picked bad handoff rules"
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "The secret to AI receptionists that don't suck: they need clear triggers that say 'okay, this is beyond me, get a human now.' Things like emotional cues (customer sounds angry), complex requests, or repeated failed attempts to understand."
+      },
+      {
+        "type": "h2",
+        "text": "What You Should Actually Be Looking For"
+      },
+      {
+        "type": "p",
+        "text": "If you're evaluating an AI receptionist or thinking about adding one to your phone system, ask these questions before you commit:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Can it escalate to a real person without making the customer repeat themselves? (Warm transfers that include conversation history are non-negotiable)",
+          "What are the actual triggers that make it hand off? Can you customize them, or is it stuck with whatever the system decides?",
+          "Does it know when it doesn't know? Like, if it's confused three times in a row, does it just keep going, or does it finally say 'let me get someone who can actually help'?",
+          "Can your team see what the AI learned about the customer before the human picks up? Context matters."
+        ]
+      },
+      {
+        "type": "tip",
+        "label": "Intecha's Take",
+        "text": "AI receptionists are legitimately useful for small businesses that are drowning in after-hours calls or basic inquiries. But they only work if you set them up to fail gracefully. Don't just turn one on and hope for the best. Spend time thinking about what kinds of calls should immediately go to a human, what info matters, and how your team will actually handle the handoff. The AI is the opening act — your people are the headliner."
+      }
+    ]
+  },
+  {
     "slug": "daily-brew-your-ai-receptionist-isnt-going-to-ghost-your-customers-here-2026-10-03",
     "title": "Your AI Receptionist Isn't Going to Ghost Your Customers (Here's Why That Matters)",
     "excerpt": "AI is answering your phone now—but the real trick is knowing when to hand things off to a human without making your customer feel like they're stuck in a loop.",
