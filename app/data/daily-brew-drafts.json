@@ -1,1 +1,54 @@
-[]
+[
+  {
+    "slug": "daily-brew-your-ai-receptionist-needs-a-backup-plan-and-heres-why-2026-10-05",
+    "title": "Your AI Receptionist Needs a Backup Plan (And Here's Why)",
+    "excerpt": "AI is handling more of your calls than ever, but the handoff to a real human is where things get messy — and your customers are noticing.",
+    "category": "Daily Brew",
+    "date": "October 5, 2026",
+    "readTime": "2 min read",
+    "content": [
+      {
+        "type": "p",
+        "text": "So here's something that caught my eye today: there's a whole conversation happening right now about how AI receptionists hand off calls to actual humans. And I know that sounds like a boring technical thing, but stick with me — this is actually about keeping your customers happy and your business running smoothly."
+      },
+      {
+        "type": "p",
+        "text": "More small businesses are using AI to answer phones and handle initial customer questions. It saves time, it's cheaper than hiring someone to sit at a desk 8 hours a day, and honestly, it works pretty well for routing calls. But here's the catch: when that AI realizes it's in over its head and needs to pass the call to a real person, that handoff moment is critical. Mess it up, and your customer has already been frustrated by the bot and now feels abandoned by you."
+      },
+      {
+        "type": "h2",
+        "text": "Where the Wheels Fall Off"
+      },
+      {
+        "type": "p",
+        "text": "The problem is that most AI systems aren't built to handle complex situations well. A customer calls angry about a billing issue, the AI tries to help, realizes it's not working, and then just... transfers them. But the human on the other end has no context. They don't know what the AI already tried to explain, what the customer is frustrated about, or what information was already shared. So your customer gets to repeat themselves. Again."
+      },
+      {
+        "type": "callout",
+        "text": "Here's what actually matters: a smooth handoff means the AI gives the human agent real information — the customer's issue, their history, what already didn't work — before the transfer happens. That's called a 'warm transfer,' and it's the difference between a customer feeling heard and a customer feeling like they're talking to nobody."
+      },
+      {
+        "type": "h2",
+        "text": "What You Actually Need to Know"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Your AI system should know when to escalate — not just transfer, but escalate to someone who can actually help",
+          "The human who picks up should see everything the AI knows about the call (what the customer asked, what they're frustrated about, any relevant account info)",
+          "You need to set clear rules for what situations a bot can handle solo and what needs a human from the jump",
+          "Training your team matters here — they need to know how to pick up the thread quickly and actually solve the problem"
+        ]
+      },
+      {
+        "type": "tip",
+        "label": "Intecha's Take",
+        "text": "If you're thinking about adding AI to your phone system, don't just focus on how good the AI is at answering. Focus on how it hands off. The AI is only as good as your backup plan. Test it with your team. Have them pretend to be frustrated customers and see if they can actually help once the AI transfers. If your team is confused or fumbling, your real customers will be too."
+      },
+      {
+        "type": "p",
+        "text": "The bottom line? AI receptionists are genuinely helpful, but they're not replacements for having real people on your team who can think, adapt, and actually solve problems. Make sure your system is set up so the handoff actually works. Your customers (and your sanity) will thank you."
+      }
+    ]
+  }
+]
