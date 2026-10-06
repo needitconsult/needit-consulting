@@ -1,5 +1,65 @@
 [
   {
+    "slug": "daily-brew-your-ai-receptionist-needs-a-backup-plan-and-heres-why-2026-10-06",
+    "title": "Your AI Receptionist Needs a Backup Plan (And Here's Why)",
+    "excerpt": "AI is handling your calls now, but what happens when it can't? Here's what you actually need to know about handing off to humans.",
+    "category": "Daily Brew",
+    "date": "October 6, 2026",
+    "readTime": "2 min read",
+    "content": [
+      {
+        "type": "p",
+        "text": "So there's been a lot of buzz lately about AI receptionists handling inbound calls—and honestly, for a lot of small businesses, it's actually pretty great. Lower costs, calls answered 24/7, no one sitting at a desk screening calls. But here's the thing nobody talks about enough: what happens when the AI hits a wall and needs to hand things off to an actual human? Because it will. And if you don't plan for that, you're about to lose customers."
+      },
+      {
+        "type": "h2",
+        "text": "The Handoff Problem Nobody Plans For"
+      },
+      {
+        "type": "p",
+        "text": "AI receptionists are getting smarter every month, but they're still AI. They can't read tone the way a human can. They don't know when someone's frustrated versus just tired. They can't make judgment calls on nuance. And customers know this—they'll ask for a human the moment things get complicated."
+      },
+      {
+        "type": "p",
+        "text": "The real problem? A lot of small business owners set up AI to answer calls, then don't think about what happens next. No routing. No context passed to the human who takes over. No warm transfer protocol. So your customer spends five minutes explaining everything to the AI, then starts over with a human, and by then they're already annoyed. That's not a win. That's just faster failure."
+      },
+      {
+        "type": "h2",
+        "text": "What Actually Matters in a Handoff"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Warm transfers: The AI hands off to a human who already knows what the call's about. No \"please hold while I find someone.\"",
+          "Clear escalation triggers: You need to know when the AI should tap out—not every call, just the ones that actually need a person.",
+          "Context that travels with the call: Call history, why they're calling, what they've already tried. The human needs the full story.",
+          "Routing that makes sense: A sales question goes to sales. A billing issue goes to billing. Not everyone."
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "Here's the thing: customers don't care if a machine answered first. They care if they got their problem solved without repeating themselves."
+      },
+      {
+        "type": "h2",
+        "text": "What You Actually Need to Do"
+      },
+      {
+        "type": "p",
+        "text": "If you're using AI for call handling (or thinking about it), start by mapping out your escalation scenarios right now. Not someday. Now. When should a call go to a human? What department? Who's available? How much context needs to travel with it?"
+      },
+      {
+        "type": "p",
+        "text": "Then—and this is important—test it. Have someone call your own number and try to create a scenario that needs human help. See what happens. Does the AI know when to give up? Does the human get enough info? Is there dead air? Is your customer annoyed? These are the gaps that cost you business."
+      },
+      {
+        "type": "tip",
+        "label": "Intecha's Take",
+        "text": "AI handling calls is smart. But AI + zero human strategy is just expensive and frustrating. Spend an afternoon mapping your handoff flow. It's not glamorous, but it's the difference between \"that was efficient\" and \"that was annoying.\""
+      }
+    ]
+  },
+  {
     "slug": "daily-brew-your-ai-receptionist-needs-a-backup-plan-and-heres-why-2026-10-05",
     "title": "Your AI Receptionist Needs a Backup Plan (And Here's Why)",
     "excerpt": "AI is handling more of your calls than ever, but the handoff to a real human is where things get messy — and your customers are noticing.",
