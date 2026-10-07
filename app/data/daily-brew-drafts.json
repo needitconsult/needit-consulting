@@ -1,57 +1,5 @@
 [
   {
-    "slug": "daily-brew-your-ai-receptionist-isnt-actually-replacing-anyone-yet-here-2026-10-07",
-    "title": "Your AI Receptionist Isn't Actually Replacing Anyone (Yet) — Here's What It Actually Does",
-    "excerpt": "Everyone's freaking out about AI taking over phone duty, but the real story is way more practical — and honestly, kind of boring in the best way.",
-    "category": "Daily Brew",
-    "date": "October 7, 2026",
-    "readTime": "2 min read",
-    "content": [
-      {
-        "type": "p",
-        "text": "So I've been watching this whole AI receptionist thing blow up, and everyone keeps asking me the same question: \"Is this going to replace my team?\" And look, I get it. But the real news that nobody's really talking about is actually way more useful than the doomsday stuff."
-      },
-      {
-        "type": "p",
-        "text": "The thing is, AI receptionists aren't here to fire people. They're here to handle the stuff that drives your team absolutely bonkers — the initial screening, the menu navigation, the \"sorry can you hold for a second\" moments. The *boring* part of the job. And here's where it gets interesting: the technology that's actually mattering right now is how these AI systems know when to stop pretending and hand things off to a real human."
-      },
-      {
-        "type": "h2",
-        "text": "The Real Story: Warm Transfers and Knowing Your Limits"
-      },
-      {
-        "type": "p",
-        "text": "What's actually changing is something called \"warm handoff\" — basically, the AI figures out what someone needs, gathers context (like why they're calling, what they've already tried, what account they're asking about), and then *hands them to a person who already knows what's going on.* No \"please hold while I transfer you\" nonsense. No repeating your problem five times. The human picks up and actually has the intel already."
-      },
-      {
-        "type": "callout",
-        "text": "For a small business, this means your team spends less time on the grunt work and more time actually solving problems — which is where they actually add value and where customers notice the difference."
-      },
-      {
-        "type": "list",
-        "items": [
-          "AI handles the screening (appointment setting, basic info gathering, routing)",
-          "When it hits something complicated or unusual, it escalates with full context",
-          "Your people get to spend time on high-value conversations instead of script-reading",
-          "Customers don't feel like they're being bounced around by a robot"
-        ]
-      },
-      {
-        "type": "h2",
-        "text": "Why This Matters to You (Besides the Obvious)"
-      },
-      {
-        "type": "p",
-        "text": "Here's the thing: if you're a small business owner, you're probably not running a massive call center. You might have a couple of people answering phones, or maybe you're doing it yourself while wearing seven other hats. An AI system that takes the repetitive stuff off your plate and only escalates when it's actually necessary? That's not threatening. That's breathing room. That's your team having time to focus on customers who need actual human judgment — the ones who might spend more money, refer others, or whose problems are genuinely weird and specific."
-      },
-      {
-        "type": "tip",
-        "label": "Intecha's Take",
-        "text": "If you've been thinking about AI receptionists but worried about the \"replacing my staff\" angle, stop. The real question is: what would your team do with an extra 15-20 hours a week if they weren't stuck on greeting calls and menu trees? That's where the actual ROI lives. And if you're not there yet, that's fine too — just know that when you're ready, the technology actually respects the human part of customer service now. It's not \"AI or people.\" It's \"AI doing grunt work so people can do the stuff that actually matters.\""
-      }
-    ]
-  },
-  {
     "slug": "daily-brew-your-ai-receptionist-needs-a-backup-plan-and-heres-why-2026-10-05",
     "title": "Your AI Receptionist Needs a Backup Plan (And Here's Why)",
     "excerpt": "AI is handling more of your calls than ever, but the handoff to a real human is where things get messy — and your customers are noticing.",
