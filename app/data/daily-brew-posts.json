@@ -1,5 +1,57 @@
 [
   {
+    "slug": "daily-brew-your-ai-customer-service-bot-might-be-about-to-cost-you-big-2026-10-15",
+    "title": "Your AI Customer Service Bot Might Be About to Cost You Big Money",
+    "excerpt": "AI agents are getting way more powerful — and way more dangerous — if you're not paying attention to what they can actually do.",
+    "category": "Daily Brew",
+    "date": "October 15, 2026",
+    "readTime": "2 min read",
+    "content": [
+      {
+        "type": "p",
+        "text": "So here's something that's been keeping me up a little: AI customer service bots are now at the point where they can actually do stuff. Like, real stuff. Issue refunds. Edit customer accounts. Change orders. And honestly? Most businesses haven't thought through what happens when that goes wrong."
+      },
+      {
+        "type": "p",
+        "text": "A year ago, AI in customer service meant a chatbot that could answer FAQs and maybe route tickets. That's one thing. But now we're talking about agents that have real decision-making power — they can approve things, move money around, make changes that stick. Which is amazing for efficiency until it's a nightmare for your bottom line."
+      },
+      {
+        "type": "h2",
+        "text": "Why This Matters to You Right Now"
+      },
+      {
+        "type": "p",
+        "text": "Think about your current customer service setup. Someone calls in, they're upset, they want a refund or a credit or something adjusted on their account. Right now, a human is in the loop. They might make a bad call, sure, but there's at least a person who thought about it and took responsibility."
+      },
+      {
+        "type": "p",
+        "text": "Now imagine that's an AI agent making those calls 24/7 with zero fatigue, zero hesitation, and potentially zero common sense about what actually makes sense for your business. A customer complains, the bot refunds them. A customer says their order went wrong, the bot refunds them. A scammer calls in and says they're a customer, and well... you see where this is going."
+      },
+      {
+        "type": "callout",
+        "text": "The risk isn't that AI agents are bad at their jobs — it's that they're too good at following instructions without understanding context, intent, or whether something is actually a good idea."
+      },
+      {
+        "type": "h2",
+        "text": "What Actually Needs to Happen"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Set hard limits on what your AI can do autonomously — refunds over $50? Needs a human. Account changes? Needs a human. Keep the high-stakes stuff in human hands.",
+          "Build in verification steps that actually slow things down in a good way. If a customer is asking for something unusual, the bot should flag it for review, not just approve it.",
+          "Track what your AI is actually doing — not just success metrics, but the decisions it's making that cost you money. Is it refunding too easily? Being too strict? You won't know unless you look.",
+          "Start small and expand slowly. Don't put your AI agent in charge of everything tomorrow. Let it handle simple stuff, prove it's trustworthy, then add more responsibility."
+        ]
+      },
+      {
+        "type": "tip",
+        "label": "Intecha's Take",
+        "text": "The businesses winning right now aren't the ones with the most powerful AI — they're the ones who've thought through where AI helps and where it hurts. AI is great for speed and scale, but judgment and restraint are still human superpowers. Use the bot to make your team faster, not to replace the thinking part of what they do."
+      }
+    ]
+  },
+  {
     "slug": "daily-brew-your-phone-system-isnt-just-a-phone-system-anymore-and-thats-2026-10-14",
     "title": "Your Phone System Isn't Just a Phone System Anymore (And That's Actually Good News)",
     "excerpt": "Omnichannel communication platforms are quietly becoming the real backbone of small business customer service — here's why you should care and what to actually do about it.",
