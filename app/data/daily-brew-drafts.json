@@ -1,5 +1,62 @@
 [
   {
+    "slug": "daily-brew-your-phone-system-isnt-dead-but-pots-lines-are-actually-dyin-2026-10-18",
+    "title": "Your Phone System Isn't Dead — But POTS Lines Are Actually Dying Now",
+    "excerpt": "The old copper phone lines your business might still depend on are getting shut down, and most small business owners have no idea what's about to hit them.",
+    "category": "Daily Brew",
+    "date": "October 18, 2026",
+    "readTime": "3 min read",
+    "content": [
+      {
+        "type": "p",
+        "text": "So real talk — if your business is still running on those old copper phone lines (the ones that have literally been around since your parents were kids), you're living on borrowed time. Like, we're talking months, not years. The carriers are actively pulling the plug on POTS lines, and I'm seeing a lot of small business owners completely blindsided by this."
+      },
+      {
+        "type": "p",
+        "text": "Here's what's happening: the big telecom companies are sunsetting POTS (Plain Old Telephone Service) because maintaining that ancient infrastructure is expensive, and honestly, it's ancient. They're pushing everyone toward VoIP — that's voice over internet protocol, which just means your phone calls go over your internet connection instead of dedicated copper wires. Makes sense, right? But the problem is nobody told YOU about the deadline, and suddenly you're scrambling three weeks before your lines stop working."
+      },
+      {
+        "type": "callout",
+        "text": "This isn't theoretical anymore. Carriers have already started hard cutoff dates in specific regions, and the timelines are tight. Some businesses are getting weeks of notice."
+      },
+      {
+        "type": "h2",
+        "text": "Why This Matters to Your Business (Beyond Just 'Phone Works')"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Your alarm systems, elevators, and credit card readers might be running on POTS too — and they'll stop working when the lines shut down",
+          "You can't just flip a switch to VoIP if you haven't planned for it — it takes time to migrate, test, and make sure your internet can actually handle it",
+          "If you're caught off guard, you'll be paying emergency migration fees instead of doing this on your timeline with better rates",
+          "Customers literally can't reach you if your phones go down — no calls, no voicemails, nothing"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "What You Actually Need to Do Right Now"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Call your current phone provider TODAY and ask flat out: 'When are you discontinuing POTS service in my area?' Get a specific date in writing.",
+          "If you're still on POTS, start researching VoIP providers NOW — not next month. This includes checking whether your internet connection is strong enough (spoiler: if you're still on POTS, you might not have great internet, and that's a problem)",
+          "Audit everything that runs on your phone lines — your alarm system, your elevator phone, your security cameras, your payment processors. All of it. Then find out what needs to change.",
+          "Budget for this. VoIP is usually cheaper long-term, but migration costs money upfront, and you don't want to be making desperate decisions in a panic."
+        ]
+      },
+      {
+        "type": "tip",
+        "label": "Intecha's Take",
+        "text": "This is actually one of those rare situations where reaching out to an IT consultant or your phone provider proactively saves you thousands of dollars and massive headaches. I know it feels like one more thing, but the businesses that are handling this smoothly right now are the ones who didn't wait for the carrier to force their hand. Don't be the one explaining to your boss why your phones are down because you procrastinated on a deadline that was announced over a year ago."
+      },
+      {
+        "type": "p",
+        "text": "The good news? VoIP is actually solid now. It's not the sketchy thing it was ten years ago. If you do this intentionally instead of in a panic, you might actually end up with a better phone system than what you had before. But that only happens if you move now."
+      }
+    ]
+  },
+  {
     "slug": "daily-brew-your-ai-receptionist-needs-a-backup-plan-and-heres-why-2026-10-05",
     "title": "Your AI Receptionist Needs a Backup Plan (And Here's Why)",
     "excerpt": "AI is handling more of your calls than ever, but the handoff to a real human is where things get messy — and your customers are noticing.",
