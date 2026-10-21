@@ -1,5 +1,63 @@
 [
   {
+    "slug": "daily-brew-ai-answering-services-keep-failingand-nobodys-talking-about-2026-10-21",
+    "title": "AI Answering Services Keep Failing—And Nobody's Talking About Why",
+    "excerpt": "Companies roll out AI to answer phones, it crashes and burns, and the problem isn't the tech—it's how they're actually using it.",
+    "category": "Daily Brew",
+    "date": "October 21, 2026",
+    "readTime": "2 min read",
+    "content": [
+      {
+        "type": "p",
+        "text": "So I've been reading about why AI answering services are flopping for businesses, and it's not what you'd think. The demos look great, the pitch sounds solid, and then companies implement it and... crickets. Or worse—angry customers and abandoned calls. And the thing is, the tech isn't broken. The rollout is."
+      },
+      {
+        "type": "p",
+        "text": "Here's what's actually happening: when businesses decide to use AI to handle customer calls, they're running into four big walls that nobody warns them about beforehand. And they're not technical walls—they're human ones."
+      },
+      {
+        "type": "h2",
+        "text": "The Real Barriers Nobody Talks About"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Employees think the AI is stealing their job, so they don't support it or actively work against it",
+          "The AI doesn't understand your specific business quirks—your pricing, your policies, your regular customers' weird requests—so it fails at the first curve ball",
+          "Leadership expects it to work perfectly on day one and pulls the plug when it doesn't, before anyone's actually trained it",
+          "Customers hate talking to robots, and if they realize they're talking to one, they get frustrated fast"
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "The dirty secret: most AI answering service failures happen in the first 30–60 days, before the system has enough real data to actually work well. Businesses bail before giving it a real shot."
+      },
+      {
+        "type": "p",
+        "text": "This matters to you specifically because if you're thinking about using AI to handle overflow calls, take after-hours messages, or handle common questions—which honestly, is pretty smart—you need to know these landmines exist. And you need a plan to avoid them."
+      },
+      {
+        "type": "h2",
+        "text": "What You Actually Need to Do"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Get your team on board first—show them this isn't about replacing them, it's about handling the calls they don't want anyway (like 2am voicemails). Make them part of the solution, not the problem",
+          "Start small and specific. Pick ONE type of call—like appointment reminders or FAQ responses—not everything. Let it get good at one thing before expanding",
+          "Train the AI on YOUR business. Spend actual time feeding it your policies, pricing, common customer questions, and edge cases. It's not magic; it's a tool that needs to know your rules",
+          "Set realistic expectations with your team and your leadership. It'll be awkward at first. That's normal. Give it 60 days before you decide if it's working",
+          "Keep a human in the loop for stuff the AI can't handle. Route complicated calls to a real person. That's not failure—that's smart design"
+        ]
+      },
+      {
+        "type": "tip",
+        "label": "Intecha's Take",
+        "text": "AI answering services are genuinely useful if you're drowning in call volume or dealing with after-hours chaos. But they're not plug-and-play. Treat the implementation like you're bringing on a new employee: onboard them properly, give them real scenarios to learn from, and don't expect perfection on day one. The businesses winning with this stuff are the ones who treat it like a team member that needs training, not a magic button."
+      }
+    ]
+  },
+  {
     "slug": "daily-brew-your-ai-receptionist-needs-a-backup-plan-and-heres-why-2026-10-05",
     "title": "Your AI Receptionist Needs a Backup Plan (And Here's Why)",
     "excerpt": "AI is handling more of your calls than ever, but the handoff to a real human is where things get messy — and your customers are noticing.",
