@@ -1,5 +1,63 @@
 [
   {
+    "slug": "daily-brew-ai-answering-services-are-real-now-but-youre-probably-going-2026-10-22",
+    "title": "AI Answering Services Are Real Now — But You're Probably Going to Mess Up the Setup",
+    "excerpt": "Everyone's talking about AI handling your calls, but the tech isn't the problem — it's what happens after you turn it on.",
+    "category": "Daily Brew",
+    "date": "October 22, 2026",
+    "readTime": "3 min read",
+    "content": [
+      {
+        "type": "p",
+        "text": "So here's something that caught my eye today: there's this whole conversation happening about AI answering services actually working in production, but buried in all the hype is something way more useful — a brutal breakdown of why rollouts fail when the demo looked perfect."
+      },
+      {
+        "type": "p",
+        "text": "And before you think this doesn't apply to you because you're not a \"high-volume call center,\" stick with me. Even small businesses are getting tempted by the idea of an AI agent picking up the phone, qualifying leads, scheduling appointments, or handling basic customer service without paying someone to sit at a desk all day."
+      },
+      {
+        "type": "h2",
+        "text": "The Demo Looks Great. Reality Is Different."
+      },
+      {
+        "type": "p",
+        "text": "Here's the thing nobody mentions when they're selling you on this: the barrier to success isn't the AI. It's your integration, your team's readiness, your workflow, and what you do with the data after the call ends. The tech part? Honestly, that's the easy part now."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Integration chaos — your AI agent needs to talk to your CRM, your calendar, your helpdesk, maybe your accounting system. If those systems don't communicate well, you're toast.",
+          "Your team doesn't trust it (yet) — if you don't have buy-in from the people handling escalations and follow-ups, the system will fail because humans will work around it instead of with it.",
+          "Unclear handoff process — when the AI hits its limits and needs to transfer to a human, do you know exactly where that conversation goes? Does the context come along? Or does your team member start from scratch?",
+          "You didn't plan for monitoring — AI systems drift. They start saying things you didn't expect. You need someone watching, not obsessively, but regularly."
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "The companies seeing real wins with AI answering services aren't the ones with the fanciest AI. They're the ones who spent two months planning the workflow before they flipped the switch."
+      },
+      {
+        "type": "h2",
+        "text": "What You Should Actually Do"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Map your current call flow — before you talk to any vendor, write down what currently happens when someone calls. Where do they go? Who handles what? What information do you need to collect? Do this on paper first. Seriously.",
+          "Talk to your team — the people answering phones now know what questions actually matter. Ask them what they'd automate first if they could. They'll tell you the real friction points.",
+          "Test with a limited scope — don't throw \"handle all customer service\" at an AI on day one. Start with one specific task: scheduling appointments, handling after-hours inquiries, qualifying inbound leads. Get one thing working, then expand.",
+          "Build in a monitoring rhythm — someone needs to listen to calls (or read transcripts) weekly, at minimum. Not to micromanage, but to catch drift and weird behavior early. This takes like an hour a week.",
+          "Plan your integration before you buy — don't let a vendor tell you \"oh yeah, we integrate with your CRM.\" Make them show you the specific fields, the data flow, the error handling. If they can't show you this, they haven't thought it through."
+        ]
+      },
+      {
+        "type": "tip",
+        "label": "Intecha's Take",
+        "text": "AI answering services are genuinely useful now, and if you're paying someone $35k a year to answer phones and qualify leads, you should absolutely look into this. But treat it like you're hiring a new team member, not like you're just flipping a switch. Take the time to integrate it properly, get your team on board, and set up monitoring. The businesses winning right now aren't the ones with the fanciest AI — they're the ones who did the boring work of actually planning it out."
+      }
+    ]
+  },
+  {
     "slug": "daily-brew-ai-answering-services-keep-failingand-nobodys-talking-about-2026-10-21",
     "title": "AI Answering Services Keep Failing—And Nobody's Talking About Why",
     "excerpt": "Companies roll out AI to answer phones, it crashes and burns, and the problem isn't the tech—it's how they're actually using it.",
