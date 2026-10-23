@@ -1,5 +1,57 @@
 [
   {
+    "slug": "daily-brew-your-ai-answering-service-isnt-failing-because-of-the-aiits-2026-10-23",
+    "title": "Your AI Answering Service Isn't Failing Because of the AI—It's Failing Because of You (Kind Of)",
+    "excerpt": "Everyone's rushing to deploy AI to answer phones, but most rollouts crash before they even get off the ground. Here's what's actually going wrong.",
+    "category": "Daily Brew",
+    "date": "October 23, 2026",
+    "readTime": "2 min read",
+    "content": [
+      {
+        "type": "p",
+        "text": "So there's this thing happening right now with AI answering services that nobody wants to talk about: they work great in the demo, but the moment you actually try to use them, everything goes sideways. And here's the kicker—it's not usually because the technology is broken. It's because the rollout is."
+      },
+      {
+        "type": "p",
+        "text": "I've been watching a ton of conversations in the VoIP and customer service space, and the pattern is wild. Businesses are getting excited about AI answering services—and rightfully so, they can actually help—but then adoption tanks because nobody planned for the messy part: actually integrating it into how your team actually works."
+      },
+      {
+        "type": "h2",
+        "text": "What's Really Going Wrong"
+      },
+      {
+        "type": "p",
+        "text": "From what I'm seeing, there are four big reasons deployments fail, and only one of them is \"the AI didn't work like expected.\""
+      },
+      {
+        "type": "list",
+        "items": [
+          "People didn't get trained—or the training happened once and then everyone forgot",
+          "Your team doesn't trust it yet, so they're overriding it constantly (which defeats the purpose)",
+          "It's not actually connected to your other systems, so calls get stuck or information gets lost",
+          "Nobody set realistic expectations about what the AI can and can't do, so when it messes up once, everyone assumes it's useless"
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "The real problem: Most rollouts treat AI answering services like a software update, not like onboarding a new team member who needs support, feedback, and time to prove themselves."
+      },
+      {
+        "type": "h2",
+        "text": "Why This Matters to You Right Now"
+      },
+      {
+        "type": "p",
+        "text": "If you're a small business owner juggling customer calls while trying to run everything else, an AI answering service *could* genuinely free up your time. We're talking about handling call screening, taking basic messages, scheduling appointments—real stuff that actually costs you hours every week. But only if it actually gets set up right and your team buys in."
+      },
+      {
+        "type": "tip",
+        "label": "Intecha's Take",
+        "text": "Before you even pick a vendor, have a real conversation with your team about what calls should go to AI and what shouldn't. Then, when you implement it, plan for a training period where people learn how it works, where it integrates with your actual workflow, and how to handle edge cases. Treat the first month like a pilot, not a full launch. The AI will surprise you—sometimes good, sometimes it'll do something weird—and that's okay. You're teaching it your business. Give it room to learn, and it'll pay for itself faster than you think."
+      }
+    ]
+  },
+  {
     "slug": "daily-brew-your-ai-receptionist-needs-a-backup-plan-and-heres-why-2026-10-05",
     "title": "Your AI Receptionist Needs a Backup Plan (And Here's Why)",
     "excerpt": "AI is handling more of your calls than ever, but the handoff to a real human is where things get messy — and your customers are noticing.",
