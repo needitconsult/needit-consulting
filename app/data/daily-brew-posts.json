@@ -1,5 +1,57 @@
 [
   {
+    "slug": "daily-brew-ai-answering-services-are-herebut-people-keep-messing-them-u-2026-10-24",
+    "title": "AI Answering Services Are Here—But People Keep Messing Them Up",
+    "excerpt": "Everyone's excited about AI handling their phones, but adoption is failing in ways no vendor demo will ever show you.",
+    "category": "Daily Brew",
+    "date": "October 24, 2026",
+    "readTime": "2 min read",
+    "content": [
+      {
+        "type": "p",
+        "text": "So here's what I've been watching happen over the last few months: tons of small business owners are getting pitched on AI answering services—you know, robots that can actually handle your calls instead of letting them go to voicemail or making customers wait on hold forever. And honestly? The concept is solid. But there's this weird gap between what looks amazing in a demo and what actually works when you flip the switch in your real business."
+      },
+      {
+        "type": "p",
+        "text": "The industry just started digging into why these rollouts are failing, and it turns out there are four specific adoption barriers that keep tripping people up. None of them are about the AI being dumb or unreliable—they're about the business side of things. And that's actually good news, because it means they're fixable."
+      },
+      {
+        "type": "h2",
+        "text": "What's Actually Going Wrong"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Integration chaos—your AI answering service needs to actually talk to your CRM, your scheduling system, your email. When it doesn't, it's basically working blind and creating more work for you, not less.",
+          "Staff resistance—your team doesn't trust the robot, so they're checking behind it constantly or refusing to use the hand-offs. That kills the whole point.",
+          "Unrealistic expectations—someone thinks AI will handle 100% of calls perfectly, but it's really more like 60–70% of routine stuff. When reality doesn't match the dream, people get frustrated and abandon it.",
+          "Poor configuration—the AI wasn't actually trained on YOUR business logic, YOUR pricing, YOUR policies. So it gives out wrong info or can't handle your specific call types, and then everyone blames the technology."
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "Here's the kicker: most of these failures happen in the first 30 days after you turn it on. That's when people either stick with it or rip it out."
+      },
+      {
+        "type": "h2",
+        "text": "Why This Matters to You"
+      },
+      {
+        "type": "p",
+        "text": "If you're thinking about adding an AI answering service—or you've already tried one and it didn't work—this is actually really important. You're not failing. The technology is real and it works. But you need to go in with your eyes open about what the actual rollout looks like versus what the sales guy showed you on Tuesday."
+      },
+      {
+        "type": "tip",
+        "label": "Intecha's Take",
+        "text": "Before you sign anything, ask these questions: Does it integrate with your actual systems (your CRM, your calendar, whatever you're using)? Can you do a real test with your team for a week or two before going all-in? Will the vendor help you train the AI on YOUR specific call scenarios, not just generic ones? And—this is important—does your team actually buy in, or are they nervous? If they're nervous, that's a real problem to solve upfront, not something to ignore."
+      },
+      {
+        "type": "p",
+        "text": "The businesses getting real wins with this stuff aren't the ones who just flip a switch and hope. They're the ones who treat it like adding a new team member—they integrate it properly, they give their staff time to adjust, they give the AI good information to work with, and they set realistic expectations about what it's going to handle versus what they still need people for. That's the actual secret."
+      }
+    ]
+  },
+  {
     "slug": "daily-brew-your-ai-answering-service-isnt-failing-because-of-the-aiits-2026-10-23",
     "title": "Your AI Answering Service Isn't Failing Because of the AI—It's Failing Because of You (Kind Of)",
     "excerpt": "Everyone's rushing to deploy AI to answer phones, but most rollouts crash before they even get off the ground. Here's what's actually going wrong.",
