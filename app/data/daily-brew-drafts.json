@@ -1,57 +1,5 @@
 [
   {
-    "slug": "daily-brew-ai-answering-services-are-real-nowbut-most-implementations-a-2026-10-25",
-    "title": "AI Answering Services Are Real Now—But Most Implementations Are Still Failing",
-    "excerpt": "The technology works great in demos. In actual production? That's a different story. Here's what's actually breaking and how to avoid it.",
-    "category": "Daily Brew",
-    "date": "October 25, 2026",
-    "readTime": "3 min read",
-    "content": [
-      {
-        "type": "p",
-        "text": "So here's something that's been bugging me: everyone's talking about AI answering services like they're the magic solution to missed calls, but nobody's really talking about why so many rollouts are flopping. The demos look incredible. Then you deploy it and... something's not working the way you expected."
-      },
-      {
-        "type": "p",
-        "text": "I've been digging into what's actually happening in production environments (not in the polished demo videos), and there's a real pattern emerging. The technology itself is solid—voice AI can genuinely handle calls, route customers, and take messages. But there are four concrete reasons deployments are hitting walls, and honestly, most of them have nothing to do with the AI being \"not ready yet.\""
-      },
-      {
-        "type": "h2",
-        "text": "Why Real-World AI Answering Services Are Stumbling"
-      },
-      {
-        "type": "list",
-        "items": [
-          "Integration chaos: Your AI answering service needs to talk to your CRM, your scheduling system, your knowledge base—and most businesses haven't even documented what their current data actually looks like, let alone prepped it for handoff to a new system",
-          "Expectation mismatch: Leadership sees a demo where the AI nails every call perfectly, then gets frustrated when it can't handle the weird edge cases that are actually 30% of your real call volume",
-          "Change management gets skipped: Staff gets nervous about \"being replaced,\" customers get confused by a sudden shift to automated answers, and nobody's trained on how to work with the new system",
-          "Poor guardrails from the start: You deploy AI with vague instructions (\"answer customer questions\") instead of precise boundaries (\"transfer to a human if the customer mentions billing disputes or cancellations\"), and things go sideways fast"
-        ]
-      },
-      {
-        "type": "callout",
-        "text": "The vendors can show you a gorgeous demo, but they can't show you what happens when your AI gets a call it wasn't trained for. That's where most deployments break down."
-      },
-      {
-        "type": "h2",
-        "text": "What This Actually Means for Your Business"
-      },
-      {
-        "type": "p",
-        "text": "If you're thinking about an AI answering service—whether you're getting swamped with call volume, dealing with after-hours inquiries, or just tired of paying for a receptionist—this isn't a \"skip it\" moment. It's a \"do it smart\" moment. The technology genuinely works. It can handle high call volume, it works 24/7, and it's way cheaper than hiring full-time call center staff. But you need to go in with your eyes open."
-      },
-      {
-        "type": "tip",
-        "label": "Intecha's Take",
-        "text": "Before you sign anything, sit down and actually audit what your current calls look like. What percentage are routine? What consistently requires a human? Where do callers get frustrated? Then—and this matters—test the AI answering service with a pilot. Not for two weeks. For a real month or two. Let it handle a percentage of your calls while you monitor what's working and what's falling flat. Build integration tests before full rollout. And for the love of your customers, brief your team. This isn't them losing their jobs; it's them getting freed up to do the stuff that actually needs a human touch."
-      },
-      {
-        "type": "p",
-        "text": "The real question isn't whether AI answering services work. They do. The question is: are you ready to implement one correctly? Because the gap between \"this looks great in a demo\" and \"this is actually handling our calls\" is where most projects fail—not because the AI isn't smart enough, but because nobody planned for the messy reality of your actual business."
-      }
-    ]
-  },
-  {
     "slug": "daily-brew-your-ai-receptionist-needs-a-backup-plan-and-heres-why-2026-10-05",
     "title": "Your AI Receptionist Needs a Backup Plan (And Here's Why)",
     "excerpt": "AI is handling more of your calls than ever, but the handoff to a real human is where things get messy — and your customers are noticing.",
