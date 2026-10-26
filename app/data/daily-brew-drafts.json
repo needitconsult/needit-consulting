@@ -1,5 +1,61 @@
 [
   {
+    "slug": "daily-brew-ai-answering-services-are-failing-heres-why-and-how-to-not-b-2026-10-26",
+    "title": "AI Answering Services Are Failing — Here's Why (and How to Not Be That Business)",
+    "excerpt": "Everyone's rolling out AI to answer phones. Most implementations are cratering before they even get going. Here's what's actually happening behind the scenes.",
+    "category": "Daily Brew",
+    "date": "October 26, 2026",
+    "readTime": "2 min read",
+    "content": [
+      {
+        "type": "p",
+        "text": "So there's this thing happening right now that nobody wants to talk about at industry conferences, but it's real: businesses are buying AI answering services, turning them on, and then quietly turning them back off within weeks. Not because the AI is bad. Not because the vendor oversold them. It's because the actual rollout — the part that happens after you sign the contract — is a complete mess."
+      },
+      {
+        "type": "p",
+        "text": "The industry is starting to actually diagnose why, and it's not what you'd think. It's not technical. It's human."
+      },
+      {
+        "type": "h2",
+        "text": "The Four Barriers Nobody Warns You About"
+      },
+      {
+        "type": "p",
+        "text": "There's a growing conversation in the VoIP and customer service space about why AI answering services look incredible in a demo but fall apart in real life. The stuff that gets glossed over in a sales pitch? That's where the actual problems live."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Your team doesn't believe it'll work — so they don't actually use it the way it's meant to be used",
+          "Your customers get confused when they hit the AI instead of a person, and your staff has to clean up the mess",
+          "The AI needs constant tweaking based on your actual call patterns, not generic scenarios",
+          "Nobody's clear on who's responsible for monitoring it, adjusting it, or knowing when it's failing silently"
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "Here's the kicker: most of these problems show up 2–4 weeks after launch, which is exactly when vendors hand you off to support and move to the next client."
+      },
+      {
+        "type": "h2",
+        "text": "Why This Matters to You (Seriously)"
+      },
+      {
+        "type": "p",
+        "text": "If you're thinking about adding an AI answering service — especially if you're drowning in calls and need the help — this is actually good news. It means you can learn from what's already gone wrong for a bunch of other businesses. The solutions aren't complicated. They're just not sexy enough to advertise."
+      },
+      {
+        "type": "tip",
+        "label": "Intecha's Take",
+        "text": "Before you sign anything, ask your potential vendor this: \"Walk me through what happens in week three when my team realizes the AI doesn't handle our specific call scenarios the way we need it to. What does your support look like then? Who owns the fixes?\" If they get vague, keep shopping. The ones who are honest about the real work are the ones who'll actually stick with you."
+      },
+      {
+        "type": "p",
+        "text": "The businesses winning with AI answering services right now? They're treating it like a new hire. They're training their team on it, they're running it through real scenarios, they're tweaking it based on what actually happens — not what the vendor promised would happen. It takes effort, but that effort is what separates \"this was a waste of money\" from \"this is genuinely changing how we operate.\""
+      }
+    ]
+  },
+  {
     "slug": "daily-brew-your-ai-receptionist-needs-a-backup-plan-and-heres-why-2026-10-05",
     "title": "Your AI Receptionist Needs a Backup Plan (And Here's Why)",
     "excerpt": "AI is handling more of your calls than ever, but the handoff to a real human is where things get messy — and your customers are noticing.",
