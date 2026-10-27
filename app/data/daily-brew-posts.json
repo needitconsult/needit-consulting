@@ -1,5 +1,66 @@
 [
   {
+    "slug": "daily-brew-your-ai-answering-service-just-got-real-and-you-need-to-know-2026-10-27",
+    "title": "Your AI Answering Service Just Got Real (And You Need to Know How to Judge It)",
+    "excerpt": "AI is handling customer calls now, but not all of it actually works — here's what to look for so you don't end up with a robot that makes your customers angry.",
+    "category": "Daily Brew",
+    "date": "October 27, 2026",
+    "readTime": "3 min read",
+    "content": [
+      {
+        "type": "p",
+        "text": "So there's this thing happening right now where AI is taking customer calls for small businesses, and honestly? It's a mess. Not because AI is bad at answering phones — it's actually getting weirdly good — but because everyone's selling it like it's magic, and then you get it set up and it sounds like a robot from 2003 having a stroke."
+      },
+      {
+        "type": "p",
+        "text": "The real story is that AI answering services exist on a spectrum. Some are genuinely useful. Some are theater. And the difference between the two isn't always obvious when you're watching a demo."
+      },
+      {
+        "type": "h2",
+        "text": "What's Actually Working (And What Isn't)"
+      },
+      {
+        "type": "p",
+        "text": "Here's the thing: AI that's running in actual production right now — meaning real businesses are using it with real customers — is different from what vendors demo. The demos are perfect. The real world is messier. And that's the first red flag to watch for."
+      },
+      {
+        "type": "list",
+        "items": [
+          "AI voice agents that understand context and can handle basic customer questions without transferring every call to a human are working. Scheduling appointments? Taking messages? Answering 'Do you still have X in stock?' That's real.",
+          "AI that tries to handle complicated complaints or edge cases usually fails. It gets confused, the customer gets frustrated, and you end up looking bad.",
+          "Hybrid systems — where AI handles the easy stuff and hands off to a human when it gets tricky — are what's actually making businesses money right now.",
+          "Pricing models matter. Some charge per minute of AI call time. Some charge per call. Some charge per human agent minute. You need to know which one actually makes sense for your business."
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "The vendors with the most honest marketing? They're not claiming their AI replaces your whole team. They're claiming it reduces how many calls your team has to handle. That's the real value."
+      },
+      {
+        "type": "h2",
+        "text": "How to Actually Test This Before You Buy"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Ask them to let you listen to calls it's handled for other businesses (with privacy redacted, obviously). Real calls. Not perfect demo calls.",
+          "Run it through your actual customer scenarios before you commit. Don't just watch the demo. Have it answer YOUR questions the way YOUR customers ask them.",
+          "Ask about transfer rates. How many calls does it actually hand off to humans? If it's more than 30–40%, you're not really saving time.",
+          "Check the pricing math. Some AI answering services are cheaper than hiring someone part-time. Some are more expensive than your current phone bill. Do the math on YOUR call volume."
+        ]
+      },
+      {
+        "type": "tip",
+        "label": "Intecha's Take",
+        "text": "If a vendor can't show you honest production data, walks you through a perfect demo without letting you test messy scenarios, or claims their AI handles everything — that's when you politely say thanks and keep looking. The honest players? They'll tell you exactly what their AI is good at and what it hands off to humans. That's who you want to work with."
+      },
+      {
+        "type": "p",
+        "text": "The reality is that AI answering services are becoming real tools. They're not magic. They're not replacing your whole team. But they can absolutely save you money if you pick one that actually works for YOUR business and not just one that sounds impressive in the demo. Test it hard before you sign anything."
+      }
+    ]
+  },
+  {
     "slug": "daily-brew-ai-answering-services-are-failing-heres-why-and-how-to-not-b-2026-10-26",
     "title": "AI Answering Services Are Failing — Here's Why (and How to Not Be That Business)",
     "excerpt": "Everyone's rolling out AI to answer phones. Most implementations are cratering before they even get going. Here's what's actually happening behind the scenes.",
