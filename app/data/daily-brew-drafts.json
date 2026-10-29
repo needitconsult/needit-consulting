@@ -1,5 +1,61 @@
 [
   {
+    "slug": "daily-brew-your-phone-system-is-about-to-get-a-lot-smarter-and-youre-pr-2026-10-29",
+    "title": "Your Phone System Is About to Get a Lot Smarter (And You're Probably Not Ready)",
+    "excerpt": "AI is moving from your chatbots into your actual phone calls, and it's changing what a business phone system can do — here's what that means for you.",
+    "category": "Daily Brew",
+    "date": "October 29, 2026",
+    "readTime": "2 min read",
+    "content": [
+      {
+        "type": "p",
+        "text": "So here's something that caught my eye today: the conversation around AI in customer support just shifted. We've been talking about chatbots and automation for years, right? But now there's this real distinction emerging between conversational AI — basically a robot having a back-and-forth with your customer — and agentic AI, which is AI that can actually DO things. Like, it doesn't just answer questions. It solves problems, updates records, and takes action while you're not even watching."
+      },
+      {
+        "type": "p",
+        "text": "This matters to you because your phone system is about to get way more powerful. And also, you need to know what you're actually paying for."
+      },
+      {
+        "type": "h2",
+        "text": "What's Actually Changing"
+      },
+      {
+        "type": "p",
+        "text": "Conversational AI is what you probably think of when someone says \"AI customer support.\" It talks to your customers, answers FAQs, handles basic stuff. It's helpful, but it's still kind of limited — if something needs to actually change in your system (like updating an order, adjusting a refund, scheduling something), it usually has to hand off to a human anyway."
+      },
+      {
+        "type": "p",
+        "text": "Agentic AI? That's different. It can have a conversation AND take action. Your customer calls in, they explain their problem, the AI figures out what needs to happen, and it does it — all without transferring to someone on your team. It can look up order history, authorize refunds, reschedule appointments, update customer records, whatever your business needs."
+      },
+      {
+        "type": "callout",
+        "text": "The real difference: conversational AI talks. Agentic AI talks AND fixes things. One is a helpful receptionist. The other is closer to having a smart employee handling routine customer issues."
+      },
+      {
+        "type": "h2",
+        "text": "Why This Matters to Your Business (And Your Bottom Line)"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Your customers get faster resolutions. No more holding for a human to handle routine requests.",
+          "Your team stops handling repetitive calls. They can focus on complex issues and actually growing the business.",
+          "You cut call handling costs. Fewer humans needed to answer phones = real savings.",
+          "You get better data. Agentic systems log what they did, why, and how it turned out. That's gold for spotting patterns and improving processes."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Here's the thing though: this isn't about replacing your team or going fully automated overnight. It's about being smart about where automation actually makes sense. A small business with 15 employees doesn't need to automate every call. But if you're spending 30% of someone's day on refund requests or appointment scheduling, that's exactly where agentic AI earns its cost back fast."
+      },
+      {
+        "type": "tip",
+        "label": "Intecha's Take",
+        "text": "Before you upgrade your phone system or look at new platforms, do an audit. Track what kinds of calls you're getting and which ones are eating up time without adding value. Your repetitive stuff — order checks, schedule changes, billing questions — that's where AI actually helps. The complex, relationship-heavy calls? Those still need humans. Figure out your mix, then you'll know if agentic AI is worth the investment for YOUR business. Don't buy the shiniest tool; buy the one that actually fixes your specific problem."
+      }
+    ]
+  },
+  {
     "slug": "daily-brew-your-ai-receptionist-needs-a-backup-plan-and-heres-why-2026-10-05",
     "title": "Your AI Receptionist Needs a Backup Plan (And Here's Why)",
     "excerpt": "AI is handling more of your calls than ever, but the handoff to a real human is where things get messy — and your customers are noticing.",
