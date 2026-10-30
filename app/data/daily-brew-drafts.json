@@ -1,53 +1,5 @@
 [
   {
-    "slug": "daily-brew-voice-phishing-is-coming-for-your-team-and-youre-not-ready-2026-10-30",
-    "title": "Voice Phishing Is Coming for Your Team (And You're Not Ready)",
-    "excerpt": "Hackers are getting scarier at impersonating people over the phone, and most small businesses have zero defense. Here's what's actually happening and what to do about it.",
-    "category": "Daily Brew",
-    "date": "October 30, 2026",
-    "readTime": "2 min read",
-    "content": [
-      {
-        "type": "p",
-        "text": "So I stumbled on something genuinely unsettling this morning: voice phishing—or \"vishing\" if you want to sound like you know what you're talking about at a networking event—is the fastest growing threat to businesses right now. And honestly? Most small business owners I talk to have no idea it's even a thing."
-      },
-      {
-        "type": "p",
-        "text": "Here's what's going on: hackers are using AI to sound exactly like people your employees trust. We're talking your accountant, your IT person, your vendor, your boss. They call, they sound completely legit, and they ask for passwords, wire transfer approvals, or access credentials. Your team picks up thinking it's a normal call, and boom—they've just handed over the keys to the kingdom."
-      },
-      {
-        "type": "h2",
-        "text": "Why This Matters to You (Not Just Your Paranoid IT Person)"
-      },
-      {
-        "type": "p",
-        "text": "This isn't theoretical anymore. Vishing attacks are happening more frequently, they're getting better at impersonation, and they're working. Unlike a phishing email that your team might think twice about, a voice call feels personal and immediate. People trust their ears. That's the whole thing that makes this dangerous."
-      },
-      {
-        "type": "callout",
-        "text": "One successful vishing attack can cost you thousands in fraudulent transfers, data breach cleanup, or stolen customer information. And unlike a data breach that you might discover months later, this can happen in minutes."
-      },
-      {
-        "type": "h2",
-        "text": "What You Should Actually Do About It"
-      },
-      {
-        "type": "list",
-        "items": [
-          "Train your team on the spot. Spend 15 minutes in your next meeting walking through what vishing looks like. Real examples are gold here. Make it clear: if someone's asking for sensitive info over the phone—even if they sound like they know your business—verify independently before helping.",
-          "Create a verification protocol. If a call requests passwords, wire transfers, or access codes, your team should have a simple rule: hang up and call that person back at a number you know is real. Not a number they give you. A number you look up yourself.",
-          "Use caller ID verification tools. Modern phone systems can flag when a caller's identity might be spoofed. Not foolproof, but it's a layer. If your current phone system doesn't offer this, it might be time to talk to someone about upgrading.",
-          "Flag the red flags in your culture. Teach people to ask: Does this request make sense? Is the urgency real or manufactured? Can I verify this another way? Creating a culture where it's normal to double-check is your best defense."
-        ]
-      },
-      {
-        "type": "tip",
-        "label": "Intecha's Take",
-        "text": "This isn't about being paranoid. It's about being practical. Your phone system should be working for you, not against you. If you're still on old phone lines without modern security features, you're basically leaving the door unlocked. And your team needs to know what to listen for—not because they're dumb, but because these attacks are designed to bypass normal skepticism. Spend an hour on this. Seriously. It could save you a lot of heartache."
-      }
-    ]
-  },
-  {
     "slug": "daily-brew-your-ai-receptionist-needs-a-backup-plan-and-heres-why-2026-10-05",
     "title": "Your AI Receptionist Needs a Backup Plan (And Here's Why)",
     "excerpt": "AI is handling more of your calls than ever, but the handoff to a real human is where things get messy — and your customers are noticing.",
