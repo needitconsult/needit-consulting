@@ -1,5 +1,63 @@
 [
   {
+    "slug": "daily-brew-your-ai-receptionist-might-be-a-security-nightmare-heres-how-2026-11-03",
+    "title": "Your AI Receptionist Might Be a Security Nightmare (Here's How to Fix It)",
+    "excerpt": "AI receptionists are supposed to save you time and money, but if you don't set them up right, they could be handing your customer data to hackers.",
+    "category": "Daily Brew",
+    "date": "November 3, 2026",
+    "readTime": "3 min read",
+    "content": [
+      {
+        "type": "p",
+        "text": "So here's something that caught my eye today: a bunch of folks are jumping on the AI receptionist train without actually thinking through what could go wrong. And I get it — the idea is fantastic. A system that answers your phones 24/7, never gets tired, routes calls perfectly, and costs way less than hiring someone. But here's the thing nobody wants to talk about at happy hour: if you don't set it up with security in mind from day one, you're basically leaving your customer data and business operations sitting in the parking lot with the keys in the ignition."
+      },
+      {
+        "type": "h2",
+        "text": "What's Actually Happening"
+      },
+      {
+        "type": "p",
+        "text": "AI receptionists are getting smarter and more capable every month. They can handle complex calls, pull information from your systems, and even make decisions about what to do with sensitive requests. The problem? A lot of small businesses are treating them like a plug-and-play gadget instead of a tool that touches your customer relationships and data every single day. One misconfiguration, one missing security layer, and suddenly someone's calling your AI receptionist pretending to be a customer, fishing for information — or worse, actually getting it."
+      },
+      {
+        "type": "h2",
+        "text": "Why This Actually Matters to You"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Your receptionist (AI or human) is the gatekeeper to your customer data. They hear account numbers, addresses, billing info, and sensitive business details.",
+          "Hackers know this. They're specifically targeting phone systems because they're often the weakest link in a company's security setup.",
+          "If your AI receptionist leaks customer data, you're on the hook — not the vendor. Your reputation, your compliance headaches, your legal liability.",
+          "Most small businesses don't have IT people watching these systems, so nobody knows something went wrong until it's too late."
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "Here's the kicker: voice phishing (people calling and lying to get information) is one of the fastest-growing security threats right now. Your AI receptionist needs to be trained to spot it, not fall for it."
+      },
+      {
+        "type": "h2",
+        "text": "What You Actually Need to Do"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Before you sign anything, ask your vendor about their security setup. How are calls encrypted? Where is the audio stored? Who has access to your call recordings? Don't settle for vague answers.",
+          "Set up strict rules about what information your AI receptionist can access and share. Just because it CAN look up an account doesn't mean it SHOULD tell every caller what it finds.",
+          "Test it like you're trying to break it. Call in pretending to be a customer, see what information it will give you. If it's too much, reconfigure it.",
+          "Keep your human team in the loop. They should still be reviewing calls, listening for weird patterns, and flagging anything that feels off.",
+          "Make sure you have regular backups of call logs and recordings. If something goes wrong, you need proof of what happened."
+        ]
+      },
+      {
+        "type": "tip",
+        "label": "Intecha's Take",
+        "text": "AI receptionists are genuinely valuable — they free up your team for work that actually needs a human. But don't let the convenience blind you to the risks. Spend 30 minutes asking your vendor hard questions about security before you deploy this thing. It's way easier to prevent a problem than to clean it up after the fact. And if a vendor can't answer your security questions clearly? That's your signal to keep looking."
+      }
+    ]
+  },
+  {
     "slug": "daily-brew-your-phone-system-is-about-to-get-a-lot-smarter-and-you-need-2026-11-02",
     "title": "Your Phone System Is About to Get a Lot Smarter (And You Need to Know Why)",
     "excerpt": "AI voice agents are officially moving from \"cool demo\" to \"actually worth your money\" — here's what that means for your business and your bottom line.",
