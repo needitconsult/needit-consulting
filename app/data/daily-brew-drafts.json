@@ -1,5 +1,62 @@
 [
   {
+    "slug": "daily-brew-your-phone-system-just-became-your-biggest-security-hole-and-2026-11-04",
+    "title": "Your Phone System Just Became Your Biggest Security Hole (And How to Fix It)",
+    "excerpt": "Voice phishing is growing faster than any other cyber threat, and your team is probably vulnerable right now.",
+    "category": "Daily Brew",
+    "date": "November 4, 2026",
+    "readTime": "2 min read",
+    "content": [
+      {
+        "type": "p",
+        "text": "So here's something that's been keeping me up at night: voice phishing — or as the security folks call it, vishing — is exploding. Like, faster than ransomware, faster than email phishing, faster than basically every other attack vector we track. And the wild part? Most small business owners have no idea it's happening to their teams."
+      },
+      {
+        "type": "p",
+        "text": "Here's how it works in plain terms: someone calls your employee pretending to be from IT, or the bank, or their boss. They sound convincing because they probably are. They might even have your company's real phone number spoofed (that's tech-speak for 'faked') on the caller ID. They ask for a password, access credentials, or they trick the employee into installing something. Done. They're in."
+      },
+      {
+        "type": "h2",
+        "text": "Why This Is Worse Than Email Phishing"
+      },
+      {
+        "type": "list",
+        "items": [
+          "People trust voice calls more than emails — it feels personal and direct",
+          "There's pressure and urgency in real-time conversation — no time to think it through",
+          "Your caller ID can lie now, so your employees can't easily tell if it's really IT calling",
+          "A single successful call can give attackers direct access to your systems"
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "The scary part: one vishing attack can cost you more than dozens of email phishing attempts because attackers are talking directly to someone with access."
+      },
+      {
+        "type": "h2",
+        "text": "What You Actually Need to Do About This"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Train your team that IT will NEVER call asking for passwords — ever. Period. Make this a cultural thing, not a one-time email",
+          "Set up a callback protocol: if someone claims to be IT or your bank, hang up and call the main number to verify. Make this the standard practice",
+          "Use your phone system's built-in tools: most modern VoIP systems can flag calls coming from outside your organization or verify internal calls better than old phone lines",
+          "Watch for red flags: urgency, threats of account lockouts, requests to keep calls 'confidential' from others — these are textbook vishing moves"
+        ]
+      },
+      {
+        "type": "tip",
+        "label": "Intecha's Take",
+        "text": "This isn't about finding the fanciest security tool. It's about building a culture where your team knows that verifying a caller's identity is normal and expected. The best security is a skeptical employee who knows they have permission to double-check. Spend 30 minutes training your team on this — it'll pay for itself immediately."
+      },
+      {
+        "type": "p",
+        "text": "The reason I'm bringing this up now is that VoIP systems are making voice attacks easier to pull off, which means they're happening more. But that same technology also gives you better visibility and control than you'd have with old phone lines. Use it. Your future self will thank you."
+      }
+    ]
+  },
+  {
     "slug": "daily-brew-your-ai-receptionist-needs-a-backup-plan-and-heres-why-2026-10-05",
     "title": "Your AI Receptionist Needs a Backup Plan (And Here's Why)",
     "excerpt": "AI is handling more of your calls than ever, but the handoff to a real human is where things get messy — and your customers are noticing.",
