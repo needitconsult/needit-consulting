@@ -1,5 +1,62 @@
 [
   {
+    "slug": "daily-brew-your-customers-are-hanging-up-and-you-might-not-know-why-2026-11-06",
+    "title": "Your Customers Are Hanging Up (And You Might Not Know Why)",
+    "excerpt": "Most small businesses are losing calls without realizing it — and the fix is simpler than you think.",
+    "category": "Daily Brew",
+    "date": "November 6, 2026",
+    "readTime": "2 min read",
+    "content": [
+      {
+        "type": "p",
+        "text": "So here's something that's been nagging at me: how many calls are you actually losing right now? Not because your phone system is down, but because the experience of calling your business is... kind of a mess."
+      },
+      {
+        "type": "p",
+        "text": "I've been looking at what's happening with small business phone systems lately, and there's this consistent thread popping up — customers are hanging up before they even reach a human. And most business owners have no idea it's happening because they're not tracking it."
+      },
+      {
+        "type": "h2",
+        "text": "What's Actually Going Wrong"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Long hold times and confusing menu trees that make people feel like they're in phone purgatory",
+          "Calls that ring forever with no voicemail setup or callback option",
+          "No visibility into who called, when, and why — so you can't even see the pattern of missed opportunities",
+          "AI receptionists or voicemail systems that don't actually work like they're supposed to, leaving frustrated customers with nowhere to go"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Here's the thing: your phone system is literally the first impression your business makes on a lot of customers. Better than your website, better than your social media. It's real-time, high-stakes, and it's happening right now while you're reading this."
+      },
+      {
+        "type": "callout",
+        "text": "Most businesses lose 10–20% of inbound calls just because the calling experience isn't working. That's real revenue walking out the door."
+      },
+      {
+        "type": "h2",
+        "text": "What You Should Actually Do"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Look at your call logs — seriously. What do they tell you? How many calls are abandoned? When? Why? If you don't know, that's your first problem to solve.",
+          "Make sure someone answers the phone or a voicemail is set up. Not a robotic voicemail that sounds like it's from 2005. Something that actually makes sense.",
+          "If you're using an AI receptionist or voicemail system, test it yourself. Call in like a customer and see if you'd actually use your own business.",
+          "Set up a simple callback system or at least tell people when they'll hear back. Uncertainty makes people hang up faster than anything else."
+        ]
+      },
+      {
+        "type": "tip",
+        "label": "Intecha's Take",
+        "text": "Most of the fixes here don't require new software or big money. They require attention. Start tracking what's actually happening on your lines, figure out where people are bailing, and fix those spots. Your phone system should make customers feel like they picked the right company. If it's doing the opposite, that's a problem you can solve today."
+      }
+    ]
+  },
+  {
     "slug": "daily-brew-your-ai-receptionist-needs-a-backup-plan-and-heres-why-2026-10-05",
     "title": "Your AI Receptionist Needs a Backup Plan (And Here's Why)",
     "excerpt": "AI is handling more of your calls than ever, but the handoff to a real human is where things get messy — and your customers are noticing.",
