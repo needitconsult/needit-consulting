@@ -1,5 +1,66 @@
 [
   {
+    "slug": "daily-brew-your-ai-receptionist-might-be-a-security-risk-and-heres-what-2026-11-07",
+    "title": "Your AI Receptionist Might Be a Security Risk (And Here's What to Do)",
+    "excerpt": "AI answering services are hot right now, but nobody's talking about the safety stuff — and you need to know what questions to ask before you sign up.",
+    "category": "Daily Brew",
+    "date": "November 7, 2026",
+    "readTime": "3 min read",
+    "content": [
+      {
+        "type": "p",
+        "text": "So I've been watching the AI receptionist trend blow up — and honestly, it makes sense. You're busy, your phones ring constantly, and having something smart enough to answer calls, qualify leads, and route them properly sounds like a dream. But here's the thing that's been bothering me: everyone's talking about how cool the technology is, but almost nobody's talking about how to actually set it up safely."
+      },
+      {
+        "type": "p",
+        "text": "This matters to you specifically because AI receptionists are handling real customer conversations. They're hearing information about your business, potentially capturing customer details, and they're literally speaking on behalf of your company. If you don't set this up right, you could have privacy issues, security gaps, or compliance headaches that are way worse than a few unanswered calls."
+      },
+      {
+        "type": "h2",
+        "text": "What Actually Goes Wrong (And It's More Than You'd Think)"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Customer data gets stored somewhere you don't fully understand — or worse, shared in ways you didn't authorize",
+          "Call recordings exist but you have no idea how long they're kept or who can access them",
+          "You're not actually compliant with regulations in your industry (think healthcare, finance, legal — these have strict rules about recorded conversations)",
+          "The AI system learns from your calls but you never agreed to that training happening",
+          "A data breach at the vendor's end exposes customer information you collected through those calls"
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "Here's the uncomfortable truth: most small businesses don't know how their AI receptionist actually works because they never asked. The vendor certainly isn't going to volunteer the complicated security stuff."
+      },
+      {
+        "type": "h2",
+        "text": "The Questions You Need to Ask Before You Buy"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Where is my call data stored? (In the US? EU? Somewhere else? This matters for compliance.)",
+          "How long do you keep call recordings, and who can access them?",
+          "Are you using my call recordings to train or improve your AI system? If so, can I opt out?",
+          "What happens if there's a data breach? What's your incident response plan?",
+          "Do you offer call recording consent management? (Some industries require you to tell callers they're being recorded.)",
+          "Can I export or delete my data whenever I want?",
+          "What compliance certifications do you have? (SOC 2, ISO 27001, HIPAA if you're healthcare, etc.)"
+        ]
+      },
+      {
+        "type": "tip",
+        "label": "Intecha's Take",
+        "text": "Don't let a slick demo distract you. If a vendor can't clearly answer these questions, walk away. The right AI receptionist vendor WANTS to talk about security because they know you should care. If they get evasive or act like it's not a big deal, that's your red flag. And before you sign anything, check with your insurance provider or a lawyer if you're in a regulated industry — they might have specific requirements you need to meet."
+      },
+      {
+        "type": "p",
+        "text": "The good news? This technology really does work. It saves time, it qualifies leads, and customers usually don't mind talking to a smart system if it actually helps them. You just need to be intentional about how you set it up. Think of it like hiring a real receptionist — you wouldn't hire someone without checking references or understanding how they'd handle sensitive information. Same thing here, just with code instead of a person."
+      }
+    ]
+  },
+  {
     "slug": "daily-brew-your-customers-are-hanging-up-and-you-might-not-know-why-2026-11-06",
     "title": "Your Customers Are Hanging Up (And You Might Not Know Why)",
     "excerpt": "Most small businesses are losing calls without realizing it — and the fix is simpler than you think.",
