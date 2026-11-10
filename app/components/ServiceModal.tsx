@@ -7,11 +7,12 @@ import { X, CheckCircle2, Info } from "lucide-react";
 interface Props {
   services: string[];
   onClose: () => void;
+  businessOptional?: boolean;
 }
 
 const employeeOptions = ["1–5", "6–15", "16–30", "31–50", "51+"];
 
-export default function ServiceModal({ services, onClose }: Props) {
+export default function ServiceModal({ services, onClose, businessOptional = false }: Props) {
   const [form, setForm] = useState({
     firstName: "",
     lastName: "",
@@ -36,7 +37,7 @@ export default function ServiceModal({ services, onClose }: Props) {
       const res = await fetch("/api/service-request", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ services, ...form }),
+        body: JSON.stringify({ services, businessOptional, ...form }),
       });
       if (!res.ok) throw new Error();
       setSubmitted(true);
@@ -140,8 +141,10 @@ export default function ServiceModal({ services, onClose }: Props) {
 
                 {/* Business name */}
                 <div>
-                  <label className={labelClass}>Business Name <span className="text-red-500">*</span></label>
-                  <input type="text" required placeholder="Acme Co." value={form.businessName}
+                  <label className={labelClass}>
+                    Business Name {businessOptional ? <span className="normal-case font-normal">(optional)</span> : <span className="text-red-500">*</span>}
+                  </label>
+                  <input type="text" required={!businessOptional} placeholder="Acme Co." value={form.businessName}
                     onChange={(e) => set("businessName", e.target.value)} className={inputClass} />
                 </div>
 

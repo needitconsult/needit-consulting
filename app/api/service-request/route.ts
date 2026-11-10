@@ -2,9 +2,9 @@ import { NextRequest, NextResponse } from "next/server";
 import nodemailer from "nodemailer";
 
 export async function POST(req: NextRequest) {
-  const { services, firstName, lastName, businessName, employees, phone, email, preferredDate } = await req.json();
+  const { services, businessOptional, firstName, lastName, businessName, employees, phone, email, preferredDate } = await req.json();
 
-  if (!firstName || !lastName || !businessName || !phone || !email || !services?.length) {
+  if (!firstName || !lastName || (!businessName && !businessOptional) || !phone || !email || !services?.length) {
     return NextResponse.json({ error: "Missing required fields" }, { status: 400 });
   }
 
@@ -36,7 +36,7 @@ export async function POST(req: NextRequest) {
             <table style="width: 100%; border-collapse: collapse;">
               <tr><td style="padding: 8px 0; color: #6b7280; font-size: 13px; width: 160px;"><strong>Services</strong></td><td style="padding: 8px 0; font-size: 14px;">${services.join("<br/>")}</td></tr>
               <tr><td style="padding: 8px 0; color: #6b7280; font-size: 13px;"><strong>Name</strong></td><td style="padding: 8px 0; font-size: 14px;">${firstName} ${lastName}</td></tr>
-              <tr><td style="padding: 8px 0; color: #6b7280; font-size: 13px;"><strong>Business Name</strong></td><td style="padding: 8px 0; font-size: 14px;">${businessName}</td></tr>
+              <tr><td style="padding: 8px 0; color: #6b7280; font-size: 13px;"><strong>Business Name</strong></td><td style="padding: 8px 0; font-size: 14px;">${businessName || "Not provided"}</td></tr>
               <tr><td style="padding: 8px 0; color: #6b7280; font-size: 13px;"><strong>Employees</strong></td><td style="padding: 8px 0; font-size: 14px;">${employees || "Not provided"}</td></tr>
               <tr><td style="padding: 8px 0; color: #6b7280; font-size: 13px;"><strong>Phone</strong></td><td style="padding: 8px 0; font-size: 14px;">${phone}</td></tr>
               <tr><td style="padding: 8px 0; color: #6b7280; font-size: 13px;"><strong>Email</strong></td><td style="padding: 8px 0; font-size: 14px;"><a href="mailto:${email}">${email}</a></td></tr>

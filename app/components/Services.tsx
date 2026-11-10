@@ -2,14 +2,17 @@
 
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Phone, Laptop, Cloud, Bot, Megaphone, Gift, CheckCircle2, Info } from "lucide-react";
+import Link from "next/link";
+import { Phone, Laptop, Cloud, Bot, Megaphone, Gift, CheckCircle2, Info, ShieldCheck, ChevronRight } from "lucide-react";
 import { SparklesCore } from "@/components/ui/sparkles";
 import ServiceModal from "@/app/components/ServiceModal";
+import { personalServices } from "@/app/data/digital-move-out";
 
 type ServiceCategory = {
   icon: React.ElementType;
   category: string;
   services: string[];
+  link?: { href: string; label: string };
 };
 
 const serviceCategories: ServiceCategory[] = [
@@ -64,6 +67,19 @@ const serviceCategories: ServiceCategory[] = [
       "AI Website FAQ Assistant",
       "AI-Assisted Administrative Workflow",
     ],
+  },
+  {
+    icon: ShieldCheck,
+    category: "Digital Move-Out (De-Google Migration)",
+    services: [
+      "Privacy Checkup",
+      "Privacy Reset",
+      "Full Move-Out",
+      "Household Move-Out",
+      "Phone Swap",
+      "Business Move-Out",
+    ],
+    link: { href: "/digital-move-out", label: "See packages & pricing" },
   },
 ];
 
@@ -162,7 +178,7 @@ export default function Services() {
           </div>
 
           <p className="mt-2 text-gray-600 max-w-xl mx-auto text-lg">
-            Business phones, everyday IT support, cloud workspace, CRM &amp; AI integrations, and ad creative — built for small businesses that deserve real expertise without the overhead.
+            Business phones, everyday IT support, cloud workspace, CRM &amp; AI integrations, ad creative, and private De-Google migrations — built for small businesses and households that deserve real expertise without the overhead.
           </p>
         </motion.div>
 
@@ -195,11 +211,20 @@ export default function Services() {
         <div className="flex flex-col gap-12">
           {serviceCategories.map((cat) => (
             <div key={cat.category}>
-              <div className="flex items-center gap-3 mb-5">
+              <div className="flex flex-wrap items-center gap-3 mb-5">
                 <div className="w-10 h-10 rounded-xl bg-green-50 border border-green-500/20 flex items-center justify-center flex-shrink-0">
                   <cat.icon className="w-5 h-5 text-green-700" />
                 </div>
                 <h3 className="text-xl font-bold text-gray-900">{cat.category}</h3>
+                {cat.link && (
+                  <Link
+                    href={cat.link.href}
+                    className="ml-auto flex items-center gap-1 text-green-700 hover:text-green-600 font-semibold text-sm whitespace-nowrap transition-colors"
+                  >
+                    {cat.link.label}
+                    <ChevronRight className="w-4 h-4" />
+                  </Link>
+                )}
               </div>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                 {cat.services.map((title, i) => (
@@ -311,6 +336,7 @@ export default function Services() {
       {modalOpen && (
         <ServiceModal
           services={selectedServices}
+          businessOptional={selectedServices.every((s) => personalServices.includes(s))}
           onClose={() => { setModalOpen(false); setSelectedServices([]); }}
         />
       )}
