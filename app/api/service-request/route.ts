@@ -1,10 +1,13 @@
 import { NextRequest, NextResponse } from "next/server";
 import nodemailer from "nodemailer";
+import { isMoveOutOnly } from "@/app/data/digital-move-out";
 
 export async function POST(req: NextRequest) {
-  const { services, businessOptional, firstName, lastName, businessName, employees, phone, email, preferredDate } = await req.json();
+  const { services, firstName, lastName, businessName, employees, phone, email, preferredDate } = await req.json();
 
-  if (!firstName || !lastName || (!businessName && !businessOptional) || !phone || !email || !services?.length) {
+  const businessOptional = Array.isArray(services) && isMoveOutOnly(services);
+
+  if (!firstName || !lastName || !phone || !email || !services?.length || (!businessOptional && (!businessName || !employees))) {
     return NextResponse.json({ error: "Missing required fields" }, { status: 400 });
   }
 

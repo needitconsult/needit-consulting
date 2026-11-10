@@ -7,7 +7,7 @@ import { SparklesCore } from "@/components/ui/sparkles";
 import Navbar from "@/app/components/Navbar";
 import Footer from "@/app/components/Footer";
 import ServiceModal from "@/app/components/ServiceModal";
-import { steps, moves, packages, extras, reasons, faqs, personalServices } from "@/app/data/digital-move-out";
+import { steps, moves, packages, extras, reasons, faqs, isMoveOutOnly } from "@/app/data/digital-move-out";
 
 const PHONE_HREF = "tel:+15406930033";
 const PHONE_LABEL = "(540) 693-0033";
@@ -363,7 +363,7 @@ export default function DigitalMoveOut() {
       {booking && (
         <ServiceModal
           services={[booking]}
-          businessOptional={personalServices.includes(booking)}
+          businessOptional={isMoveOutOnly([booking])}
           onClose={() => setBooking(null)}
         />
       )}

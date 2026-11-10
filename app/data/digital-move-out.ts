@@ -84,8 +84,11 @@ export const extras: Extra[] = [
   { name: "Business Move-Out", price: "$500", priceNote: "+ $200/user", blurb: "Google Workspace exit, domain email, shared drives, and replacements for Forms, Analytics & more." },
 ];
 
-// Services offered for individuals and families, where a business name doesn't apply.
-export const personalServices = ["Privacy Checkup", "Privacy Reset", "Full Move-Out", "Household Move-Out", "Phone Swap"];
+// Digital Move-Out services. Business name and employee count are optional when only these are requested.
+export const moveOutServices = ["Privacy Checkup", "Privacy Reset", "Full Move-Out", "Household Move-Out", "Phone Swap", "Business Move-Out"];
+
+export const isMoveOutOnly = (services: string[]) =>
+  services.length > 0 && services.every((s) => moveOutServices.includes(s));
 
 export const reasons = [
   { title: "Security+ certified, cybersecurity degree", body: "Your data is handled by someone trained to protect it." },

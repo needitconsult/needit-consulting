@@ -6,7 +6,7 @@ import Link from "next/link";
 import { Phone, Laptop, Cloud, Bot, Megaphone, Gift, CheckCircle2, Info, ShieldCheck, ChevronRight } from "lucide-react";
 import { SparklesCore } from "@/components/ui/sparkles";
 import ServiceModal from "@/app/components/ServiceModal";
-import { personalServices } from "@/app/data/digital-move-out";
+import { isMoveOutOnly } from "@/app/data/digital-move-out";
 
 type ServiceCategory = {
   icon: React.ElementType;
@@ -336,7 +336,7 @@ export default function Services() {
       {modalOpen && (
         <ServiceModal
           services={selectedServices}
-          businessOptional={selectedServices.every((s) => personalServices.includes(s))}
+          businessOptional={isMoveOutOnly(selectedServices)}
           onClose={() => { setModalOpen(false); setSelectedServices([]); }}
         />
       )}

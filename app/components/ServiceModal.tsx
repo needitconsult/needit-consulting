@@ -37,7 +37,7 @@ export default function ServiceModal({ services, onClose, businessOptional = fal
       const res = await fetch("/api/service-request", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ services, businessOptional, ...form }),
+        body: JSON.stringify({ services, ...form }),
       });
       if (!res.ok) throw new Error();
       setSubmitted(true);
@@ -150,8 +150,10 @@ export default function ServiceModal({ services, onClose, businessOptional = fal
 
                 {/* Employees */}
                 <div>
-                  <label className={labelClass}>Number of Employees</label>
-                  <select value={form.employees} onChange={(e) => set("employees", e.target.value)}
+                  <label className={labelClass}>
+                    Number of Employees {businessOptional ? <span className="normal-case font-normal">(optional)</span> : <span className="text-red-500">*</span>}
+                  </label>
+                  <select required={!businessOptional} value={form.employees} onChange={(e) => set("employees", e.target.value)}
                     className={inputClass}>
                     <option value="">Select...</option>
                     {employeeOptions.map((o) => <option key={o} value={o}>{o}</option>)}
