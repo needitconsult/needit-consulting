@@ -1,5 +1,61 @@
 [
   {
+    "slug": "daily-brew-your-customers-are-hanging-up-because-of-one-stupid-thing-an-2026-11-11",
+    "title": "Your Customers Are Hanging Up Because of One Stupid Thing (And It's Probably Happening Right Now)",
+    "excerpt": "Most small businesses lose customers on the phone before they even get a chance to pitch—and it's almost always preventable.",
+    "category": "Daily Brew",
+    "date": "November 11, 2026",
+    "readTime": "2 min read",
+    "content": [
+      {
+        "type": "p",
+        "text": "So I was looking through what's been brewing in the VoIP world, and I kept seeing this one theme pop up everywhere: businesses are *terrible* at phones. Like, genuinely bad. Not because they're trying to be—it's just that nobody teaches you how to actually run a phone line like a business asset instead of, you know, just answering when it rings."
+      },
+      {
+        "type": "p",
+        "text": "Here's what's been rattling around in the industry lately: customers hang up. A lot. And the reasons are so fixable that it's honestly kind of painful to watch."
+      },
+      {
+        "type": "h2",
+        "text": "The Invisible Customer Experience Problem"
+      },
+      {
+        "type": "p",
+        "text": "Your phone is doing more work than you think. It's your first impression, your customer service desk, your sales line, and your credibility all rolled into one. When someone calls your business, they've already made a decision to engage. That's gold. And most small businesses waste it by having a phone experience that feels like 1997—long hold times, no clear menu, nobody answering, or someone picking up who has absolutely no idea what the caller needs."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Callers wait too long before reaching a human (or they don't reach one at all)",
+          "Your team doesn't know how to qualify or route calls properly, so customers get transferred around like a hot potato",
+          "Nobody's tracking what's actually happening on those calls—missed opportunities, patterns in what people are asking, where you're losing them",
+          "Your phone setup feels unprofessional compared to what customers expect from bigger businesses"
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "Here's the brutal truth: a customer who can't reach you or gets a bad experience on the phone will find someone else. And they'll tell other people about it."
+      },
+      {
+        "type": "h2",
+        "text": "Why This Matters Right Now"
+      },
+      {
+        "type": "p",
+        "text": "The industry is finally talking about this because tools have gotten way better and way more affordable. You can now have call recording, intelligent routing, and actual analytics about what's happening on your lines without spending a fortune. But most small businesses haven't caught up to the fact that this stuff is available to *them*, not just big enterprises."
+      },
+      {
+        "type": "p",
+        "text": "Your competitors? Some of them are already using this. They're capturing data on calls, they're spotting patterns, they're improving their process. You're still wondering why your phone feels chaotic."
+      },
+      {
+        "type": "tip",
+        "label": "Intecha's Take",
+        "text": "Start by listening to your own calls. Seriously. If you've got a phone system, you probably have the ability to review recordings (make sure your team knows they're being recorded—that's the law). Listen to five calls this week. Where do callers get frustrated? Where do they repeat themselves? Where do you lose them? That's your roadmap. Then fix the top three things. You don't need AI, fancy automation, or a complete overhaul. You need to know what's broken and care enough to fix it."
+      }
+    ]
+  },
+  {
     "slug": "daily-brew-your-ai-receptionist-needs-a-backup-plan-and-heres-why-2026-10-05",
     "title": "Your AI Receptionist Needs a Backup Plan (And Here's Why)",
     "excerpt": "AI is handling more of your calls than ever, but the handoff to a real human is where things get messy — and your customers are noticing.",
