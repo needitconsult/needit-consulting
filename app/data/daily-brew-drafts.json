@@ -1,5 +1,57 @@
 [
   {
+    "slug": "daily-brew-your-phone-system-is-about-to-get-a-lot-smarter-and-you-shou-2026-11-18",
+    "title": "Your Phone System Is About to Get a Lot Smarter (And You Should Care)",
+    "excerpt": "AI receptionists are moving from \"nice to have\" to \"actually solving real business problems,\" and the gap between who adopts this and who doesn't is about to get real obvious.",
+    "category": "Daily Brew",
+    "date": "November 18, 2026",
+    "readTime": "2 min read",
+    "content": [
+      {
+        "type": "p",
+        "text": "So here's what's been pinging across my radar the last few days — AI voice agents are actually starting to work now. Like, legitimately work. Not the \"sounds like a robot trying to pass a Turing test\" version. The \"answers your phone like a person who actually knows what they're doing\" version."
+      },
+      {
+        "type": "p",
+        "text": "I know, I know. We've heard the hype before. But the difference between vaporware and reality is usually when you start seeing real businesses actually using it without complaining. And that's happening right now. The pattern I'm seeing is that AI receptionists are finally handling the stuff that eats up your day — answering FAQs, capturing leads, booking appointments — without you having to hire an actual person to sit at a desk answering \"what are your hours\" for the hundredth time."
+      },
+      {
+        "type": "h2",
+        "text": "Why This Matters to You Specifically"
+      },
+      {
+        "type": "p",
+        "text": "Let me be blunt: if you're still having customers hang up because they can't get through to a real person, or if you're losing leads because nobody's available to answer the phone at 6 PM, you're leaving money on the table. That's not dramatic — that's math. Every missed call is a customer who calls your competitor instead."
+      },
+      {
+        "type": "p",
+        "text": "The old workaround was hiring a receptionist or outsourcing to a call center. Both cost real money and both have their own headaches. AI voice agents flip that equation. They're actually getting good enough now that they handle the high-volume, low-complexity stuff (yes, that's most of your incoming calls), and they escalate the actually tricky conversations to you or your team. No hiring. No training someone. No covering for them when they're sick."
+      },
+      {
+        "type": "callout",
+        "text": "The industry is seeing businesses use AI agents to cut incoming call response time from minutes (or never) to immediate, and they're capturing leads that would've just been \"sorry we missed your call.\""
+      },
+      {
+        "type": "h2",
+        "text": "What You Actually Need to Know"
+      },
+      {
+        "type": "list",
+        "items": [
+          "These tools are getting integrated into regular phone systems now, not bolted on as weird extras — they live right in your existing setup",
+          "They work best when you teach them your specific business (your hours, your services, your pricing) — not generic robot voice reading FAQs",
+          "They're genuinely getting better at understanding context and figuring out when to hand off to a human — that part matters way more than the voice sounding natural",
+          "The cost is usually a fraction of one FTE (full-time employee), so the ROI math is stupid easy if you're currently losing calls or hiring someone for this"
+        ]
+      },
+      {
+        "type": "tip",
+        "label": "Intecha's Take",
+        "text": "If you're a small business owner and you haven't looked at what your phone system can do with AI agents built in, today's the day. Not because it's trendy. Because your competitor probably already did, and they're answering calls you're missing. Book 15 minutes with someone who understands your phone setup and ask what's actually available to you right now. The conversation alone might surprise you."
+      }
+    ]
+  },
+  {
     "slug": "daily-brew-your-ai-receptionist-needs-a-backup-plan-and-heres-why-2026-10-05",
     "title": "Your AI Receptionist Needs a Backup Plan (And Here's Why)",
     "excerpt": "AI is handling more of your calls than ever, but the handoff to a real human is where things get messy — and your customers are noticing.",
