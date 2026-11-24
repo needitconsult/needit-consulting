@@ -1,1 +1,54 @@
-[]
+[
+  {
+    "slug": "daily-brew-stop-using-ai-to-get-rid-of-customers-yes-really-2026-11-24",
+    "title": "Stop Using AI to Get Rid of Customers (Yes, Really)",
+    "excerpt": "Everyone's obsessed with AI deflection — but measuring success by how many people you DON'T talk to is backwards. Here's what actually works.",
+    "category": "Daily Brew",
+    "date": "November 24, 2026",
+    "readTime": "2 min read",
+    "content": [
+      {
+        "type": "p",
+        "text": "So I've been watching this trend that's been bugging me, and I need to talk about it. Everyone's jumping into AI for customer support, which is great — but they're measuring it completely wrong. They're literally celebrating when fewer customers reach a human agent, and that's... not the flex they think it is."
+      },
+      {
+        "type": "p",
+        "text": "Here's what's happening: Businesses are deploying AI to \"deflect\" customer calls and messages, then treating deflection rate — meaning \"how many people we kept away from our team\" — as the success metric. It's like opening a restaurant and measuring success by how many people you turn away at the door. That's not winning. That's just being unavailable."
+      },
+      {
+        "type": "h2",
+        "text": "Why This Matters to Your Business"
+      },
+      {
+        "type": "p",
+        "text": "Let me be direct: Your customers don't care about your AI. They care about getting their problem solved, ideally without jumping through hoops. If your AI is good, it solves things quickly and your customer's happy — they might not even realize it was AI. If it's bad, it frustrates them and they move on to a competitor."
+      },
+      {
+        "type": "p",
+        "text": "The real problem with the \"deflection\" mindset is that it treats customer contact like a cost to eliminate instead of an opportunity to understand what people actually need. When a customer reaches out, that's data. That's feedback. That's a chance to fix something broken or learn what's confusing about your business. Pushing them away with a chatbot before they can explain their situation means you're literally throwing away the intelligence you need to get better."
+      },
+      {
+        "type": "callout",
+        "text": "The metric that actually matters: Did the customer's issue get resolved? Not how many times did we stop them from talking to someone."
+      },
+      {
+        "type": "h2",
+        "text": "What You Should Actually Be Doing"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Use AI to handle the stuff that's genuinely repetitive and doesn't need human judgment — checking order status, password resets, simple FAQ stuff. It's faster for the customer and frees your team for real problems.",
+          "Make it easy to reach a human when the AI hits a wall. Not a maze of button presses — literally one option to talk to someone. Fast. No drama.",
+          "Track what matters: resolution rate, customer satisfaction, time-to-resolution. And pay attention to what people are asking about — that's your roadmap for fixing actual problems.",
+          "Let your team see the AI conversations so they understand what customers are stuck on. That feedback loop is gold."
+        ]
+      },
+      {
+        "type": "tip",
+        "label": "Intecha's Take",
+        "text": "AI in customer support is legitimately useful — just stop thinking of it as a way to avoid your customers. Think of it as a way to respect their time while your team focuses on the stuff that actually takes a human. And definitely stop celebrating when fewer people contact you. That's not growth. That's just shrinking your view of what your business needs to know."
+      }
+    ]
+  }
+]
