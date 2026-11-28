@@ -1,1 +1,58 @@
-[]
+[
+  {
+    "slug": "daily-brew-your-customer-service-ai-is-probably-drowning-in-tool-chaos-2026-11-28",
+    "title": "Your Customer Service AI Is Probably Drowning in Tool Chaos (And How to Fix It)",
+    "excerpt": "Here's why throwing AI at your customer support doesn't work unless you get this one thing right first.",
+    "category": "Daily Brew",
+    "date": "November 28, 2026",
+    "readTime": "2 min read",
+    "content": [
+      {
+        "type": "p",
+        "text": "So I've been watching something frustrating happen over and over: small business owners invest in AI for customer service, get excited, roll it out... and then nothing really changes. The AI still doesn't know what your customers actually need. Response times don't improve. Your team still feels like they're herding cats."
+      },
+      {
+        "type": "p",
+        "text": "And here's the thing — it's not because the AI is bad. It's because nobody told it what it's looking at."
+      },
+      {
+        "type": "h2",
+        "text": "The Real Problem: Your Customer Context Is Everywhere"
+      },
+      {
+        "type": "p",
+        "text": "Let's say a customer calls your support line. That call goes into one place. They send an email — that's another place. They hit you up on chat — third place. Your team notes stuff in your CRM. Everything's split up across different tools, different screens, different databases. Your AI sees fragments, not the full picture."
+      },
+      {
+        "type": "callout",
+        "text": "When customer information is fragmented across phone, email, chat, ticketing, and CRM, your AI can't connect the dots. It literally doesn't have enough context to help."
+      },
+      {
+        "type": "p",
+        "text": "So your AI might be great at language, great at suggesting responses — but it can't say \"oh hey, this customer has called three times about this same issue\" or \"this person is a loyal customer who deserves priority attention.\" That's not AI failing. That's your tools failing to talk to each other."
+      },
+      {
+        "type": "h2",
+        "text": "What You Actually Need to Do"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Audit where your customer data actually lives right now — phone system, ticketing software, CRM, chat, email. Write it down. All of it.",
+          "Pick a primary system where customer context should live and flow through — usually your CRM, but it depends on your business.",
+          "Make sure your tools are actually connected. If they aren't, that's your first fix before you touch anything about AI.",
+          "Only then — once information is flowing in one direction — layer in AI tools that can actually see the full conversation history and customer context."
+        ]
+      },
+      {
+        "type": "tip",
+        "label": "Intecha's Take",
+        "text": "Don't buy an AI tool and hope it fixes things. That's like hiring a smart assistant and locking them in a room with no access to your files. First, get your house in order. Make your tools talk to each other. THEN add AI. You'll see actual results instead of a shiny tool that frustrates everyone."
+      },
+      {
+        "type": "p",
+        "text": "The good news? This isn't expensive or complicated. It's usually about connecting things that should have been connected already. And once you do, any AI tool you bring in will actually work for you instead of just adding noise."
+      }
+    ]
+  }
+]
